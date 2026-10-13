@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T19:02:30Z",
+ "ts": "2026-10-13T19:52:27Z",
  "live": true,
  "tabs": [
   {
@@ -10,7 +10,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 77,
+   "images": 74,
    "screenshot": "screenshots/vergleich/home_1920.png",
    "ok": true
   },
@@ -62,9 +62,12 @@
   {
    "tab": "Kategorien",
    "viewport": 1920,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: the server responded with a status of 503 ()",
+    "TypeError: Failed to fetch dynamically imported module: https://martin-hausleitner.github.io/fertiggerichte-vergleich/assets/Kategorien-D2fmOjL3.js"
+   ],
    "broken_images": [],
-   "images": 92,
+   "images": 89,
    "screenshot": "screenshots/vergleich/kategorien_1920.png",
    "ok": true
   },
@@ -91,7 +94,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 696,
+   "images": 707,
    "screenshot": "screenshots/vergleich/marken_1920.png",
    "ok": true
   },
@@ -109,7 +112,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 93,
+   "images": 90,
    "screenshot": "screenshots/vergleich/dashboard_1920.png",
    "ok": true
   },
@@ -152,11 +155,9 @@
   {
    "tab": "Marken-Matrix",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 503 ()"
-   ],
+   "console_errors": [],
    "broken_images": [],
-   "images": 107,
+   "images": 108,
    "screenshot": "screenshots/vergleich/matrix_1920.png",
    "ok": true
   },
@@ -174,7 +175,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 1114,
+   "images": 1142,
    "screenshot": "screenshots/vergleich/wer_1920.png",
    "ok": true
   },
@@ -185,8 +186,7 @@
    "broken_images": [],
    "images": 12,
    "screenshot": "screenshots/vergleich/firmen_1920.png",
-   "ok": true,
-   "retried_after_crash": true
+   "ok": true
   },
   {
    "tab": "Hersteller-Qualit\u00e4t",
@@ -220,7 +220,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 75,
+   "images": 78,
    "screenshot": "screenshots/vergleich/hersteller_1920.png",
    "ok": true
   },
@@ -283,7 +283,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 187,
+   "images": 178,
    "screenshot": "screenshots/vergleich/home_390.png",
    "ok": true
   },
@@ -337,7 +337,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 92,
+   "images": 89,
    "screenshot": "screenshots/vergleich/kategorien_390.png",
    "ok": true
   },
@@ -364,7 +364,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 696,
+   "images": 707,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },
@@ -382,7 +382,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 93,
+   "images": 90,
    "screenshot": "screenshots/vergleich/dashboard_390.png",
    "ok": true
   },
@@ -445,7 +445,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 1114,
+   "images": 1142,
    "screenshot": "screenshots/vergleich/wer_390.png",
    "ok": true
   },
@@ -490,7 +490,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 75,
+   "images": 78,
    "screenshot": "screenshots/vergleich/hersteller_390.png",
    "ok": true
   },
