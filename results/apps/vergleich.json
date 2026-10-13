@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T17:10:49Z",
+ "ts": "2026-10-13T17:59:55Z",
  "live": true,
  "tabs": [
   {
@@ -134,146 +134,98 @@
   {
    "tab": "Preis vs. Protein",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/vergleich/scatter_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.evaluate: Target crashed "
   },
   {
    "tab": "Verpackungen",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 32,
-   "screenshot": "screenshots/vergleich/pack_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=pack\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Marken-Matrix",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 106,
-   "screenshot": "screenshots/vergleich/matrix_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=matrix\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Hersteller",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 68,
-   "screenshot": "screenshots/vergleich/hersteller-seiten_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=hersteller-seiten\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Wer steckt dahinter?",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 1032,
-   "screenshot": "screenshots/vergleich/wer_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=wer\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Firmenvergleich",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 15,
-   "screenshot": "screenshots/vergleich/firmen_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=firmen\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Hersteller-Qualit\u00e4t",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/vergleich/qualitaet_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=qualitaet\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Logos",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 240,
-   "screenshot": "screenshots/vergleich/logos_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=logos\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Netz 3D",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/vergleich/netz_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=netz\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "L\u00e4den & Werke",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 74,
-   "screenshot": "screenshots/vergleich/hersteller_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=hersteller\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Filialen in der N\u00e4he",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 60,
-   "screenshot": "screenshots/vergleich/filialen_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=filialen\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Online-Anbieter",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 147,
-   "screenshot": "screenshots/vergleich/online_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=online\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Wochenplaner",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 14,
-   "screenshot": "screenshots/vergleich/planer_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=planer\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Kombi-Ideen",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 272,
-   "screenshot": "screenshots/vergleich/kombi_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=kombi\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Fit to Go vs. Supermarkt",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 116,
-   "screenshot": "screenshots/vergleich/ftg_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=ftg\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "Multipot-Pro Garzeiten",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/vergleich/multipot_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=multipot\", waiting until \"networkidle\"\n"
   },
   {
    "tab": "home",
@@ -451,7 +403,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 15,
+   "images": 12,
    "screenshot": "screenshots/vergleich/firmen_390.png",
    "ok": true
   },
