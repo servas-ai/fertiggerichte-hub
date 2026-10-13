@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T20:00:45Z UTC
-**Next biggest gap:** Prices: Hofer 130 'Preis 2025' rows (hofer.at Akamai 403, no 2026 Hofer source) and 236 rows without any price (OFF-only 112 without store, Subway 59 / NORDSEE 39 no public price list, Lidl 31 API 401). Photos: Subway 0/59 (subway.com drops non-browser clients, media.subway.com robots Disallow), Hofer 101/224 historic, Unimarkt 0/29 (chain closed). Logos (strict, file required): ~104 brands — mostly Handels-Eigenmarken (Good Choice, Pappudia, dmBio, Spar enjoy, Chef Select/Menü); producer brands left Namdong, The Green Garden, Yum Yum, Vifon. Companies: 15/133 without LEI or verified UID (hard cases, Firmenbuch key needed).
+**Last updated:** 2026-10-13T20:22:40Z UTC
+**Next biggest gap:** Prices: Hofer 130 'Preis 2025' rows (hofer.at Akamai 403, no 2026 Hofer source) and ~236 rows without any price (OFF-only ~110 without store, Subway 59 / NORDSEE 39 no public price list, Lidl 31 API 401). denn's BioMarkt only 5 products — full AT assortment not public (offer feed only, ~4 ready meals/week; re-run `food fetch --store denns` weekly to accumulate). Photos: Subway 0/59, Hofer 101/224 historic. Logos: ~104 brands, mostly Handels-Eigenmarken. Companies: 15/133 without LEI or verified UID.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -16,7 +16,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Lidl | [x] | 37 | [x] | 20 | [x] |
 | Penny | [x] | 22 | [x] | 22 | [x] |
 | dm | [x] | 34 | [x] | 28 | [x] |
-| denn's BioMarkt | [ ] | 0 | [x] | 2 | [x] |
+| denn's BioMarkt | [x] | 5 | [x] | 2 | [x] |
 | MPreis | [x] | 296 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
@@ -61,9 +61,10 @@ Other OSM chains in bbox:
 | Penny | 22 | 17 ([~]) | 77.3% |
 | FitTaste | 18 | 18 ([x]) | 100.0% |
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
+| denn's BioMarkt | 5 | 5 ([x]) | 100.0% |
 
-- [x] Total products: **2945**
-- [x] Total with photos: **2704** (91.8%)
+- [x] Total products: **2950**
+- [x] Total with photos: **2709** (91.8%)
 - [ ] MPreis photos: live webshop connector `mpreis-shop` (284/296)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
@@ -72,7 +73,7 @@ Other OSM chains in bbox:
 - [x] Logo index rows: **250** (211 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 353; brands without a logo file: 110 (315 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 71 brands / 165 products); logo rows with file: 211/250; top 8:
+- Brands in products: 355; brands without a logo file: 112 (317 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 73 brands / 167 products); logo rows with file: 211/250; top 8:
   - [ ] Good Choice (49 products)
   - [ ] Pappudia (24 products)
   - [ ] dmBio (16 products)
@@ -112,6 +113,7 @@ Other OSM chains in bbox:
 | LiveFresh [x] | 10 | live 2026: 10 |
 | Penny [x] | 7 | live 2026: 7 |
 | Lidl [x] | 6 | live 2026: 6 |
+| denn's BioMarkt [x] | 3 | live 2026: 3 |
 - [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)
 - [~] Spar: live 2026 prices via food-connectors `spar-shop` (SPAR public search API, exact article number; 2026-10-13T19: 'Preis 2025' 150→31). Remaining Spar 'Preis 2025' 31: 17 article numbers no longer in SPAR's index (delisted), 11 counter/weight products (priced per 100 g), 2 pack-size mismatches, rest without article number and no exact name hit
 - [ ] Fresh live prices for Hofer 'Preis 2025' rows: hofer.at Akamai 403, heisse-preise has no 2026 Hofer dates — no sanctioned live source yet
@@ -145,7 +147,8 @@ Other OSM chains in bbox:
 
 - [x] `osm-stores` — live Overpass connector (`food stores --chain X --near linz`, MCP `list_stores`)
 - [x] `mpreis` / `unimarkt` — ready meals imported from heisse-preise dump into fertiggerichte-daten
-- [ ] `denns` — **catalog-only**: denns-biomarkt.at is Sanity marketing/info site; no product listing, `/sitemap.xml` 404, robots → biomarkt.de sitemap 404; no public product JSON/API; not bypassing bot protection (none needed — simply no shop data)
+- [x] `denns` — **live** (2026-10-13T20, Daten-Squad): denn's BioMarkt AT public weekly offer feed `denns-biomarkt.at/page-data/angebote/page-data.json` (Gatsby page-data the site loads itself; robots `User-agent: * Allow: /`; no login/cookies). CLI `food fetch --store denns` / `food search … --store denns`, MCP `denns_offers` (food-connectors c7a16c0). Returns denn's article no., brand, pack, Aktionspreis + Normalpreis, €/kg, validity, vegan/vegetarian flags, official image `images.dennree.de/fitinto/576x384/<itemno>.top.png` (HEAD-verified). Offers only (~80/week, no GTIN/nutrition); the full assortment is not public (earlier catalog-only note: no product listing/sitemap).
+- [~] denn's BioMarkt products (2026-10-13T20, Daten-Squad): **0→5** in the dataset (all with photo): from the offer feed (land=at, valid 2026-10-07–10-20) MyDeli Bio-Fleischsuppe 350/380 g (Normalpreis 3.99, Aktion ab 3.49), SOTO Veganes/Vegetarisches Bio-Fingerfood TK 185–200 g (3.99 / Aktion 3.29), followfood Airfryer Fish Nuggets TK 200 g (5.49 / Aktion 4.29) — `price_eur` = Normalpreis (shelf price on 2026-10-13), Aktionspreis + dates kept in `offer_price_eur/offer_valid_*`; plus Open Food Facts products tagged store "Denn's Biomarkt" + Austria: Natur Compagnie Feine Suppe Kürbiscreme 40 g and Dhal Linsensuppe 60 g (nutrition per 100 ml prepared, no price). Harvest Moon Bio-Protein-Pudding (offer feed) added to connectors_new.json but filtered by the app as non-meal (is_meal=false). Not added: 78 other offers (dairy, produce, drinks, drugstore; multi-brand %-coupons). No dennree own-brand ready meal on offer this week → no dennree company/logo work. Multi-variant offers have no single pack size → `size_g` empty, no €/kg. Script `fertiggerichte-daten/scripts/enrich_denns.py`, evidence `raw/denns_2026-10-13T20.json` (daten c84fd75). Pipeline note: rows are deduped by URL → offer rows use `angebote/#artikel-<itemno>`.
 - [ ] `adeg` — **catalog-only**: adeg.at sitemap = pages/news/recipes only; no online shop / product API
 - [ ] `nah-frisch` — **catalog-only**: nahundfrisch.at franchise info site; no webshop
 - [x] `mpreis-shop` — **live** MPreis webshop connector (sitemap + category pages + product JSON-LD; robots-allowed, `/search/` never used): 271 pages crawled, 0 errors → 101 ready meals with photo, live 2026 price, GTIN, pack size; 85 with nutrition table. CLI `food search … --store mpreis-shop`, MCP `mpreis_product`.
@@ -174,8 +177,8 @@ Other OSM chains in bbox:
 
 ## Totals snapshot
 
-- Products: 2945
-- Prices: 2597 (live 2026: 2373)
+- Products: 2950
+- Prices: 2600 (live 2026: 2376)
 - Logos: 250
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
