@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T10:22:57Z UTC
-**Next biggest gap:** Hofer still 102/224 without photo and 87 Hofer + 135 Spar rows on 2025 prices (hofer.at Akamai 403, interspar.at Cloudflare; OFF/Aldi CDN strict-match exhausted). Lidl search API 401 (rate/auth) → Lidl prices 6/40 stuck. Closable next: Lidl 11 + Penny 5 photos via OFF barcode API (when OFF not 503); remaining logo-less brands (Pappudia 23, dmBio 15, GAON 10, The Green Garden 10, Deflorian 10, Bibigo 9, Strauss 8) need an official asset. Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T11:04:03Z UTC
+**Next biggest gap:** Companies: 83/133 without LEI (small AT producers; next = FN/UID via Firmenbuch HVD key or North Data public pages, revenue 16/133). Hofer still 102/224 without photo and 87 Hofer + 135 Spar rows on 2025 prices (hofer.at Akamai 403, interspar.at Cloudflare). Lidl 11 + Penny 5 photos: OFF has the Penny Chef-Menü items but without images (checked 2026-10-13T10). Logo-less brands (Pappudia, dmBio, GAON, The Green Garden, Deflorian, Bibigo, Strauss) need an official asset. Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -91,12 +91,13 @@ Other OSM chains in bbox:
 
 ## Companies
 
-- [x] GLEIF lookups in dataset: **25/83** companies have LEI
-- [~] Firmenbuchnummer (FN) present: **18/83** (from GLEIF register fields, not live HVD)
+- [~] GLEIF lookups in dataset: **50/133** companies have LEI (was 25/83; +25 via stricter-but-broader matcher, 2026-10-13T10). Remaining 83 have no GLEIF record under their label name (many small AT producers never needed an LEI) or only a non-matching candidate (rejected list in `fertiggerichte-daten/raw/gleif_matching_2026-10-13T10.json`)
+- [~] Firmenbuchnummer (FN) present: **27/133** (from GLEIF register fields RA000017, not live HVD)
+- [~] Konzernmutter (GLEIF ultimate parent): **8/133**
 - [ ] Firmenbuch HVD API: **blocked** — `FIRMENBUCH_API_KEY` not set
 - [x] VIES connector: live in food-connectors (`food company --vies`)
 - [x] North Data connector: live public-page mode (`food company --northdata`)
-- [~] Revenue fields filled: **16/83**
+- [~] Revenue fields filled: **16/133**
 
 ## Tariffs & prices
 
@@ -160,6 +161,7 @@ Other OSM chains in bbox:
 - [x] `dm` — **live connector** (2026-10-13T10): food-connectors `dm` adapter = dm.at product sitemap (robots-allowed) → public product JSON `products.dm.de/product/products/detail/AT/dan/{dan}` (price, GTIN, nutrition table, ingredients, origin, non-AI image; no login/cookies; `/search` never used). Ready meals = dm breadcrumb 'Fertiggerichte & Konserven'. CLI `food search … --store dm`, `food fetch --store dm`, MCP `search_products`/`fetch_ready_meals` with stores=dm. Old heisse snapshot moved to `dm-heisse`. Data: dm 25→34 rows (+14 new meals/soups, 5 heisse Altpreis duplicates excluded), live 2026 prices 12→26, photos 32/34; 3 instant mixes flagged dry (nutrition per prepared product); BioGourmet Baked Beans macros dropped (dm table all 0 g). Script `fertiggerichte-daten/scripts/enrich_dm_live.py`, evidence `raw/dm_live_2026-10-13.json`.
 
 - [~] Brand logos (2026-10-13T10): +10 vision-gated logos wired to ~79 app rows — Bertagni, Bonduelle, HOFMANNs, Landliebe, Alpro, Müller (Molkerei Müller), Picard, Schärdinger (Wikimedia Commons, licence noted) + Freshery (freshery.sk shop logo), Every. (every-foods.com header); Karnerta logo now also mapped to brand 'Karnerta' (MPreis). Pappudia, GAON, The Green Garden, Deflorian, Bibigo, Strauss, Mochi: no verifiable official logo source found this run (no own site / Commons hit; Bibigo site has no extractable logo asset) → stay empty. Lidl `/q/api/search` again 401 for every sweep request after 4 OK single probes → stopped (no workaround). Penny online API (453 items) has only flyer items without nutrition/GTIN → not imported. Evidence `fertiggerichte-daten/raw/logos_lidl_penny_2026-10-13T10.json`.
+- [x] `company:gleif` matcher (2026-10-13T10, food-connectors 27ed143): GLEIF exact legalName + fulltext over spelling variants (original / ASCII / ö→oe / legal-form-stripped); accept only token-Jaccard ≥ 0.85 on legal-form-agnostic, diacritic-folded names, same legal-form family (AG≡SpA≡NV, GmbH≡m.b.H.≡srl≡s.r.o.) and legal-address country = hint. LEI 25→50 (e.g. BILLA AG = Billa Aktiengesellschaft FN 118556y, Nestlé Österreich, FELIX Austria → parent Orkla, NÖM, Berglandmilch, Dr. Oetker AT, Danone AT, Radatz, Dr. Schär SpA, Rügenwalder Mühle). Rejected on purpose: Lidl Österreich GmbH LEI = German HRB entity (Neckarsulm), dm Verwaltungsgesellschaft, Ehrmann SE vs label 'Ehrmann GmbH', Unimarkt KG. Evidence `fertiggerichte-daten/raw/gleif_matching_2026-10-13T10.json`.
 
 ## Totals snapshot
 
@@ -167,6 +169,6 @@ Other OSM chains in bbox:
 - Prices: 2066 (live 2026: 1806)
 - Logos: 166
 - Stores (OSM Linz bbox): 498
-- Companies: 83
+- Companies: 133 (50 with LEI)
 - Online meal-prep: 96
 - External datasets catalogued: 11
