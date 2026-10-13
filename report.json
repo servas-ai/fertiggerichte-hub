@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13 10:58 UTC",
+ "generated": "2026-10-13 11:00 UTC",
  "connectors": [
   {
    "id": "billa",
@@ -402,9 +402,550 @@
    "id": "vergleich",
    "name": "Fertiggerichte-Vergleich",
    "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T10:54:01Z",
-   "live": false,
-   "tabs": []
+   "ts": "2026-10-13T10:58:57Z",
+   "live": true,
+   "tabs": [
+    {
+     "tab": "home",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 67,
+     "screenshot": "screenshots/vergleich/home_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Feed",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 56,
+     "screenshot": "screenshots/vergleich/feed_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Galerie",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 134,
+     "screenshot": "screenshots/vergleich/galerie_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Vergleichs-Board",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 10,
+     "screenshot": "screenshots/vergleich/board_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Gericht vergleichen",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 37,
+     "screenshot": "screenshots/vergleich/gerichte_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Top-Listen",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 109,
+     "screenshot": "screenshots/vergleich/top_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Kategorien",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 82,
+     "screenshot": "screenshots/vergleich/kategorien_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Marken-Profil",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 11,
+     "screenshot": "screenshots/vergleich/markenprofil_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Laden-Profil",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 11,
+     "screenshot": "screenshots/vergleich/ladenprofil_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Marken",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 607,
+     "screenshot": "screenshots/vergleich/marken_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Markenfamilien",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 186,
+     "screenshot": "screenshots/vergleich/familien_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Dashboard",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 11,
+     "screenshot": "screenshots/vergleich/dashboard_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Gesundheit & Qualität",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 72,
+     "screenshot": "screenshots/vergleich/gesundheit_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Analyse",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 79,
+     "screenshot": "screenshots/vergleich/analyse_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Preis vs. Protein",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/scatter_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Verpackungen",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 29,
+     "screenshot": "screenshots/vergleich/pack_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Marken-Matrix",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 100,
+     "screenshot": "screenshots/vergleich/matrix_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Hersteller",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 68,
+     "screenshot": "screenshots/vergleich/hersteller-seiten_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Wer steckt dahinter?",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 955,
+     "screenshot": "screenshots/vergleich/wer_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Firmenvergleich",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 14,
+     "screenshot": "screenshots/vergleich/firmen_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Hersteller-Qualität",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/qualitaet_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Logos",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 133,
+     "screenshot": "screenshots/vergleich/logos_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Netz 3D",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/netz_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Läden & Werke",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 81,
+     "screenshot": "screenshots/vergleich/hersteller_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Filialen in der Nähe",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 60,
+     "screenshot": "screenshots/vergleich/filialen_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Online-Anbieter",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 127,
+     "screenshot": "screenshots/vergleich/online_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Wochenplaner",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 14,
+     "screenshot": "screenshots/vergleich/planer_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Kombi-Ideen",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 271,
+     "screenshot": "screenshots/vergleich/kombi_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Fit to Go vs. Supermarkt",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 96,
+     "screenshot": "screenshots/vergleich/ftg_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "Multipot-Pro Garzeiten",
+     "viewport": 1920,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/multipot_1920.png",
+     "ok": true
+    },
+    {
+     "tab": "home",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 168,
+     "screenshot": "screenshots/vergleich/home_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Feed",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 56,
+     "screenshot": "screenshots/vergleich/feed_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Galerie",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 134,
+     "screenshot": "screenshots/vergleich/galerie_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Vergleichs-Board",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 10,
+     "screenshot": "screenshots/vergleich/board_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Gericht vergleichen",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 37,
+     "screenshot": "screenshots/vergleich/gerichte_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Top-Listen",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 109,
+     "screenshot": "screenshots/vergleich/top_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Kategorien",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 82,
+     "screenshot": "screenshots/vergleich/kategorien_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Marken-Profil",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 11,
+     "screenshot": "screenshots/vergleich/markenprofil_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Laden-Profil",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 11,
+     "screenshot": "screenshots/vergleich/ladenprofil_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Marken",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 607,
+     "screenshot": "screenshots/vergleich/marken_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Markenfamilien",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 186,
+     "screenshot": "screenshots/vergleich/familien_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Dashboard",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 11,
+     "screenshot": "screenshots/vergleich/dashboard_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Gesundheit & Qualität",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 68,
+     "screenshot": "screenshots/vergleich/gesundheit_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Analyse",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 79,
+     "screenshot": "screenshots/vergleich/analyse_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Preis vs. Protein",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/scatter_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Verpackungen",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 29,
+     "screenshot": "screenshots/vergleich/pack_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Marken-Matrix",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 82,
+     "screenshot": "screenshots/vergleich/matrix_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Hersteller",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 56,
+     "screenshot": "screenshots/vergleich/hersteller-seiten_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Wer steckt dahinter?",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 955,
+     "screenshot": "screenshots/vergleich/wer_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Firmenvergleich",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 14,
+     "screenshot": "screenshots/vergleich/firmen_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Hersteller-Qualität",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/qualitaet_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Logos",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 133,
+     "screenshot": "screenshots/vergleich/logos_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Netz 3D",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/netz_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Läden & Werke",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 81,
+     "screenshot": "screenshots/vergleich/hersteller_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Filialen in der Nähe",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 51,
+     "screenshot": "screenshots/vergleich/filialen_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Online-Anbieter",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 127,
+     "screenshot": "screenshots/vergleich/online_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Wochenplaner",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 14,
+     "screenshot": "screenshots/vergleich/planer_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Kombi-Ideen",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 271,
+     "screenshot": "screenshots/vergleich/kombi_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Fit to Go vs. Supermarkt",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 96,
+     "screenshot": "screenshots/vergleich/ftg_390.png",
+     "ok": true
+    },
+    {
+     "tab": "Multipot-Pro Garzeiten",
+     "viewport": 390,
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/multipot_390.png",
+     "ok": true
+    }
+   ]
   },
   {
    "id": "vergleich-servas",
