@@ -2,8 +2,8 @@
  "id": "spar",
  "store": "SPAR/INTERSPAR",
  "status_declared": "live",
- "ts": "2026-10-13T01:52:37Z",
- "latency_s": 2.91,
+ "ts": "2026-10-13T02:57:52Z",
+ "latency_s": 2.59,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 4.99,
   "source_url": null,
   "image_url": null,
-  "fetched_at": "2026-10-13T01:52:40+00:00"
+  "fetched_at": "2026-10-13T02:57:55+00:00"
  },
  "result": "pass"
 }

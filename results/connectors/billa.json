@@ -2,9 +2,18 @@
  "id": "billa",
  "store": "BILLA",
  "status_declared": "live",
- "ts": "2026-10-13T01:51:30Z",
- "latency_s": 9.44,
- "count": 0,
+ "ts": "2026-10-13T02:56:31Z",
+ "latency_s": 0.92,
+ "count": 3,
  "schema_errors": [],
- "result": "fail"
+ "sample": {
+  "name": "MAGGI Fix f\u00fcr Gulasch",
+  "brand": "MAGGI",
+  "store": "BILLA",
+  "price_eur": 1.49,
+  "source_url": "https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152",
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-56152-01709617834-_HJngsp4.jpg",
+  "fetched_at": "2026-10-13T02:56:32+00:00"
+ },
+ "result": "pass"
 }

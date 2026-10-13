@@ -1,60 +1,84 @@
 {
- "ts": "2026-10-13T01:52:46Z",
- "products": 1293,
+ "ts": "2026-10-13T02:58:01Z",
+ "products": 2263,
  "by_store": [
   [
-   "Spar",
-   531
+   "Billa",
+   618
   ],
   [
-   "Billa",
-   494
+   "Spar",
+   592
+  ],
+  [
+   "Gurkerl",
+   356
   ],
   [
    "Hofer",
-   139
+   224
   ],
   [
    "unbekannt (OFF)",
-   62
+   136
+  ],
+  [
+   "MPreis",
+   101
+  ],
+  [
+   "PrepMyMeal",
+   90
+  ],
+  [
+   "Lidl",
+   40
+  ],
+  [
+   "Unimarkt",
+   29
+  ],
+  [
+   "dm",
+   24
   ],
   [
    "Fit to Go",
    24
   ],
   [
-   "dm",
-   23
-  ],
-  [
-   "Lidl",
-   18
-  ],
-  [
    "Penny",
+   17
+  ],
+  [
+   "LiveFresh",
+   10
+  ],
+  [
+   "FitTaste",
    2
   ]
  ],
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   479
+   1044
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   232
-  ],
-  [
-   "Trocken/Instant",
-   205
+   325
   ],
   [
    "Tiefkühl (TK)",
-   178
+   313
   ],
   [
    "Dose/Konserve",
-   167
+   270
+  ],
+  [
+   "Trocken/Instant",
+   268
   ],
   [
    "Glas",
@@ -62,48 +86,49 @@
   ],
   [
    "Sous-vide (vakuum)",
-   11
+   14
   ],
   [
    "Beutel ungekühlt (Retort-Pouch)",
-   5
+   13
   ]
  ],
  "coverage": {
-  "nutrition": 56.8,
-  "price": 88.8,
-  "photo": 77.1,
-  "producer": 42.2,
-  "brand": 69.2,
-  "logos_total": 135
+  "nutrition": 66.9,
+  "price": 85.6,
+  "photo": 80.4,
+  "producer": 32.6,
+  "brand": 85.2,
+  "logos_total": 149
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 69.2,
+  "brand": 85.2,
   "chain": 100.0,
-  "dish": 38.0,
-  "image_url": 77.1,
+  "dish": 32.2,
+  "image_url": 80.4,
   "name": 100.0,
-  "origin": 23.9,
-  "pack_size_g": 91.0,
-  "producer": 42.2,
+  "origin": 31.3,
+  "pack_size_g": 91.2,
+  "producer": 32.6,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 85.8,
+  "url": 93.9,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 1148,
+  "prices": 1937,
   "brand_tree": 8,
   "online_mealprep": 96,
   "online_providers": 3,
-  "nutrition": 736,
+  "nutrition": 1515,
   "producers": 22,
+  "stores": 498,
   "establishments": 4706,
-  "products": 1293,
+  "products": 2263,
   "companies": 83,
-  "logos": 135,
+  "logos": 149,
   "producer_quality": 4
  }
 }

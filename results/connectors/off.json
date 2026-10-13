@@ -2,8 +2,8 @@
  "id": "off",
  "store": "Open Food Facts",
  "status_declared": "live",
- "ts": "2026-10-13T01:52:24Z",
- "latency_s": 1.53,
+ "ts": "2026-10-13T02:57:26Z",
+ "latency_s": 8.99,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": null,
   "source_url": "https://world.openfoodfacts.org/product/4099200121543",
   "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
-  "fetched_at": "2026-10-13T01:52:26+00:00"
+  "fetched_at": "2026-10-13T02:57:35+00:00"
  },
  "result": "pass"
 }
