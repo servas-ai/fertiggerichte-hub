@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T03:49:46Z UTC
-**Next biggest gap:** Hofer photos/prices: 134/224 ready meals without photo and 87 Preis-2025 rows; Spar photos now complete (592/592 via heisse→CDN). denn's/ADEG/Nah&Frisch still have no product source.
+**Last updated:** 2026-10-13T03:52:41Z UTC
+**Next biggest gap:** Hofer photos/prices: ~134/224 without photo and 87 Preis-2025 rows; Spar photos complete. denn's/ADEG/Nah&Frisch still have no product source.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -17,7 +17,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Penny | [x] | 17 | [x] | 22 | [x] |
 | dm | [x] | 24 | [x] | 28 | [x] |
 | denn's BioMarkt | [ ] | 0 | [x] | 2 | [x] |
-| MPreis | [x] | 101 | [ ] | 0 | [x] |
+| MPreis | [x] | 174 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
@@ -49,8 +49,8 @@ Other OSM chains in bbox:
 | Spar | 592 | 592 ([x]) | 100.0% |
 | Gurkerl | 356 | 356 ([x]) | 100.0% |
 | Hofer | 224 | 90 ([~]) | 40.2% |
-| unbekannt (OFF) | 136 | 125 ([~]) | 91.9% |
-| MPreis | 101 | 101 ([x]) | 100.0% |
+| MPreis | 174 | 170 ([~]) | 97.7% |
+| unbekannt (OFF) | 135 | 124 ([~]) | 91.9% |
 | PrepMyMeal | 90 | 90 ([x]) | 100.0% |
 | Lidl | 40 | 29 ([~]) | 72.5% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
@@ -60,9 +60,9 @@ Other OSM chains in bbox:
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
 | FitTaste | 2 | 2 ([x]) | 100.0% |
 
-- [x] Total products: **2263**
-- [x] Total with photos: **2047** (90.5%)
-- [x] MPreis photos: live webshop connector `mpreis-shop` (101/101)
+- [x] Total products: **2335**
+- [x] Total with photos: **2115** (90.6%)
+- [ ] MPreis photos: live webshop connector `mpreis-shop` (170/174)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
@@ -70,15 +70,15 @@ Other OSM chains in bbox:
 - [x] Logo index rows: **155** (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 331; brands without logo row: 156 (377 products); top 8:
+- Brands in products: 332; brands without logo row: 157 (403 products); top 8:
   - [ ] Pappudia (20 products)
   - [ ] Müller (14 products)
   - [ ] Asia Green Garden (11 products)
   - [ ] The Green Garden (10 products)
+  - [ ] Deflorian (10 products)
   - [ ] Lotao (9 products)
   - [ ] Freshery (8 products)
   - [ ] Every. (8 products)
-  - [ ] PICARD (7 products)
 - Producers missing logo (sample): 17 of top 20
   - [ ] BILLA AG
   - [ ] Unilever Austria
@@ -105,8 +105,8 @@ Other OSM chains in bbox:
 | Billa [~] | 596 | live 2026: 594 · Preis 2025: 2 |
 | Spar [~] | 577 | live 2026: 442 · Preis 2025: 135 |
 | Gurkerl [x] | 356 | live 2026: 356 |
+| MPreis [x] | 173 | live 2026: 173 |
 | Hofer [~] | 123 | Preis 2025: 87 · live 2026: 35 · Preis unbestätigt: 1 |
-| MPreis [x] | 101 | live 2026: 101 |
 | PrepMyMeal [x] | 90 | live 2026: 90 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | Fit to Go [x] | 24 | live 2026: 24 |
@@ -154,8 +154,8 @@ Other OSM chains in bbox:
 
 ## Totals snapshot
 
-- Products: 2263
-- Prices: 1937 (live 2026: 1672)
+- Products: 2335
+- Prices: 2009 (live 2026: 1744)
 - Logos: 155
 - Stores (OSM Linz bbox): 498
 - Companies: 83
