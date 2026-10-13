@@ -2,8 +2,8 @@
  "id": "prepmymeal",
  "store": "Online: PrepMyMeal",
  "status_declared": "live",
- "ts": "2026-10-13T21:12:20Z",
- "latency_s": 4.5,
+ "ts": "2026-10-13T22:48:27Z",
+ "latency_s": 6.73,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 14.5,
   "source_url": "https://prepmymeal.at/products/ch-gemuse-lasagne-3",
   "image_url": "https://cdn.shopify.com/s/files/1/0337/6349/1884/files/GemuseLasagne_a6c6f64f-6b37-46d8-8384-9b826021345c.png?v=1737014090",
-  "fetched_at": "2026-10-13T21:12:24+00:00"
+  "fetched_at": "2026-10-13T22:48:34+00:00"
  },
  "result": "pass"
 }
