@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-13T03:54:44Z",
- "products": 2335,
+ "ts": "2026-10-13T09:55:26Z",
+ "products": 2360,
  "by_store": [
   [
    "Billa",
@@ -12,7 +12,7 @@
   ],
   [
    "Gurkerl",
-   356
+   381
   ],
   [
    "Hofer",
@@ -66,15 +66,15 @@
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   325
+   341
   ],
   [
    "Tiefkühl (TK)",
-   323
+   328
   ],
   [
    "Dose/Konserve",
-   313
+   317
   ],
   [
    "Trocken/Instant",
@@ -94,41 +94,41 @@
   ]
  ],
  "coverage": {
-  "nutrition": 67.2,
-  "price": 86.0,
-  "photo": 90.6,
-  "producer": 34.7,
-  "brand": 85.7,
-  "logos_total": 155
+  "nutrition": 67.6,
+  "price": 86.2,
+  "photo": 92.9,
+  "producer": 34.6,
+  "brand": 85.8,
+  "logos_total": 156
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 85.7,
+  "brand": 85.8,
   "chain": 100.0,
-  "dish": 33.1,
-  "image_url": 90.6,
+  "dish": 32.8,
+  "image_url": 92.9,
   "name": 100.0,
-  "origin": 30.4,
-  "pack_size_g": 91.5,
-  "producer": 34.7,
+  "origin": 31.1,
+  "pack_size_g": 91.6,
+  "producer": 34.6,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 94.1,
+  "url": 94.2,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 2009,
+  "prices": 2034,
   "brand_tree": 8,
   "online_mealprep": 96,
   "online_providers": 3,
-  "nutrition": 1571,
+  "nutrition": 1596,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 2335,
+  "products": 2360,
   "companies": 83,
-  "logos": 155,
+  "logos": 156,
   "producer_quality": 4
  }
 }

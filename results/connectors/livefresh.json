@@ -2,18 +2,18 @@
  "id": "livefresh",
  "store": "Online: LiveFresh",
  "status_declared": "live",
- "ts": "2026-10-13T04:01:04Z",
- "latency_s": 1.41,
+ "ts": "2026-10-13T09:54:47Z",
+ "latency_s": 2.27,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Pasta Cheesy Spinat – Protein Bowl",
+  "name": "Pasta Cheesy Spinat \u2013 Protein Bowl",
   "brand": "LiveFresh",
   "store": "Online: LiveFresh",
   "price_eur": 5.99,
   "source_url": "https://livefresh.at/products/pasta-cheesy-spinat-400g",
   "image_url": "https://cdn.shopify.com/s/files/1/0058/6432/5231/files/cheesy-spinat-pasta.jpg?v=1771934953",
-  "fetched_at": "2026-10-13T04:01:06+00:00"
+  "fetched_at": "2026-10-13T09:54:50+00:00"
  },
  "result": "pass"
 }
