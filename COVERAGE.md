@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T20:22:40Z UTC
-**Next biggest gap:** Prices: Hofer 130 'Preis 2025' rows (hofer.at Akamai 403, no 2026 Hofer source) and ~236 rows without any price (OFF-only ~110 without store, Subway 59 / NORDSEE 39 no public price list, Lidl 31 API 401). denn's BioMarkt only 5 products — full AT assortment not public (offer feed only, ~4 ready meals/week; re-run `food fetch --store denns` weekly to accumulate). Photos: Subway 0/59, Hofer 101/224 historic. Logos: ~104 brands, mostly Handels-Eigenmarken. Companies: 15/133 without LEI or verified UID.
+**Last updated:** 2026-10-13T20:53:45Z UTC
+**Next biggest gap:** ADEG still 0 products (only per-market Issuu flipbook, no structured source — dead end documented). Prices: Hofer 130 'Preis 2025' rows (hofer.at Akamai 403, no 2026 Hofer source) and ~240 rows without any price (OFF-only ~110 without store, Subway 59 / NORDSEE 39 no public price list, Lidl 31 API 401, Nah&Frisch Inzersdorfer 4 '-25%' only). denn's BioMarkt 5 / Nah&Frisch 7 products are weekly offers only (re-run `food fetch --store denns|nah-frisch` weekly to accumulate). Photos: Subway 0/59, Hofer 101/224 historic. Logos: ~104 brands, mostly Handels-Eigenmarken. Companies: 15/133 without LEI or verified UID.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -20,7 +20,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | MPreis | [x] | 296 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
-| Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
+| Nah&Frisch | [x] | 7 | [x] | 10 | [x] |
 | Fit to Go | [x] | 29 | [ ] | 0 | [x] |
 | Gurkerl | [x] | 506 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
@@ -61,10 +61,11 @@ Other OSM chains in bbox:
 | Penny | 22 | 17 ([~]) | 77.3% |
 | FitTaste | 18 | 18 ([x]) | 100.0% |
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
+| Nah&Frisch | 7 | 7 ([x]) | 100.0% |
 | denn's BioMarkt | 5 | 5 ([x]) | 100.0% |
 
-- [x] Total products: **2950**
-- [x] Total with photos: **2709** (91.8%)
+- [x] Total products: **2957**
+- [x] Total with photos: **2716** (91.8%)
 - [ ] MPreis photos: live webshop connector `mpreis-shop` (284/296)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
@@ -114,6 +115,7 @@ Other OSM chains in bbox:
 | Penny [x] | 7 | live 2026: 7 |
 | Lidl [x] | 6 | live 2026: 6 |
 | denn's BioMarkt [x] | 3 | live 2026: 3 |
+| Nah&Frisch [x] | 3 | live 2026: 3 |
 - [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)
 - [~] Spar: live 2026 prices via food-connectors `spar-shop` (SPAR public search API, exact article number; 2026-10-13T19: 'Preis 2025' 150→31). Remaining Spar 'Preis 2025' 31: 17 article numbers no longer in SPAR's index (delisted), 11 counter/weight products (priced per 100 g), 2 pack-size mismatches, rest without article number and no exact name hit
 - [ ] Fresh live prices for Hofer 'Preis 2025' rows: hofer.at Akamai 403, heisse-preise has no 2026 Hofer dates — no sanctioned live source yet
@@ -149,8 +151,9 @@ Other OSM chains in bbox:
 - [x] `mpreis` / `unimarkt` — ready meals imported from heisse-preise dump into fertiggerichte-daten
 - [x] `denns` — **live** (2026-10-13T20, Daten-Squad): denn's BioMarkt AT public weekly offer feed `denns-biomarkt.at/page-data/angebote/page-data.json` (Gatsby page-data the site loads itself; robots `User-agent: * Allow: /`; no login/cookies). CLI `food fetch --store denns` / `food search … --store denns`, MCP `denns_offers` (food-connectors c7a16c0). Returns denn's article no., brand, pack, Aktionspreis + Normalpreis, €/kg, validity, vegan/vegetarian flags, official image `images.dennree.de/fitinto/576x384/<itemno>.top.png` (HEAD-verified). Offers only (~80/week, no GTIN/nutrition); the full assortment is not public (earlier catalog-only note: no product listing/sitemap).
 - [~] denn's BioMarkt products (2026-10-13T20, Daten-Squad): **0→5** in the dataset (all with photo): from the offer feed (land=at, valid 2026-10-07–10-20) MyDeli Bio-Fleischsuppe 350/380 g (Normalpreis 3.99, Aktion ab 3.49), SOTO Veganes/Vegetarisches Bio-Fingerfood TK 185–200 g (3.99 / Aktion 3.29), followfood Airfryer Fish Nuggets TK 200 g (5.49 / Aktion 4.29) — `price_eur` = Normalpreis (shelf price on 2026-10-13), Aktionspreis + dates kept in `offer_price_eur/offer_valid_*`; plus Open Food Facts products tagged store "Denn's Biomarkt" + Austria: Natur Compagnie Feine Suppe Kürbiscreme 40 g and Dhal Linsensuppe 60 g (nutrition per 100 ml prepared, no price). Harvest Moon Bio-Protein-Pudding (offer feed) added to connectors_new.json but filtered by the app as non-meal (is_meal=false). Not added: 78 other offers (dairy, produce, drinks, drugstore; multi-brand %-coupons). No dennree own-brand ready meal on offer this week → no dennree company/logo work. Multi-variant offers have no single pack size → `size_g` empty, no €/kg. Script `fertiggerichte-daten/scripts/enrich_denns.py`, evidence `raw/denns_2026-10-13T20.json` (daten c84fd75). Pipeline note: rows are deduped by URL → offer rows use `angebote/#artikel-<itemno>`.
-- [ ] `adeg` — **catalog-only**: adeg.at sitemap = pages/news/recipes only; no online shop / product API
-- [ ] `nah-frisch` — **catalog-only**: nahundfrisch.at franchise info site; no webshop
+- [-] `adeg` — **dead end, re-verified 2026-10-13T20b**: adeg.at sitemap = pages/news/recipes only; no online shop / product API; `/flugblatt-aktionen/adeg-flugblatt` = per-market **Issuu flipbook** loaded only after choosing a market (merchant selector → `?type=7385` solr ajax; Issuu = page images, no structured product data, no prices in HTML). robots.txt allows the pages, but there is nothing structured to index → ADEG products stay 0 (no fabrication from BILLA/REWE twins). Only sanctioned path would be per-market Issuu page images + vision/OCR (heavy, per-merchant) — not done.
+- [x] `nah-frisch` — **live (offers, OCR)** (2026-10-13T20b, Daten-Squad, food-connectors 91f223b): public page `nahundfrisch.at/de/aktuelles/angebote-der-woche` (robots `Allow: /`; tiles from `/media/…`, disallowed `/images` `/storage` never requested; no login/cookies). One tab per KW with validity (KW41 7.–13.10., KW42 14.–20.10.2026), 36 image-only offer tiles → brand/name/pack/price/badge via local tesseract OCR (price OCR 25/26 correct vs. visual check). CLI `food fetch --store nah-frisch`, MCP `nahfrisch_offers`.
+- [~] Nah&Frisch products (2026-10-13T20b): **0→7** in the dataset (7/7 with official tile photo): iglo Pikante Knödel Fleischknödel 400 g **3,99 €** (KW41, '1+1 gratis ab 2 Pkg.'), Knorr Kaiserteller Grießnockerlsuppe + Knoblauchcremesuppe **1,39 €** (KW42), Inzersdorfer Rindsgulasch / Gulaschsuppe / Gefüllte Paprika / Weinbeuschel 400 g (KW42 'Alle Inzersdorfer Fertiggerichte oder Suppen 25 % billiger' — **no absolute price** printed → price None, no guessing). Only variants whose packshot is legible on the tile; nutrition/EAN/pack size only from the identical product already in the dataset (BILLA/MPreis/Gurkerl twin, cited in nut_source). Prices are Aktionspreise valid only in participating franchise markets. Evidence `fertiggerichte-daten/raw/nahfrisch_2026-10-13T20b.json`, script `scripts/enrich_nahfrisch.py`. Re-run weekly to accumulate (Nah&Frisch has no webshop / full assortment).
 - [x] `mpreis-shop` — **live** MPreis webshop connector (sitemap + category pages + product JSON-LD; robots-allowed, `/search/` never used): 271 pages crawled, 0 errors → 101 ready meals with photo, live 2026 price, GTIN, pack size; 85 with nutrition table. CLI `food search … --store mpreis-shop`, MCP `mpreis_product`.
 - [-] `unimarkt-shop` — **closed, verified 2026-10-13**: shop.unimarkt.at answers 200 but sampled sitemap slugs (/fertiggerichte, /suppen, /snacks-fertiggerichte, /gulaschsuppe) 302 → / (others 404) = splash "UNIONLINE hat seinen Service eingestellt – Vielen Dank für Ihre Treue"; ajaxGateway only cart/merkliste actions; /suche/ 403 (not retried). Shop closed 02/2024 (cash.at), Unimarkt left retail 02–03/2026 (ooe.ORF.at: ~90 stores, ADEG 21 / Spar 23 / Nah&Frisch 2). Registered as catalog-only in food-connectors; evidence `fertiggerichte-daten/raw/unimarkt_shop_probe_2026-10-13.json`. OSM still tags some ex-Unimarkt branches.
 - [x] `spar` CDN images — **live** (2026-10-13): heisse-preise spar article id → `cdn1.interspar.at/cachableservlets/articleImage.dam/at/{id}/dt_main.jpg` HEAD-verified for all 228 previously photo-less Spar ready meals (228/228). CLI/MCP `food search` / Spar adapter now returns `image_url`. Evidence `fertiggerichte-daten/raw/spar_cdn_images_2026-10-13.json`. interspar.at HTML still Cloudflare-blocked.
@@ -177,8 +180,8 @@ Other OSM chains in bbox:
 
 ## Totals snapshot
 
-- Products: 2950
-- Prices: 2600 (live 2026: 2376)
+- Products: 2957
+- Prices: 2603 (live 2026: 2379)
 - Logos: 250
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
