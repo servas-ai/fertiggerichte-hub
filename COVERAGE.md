@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T11:55:11Z UTC
-**Next biggest gap:** Logos (strict, file required): 154 brands / 430 products still without a logo file — top: Good Choice 47 (Hofer, file-less placeholder; Aldi CDN 403), Pappudia 23, Youcook 17 (file-less row), dmBio 15, Chef Select 13, SPAR enjoy 12 (file-less row), GAON 10, The Green Garden 10, Deflorian 10, M (MPreis Eigenmarke) 12. Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T12:20:50Z UTC
+**Next biggest gap:** Logos (strict, file required): 139 brands / 368 products still without a logo file — top: Good Choice 47 (Hofer, file-less placeholder; Aldi CDN 403), Pappudia 23, dmBio 15, Chef Select 13, SPAR enjoy 12 (file-less row), GAON 10, The Green Garden 10, Vemondo 8. T12 closed Youcook/Deflorian/Strauss/AIA/Andros/Indomie/Hammermühle/Landtmann's/Shan'shi/Riso Gallo/Danke Bauer/Esterhazy/Arla/Thiriet/Ashoka/Galbani (+Iglo case aliases). Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -67,18 +67,18 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **198** (149 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **212** (165 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 339; brands without a logo file: 154 (430 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 97 brands / 224 products); logo rows with file: 149/198; top 8:
+- Brands in products: 339; brands without a logo file: 139 (368 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 85 brands / 188 products); logo rows with file: 165/212; top 8:
   - [ ] Good Choice (47 products)
   - [ ] Pappudia (23 products)
-  - [ ] Youcook (17 products)
   - [ ] dmBio (15 products)
   - [ ] Chef Select (13 products)
   - [ ] Spar enjoy (12 products)
   - [ ] GAON - Koreanisches Restaurant (10 products)
   - [ ] The Green Garden (10 products)
+  - [ ] Vemondo (8 products)
 - Producers missing logo (sample): 17 of top 20
   - [ ] BILLA AG
   - [ ] Unilever Austria
@@ -170,7 +170,7 @@ Other OSM chains in bbox:
 
 - Products: 2392
 - Prices: 2066 (live 2026: 1806)
-- Logos: 198
+- Logos: 212
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (50 with LEI, 71 with LEI or verified UID, 39 with FN)
 - Online meal-prep: 96
