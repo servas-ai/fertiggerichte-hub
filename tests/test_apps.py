@@ -13,6 +13,8 @@ def discover(url):
             src = urllib.request.urlopen(url+js, timeout=30).read().decode("utf8","ignore")
             out += [{"id":i,"t":l,"mode":"hash"} for i,l in re.findall(r'\["([a-z][a-z0-9-]+)","([^"]{2,40})",[A-Za-z$_]{1,4}\]', src)]
             out += [{"id":i,"t":l,"mode":"click"} for i,l in re.findall(r'\{id:"([a-z][a-z0-9-]+)",t:"([^"]{2,40})"', src)]
+            # shadcn-rebuild (2026-10-13): tabs defined as fn("id","Label",Icon,React.lazy(...))
+            out += [{"id":i,"t":l,"mode":"hash"} for i,l in re.findall(r'\b[A-Za-z$_]{1,3}\("([a-z][a-z0-9-]+)","([^"]{2,40})",[A-Za-z$_]{1,4},[A-Za-z$_.]{1,6}\.lazy\(', src)]
         seen=set(); return [o for o in out if not (o["id"] in seen or seen.add(o["id"]))]
     except Exception: return []
 def live(url):
