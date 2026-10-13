@@ -1,6 +1,6 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T03:16:47Z UTC
+**Last updated:** 2026-10-13T03:23:57Z UTC
 **Next biggest gap:** Spar photos/prices: 228/592 ready meals without photo and 135 prices only 2025; then Hofer 134/224 without photo + 87 Preis-2025 rows (Unimarkt verified closed → no live source possible; denn's/ADEG/Nah&Frisch have no product source)
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
@@ -22,7 +22,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
 | Fit to Go | [x] | 24 | [ ] | 0 | [x] |
-| Gurkerl | [x] | 356 | [ ] | 0 | [ ] |
+| Gurkerl | [x] | 356 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
 
@@ -67,16 +67,18 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **149** (`data/logos.csv`)
-- Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
+- [x] Logo index rows: **155** (`data/logos.csv`)
+- Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 263; top brands missing logo file: 6
-  - [ ] fit2go.meals (Fit2go GmbH) (24 products)
-  - [ ] TCM Emaille-Auflaufform (8 products)
-  - [ ] I LIKE (7 products)
-  - [ ] Riso Gallo (5 products)
-  - [ ] GOOD (5 products)
-  - [ ] Rana Ravioli (5 products)
+- Brands in products: 331; brands without logo row: 156 (377 products); top 8:
+  - [ ] Pappudia (20 products)
+  - [ ] Müller (14 products)
+  - [ ] Asia Green Garden (11 products)
+  - [ ] The Green Garden (10 products)
+  - [ ] Lotao (9 products)
+  - [ ] Freshery (8 products)
+  - [ ] Every. (8 products)
+  - [ ] PICARD (7 products)
 - Producers missing logo (sample): 17 of top 20
   - [ ] BILLA AG
   - [ ] Unilever Austria
@@ -153,7 +155,7 @@ Other OSM chains in bbox:
 
 - Products: 2263
 - Prices: 1937 (live 2026: 1672)
-- Logos: 149
+- Logos: 155
 - Stores (OSM Linz bbox): 498
 - Companies: 83
 - Online meal-prep: 96
