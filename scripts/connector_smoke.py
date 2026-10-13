@@ -4,7 +4,7 @@ sys.path.insert(0, sys.argv[2])
 from food_connectors.adapters import ADAPTERS
 from dataclasses import asdict, is_dataclass
 aid = sys.argv[1]; a = ADAPTERS[aid]
-r = {"id": aid, "store": getattr(a,"store",""), "status_declared": getattr(a,"status",""), "ts": datetime.datetime.utcnow().isoformat(timespec="seconds")+"Z"}
+r = {"id": aid, "store": getattr(a,"store",""), "status_declared": getattr(a,"status",""), "ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
 t = time.time()
 try:
     items = []

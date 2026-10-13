@@ -1,5 +1,19 @@
 {
  "id": "mpreis",
- "result": "fail",
- "error": " scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  r = {\"id\": aid, \"store\": getattr(a,\"store\",\"\"), \"status_declared\": getattr(a,\"status\",\"\"), \"ts\": datetime.datetime.utcnow().isoformat(timespec=\"seconds\")+\"Z\"}\n"
+ "store": "MPREIS",
+ "status_declared": "stale",
+ "ts": "2026-10-13T21:15:58Z",
+ "latency_s": 2.67,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "AIA Puten Gulasch",
+  "brand": null,
+  "store": "MPREIS",
+  "price_eur": 6.5,
+  "source_url": null,
+  "image_url": null,
+  "fetched_at": "2026-10-13T21:16:01+00:00"
+ },
+ "result": "pass"
 }

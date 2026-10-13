@@ -1,5 +1,19 @@
 {
  "id": "hofer",
- "result": "fail",
- "error": " scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  r = {\"id\": aid, \"store\": getattr(a,\"store\",\"\"), \"status_declared\": getattr(a,\"status\",\"\"), \"ts\": datetime.datetime.utcnow().isoformat(timespec=\"seconds\")+\"Z\"}\n"
+ "store": "HOFER",
+ "status_declared": "stale",
+ "ts": "2026-10-13T21:15:54Z",
+ "latency_s": 2.64,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "GENUSS 100% AUS \u00d6STERREICH Rindsgulasch 1kg",
+  "brand": null,
+  "store": "HOFER",
+  "price_eur": 19.98,
+  "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
+  "image_url": null,
+  "fetched_at": "2026-10-13T21:15:57+00:00"
+ },
+ "result": "pass"
 }

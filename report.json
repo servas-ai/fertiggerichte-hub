@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13 21:12 UTC",
+ "generated": "2026-10-13 21:16 UTC",
  "connectors": [
   {
    "id": "billa",
@@ -55,6 +55,25 @@
     "source_url": "https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1759529391/assets/pas/images/650eacac-8246-4826-a6cf-718ab04b6e56/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "fetched_at": "2026-10-13T21:07:34+00:00"
+   },
+   "result": "pass"
+  },
+  {
+   "id": "dm-heisse",
+   "store": "dm",
+   "status_declared": "stale",
+   "ts": "2026-10-13T21:15:50Z",
+   "latency_s": 3.01,
+   "count": 3,
+   "schema_errors": [],
+   "sample": {
+    "name": "HiPP Menü Spätzle mit Gulasch ab 8 Monaten, 220 g",
+    "brand": null,
+    "store": "dm",
+    "price_eur": 1.75,
+    "source_url": null,
+    "image_url": null,
+    "fetched_at": "2026-10-13T21:15:53+00:00"
    },
    "result": "pass"
   },
@@ -116,6 +135,25 @@
    "result": "pass"
   },
   {
+   "id": "hofer",
+   "store": "HOFER",
+   "status_declared": "stale",
+   "ts": "2026-10-13T21:15:54Z",
+   "latency_s": 2.64,
+   "count": 3,
+   "schema_errors": [],
+   "sample": {
+    "name": "GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg",
+    "brand": null,
+    "store": "HOFER",
+    "price_eur": 19.98,
+    "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
+    "image_url": null,
+    "fetched_at": "2026-10-13T21:15:57+00:00"
+   },
+   "result": "pass"
+  },
+  {
    "id": "livefresh",
    "store": "Online: LiveFresh",
    "status_declared": "live",
@@ -135,11 +173,30 @@
    "result": "pass"
   },
   {
+   "id": "mpreis",
+   "store": "MPREIS",
+   "status_declared": "stale",
+   "ts": "2026-10-13T21:15:58Z",
+   "latency_s": 2.67,
+   "count": 3,
+   "schema_errors": [],
+   "sample": {
+    "name": "AIA Puten Gulasch",
+    "brand": null,
+    "store": "MPREIS",
+    "price_eur": 6.5,
+    "source_url": null,
+    "image_url": null,
+    "fetched_at": "2026-10-13T21:16:01+00:00"
+   },
+   "result": "pass"
+  },
+  {
    "id": "mpreis-shop",
    "store": "MPreis",
    "status_declared": "live",
-   "ts": "2026-10-13T21:09:15Z",
-   "latency_s": 6.97,
+   "ts": "2026-10-13T21:16:02Z",
+   "latency_s": 7.19,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -149,7 +206,7 @@
     "price_eur": 1.39,
     "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
     "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
-    "fetched_at": "2026-10-13T21:09:17+00:00"
+    "fetched_at": "2026-10-13T21:16:04+00:00"
    },
    "result": "pass"
   },
@@ -307,11 +364,6 @@
    "result": "catalog"
   },
   {
-   "id": "dm-heisse",
-   "result": "fail",
-   "error": " scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  r = {\"id\": aid, \"store\": getattr(a,\"store\",\"\"), \"status_declared\": getattr(a,\"status\",\"\"), \"ts\": datetime.datetime.utcnow().isoformat(timespec=\"seconds\")+\"Z\"}\n"
-  },
-  {
    "id": "fittogo",
    "store": "Fit to Go",
    "status_declared": "catalog-only",
@@ -330,11 +382,6 @@
    "count": 0,
    "schema_errors": [],
    "result": "catalog"
-  },
-  {
-   "id": "hofer",
-   "result": "fail",
-   "error": " scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  r = {\"id\": aid, \"store\": getattr(a,\"store\",\"\"), \"status_declared\": getattr(a,\"status\",\"\"), \"ts\": datetime.datetime.utcnow().isoformat(timespec=\"seconds\")+\"Z\"}\n"
   },
   {
    "id": "lidl",
@@ -365,11 +412,6 @@
    "count": 0,
    "schema_errors": [],
    "result": "catalog"
-  },
-  {
-   "id": "mpreis",
-   "result": "fail",
-   "error": " scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  r = {\"id\": aid, \"store\": getattr(a,\"store\",\"\"), \"status_declared\": getattr(a,\"status\",\"\"), \"ts\": datetime.datetime.utcnow().isoformat(timespec=\"seconds\")+\"Z\"}\n"
   },
   {
    "id": "unimarkt-shop",
@@ -1841,6 +1883,11 @@
   ],
   "servas-ai/food-connectors": [
    [
+    "46014e3",
+    "2026-10-13T21:14",
+    "feat(penny-shop): live PENNY AT connector via penny.at's public online-assortment JSON (REWE product-discovery listing + /products/<sku>; robots Sitemap-only, no login/cookies) — regular + standard price, promo text/validity, €/unit, pack, category path, origin, official image; MCP penny_product + penny_search; offline tests with fixtures (2026-10-13T21)"
+   ],
+   [
     "91f223b",
     "2026-10-13T20:53",
     "feat(nah-frisch): live Nah&Frisch AT connector via the public 'Angebote der Woche' page (robots Allow; tiles from /media, /images+/storage never requested) — KW tabs with validity, official offer tiles, optional tesseract OCR for brand/name/pack/price/badge (extra.ocr, raw text kept); MCP nahfrisch_offers; offline tests with fixtures; ADEG documented as Issuu-flipbook dead end (2026-10-13T20b)"
@@ -1874,11 +1921,6 @@
     "aa3d626",
     "2026-10-13T15:23",
     "feat(billa/penny): storage class (frozen/chilled from badge, parent category, -18°C statement) + category path in enrich; keep Normalpreis (price.standard) next to promo price; more TK stems (Mohnnudeln, Apfelstrudel, Fischstäbchen, Erdäpfeltascherl); gurkerl fetch adds TK Fischstäbchen/Schlemmerfilet categories; tests (2026-10-13T14)"
-   ],
-   [
-    "641914b",
-    "2026-10-13T12:36",
-    "feat(billa): more ready-meal search stems (TK pizza, Krautfleckerl, Germknödel, Kaiserschmarrn, noodle cups) (2026-10-13T12)"
    ]
   ],
   "servas-ai/fertiggerichte-daten": [

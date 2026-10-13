@@ -1,8 +1,8 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-13 21:12 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-13 21:16 UTC via `./run_all.sh` (stündlich).
 
-**Connectors:** 15 ✅ / 4 ❌ / 8 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 2957
+**Connectors:** 18 ✅ / 1 ❌ / 8 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 2957
 
 ## Apps
 
@@ -46,11 +46,14 @@ flowchart LR
 | ✅ | `billa` | BILLA | 3 | 0.44 s | [MAGGI Fix für Gulasch](https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152) · 1.49 € | 2026-10-13T21:07:29Z |
 | ✅ | `denns` | denn's BioMarkt | 1 | 4.19 s | [MyDeli Bio-Fleischsuppe](https://www.denns-biomarkt.at/angebote/) · 3.49 € | 2026-10-13T21:07:29Z |
 | ✅ | `dm` | dm | 3 | 3.88 s | [babylove Menü Kartoffeltopf mit Rindergulasch ab d](https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat) · 1.15 € | 2026-10-13T21:07:33Z |
+| ✅ | `dm-heisse` | dm | 3 | 3.01 s | HiPP Menü Spätzle mit Gulasch ab 8 Monaten, 220 g · 1.75 € | 2026-10-13T21:15:50Z |
 | ✅ | `gourmetfein` | Online: Gourmetfein | 3 | 3.19 s | [Weißwurst 1,8kg](https://shop.gourmetfein.com/products/weisswurst-1-8kg) · 24.9 € | 2026-10-13T21:07:44Z |
 | ✅ | `gurkerl` | Gurkerl.at | 3 | 0.31 s | [AMA Kalb Rosé Austria Gulasch geschnitten](https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten) · 16.1 € | 2026-10-13T21:07:48Z |
 | ✅ | `heisse-preise` | heisse-preise.io | 3 | 2.86 s | [Ager Hirschgulasch geschnitten](ager-hirschgulasch-geschnitten-00730647) · 11.99 € | 2026-10-13T21:07:48Z |
+| ✅ | `hofer` | HOFER | 3 | 2.64 s | [GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg](sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg) · 19.98 € | 2026-10-13T21:15:54Z |
 | ✅ | `livefresh` | Online: LiveFresh | 3 | 0.81 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-13T21:08:43Z |
-| ✅ | `mpreis-shop` | MPreis | 3 | 6.97 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-13T21:09:15Z |
+| ✅ | `mpreis` | MPREIS | 3 | 2.67 s | AIA Puten Gulasch · 6.5 € | 2026-10-13T21:15:58Z |
+| ✅ | `mpreis-shop` | MPreis | 3 | 7.19 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-13T21:16:02Z |
 | ✅ | `nah-frisch` | Nah&Frisch | 2 | 171.78 s | [Inzersdorfer Fertiggerichte oder Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-13T21:09:22Z |
 | ✅ | `off` | Open Food Facts | 3 | 1.32 s | [Gulasch (Rind)](https://world.openfoodfacts.org/product/4099200121543) | 2026-10-13T21:12:14Z |
 | ✅ | `penny` | PENNY | 2 | 4.03 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-13T21:12:16Z |
@@ -60,14 +63,11 @@ flowchart LR
 | ✅ | `unimarkt` | Unimarkt | 3 | 2.6 s | [Felix Erdäpfelgulasch](/Felix-Erdaepfelgulasch-3692) · 5.39 € | 2026-10-13T21:12:30Z |
 | 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-13T21:07:28Z |
 | 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-13T21:07:29Z |
-| ❌ | `dm-heisse` |  | 0 |  s | ` scheduled for removal in a future version. Use timezone-aware objects to represent dateti` |  |
 | 📇 | `fittogo` | Fit to Go | 0 | 0.0 s |  | 2026-10-13T21:07:44Z |
 | 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-13T21:07:44Z |
-| ❌ | `hofer` |  | 0 |  s | ` scheduled for removal in a future version. Use timezone-aware objects to represent dateti` |  |
 | ❌ | `lidl` | Lidl | 0 | 11.4 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-13T21:08:32Z |
 | 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-13T21:08:43Z |
 | 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-13T21:08:44Z |
-| ❌ | `mpreis` |  | 0 |  s | ` scheduled for removal in a future version. Use timezone-aware objects to represent dateti` |  |
 | 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-13T21:12:34Z |
 | 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-13T21:12:34Z |
 
@@ -224,6 +224,7 @@ flowchart LR
 
 **servas-ai/food-connectors**
 
+- `46014e3` 2026-10-13 21:14 — feat(penny-shop): live PENNY AT connector via penny.at's public online-assortment JSON (REWE product-discovery listing + /products/<sku>; robots Sitemap-only, no login/cookies) — regular + standard price, promo text/validity, €/unit, pack, category path, origin, official image; MCP penny_product + penny_search; offline tests with fixtures (2026-10-13T21)
 - `91f223b` 2026-10-13 20:53 — feat(nah-frisch): live Nah&Frisch AT connector via the public 'Angebote der Woche' page (robots Allow; tiles from /media, /images+/storage never requested) — KW tabs with validity, official offer tiles, optional tesseract OCR for brand/name/pack/price/badge (extra.ocr, raw text kept); MCP nahfrisch_offers; offline tests with fixtures; ADEG documented as Issuu-flipbook dead end (2026-10-13T20b)
 - `c7a16c0` 2026-10-13 20:10 — feat(denns): live denn's BioMarkt AT connector via the public weekly offer feed (Gatsby page-data, robots Allow) — article no., brand, pack, Aktionspreis + Normalpreis, €/kg, validity, vegan flags, official image; MCP denns_offers; live adapters now override catalog-only stubs; offline tests (2026-10-13T20)
 - `509f6f6` 2026-10-13 19:48 — fix(spar-shop): code-internal is a SPAR-internal 88… code, not a GTIN → extra.spar_code_internal, ean=None; docs (2026-10-13T19b)
@@ -231,7 +232,6 @@ flowchart LR
 - `086a6e3` 2026-10-13 18:25 — fix(mpreis): drop shop placeholder image (/assets/noImage_detail-*.webp, site-relative → 404 downstream); only absolute http image URLs kept; tests (2026-10-13T17)
 - `3500939` 2026-10-13 17:28 — fix(impressum): VAT regex accepts grouped-digit UIDs ('ATU 43 20 34 03', 'NL 853 640 804 B 01') seen on penny.at/heiploeg.com legal notices; test (2026-10-13T17)
 - `aa3d626` 2026-10-13 15:23 — feat(billa/penny): storage class (frozen/chilled from badge, parent category, -18°C statement) + category path in enrich; keep Normalpreis (price.standard) next to promo price; more TK stems (Mohnnudeln, Apfelstrudel, Fischstäbchen, Erdäpfeltascherl); gurkerl fetch adds TK Fischstäbchen/Schlemmerfilet categories; tests (2026-10-13T14)
-- `641914b` 2026-10-13 12:36 — feat(billa): more ready-meal search stems (TK pizza, Krautfleckerl, Germknödel, Kaiserschmarrn, noodle cups) (2026-10-13T12)
 
 **servas-ai/fertiggerichte-daten**
 
