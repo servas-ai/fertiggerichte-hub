@@ -1,8 +1,8 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-13 22:48 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-13 22:58 UTC via `./run_all.sh` (stündlich).
 
-**Connectors:** 16 ✅ / 4 ❌ / 8 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3079
+**Connectors:** 18 ✅ / 2 ❌ / 8 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3079
 
 ## Apps
 
@@ -46,6 +46,7 @@ flowchart LR
 | ✅ | `billa` | BILLA | 3 | 0.55 s | [MAGGI Fix für Gulasch](https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152) · 1.49 € | 2026-10-13T22:37:52Z |
 | ✅ | `denns` | denn's BioMarkt | 1 | 3.87 s | [MyDeli Bio-Fleischsuppe](https://www.denns-biomarkt.at/angebote/) · 3.49 € | 2026-10-13T22:37:53Z |
 | ✅ | `dm` | dm | 3 | 3.88 s | [babylove Menü Kartoffeltopf mit Rindergulasch ab d](https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat) · 1.15 € | 2026-10-13T22:37:57Z |
+| ✅ | `dm-heisse` | dm | 3 | 2.65 s | HiPP Menü Spätzle mit Gulasch ab 8 Monaten, 220 g · 1.75 € | 2026-10-13T22:53:45Z |
 | ✅ | `gourmetfein` | Online: Gourmetfein | 3 | 3.11 s | [Weißwurst 1,8kg](https://shop.gourmetfein.com/products/weisswurst-1-8kg) · 24.9 € | 2026-10-13T22:43:26Z |
 | ✅ | `gurkerl` | Gurkerl.at | 3 | 0.39 s | [AMA Kalb Rosé Austria Gulasch geschnitten](https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten) · 16.1 € | 2026-10-13T22:43:29Z |
 | ✅ | `heisse-preise` | heisse-preise.io | 3 | 4.13 s | [Ager Hirschgulasch geschnitten](ager-hirschgulasch-geschnitten-00730647) · 11.99 € | 2026-10-13T22:43:30Z |
@@ -53,6 +54,7 @@ flowchart LR
 | ✅ | `livefresh` | Online: LiveFresh | 3 | 1.19 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-13T22:44:51Z |
 | ✅ | `mpreis` | MPREIS | 3 | 3.0 s | AIA Puten Gulasch · 6.5 € | 2026-10-13T22:44:52Z |
 | ✅ | `mpreis-shop` | MPreis | 3 | 7.96 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-13T22:44:56Z |
+| ✅ | `nah-frisch` | Nah&Frisch | 3 | 229.91 s | [Inzersdorfer Fertiggerichte oder Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-13T22:53:49Z |
 | ✅ | `penny` | PENNY | 2 | 3.05 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-13T22:48:16Z |
 | ✅ | `penny-shop` | PENNY | 2 | 8.22 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-13T22:48:19Z |
 | ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 6.73 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-13T22:48:27Z |
@@ -61,13 +63,11 @@ flowchart LR
 | ✅ | `unimarkt` | Unimarkt | 3 | 2.82 s | [Felix Erdäpfelgulasch](/Felix-Erdaepfelgulasch-3692) · 5.39 € | 2026-10-13T22:48:40Z |
 | 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-13T22:37:52Z |
 | 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-13T22:37:53Z |
-| ❌ | `dm-heisse` |  | 0 | 180 s | `timeout 180s` |  |
 | 📇 | `fittogo` | Fit to Go | 0 | 0.0 s |  | 2026-10-13T22:43:26Z |
 | 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-13T22:43:26Z |
 | ❌ | `lidl` | Lidl | 0 | 11.45 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-13T22:44:39Z |
 | 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-13T22:44:51Z |
 | 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-13T22:44:52Z |
-| ❌ | `nah-frisch` |  | 0 | 180 s | `timeout 180s` |  |
 | ❌ | `off` | Open Food Facts | 0 | 11.26 s | `HTTPError: HTTP Error 503: Service Temporarily Unavailable` | 2026-10-13T22:48:05Z |
 | 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-13T22:48:44Z |
 | 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-13T22:48:44Z |
@@ -214,14 +214,14 @@ flowchart LR
 
 **servas-ai/fertiggerichte-vergleich**
 
+- `781581b` 2026-10-13 22:57 — hourly T22: +40 verified meals (MPreis 20: Iglo Nuggets/Fischstäbchen/Gebackene Champignons, Alpenhain/Jeden Tag Back-Camembert, Garden Gourmet Vegane Schnitzel, Wagner Piccolinis/Steinofen via identical-product twins, Dozz Gazpacho via OFF-EAN; BILLA 11: Iglo Dorsch/Scholle/Polar-Dorsch/Fisch'n'Crunch/Ofengarnelen, Nordsee Knuspergarnelen, Dr. Oetker Suprema Tonno; Gurkerl 9: Iglo Backhendlstreifen/Nuggets, Bedford, Die Pflanzerei Wiener Mitzl, Yuu'n Mee, Alpenhain Back-Gouda), brand tree +Bedford→Mutsaers, Die Pflanzerei, Yuu'n Mee, DOZZ→Food Vision, Garden Gourmet→Nestlé; Wer-steckt-dahinter 'Woher kommen die Konzerne?' Länder-Chart + Top-8-Konzern-Anteile
+- `9f9f191` 2026-10-13 22:53 — rankings: separate light_meal topLight (300–400 kcal), collapse cross-store dupes in top lists, drop exact Hofer Kasnudeln twin
+- `17b625a` 2026-10-13 22:51 — logos: HelloFresh CDN SVG (93 products) T22
 - `91d4266` 2026-10-13 22:16 — data: OFF-only rows matched by exact GTIN to Gurkerl/MPreis/dm live (+18 store/price), 8 OFF duplicates dropped
 - `b3648a2` 2026-10-13 21:17 — data(squad T21): PENNY live via new food-connectors penny-shop (penny.at public online-assortment JSON): Penny 22→30 products, live prices 7→15, photos 17→25; Ofenbackfisch multi-buy 3.49 'bei 2 Packungen' corrected to single-pack 6.99
 - `f2b2057` 2026-10-13 21:05 — data(linz): linz_providers.json +PrepMyMeal/LiveFresh (359 rows, 244 ready_meal)
 - `43b078f` 2026-10-13 20:48 — squad T20b: Nah&Frisch first 7 products (0→7) via new food-connectors nah-frisch (public Angebote-der-Woche tiles KW41/42, OCR + visual check; iglo Fleischknödel 3.99, Knorr Kaiserteller 1.39 ×2, Inzersdorfer ×4 '-25%' no shelf price); nutrition from identical-product twins
 - `cb2ded9` 2026-10-13 20:19 — data: denn's BioMarkt AT rows fixed (per-article URLs; 4 offer rows + OFF soups), Daten-Squad T20
-- `ac346e8` 2026-10-13 20:12 — data: +6 denn's BioMarkt AT rows (denn's AT offer feed via food-connectors denns + OFF denn's-tagged soups), Daten-Squad T20
-- `7102641` 2026-10-13 19:49 — data: SPAR live prices via spar-shop connector (+121 Spar rows confirmed live 2026, Daten-Squad T19b)
-- `93674e5` 2026-10-13 19:22 — hourly T18: +32 verified meals (MPreis 26: Iglo/Therese Mölk/Toni Kaiser TK-Knödel, Pan/Alpenstrudel Strudel, Inzersdorfer Erdäpfelgulasch 800 g + Chili, Felix Gulaschsuppe 400 g, Knorr Rindsuppe, Alnatura Chili sin Carne, Followfood/Fryzza/Dr. Oetker Suprema/Jeden Tag TK-Pizza, Delamaris Njami Bowl, Gazpacho, Dozz Spinatsuppe; BILLA 5: Dr. Oetker Intermezzo x3, Wagner AirFryer Salami, Iglo Milchrahmstrudel; Gurkerl 1: Leitgeb's Italienischer Nudelteller); producers +23, IDK +1; brand tree +Therese Mölk/Toni Kaiser/Pan; Intermezzo + fruit-dumpling stage fix; rows 2824→2856
 
 **servas-ai/food-connectors**
 

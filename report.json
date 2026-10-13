@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13 22:48 UTC",
+ "generated": "2026-10-13 22:58 UTC",
  "connectors": [
   {
    "id": "billa",
@@ -55,6 +55,25 @@
     "source_url": "https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1759529391/assets/pas/images/650eacac-8246-4826-a6cf-718ab04b6e56/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "fetched_at": "2026-10-13T22:37:57+00:00"
+   },
+   "result": "pass"
+  },
+  {
+   "id": "dm-heisse",
+   "store": "dm",
+   "status_declared": "stale",
+   "ts": "2026-10-13T22:53:45Z",
+   "latency_s": 2.65,
+   "count": 3,
+   "schema_errors": [],
+   "sample": {
+    "name": "HiPP Menü Spätzle mit Gulasch ab 8 Monaten, 220 g",
+    "brand": null,
+    "store": "dm",
+    "price_eur": 1.75,
+    "source_url": null,
+    "image_url": null,
+    "fetched_at": "2026-10-13T22:53:48+00:00"
    },
    "result": "pass"
   },
@@ -188,6 +207,25 @@
     "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
     "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
     "fetched_at": "2026-10-13T22:44:59+00:00"
+   },
+   "result": "pass"
+  },
+  {
+   "id": "nah-frisch",
+   "store": "Nah&Frisch",
+   "status_declared": "live",
+   "ts": "2026-10-13T22:53:49Z",
+   "latency_s": 229.91,
+   "count": 3,
+   "schema_errors": [],
+   "sample": {
+    "name": "Inzersdorfer Fertiggerichte oder Suppen",
+    "brand": "Inzersdorfer",
+    "store": "Nah&Frisch",
+    "price_eur": null,
+    "source_url": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche",
+    "image_url": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
+    "fetched_at": "2026-10-13T22:56:24+00:00"
    },
    "result": "pass"
   },
@@ -326,13 +364,6 @@
    "result": "catalog"
   },
   {
-   "id": "dm-heisse",
-   "result": "fail",
-   "error": "timeout 180s",
-   "latency_s": 180,
-   "count": 0
-  },
-  {
    "id": "fittogo",
    "store": "Fit to Go",
    "status_declared": "catalog-only",
@@ -381,13 +412,6 @@
    "count": 0,
    "schema_errors": [],
    "result": "catalog"
-  },
-  {
-   "id": "nah-frisch",
-   "result": "fail",
-   "error": "timeout 180s",
-   "latency_s": 180,
-   "count": 0
   },
   {
    "id": "off",
@@ -1828,6 +1852,21 @@
  "changelog": {
   "servas-ai/fertiggerichte-vergleich": [
    [
+    "781581b",
+    "2026-10-13T22:57",
+    "hourly T22: +40 verified meals (MPreis 20: Iglo Nuggets/Fischstäbchen/Gebackene Champignons, Alpenhain/Jeden Tag Back-Camembert, Garden Gourmet Vegane Schnitzel, Wagner Piccolinis/Steinofen via identical-product twins, Dozz Gazpacho via OFF-EAN; BILLA 11: Iglo Dorsch/Scholle/Polar-Dorsch/Fisch'n'Crunch/Ofengarnelen, Nordsee Knuspergarnelen, Dr. Oetker Suprema Tonno; Gurkerl 9: Iglo Backhendlstreifen/Nuggets, Bedford, Die Pflanzerei Wiener Mitzl, Yuu'n Mee, Alpenhain Back-Gouda), brand tree +Bedford→Mutsaers, Die Pflanzerei, Yuu'n Mee, DOZZ→Food Vision, Garden Gourmet→Nestlé; Wer-steckt-dahinter 'Woher kommen die Konzerne?' Länder-Chart + Top-8-Konzern-Anteile"
+   ],
+   [
+    "9f9f191",
+    "2026-10-13T22:53",
+    "rankings: separate light_meal topLight (300–400 kcal), collapse cross-store dupes in top lists, drop exact Hofer Kasnudeln twin"
+   ],
+   [
+    "17b625a",
+    "2026-10-13T22:51",
+    "logos: HelloFresh CDN SVG (93 products) T22"
+   ],
+   [
     "91d4266",
     "2026-10-13T22:16",
     "data: OFF-only rows matched by exact GTIN to Gurkerl/MPreis/dm live (+18 store/price), 8 OFF duplicates dropped"
@@ -1851,21 +1890,6 @@
     "cb2ded9",
     "2026-10-13T20:19",
     "data: denn's BioMarkt AT rows fixed (per-article URLs; 4 offer rows + OFF soups), Daten-Squad T20"
-   ],
-   [
-    "ac346e8",
-    "2026-10-13T20:12",
-    "data: +6 denn's BioMarkt AT rows (denn's AT offer feed via food-connectors denns + OFF denn's-tagged soups), Daten-Squad T20"
-   ],
-   [
-    "7102641",
-    "2026-10-13T19:49",
-    "data: SPAR live prices via spar-shop connector (+121 Spar rows confirmed live 2026, Daten-Squad T19b)"
-   ],
-   [
-    "93674e5",
-    "2026-10-13T19:22",
-    "hourly T18: +32 verified meals (MPreis 26: Iglo/Therese Mölk/Toni Kaiser TK-Knödel, Pan/Alpenstrudel Strudel, Inzersdorfer Erdäpfelgulasch 800 g + Chili, Felix Gulaschsuppe 400 g, Knorr Rindsuppe, Alnatura Chili sin Carne, Followfood/Fryzza/Dr. Oetker Suprema/Jeden Tag TK-Pizza, Delamaris Njami Bowl, Gazpacho, Dozz Spinatsuppe; BILLA 5: Dr. Oetker Intermezzo x3, Wagner AirFryer Salami, Iglo Milchrahmstrudel; Gurkerl 1: Leitgeb's Italienischer Nudelteller); producers +23, IDK +1; brand tree +Therese Mölk/Toni Kaiser/Pan; Intermezzo + fruit-dumpling stage fix; rows 2824→2856"
    ]
   ],
   "servas-ai/food-connectors": [
