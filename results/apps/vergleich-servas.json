@@ -1,0 +1,405 @@
+{
+ "id": "vergleich-servas",
+ "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
+ "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
+ "ts": "2026-10-13T01:23:27Z",
+ "live": true,
+ "tabs": [
+  {
+   "tab": "home",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 46,
+   "screenshot": "screenshots/vergleich-servas/home_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Alle Gerichte",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 46,
+   "screenshot": "screenshots/vergleich-servas/alle_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83c\udf72 Gericht vergleichen",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 41,
+   "screenshot": "screenshots/vergleich-servas/gerichte_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Top-Listen",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 124,
+   "screenshot": "screenshots/vergleich-servas/top_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Kategorien",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 33,
+   "screenshot": "screenshots/vergleich-servas/kategorien_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Marken",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 299,
+   "screenshot": "screenshots/vergleich-servas/marken_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Filialen in der N\u00e4he",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 71,
+   "screenshot": "screenshots/vergleich-servas/filialen_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83e\ude7a Gesundheit & Qualit\u00e4t",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 83,
+   "screenshot": "screenshots/vergleich-servas/gesundheit_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Analyse",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 92,
+   "screenshot": "screenshots/vergleich-servas/analyse_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Preis vs. Protein",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 8,
+   "screenshot": "screenshots/vergleich-servas/scatter_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Verpackungen",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 8,
+   "screenshot": "screenshots/vergleich-servas/pack_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Hersteller",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 82,
+   "screenshot": "screenshots/vergleich-servas/hersteller-seiten_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83d\udd75\ufe0f Wer steckt dahinter?",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 592,
+   "screenshot": "screenshots/vergleich-servas/wer_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Marken-Matrix",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 104,
+   "screenshot": "screenshots/vergleich-servas/matrix_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Logos",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 102,
+   "screenshot": "screenshots/vergleich-servas/logos_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83d\udd78\ufe0f Netz 3D",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 8,
+   "screenshot": "screenshots/vergleich-servas/netz_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "L\u00e4den & Werke",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 43,
+   "screenshot": "screenshots/vergleich-servas/hersteller_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Wochenplaner",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 20,
+   "screenshot": "screenshots/vergleich-servas/planer_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Kombi-Ideen",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 281,
+   "screenshot": "screenshots/vergleich-servas/kombi_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Fit to Go vs. Supermarkt",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 104,
+   "screenshot": "screenshots/vergleich-servas/ftg_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Multipot-Pro Garzeiten",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 8,
+   "screenshot": "screenshots/vergleich-servas/multipot_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Methodik & Quellen",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 8,
+   "screenshot": "screenshots/vergleich-servas/methodik_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "home",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 188,
+   "screenshot": "screenshots/vergleich-servas/home_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Alle Gerichte",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 188,
+   "screenshot": "screenshots/vergleich-servas/alle_390.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83c\udf72 Gericht vergleichen",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 39,
+   "screenshot": "screenshots/vergleich-servas/gerichte_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Top-Listen",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 122,
+   "screenshot": "screenshots/vergleich-servas/top_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Kategorien",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 31,
+   "screenshot": "screenshots/vergleich-servas/kategorien_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Marken",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 297,
+   "screenshot": "screenshots/vergleich-servas/marken_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Filialen in der N\u00e4he",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 57,
+   "screenshot": "screenshots/vergleich-servas/filialen_390.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83e\ude7a Gesundheit & Qualit\u00e4t",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 73,
+   "screenshot": "screenshots/vergleich-servas/gesundheit_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Analyse",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 90,
+   "screenshot": "screenshots/vergleich-servas/analyse_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Preis vs. Protein",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/vergleich-servas/scatter_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Verpackungen",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/vergleich-servas/pack_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Hersteller",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 62,
+   "screenshot": "screenshots/vergleich-servas/hersteller-seiten_390.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83d\udd75\ufe0f Wer steckt dahinter?",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 590,
+   "screenshot": "screenshots/vergleich-servas/wer_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Marken-Matrix",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 84,
+   "screenshot": "screenshots/vergleich-servas/matrix_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Logos",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 100,
+   "screenshot": "screenshots/vergleich-servas/logos_390.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83d\udd78\ufe0f Netz 3D",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/vergleich-servas/netz_390.png",
+   "ok": true
+  },
+  {
+   "tab": "L\u00e4den & Werke",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 41,
+   "screenshot": "screenshots/vergleich-servas/hersteller_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Wochenplaner",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 18,
+   "screenshot": "screenshots/vergleich-servas/planer_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Kombi-Ideen",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 279,
+   "screenshot": "screenshots/vergleich-servas/kombi_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Fit to Go vs. Supermarkt",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 102,
+   "screenshot": "screenshots/vergleich-servas/ftg_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Multipot-Pro Garzeiten",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/vergleich-servas/multipot_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Methodik & Quellen",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/vergleich-servas/methodik_390.png",
+   "ok": true
+  }
+ ]
+}

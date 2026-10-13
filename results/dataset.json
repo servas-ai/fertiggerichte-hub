@@ -1,0 +1,109 @@
+{
+ "ts": "2026-10-13T01:26:48Z",
+ "products": 1293,
+ "by_store": [
+  [
+   "Spar",
+   531
+  ],
+  [
+   "Billa",
+   494
+  ],
+  [
+   "Hofer",
+   139
+  ],
+  [
+   "unbekannt (OFF)",
+   62
+  ],
+  [
+   "Fit to Go",
+   24
+  ],
+  [
+   "dm",
+   23
+  ],
+  [
+   "Lidl",
+   18
+  ],
+  [
+   "Penny",
+   2
+  ]
+ ],
+ "by_storage": [
+  [
+   "Unklar (keine Lagerangabe)",
+   479
+  ],
+  [
+   "Kühlregal (Menüschale/frisch)",
+   232
+  ],
+  [
+   "Trocken/Instant",
+   205
+  ],
+  [
+   "Tiefkühl (TK)",
+   178
+  ],
+  [
+   "Dose/Konserve",
+   167
+  ],
+  [
+   "Glas",
+   16
+  ],
+  [
+   "Sous-vide (vakuum)",
+   11
+  ],
+  [
+   "Beutel ungekühlt (Retort-Pouch)",
+   5
+  ]
+ ],
+ "coverage": {
+  "nutrition": 56.8,
+  "price": 88.8,
+  "photo": 77.1,
+  "producer": 42.2,
+  "brand": 69.2,
+  "logos_total": 135
+ },
+ "fill_rate_products": {
+  "bio": 100.0,
+  "brand": 69.2,
+  "chain": 100.0,
+  "dish": 38.0,
+  "image_url": 77.1,
+  "name": 100.0,
+  "origin": 23.9,
+  "pack_size_g": 91.0,
+  "producer": 42.2,
+  "product_id": 100.0,
+  "source": 100.0,
+  "storage": 100.0,
+  "url": 85.8,
+  "vegan": 100.0
+ },
+ "counts": {
+  "prices": 1148,
+  "brand_tree": 8,
+  "online_mealprep": 96,
+  "online_providers": 3,
+  "nutrition": 736,
+  "producers": 22,
+  "establishments": 4706,
+  "products": 1293,
+  "companies": 76,
+  "logos": 135,
+  "producer_quality": 4
+ }
+}

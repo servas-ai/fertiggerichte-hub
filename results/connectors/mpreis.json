@@ -1,0 +1,19 @@
+{
+ "id": "mpreis",
+ "store": "MPREIS",
+ "status_declared": "stale",
+ "ts": "2026-10-13T01:26:10Z",
+ "latency_s": 2.79,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "AIA Puten Gulasch",
+  "brand": null,
+  "store": "MPREIS",
+  "price_eur": 6.5,
+  "source_url": null,
+  "image_url": null,
+  "fetched_at": "2026-10-13T01:26:13+00:00"
+ },
+ "result": "pass"
+}

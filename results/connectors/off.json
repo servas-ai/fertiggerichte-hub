@@ -1,0 +1,10 @@
+{
+ "id": "off",
+ "store": "Open Food Facts",
+ "status_declared": "live",
+ "ts": "2026-10-13T01:26:14Z",
+ "latency_s": 12.73,
+ "count": 0,
+ "result": "fail",
+ "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+}

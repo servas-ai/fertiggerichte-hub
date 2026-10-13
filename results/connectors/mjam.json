@@ -1,0 +1,10 @@
+{
+ "id": "mjam",
+ "store": "mjam (now foodora)",
+ "status_declared": "catalog-only",
+ "ts": "2026-10-13T01:26:10Z",
+ "latency_s": 0.0,
+ "count": 0,
+ "schema_errors": [],
+ "result": "catalog"
+}

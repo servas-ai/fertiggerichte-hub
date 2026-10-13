@@ -1,0 +1,19 @@
+{
+ "id": "gurkerl",
+ "store": "Gurkerl.at",
+ "status_declared": "live",
+ "ts": "2026-10-13T01:25:42Z",
+ "latency_s": 0.79,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "AMA Kalb Ros\u00e9 Austria Gulasch geschnitten",
+  "brand": "Kalb ros\u00e9 Austria",
+  "store": "Gurkerl.at",
+  "price_eur": 16.1,
+  "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
+  "fetched_at": "2026-10-13T01:25:43+00:00"
+ },
+ "result": "pass"
+}

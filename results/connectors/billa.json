@@ -1,0 +1,10 @@
+{
+ "id": "billa",
+ "store": "BILLA",
+ "status_declared": "live",
+ "ts": "2026-10-13T01:25:23Z",
+ "latency_s": 7.74,
+ "count": 0,
+ "schema_errors": [],
+ "result": "fail"
+}
