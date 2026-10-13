@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T03:23:57Z UTC
-**Next biggest gap:** Spar photos/prices: 228/592 ready meals without photo and 135 prices only 2025; then Hofer 134/224 without photo + 87 Preis-2025 rows (Unimarkt verified closed → no live source possible; denn's/ADEG/Nah&Frisch have no product source)
+**Last updated:** 2026-10-13T03:49:46Z UTC
+**Next biggest gap:** Hofer photos/prices: 134/224 ready meals without photo and 87 Preis-2025 rows; Spar photos now complete (592/592 via heisse→CDN). denn's/ADEG/Nah&Frisch still have no product source.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -46,7 +46,7 @@ Other OSM chains in bbox:
 | Chain | Products | With image_url | % photos |
 |---|---|---|---|
 | Billa | 618 | 615 ([x]) | 99.5% |
-| Spar | 592 | 364 ([~]) | 61.5% |
+| Spar | 592 | 592 ([x]) | 100.0% |
 | Gurkerl | 356 | 356 ([x]) | 100.0% |
 | Hofer | 224 | 90 ([~]) | 40.2% |
 | unbekannt (OFF) | 136 | 125 ([~]) | 91.9% |
@@ -61,7 +61,7 @@ Other OSM chains in bbox:
 | FitTaste | 2 | 2 ([x]) | 100.0% |
 
 - [x] Total products: **2263**
-- [x] Total with photos: **1819** (80.4%)
+- [x] Total with photos: **2047** (90.5%)
 - [x] MPreis photos: live webshop connector `mpreis-shop` (101/101)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
@@ -150,6 +150,7 @@ Other OSM chains in bbox:
 - [ ] `nah-frisch` — **catalog-only**: nahundfrisch.at franchise info site; no webshop
 - [x] `mpreis-shop` — **live** MPreis webshop connector (sitemap + category pages + product JSON-LD; robots-allowed, `/search/` never used): 271 pages crawled, 0 errors → 101 ready meals with photo, live 2026 price, GTIN, pack size; 85 with nutrition table. CLI `food search … --store mpreis-shop`, MCP `mpreis_product`.
 - [-] `unimarkt-shop` — **closed, verified 2026-10-13**: shop.unimarkt.at answers 200 but sampled sitemap slugs (/fertiggerichte, /suppen, /snacks-fertiggerichte, /gulaschsuppe) 302 → / (others 404) = splash "UNIONLINE hat seinen Service eingestellt – Vielen Dank für Ihre Treue"; ajaxGateway only cart/merkliste actions; /suche/ 403 (not retried). Shop closed 02/2024 (cash.at), Unimarkt left retail 02–03/2026 (ooe.ORF.at: ~90 stores, ADEG 21 / Spar 23 / Nah&Frisch 2). Registered as catalog-only in food-connectors; evidence `fertiggerichte-daten/raw/unimarkt_shop_probe_2026-10-13.json`. OSM still tags some ex-Unimarkt branches.
+- [x] `spar` CDN images — **live** (2026-10-13): heisse-preise spar article id → `cdn1.interspar.at/cachableservlets/articleImage.dam/at/{id}/dt_main.jpg` HEAD-verified for all 228 previously photo-less Spar ready meals (228/228). CLI/MCP `food search` / Spar adapter now returns `image_url`. Evidence `fertiggerichte-daten/raw/spar_cdn_images_2026-10-13.json`. interspar.at HTML still Cloudflare-blocked.
 
 ## Totals snapshot
 
