@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13 11:00 UTC",
+ "generated": "2026-10-13 12:02 UTC",
  "connectors": [
   {
    "id": "billa",
    "store": "BILLA",
    "status_declared": "live",
-   "ts": "2026-10-13T10:56:48Z",
-   "latency_s": 1.01,
+   "ts": "2026-10-13T12:00:53Z",
+   "latency_s": 0.98,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -16,7 +16,7 @@
     "price_eur": 1.49,
     "source_url": "https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-56152-01709617834-_HJngsp4.jpg",
-    "fetched_at": "2026-10-13T10:56:49+00:00"
+    "fetched_at": "2026-10-13T12:00:54+00:00"
    },
    "result": "pass"
   },
@@ -24,8 +24,8 @@
    "id": "dm",
    "store": "dm",
    "status_declared": "live",
-   "ts": "2026-10-13T10:56:49Z",
-   "latency_s": 7.23,
+   "ts": "2026-10-13T12:00:54Z",
+   "latency_s": 5.22,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -35,7 +35,7 @@
     "price_eur": 1.15,
     "source_url": "https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1759529391/assets/pas/images/650eacac-8246-4826-a6cf-718ab04b6e56/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
-    "fetched_at": "2026-10-13T10:56:50+00:00"
+    "fetched_at": "2026-10-13T12:00:55+00:00"
    },
    "result": "pass"
   },
@@ -43,8 +43,8 @@
    "id": "dm-heisse",
    "store": "dm",
    "status_declared": "stale",
-   "ts": "2026-10-13T10:56:56Z",
-   "latency_s": 3.0,
+   "ts": "2026-10-13T12:01:00Z",
+   "latency_s": 2.67,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -54,7 +54,7 @@
     "price_eur": 1.75,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-13T10:56:59+00:00"
+    "fetched_at": "2026-10-13T12:01:02+00:00"
    },
    "result": "pass"
   },
@@ -62,8 +62,8 @@
    "id": "gourmetfein",
    "store": "Online: Gourmetfein",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:01Z",
-   "latency_s": 6.3,
+   "ts": "2026-10-13T12:01:04Z",
+   "latency_s": 7.38,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -73,7 +73,7 @@
     "price_eur": 24.9,
     "source_url": "https://shop.gourmetfein.com/products/weisswurst-1-8kg",
     "image_url": "https://cdn.shopify.com/s/files/1/0843/0020/2301/files/weisswurstleberk_se.jpg?v=1700573711",
-    "fetched_at": "2026-10-13T10:57:07+00:00"
+    "fetched_at": "2026-10-13T12:01:11+00:00"
    },
    "result": "pass"
   },
@@ -81,8 +81,8 @@
    "id": "gurkerl",
    "store": "Gurkerl.at",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:07Z",
-   "latency_s": 0.77,
+   "ts": "2026-10-13T12:01:11Z",
+   "latency_s": 0.84,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -92,7 +92,7 @@
     "price_eur": 16.1,
     "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
     "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
-    "fetched_at": "2026-10-13T10:57:08+00:00"
+    "fetched_at": "2026-10-13T12:01:12+00:00"
    },
    "result": "pass"
   },
@@ -100,8 +100,8 @@
    "id": "heisse-preise",
    "store": "heisse-preise.io",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:08Z",
-   "latency_s": 3.22,
+   "ts": "2026-10-13T12:01:12Z",
+   "latency_s": 2.57,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -111,7 +111,7 @@
     "price_eur": 11.99,
     "source_url": "ager-hirschgulasch-geschnitten-00730647",
     "image_url": null,
-    "fetched_at": "2026-10-13T10:57:11+00:00"
+    "fetched_at": "2026-10-13T12:01:15+00:00"
    },
    "result": "pass"
   },
@@ -119,8 +119,8 @@
    "id": "hofer",
    "store": "HOFER",
    "status_declared": "stale",
-   "ts": "2026-10-13T10:57:13Z",
-   "latency_s": 3.06,
+   "ts": "2026-10-13T12:01:16Z",
+   "latency_s": 2.63,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -130,7 +130,7 @@
     "price_eur": 19.98,
     "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
     "image_url": null,
-    "fetched_at": "2026-10-13T10:57:16+00:00"
+    "fetched_at": "2026-10-13T12:01:19+00:00"
    },
    "result": "pass"
   },
@@ -138,8 +138,8 @@
    "id": "livefresh",
    "store": "Online: LiveFresh",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:31Z",
-   "latency_s": 1.75,
+   "ts": "2026-10-13T12:01:33Z",
+   "latency_s": 2.17,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -149,7 +149,7 @@
     "price_eur": 5.99,
     "source_url": "https://livefresh.at/products/pasta-cheesy-spinat-400g",
     "image_url": "https://cdn.shopify.com/s/files/1/0058/6432/5231/files/cheesy-spinat-pasta.jpg?v=1771934953",
-    "fetched_at": "2026-10-13T10:57:32+00:00"
+    "fetched_at": "2026-10-13T12:01:35+00:00"
    },
    "result": "pass"
   },
@@ -157,8 +157,8 @@
    "id": "mpreis",
    "store": "MPREIS",
    "status_declared": "stale",
-   "ts": "2026-10-13T10:57:33Z",
-   "latency_s": 3.32,
+   "ts": "2026-10-13T12:01:35Z",
+   "latency_s": 2.71,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -168,7 +168,7 @@
     "price_eur": 6.5,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-13T10:57:36+00:00"
+    "fetched_at": "2026-10-13T12:01:38+00:00"
    },
    "result": "pass"
   },
@@ -176,8 +176,8 @@
    "id": "mpreis-shop",
    "store": "MPreis",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:37Z",
-   "latency_s": 10.11,
+   "ts": "2026-10-13T12:01:40Z",
+   "latency_s": 8.23,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -187,7 +187,7 @@
     "price_eur": 1.39,
     "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
     "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
-    "fetched_at": "2026-10-13T10:57:41+00:00"
+    "fetched_at": "2026-10-13T12:01:42+00:00"
    },
    "result": "pass"
   },
@@ -195,8 +195,8 @@
    "id": "off",
    "store": "Open Food Facts",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:48Z",
-   "latency_s": 4.48,
+   "ts": "2026-10-13T12:01:48Z",
+   "latency_s": 1.55,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -206,7 +206,7 @@
     "price_eur": null,
     "source_url": "https://world.openfoodfacts.org/product/4099200121543",
     "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
-    "fetched_at": "2026-10-13T10:57:52+00:00"
+    "fetched_at": "2026-10-13T12:01:50+00:00"
    },
    "result": "pass"
   },
@@ -214,8 +214,8 @@
    "id": "penny",
    "store": "PENNY",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:52Z",
-   "latency_s": 7.21,
+   "ts": "2026-10-13T12:01:50Z",
+   "latency_s": 5.83,
    "count": 2,
    "schema_errors": [],
    "sample": {
@@ -225,7 +225,7 @@
     "price_eur": 3.99,
     "source_url": "https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544771-0110601565-ojOoc2dp.jpg",
-    "fetched_at": "2026-10-13T10:57:57+00:00"
+    "fetched_at": "2026-10-13T12:01:53+00:00"
    },
    "result": "pass"
   },
@@ -233,8 +233,8 @@
    "id": "prepmymeal",
    "store": "Online: PrepMyMeal",
    "status_declared": "live",
-   "ts": "2026-10-13T10:58:00Z",
-   "latency_s": 9.08,
+   "ts": "2026-10-13T12:01:56Z",
+   "latency_s": 10.87,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -244,7 +244,7 @@
     "price_eur": 14.5,
     "source_url": "https://prepmymeal.at/products/ch-gemuse-lasagne-3",
     "image_url": "https://cdn.shopify.com/s/files/1/0337/6349/1884/files/GemuseLasagne_a6c6f64f-6b37-46d8-8384-9b826021345c.png?v=1737014090",
-    "fetched_at": "2026-10-13T10:58:09+00:00"
+    "fetched_at": "2026-10-13T12:02:06+00:00"
    },
    "result": "pass"
   },
@@ -252,8 +252,8 @@
    "id": "spar",
    "store": "SPAR/INTERSPAR",
    "status_declared": "live",
-   "ts": "2026-10-13T10:58:09Z",
-   "latency_s": 3.04,
+   "ts": "2026-10-13T12:02:06Z",
+   "latency_s": 2.67,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -263,7 +263,7 @@
     "price_eur": 4.99,
     "source_url": null,
     "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001282876/dt_main.jpg",
-    "fetched_at": "2026-10-13T10:58:12+00:00"
+    "fetched_at": "2026-10-13T12:02:09+00:00"
    },
    "result": "pass"
   },
@@ -271,8 +271,8 @@
    "id": "unimarkt",
    "store": "Unimarkt",
    "status_declared": "stale",
-   "ts": "2026-10-13T10:58:13Z",
-   "latency_s": 2.97,
+   "ts": "2026-10-13T12:02:11Z",
+   "latency_s": 2.75,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -282,7 +282,7 @@
     "price_eur": 5.39,
     "source_url": "/Felix-Erdaepfelgulasch-3692",
     "image_url": null,
-    "fetched_at": "2026-10-13T10:58:16+00:00"
+    "fetched_at": "2026-10-13T12:02:13+00:00"
    },
    "result": "pass"
   },
@@ -290,7 +290,7 @@
    "id": "adeg",
    "store": "ADEG",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:56:47Z",
+   "ts": "2026-10-13T12:00:53Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -300,7 +300,7 @@
    "id": "bio-kistl",
    "store": "Biohof Achleitner / Bio-Kistl OÖ",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:56:49Z",
+   "ts": "2026-10-13T12:00:54Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -310,7 +310,7 @@
    "id": "denns",
    "store": "denn's BioMarkt",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:56:49Z",
+   "ts": "2026-10-13T12:00:54Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -320,7 +320,7 @@
    "id": "fittogo",
    "store": "Fit to Go",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:57:01Z",
+   "ts": "2026-10-13T12:01:04Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -330,7 +330,7 @@
    "id": "foodora-market",
    "store": "foodora market (Dmart)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:57:01Z",
+   "ts": "2026-10-13T12:01:04Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -340,8 +340,8 @@
    "id": "lidl",
    "store": "Lidl",
    "status_declared": "live",
-   "ts": "2026-10-13T10:57:18Z",
-   "latency_s": 12.65,
+   "ts": "2026-10-13T12:01:20Z",
+   "latency_s": 12.55,
    "count": 0,
    "result": "fail",
    "error": "HTTPError: HTTP Error 401: Unauthorized"
@@ -350,7 +350,7 @@
    "id": "lieferando-shops",
    "store": "Lieferando Shops",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:57:31Z",
+   "ts": "2026-10-13T12:01:33Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -360,7 +360,7 @@
    "id": "mjam",
    "store": "mjam (now foodora)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:57:32Z",
+   "ts": "2026-10-13T12:01:35Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -370,7 +370,7 @@
    "id": "nah-frisch",
    "store": "Nah&Frisch",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:57:48Z",
+   "ts": "2026-10-13T12:01:48Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -380,7 +380,7 @@
    "id": "unimarkt-shop",
    "store": "Unimarkt (UNIONLINE Shop)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:58:18Z",
+   "ts": "2026-10-13T12:02:15Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -390,7 +390,7 @@
    "id": "wokostswas",
    "store": "wokostswas.at",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T10:58:18Z",
+   "ts": "2026-10-13T12:02:15Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -402,7 +402,7 @@
    "id": "vergleich",
    "name": "Fertiggerichte-Vergleich",
    "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T10:58:57Z",
+   "ts": "2026-10-13T11:56:39Z",
    "live": true,
    "tabs": [
     {
@@ -410,7 +410,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 67,
+     "images": 78,
      "screenshot": "screenshots/vergleich/home_1920.png",
      "ok": true
     },
@@ -419,7 +419,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 56,
+     "images": 58,
      "screenshot": "screenshots/vergleich/feed_1920.png",
      "ok": true
     },
@@ -437,7 +437,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 10,
+     "images": 13,
      "screenshot": "screenshots/vergleich/board_1920.png",
      "ok": true
     },
@@ -446,7 +446,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 37,
+     "images": 38,
      "screenshot": "screenshots/vergleich/gerichte_1920.png",
      "ok": true
     },
@@ -455,7 +455,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 109,
+     "images": 116,
      "screenshot": "screenshots/vergleich/top_1920.png",
      "ok": true
     },
@@ -464,7 +464,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 82,
+     "images": 84,
      "screenshot": "screenshots/vergleich/kategorien_1920.png",
      "ok": true
     },
@@ -491,7 +491,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 607,
+     "images": 653,
      "screenshot": "screenshots/vergleich/marken_1920.png",
      "ok": true
     },
@@ -509,7 +509,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 11,
+     "images": 45,
      "screenshot": "screenshots/vergleich/dashboard_1920.png",
      "ok": true
     },
@@ -527,7 +527,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 79,
+     "images": 82,
      "screenshot": "screenshots/vergleich/analyse_1920.png",
      "ok": true
     },
@@ -545,7 +545,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 29,
+     "images": 32,
      "screenshot": "screenshots/vergleich/pack_1920.png",
      "ok": true
     },
@@ -554,7 +554,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 100,
+     "images": 102,
      "screenshot": "screenshots/vergleich/matrix_1920.png",
      "ok": true
     },
@@ -572,7 +572,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 955,
+     "images": 972,
      "screenshot": "screenshots/vergleich/wer_1920.png",
      "ok": true
     },
@@ -599,7 +599,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 133,
+     "images": 172,
      "screenshot": "screenshots/vergleich/logos_1920.png",
      "ok": true
     },
@@ -680,7 +680,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 168,
+     "images": 194,
      "screenshot": "screenshots/vergleich/home_390.png",
      "ok": true
     },
@@ -689,7 +689,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 56,
+     "images": 58,
      "screenshot": "screenshots/vergleich/feed_390.png",
      "ok": true
     },
@@ -707,7 +707,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 10,
+     "images": 13,
      "screenshot": "screenshots/vergleich/board_390.png",
      "ok": true
     },
@@ -716,7 +716,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 37,
+     "images": 38,
      "screenshot": "screenshots/vergleich/gerichte_390.png",
      "ok": true
     },
@@ -725,7 +725,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 109,
+     "images": 116,
      "screenshot": "screenshots/vergleich/top_390.png",
      "ok": true
     },
@@ -734,7 +734,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 82,
+     "images": 84,
      "screenshot": "screenshots/vergleich/kategorien_390.png",
      "ok": true
     },
@@ -761,7 +761,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 607,
+     "images": 653,
      "screenshot": "screenshots/vergleich/marken_390.png",
      "ok": true
     },
@@ -779,7 +779,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 11,
+     "images": 45,
      "screenshot": "screenshots/vergleich/dashboard_390.png",
      "ok": true
     },
@@ -797,7 +797,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 79,
+     "images": 82,
      "screenshot": "screenshots/vergleich/analyse_390.png",
      "ok": true
     },
@@ -815,7 +815,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 29,
+     "images": 32,
      "screenshot": "screenshots/vergleich/pack_390.png",
      "ok": true
     },
@@ -824,7 +824,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 82,
+     "images": 84,
      "screenshot": "screenshots/vergleich/matrix_390.png",
      "ok": true
     },
@@ -842,7 +842,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 955,
+     "images": 972,
      "screenshot": "screenshots/vergleich/wer_390.png",
      "ok": true
     },
@@ -869,7 +869,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 133,
+     "images": 172,
      "screenshot": "screenshots/vergleich/logos_390.png",
      "ok": true
     },
@@ -951,7 +951,7 @@
    "id": "vergleich-servas",
    "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
    "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T10:54:21Z",
+   "ts": "2026-10-13T11:58:28Z",
    "live": true,
    "tabs": [
     {
@@ -959,7 +959,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 67,
+     "images": 78,
      "screenshot": "screenshots/vergleich-servas/home_1920.png",
      "ok": true
     },
@@ -968,7 +968,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 56,
+     "images": 58,
      "screenshot": "screenshots/vergleich-servas/feed_1920.png",
      "ok": true
     },
@@ -986,7 +986,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 10,
+     "images": 13,
      "screenshot": "screenshots/vergleich-servas/board_1920.png",
      "ok": true
     },
@@ -995,7 +995,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 37,
+     "images": 38,
      "screenshot": "screenshots/vergleich-servas/gerichte_1920.png",
      "ok": true
     },
@@ -1004,7 +1004,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 109,
+     "images": 116,
      "screenshot": "screenshots/vergleich-servas/top_1920.png",
      "ok": true
     },
@@ -1013,7 +1013,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 82,
+     "images": 84,
      "screenshot": "screenshots/vergleich-servas/kategorien_1920.png",
      "ok": true
     },
@@ -1040,7 +1040,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 607,
+     "images": 653,
      "screenshot": "screenshots/vergleich-servas/marken_1920.png",
      "ok": true
     },
@@ -1058,7 +1058,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 11,
+     "images": 45,
      "screenshot": "screenshots/vergleich-servas/dashboard_1920.png",
      "ok": true
     },
@@ -1076,7 +1076,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 79,
+     "images": 82,
      "screenshot": "screenshots/vergleich-servas/analyse_1920.png",
      "ok": true
     },
@@ -1094,7 +1094,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 29,
+     "images": 32,
      "screenshot": "screenshots/vergleich-servas/pack_1920.png",
      "ok": true
     },
@@ -1103,7 +1103,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 100,
+     "images": 102,
      "screenshot": "screenshots/vergleich-servas/matrix_1920.png",
      "ok": true
     },
@@ -1121,7 +1121,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 955,
+     "images": 972,
      "screenshot": "screenshots/vergleich-servas/wer_1920.png",
      "ok": true
     },
@@ -1148,7 +1148,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 133,
+     "images": 172,
      "screenshot": "screenshots/vergleich-servas/logos_1920.png",
      "ok": true
     },
@@ -1229,7 +1229,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 168,
+     "images": 194,
      "screenshot": "screenshots/vergleich-servas/home_390.png",
      "ok": true
     },
@@ -1238,7 +1238,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 56,
+     "images": 58,
      "screenshot": "screenshots/vergleich-servas/feed_390.png",
      "ok": true
     },
@@ -1256,7 +1256,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 10,
+     "images": 13,
      "screenshot": "screenshots/vergleich-servas/board_390.png",
      "ok": true
     },
@@ -1265,7 +1265,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 37,
+     "images": 38,
      "screenshot": "screenshots/vergleich-servas/gerichte_390.png",
      "ok": true
     },
@@ -1274,7 +1274,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 109,
+     "images": 116,
      "screenshot": "screenshots/vergleich-servas/top_390.png",
      "ok": true
     },
@@ -1283,7 +1283,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 82,
+     "images": 84,
      "screenshot": "screenshots/vergleich-servas/kategorien_390.png",
      "ok": true
     },
@@ -1310,7 +1310,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 607,
+     "images": 653,
      "screenshot": "screenshots/vergleich-servas/marken_390.png",
      "ok": true
     },
@@ -1328,7 +1328,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 11,
+     "images": 45,
      "screenshot": "screenshots/vergleich-servas/dashboard_390.png",
      "ok": true
     },
@@ -1346,7 +1346,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 79,
+     "images": 82,
      "screenshot": "screenshots/vergleich-servas/analyse_390.png",
      "ok": true
     },
@@ -1364,7 +1364,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 29,
+     "images": 32,
      "screenshot": "screenshots/vergleich-servas/pack_390.png",
      "ok": true
     },
@@ -1373,7 +1373,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 82,
+     "images": 84,
      "screenshot": "screenshots/vergleich-servas/matrix_390.png",
      "ok": true
     },
@@ -1391,7 +1391,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 955,
+     "images": 972,
      "screenshot": "screenshots/vergleich-servas/wer_390.png",
      "ok": true
     },
@@ -1418,7 +1418,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 133,
+     "images": 172,
      "screenshot": "screenshots/vergleich-servas/logos_390.png",
      "ok": true
     },
@@ -1500,7 +1500,7 @@
    "id": "einkaufsanalyse",
    "name": "Einkaufsanalyse",
    "url": "https://servas-ai.github.io/einkaufsanalyse/",
-   "ts": "2026-10-13T10:56:10Z",
+   "ts": "2026-10-13T12:00:16Z",
    "live": true,
    "tabs": [
     {
@@ -1651,7 +1651,7 @@
   }
  ],
  "dataset": {
-  "ts": "2026-10-13T10:58:18Z",
+  "ts": "2026-10-13T12:02:15Z",
   "products": 2392,
   "by_store": [
    [
@@ -1751,7 +1751,7 @@
    "photo": 93.0,
    "producer": 35.3,
    "brand": 86.5,
-   "logos_total": 166
+   "logos_total": 198
   },
   "fill_rate_products": {
    "bio": 100.0,
@@ -1779,13 +1779,33 @@
    "stores": 498,
    "establishments": 4706,
    "products": 2392,
-   "companies": 130,
-   "logos": 166,
+   "companies": 133,
+   "logos": 198,
    "producer_quality": 4
   }
  },
  "changelog": {
   "servas-ai/fertiggerichte-vergleich": [
+   [
+    "3d60a5b",
+    "2026-10-13T11:58",
+    "Daten-Squad 2026-10-13T11b: +30 vision-gated brand logos (NÖM, Danone, Bibigo, Zurück zum Ursprung, Meica, Heinz, Hilcona, Hengstenberg, Kotányi, NENI, Golfera, Stadtküche, Jeden Tag, Gü …) + 14 brand aliases"
+   ],
+   [
+    "90f271d",
+    "2026-10-13T11:53",
+    "hourly 2026-10-13T11: +72 meals (Gurkerl 38 / MPreis 34: Wagner, Dr. Oetker Ristorante/Tradizionale, Gustavo Gusto, Alnatura, Iglo Holy Slice, followfood, Frosta Nasi Goreng), MPreis per-portion nutrition fix (19 rows corrected), logos Gustavo Gusto/Morgentau + Samyang alias, brand tree European Pizza Group/Oetker/followfood/Gustavo Gusto, Dashboard Protein-Effizienz Bestenliste + Makro-Mix chart"
+   ],
+   [
+    "8c5cda5",
+    "2026-10-13T11:32",
+    "Daten-Squad 2026-10-13T11: +24 companies from public legal notices (21 VIES-verified UIDs, FN 27→39, LEI-or-UID 50→71/133)"
+   ],
+   [
+    "b600986",
+    "2026-10-13T11:06",
+    "Daten-Squad 2026-10-13T10: companies GLEIF LEI 25→50 (133 companies, FN 18→27) via stricter/broader food-connectors matcher"
+   ],
    [
     "77c55cf",
     "2026-10-13T10:47",
@@ -1805,29 +1825,24 @@
     "3ebe8fb",
     "2026-10-13T09:53",
     "hourly 2026-10-13T09: +23 meals (Gurkerl GAON/Bibigo/Hengstenberg/Virtshaus + MPreis soups), dm photos 1→22, brand tree GAON/Hengstenberg/Mochi, Dashboard Foto-Abdeckung chart"
-   ],
-   [
-    "5fbb1db",
-    "2026-10-13T09:35",
-    "Daten-Squad 2026-10-13T09: dm photos 1→22/24 (dm.at product JSON via sitemap DAN, Lotao Shopify, OFF strict), Hofer sub-brand logos wired (Primana 43 rows, Asia Green Garden 12 rows), Lotao logo (official), Aldi CDN probe for 22 Hofer Eigenmarken = 403 evidence"
-   ],
-   [
-    "5952763",
-    "2026-10-13T04:41",
-    "hourly 2026-10-13T04: +25 Gurkerl meals (Pappudia, Mochi Ramen, HOFMANNs TK, Freshery, Bonduelle, M&S) via food-connectors gurkerl enrich, brand tree Hofmann→Compass Group, Dashboard Preis-Aktualität je Laden (shadcn Chart)"
-   ],
-   [
-    "d06fb05",
-    "2026-10-13T04:36",
-    "Hofer photos 90→122 OFF strict + heisse price provenance"
-   ],
-   [
-    "555e27d",
-    "2026-10-13T03:52",
-    "Spar photos 100% via heisse CDN (228 verified)"
    ]
   ],
   "servas-ai/food-connectors": [
+   [
+    "71f01a7",
+    "2026-10-13T11:45",
+    "fix(mpreis): take nutrition only from the 'je 100 g' block (pages listing a portion block first were parsed as per-100 g; portion-only pages now stay empty); add TK pizza categories to mpreis-shop + gurkerl ready-meal fetch; tests (2026-10-13T11)"
+   ],
+   [
+    "fd204f4",
+    "2026-10-13T11:30",
+    "feat(company): impressum adapter — FN/HRB/UID from public legal notices (robots.txt respected), every UID verified live via EU VIES with name match; CLI --impressum, MCP company_impressum; tests"
+   ],
+   [
+    "27ed143",
+    "2026-10-13T11:03",
+    "fix(company): stricter + broader GLEIF matching — spelling variants (ASCII/ö→oe/legal-form-stripped), legal-form families (AG≡SpA, GmbH≡m.b.H.≡srl), country must match legal address, min score 0.85; tests"
+   ],
    [
     "8862425",
     "2026-10-13T10:43",
@@ -1852,24 +1867,24 @@
     "b32e017",
     "2026-10-13T03:50",
     "feat(spar): attach CDN image_url from heisse article id"
-   ],
-   [
-    "32abd1c",
-    "2026-10-13T03:17",
-    "catalog: unimarkt-shop note precision (sampled slugs)"
-   ],
-   [
-    "cde29e5",
-    "2026-10-13T03:16",
-    "catalog: unimarkt-shop verified CLOSED (shop.unimarkt.at = 'Service eingestellt' splash, all slugs 302 -> /; chain left retail 2026); unimarkt dump notes = history only; test"
-   ],
-   [
-    "b3577e9",
-    "2026-10-13T02:53",
-    "feat(mpreis-shop): live MPreis webshop connector (sitemap + category pages + product JSON-LD: price, GTIN, image, pack size, nutrition, ingredients), CLI + MCP mpreis_product, fixture test"
    ]
   ],
   "servas-ai/fertiggerichte-daten": [
+   [
+    "8abca80",
+    "2026-10-13T11:54",
+    "logos: +30 vision-gated brand logos (NÖM, Danone, Bibigo, Zurück zum Ursprung, Meica, Heinz, Hilcona, Hengstenberg, Kotányi, Nongshim, NENI, Golfera, Stadtküche, Jeden Tag, Gü, Greenforce, Wiegert, Berger Schinken, Bürger …) from Wikimedia Commons (licence noted) or official site headers + 14 safe aliases to existing logo files; strict logo-less 208→160 brands / 555→464 products; evidence raw/logos_squad_2026-10-13T11.json"
+   ],
+   [
+    "4d0d6c9",
+    "2026-10-13T11:31",
+    "companies: +24 legal entities from public legal notices — 21 UIDs verified live via EU VIES (11 AT, 10 DE), FN 27→39, LEI-or-UID 50→71/133; 12 candidates rejected with reasons (evidence raw/impressum_vies_2026-10-13.json); overlay survives GLEIF reruns; validator UID/FN format checks"
+   ],
+   [
+    "a83547a",
+    "2026-10-13T11:04",
+    "companies: GLEIF LEI 25→50 (133 companies, FN 18→27) via food-connectors stricter/broader matcher; Rügenwalder Mühle alias; rejected-candidate evidence (Lidl AT LEI is German HRB entity, dm Verwaltungsges., Ehrmann SE, Unimarkt KG)"
+   ],
    [
     "e7517d2",
     "2026-10-13T10:44",
@@ -1894,21 +1909,6 @@
     "7343416",
     "2026-10-13T04:37",
     "scripts: enrich_hofer_images also writes fertig overlay"
-   ],
-   [
-    "81ef711",
-    "2026-10-13T04:35",
-    "data: Hofer images overlay for fertig score.py rebuilds"
-   ],
-   [
-    "45cf7a9",
-    "2026-10-13T04:34",
-    "data: Hofer photos 90→122 via strict OFF match; refresh heisse prices"
-   ],
-   [
-    "722cab2",
-    "2026-10-13T03:52",
-    "export: refresh after Spar CDN photo deploy (2335 products, 2115 photos)"
    ]
   ],
   "servas-ai/einkaufsanalyse": [
