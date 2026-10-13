@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T23:21:01Z UTC
-**Next biggest gap:** Remaining logo-less: Vemondo (7), The Green Garden (6), M/MPreis Eigenmarke (6+6), Leitgeb's (6), Nature's Gold (5), Yum Yum (5). EAN overlay partial in daten (205→192 OFF; 6/19 overlay GTINs still absent from CSV). Then Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401.
+**Last updated:** 2026-10-13T23:44:03Z UTC
+**Next biggest gap:** Remaining logo-less brands now long tail: The Green Garden (6, Gurkerl collab, no packshot), Wiener Virtshaus (4, BS Gastro no site), Delikatessa/Rettenswert/Pasta Box/Elsässer/Schulzi´s/Wolfensberger & Pomella (3 each). EAN overlay partial in daten (205→192 OFF). Then Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -71,18 +71,18 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **254** (219 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **257** (225 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 357; brands without a logo file: 96 (165 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 68 brands / 113 products); logo rows with file: 219/254; top 8:
-  - [ ] Vemondo (7 products)
+- Brands in products: 357; brands without a logo file: 87 (124 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 62 brands / 88 products); logo rows with file: 225/257; top 8:
   - [ ] The Green Garden (6 products)
-  - [ ] M (6 products)
-  - [ ] Leitgeb's Nudelspezialitäten (6 products)
-  - [ ] M (MPreis Eigenmarke) (6 products)
-  - [ ] Nature's Gold (5 products)
-  - [ ] Yum Yum (5 products)
-  - [ ] Kania (4 products)
+  - [ ] Wiener Virtshaus (4 products)
+  - [ ] Delikatessa (3 products)
+  - [ ] Rettenswert (3 products)
+  - [ ] Pasta Box (3 products)
+  - [ ] Elsässer (3 products)
+  - [ ] Schulzi´s Knödel (3 products)
+  - [ ] Wolfensberger & Pomella (3 products)
 - [~] Company/producer logos (app Firmen view, `companies.json`): **118/133** companies with a logo (was 114 before 2026-10-13T14: deli gourmet→deli dip, Ablinger, BioGourmet, Zum Dorfkrug now have vision-gated official logos; T15 brand logos Podravka/Heura/Nordsee/Mama/Maza/Englert are brand rows only — none of the 133 companies maps to them, so still 118; earlier 2026-10-13T13b via Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (15, known dead ends): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, Dairy 4 Fun (TLS), Doppelt, Franuí (SSL EOF), Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft (TLS), La Crêpe de Brocéliande (TLS), Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed). Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`, `raw/logos_squad_2026-10-13T14.json`, `raw/logos_squad_2026-10-13T15.json`.
 
 ## Companies
@@ -187,7 +187,7 @@ Other OSM chains in bbox:
 
 - Products: 3075
 - Prices: 2734 (live 2026: 2510)
-- Logos: 254
+- Logos: 257
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
 - Online meal-prep: 96
