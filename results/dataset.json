@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-13T09:55:26Z",
- "products": 2360,
+ "ts": "2026-10-13T10:58:18Z",
+ "products": 2392,
  "by_store": [
   [
    "Billa",
@@ -12,7 +12,7 @@
   ],
   [
    "Gurkerl",
-   381
+   400
   ],
   [
    "Hofer",
@@ -20,7 +20,7 @@
   ],
   [
    "MPreis",
-   174
+   178
   ],
   [
    "unbekannt (OFF)",
@@ -35,12 +35,12 @@
    40
   ],
   [
-   "Unimarkt",
-   29
+   "dm",
+   33
   ],
   [
-   "dm",
-   24
+   "Unimarkt",
+   29
   ],
   [
    "Fit to Go",
@@ -62,27 +62,27 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1063
+   1060
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   341
-  ],
-  [
-   "Tiefkühl (TK)",
-   328
+   352
   ],
   [
    "Dose/Konserve",
-   317
+   334
+  ],
+  [
+   "Tiefkühl (TK)",
+   332
   ],
   [
    "Trocken/Instant",
-   268
+   269
   ],
   [
    "Glas",
-   16
+   18
   ],
   [
    "Sous-vide (vakuum)",
@@ -94,41 +94,41 @@
   ]
  ],
  "coverage": {
-  "nutrition": 67.6,
-  "price": 86.2,
-  "photo": 92.9,
-  "producer": 34.6,
-  "brand": 85.8,
-  "logos_total": 156
+  "nutrition": 68.2,
+  "price": 86.4,
+  "photo": 93.0,
+  "producer": 35.3,
+  "brand": 86.5,
+  "logos_total": 166
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 85.8,
+  "brand": 86.5,
   "chain": 100.0,
-  "dish": 32.8,
-  "image_url": 92.9,
+  "dish": 32.4,
+  "image_url": 93.0,
   "name": 100.0,
-  "origin": 31.1,
-  "pack_size_g": 91.6,
-  "producer": 34.6,
+  "origin": 31.9,
+  "pack_size_g": 91.7,
+  "producer": 35.3,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 94.2,
+  "url": 94.4,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 2034,
+  "prices": 2066,
   "brand_tree": 8,
   "online_mealprep": 96,
   "online_providers": 3,
-  "nutrition": 1596,
+  "nutrition": 1633,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 2360,
-  "companies": 83,
-  "logos": 156,
+  "products": 2392,
+  "companies": 130,
+  "logos": 166,
   "producer_quality": 4
  }
 }

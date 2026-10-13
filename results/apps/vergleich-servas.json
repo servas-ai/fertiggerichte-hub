@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T09:58:00Z",
+ "ts": "2026-10-13T10:54:21Z",
  "live": true,
  "tabs": [
   {
@@ -55,7 +55,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 107,
+   "images": 109,
    "screenshot": "screenshots/vergleich-servas/top_1920.png",
    "ok": true
   },
@@ -91,7 +91,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 583,
+   "images": 607,
    "screenshot": "screenshots/vergleich-servas/marken_1920.png",
    "ok": true
   },
@@ -118,7 +118,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 69,
+   "images": 72,
    "screenshot": "screenshots/vergleich-servas/gesundheit_1920.png",
    "ok": true
   },
@@ -154,7 +154,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 94,
+   "images": 100,
    "screenshot": "screenshots/vergleich-servas/matrix_1920.png",
    "ok": true
   },
@@ -172,7 +172,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 915,
+   "images": 955,
    "screenshot": "screenshots/vergleich-servas/wer_1920.png",
    "ok": true
   },
@@ -199,7 +199,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 124,
+   "images": 133,
    "screenshot": "screenshots/vergleich-servas/logos_1920.png",
    "ok": true
   },
@@ -235,7 +235,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 126,
+   "images": 127,
    "screenshot": "screenshots/vergleich-servas/online_1920.png",
    "ok": true
   },
@@ -280,7 +280,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 164,
+   "images": 168,
    "screenshot": "screenshots/vergleich-servas/home_390.png",
    "ok": true
   },
@@ -325,7 +325,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 107,
+   "images": 109,
    "screenshot": "screenshots/vergleich-servas/top_390.png",
    "ok": true
   },
@@ -361,7 +361,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 583,
+   "images": 607,
    "screenshot": "screenshots/vergleich-servas/marken_390.png",
    "ok": true
   },
@@ -388,7 +388,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 65,
+   "images": 68,
    "screenshot": "screenshots/vergleich-servas/gesundheit_390.png",
    "ok": true
   },
@@ -424,7 +424,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 76,
+   "images": 82,
    "screenshot": "screenshots/vergleich-servas/matrix_390.png",
    "ok": true
   },
@@ -442,7 +442,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 935,
+   "images": 955,
    "screenshot": "screenshots/vergleich-servas/wer_390.png",
    "ok": true
   },
@@ -469,7 +469,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 124,
+   "images": 133,
    "screenshot": "screenshots/vergleich-servas/logos_390.png",
    "ok": true
   },
@@ -505,7 +505,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 126,
+   "images": 127,
    "screenshot": "screenshots/vergleich-servas/online_390.png",
    "ok": true
   },
