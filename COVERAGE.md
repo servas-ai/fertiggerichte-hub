@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T02:27:25Z UTC
-**Next biggest gap:** MPreis/Unimarkt products have no image_url (heisse dump provides none)
+**Last updated:** 2026-10-13T02:54:59Z UTC
+**Next biggest gap:** Unimarkt has no live shop connector (29 stale dump rows, 0 photos); denn's/ADEG/Nah&Frisch have no product source
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -9,19 +9,20 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 
 | Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |
 |---|---|---|---|---|---|
-| Spar | [x] | 531 | [x] | 50 | [x] |
-| Billa | [x] | 494 | [x] | 74 | [x] |
+| Spar | [x] | 592 | [x] | 50 | [x] |
+| Billa | [x] | 618 | [x] | 74 | [x] |
 | Billa Plus | [ ] | 0 | [x] | 9 | [x] |
-| Hofer | [x] | 139 | [x] | 37 | [x] |
-| Lidl | [x] | 18 | [x] | 20 | [x] |
-| Penny | [x] | 2 | [x] | 22 | [x] |
-| dm | [x] | 23 | [x] | 28 | [x] |
-| denn's BioMarkt | [ ] | 0 | [x] | 2 | [ ] |
-| MPreis | [x] | 149 | [ ] | 0 | [ ] |
-| Unimarkt | [x] | 29 | [x] | 2 | [ ] |
-| ADEG | [ ] | 0 | [x] | 2 | [ ] |
-| Nah&Frisch | [ ] | 0 | [x] | 10 | [ ] |
+| Hofer | [x] | 224 | [x] | 37 | [x] |
+| Lidl | [x] | 40 | [x] | 20 | [x] |
+| Penny | [x] | 17 | [x] | 22 | [x] |
+| dm | [x] | 24 | [x] | 28 | [x] |
+| denn's BioMarkt | [ ] | 0 | [x] | 2 | [x] |
+| MPreis | [x] | 101 | [ ] | 0 | [x] |
+| Unimarkt | [x] | 29 | [x] | 2 | [x] |
+| ADEG | [ ] | 0 | [x] | 2 | [x] |
+| Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
 | Fit to Go | [x] | 24 | [ ] | 0 | [x] |
+| Gurkerl | [x] | 356 | [ ] | 0 | [ ] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
 
@@ -44,27 +45,31 @@ Other OSM chains in bbox:
 
 | Chain | Products | With image_url | % photos |
 |---|---|---|---|
-| Spar | 531 | 358 ([~]) | 67.4% |
-| Billa | 494 | 491 ([~]) | 99.4% |
-| MPreis | 149 | 0 ([ ]) | 0.0% |
-| Hofer | 139 | 56 ([~]) | 40.3% |
-| unbekannt (OFF) | 62 | 49 ([~]) | 79.0% |
+| Billa | 618 | 615 ([x]) | 99.5% |
+| Spar | 592 | 364 ([~]) | 61.5% |
+| Gurkerl | 356 | 356 ([x]) | 100.0% |
+| Hofer | 224 | 90 ([~]) | 40.2% |
+| unbekannt (OFF) | 136 | 125 ([~]) | 91.9% |
+| MPreis | 101 | 101 ([x]) | 100.0% |
+| PrepMyMeal | 90 | 90 ([x]) | 100.0% |
+| Lidl | 40 | 29 ([~]) | 72.5% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
+| dm | 24 | 1 ([~]) | 4.2% |
 | Fit to Go | 24 | 24 ([x]) | 100.0% |
-| dm | 23 | 0 ([ ]) | 0.0% |
-| Lidl | 18 | 17 ([~]) | 94.4% |
-| Penny | 2 | 2 ([x]) | 100.0% |
+| Penny | 17 | 12 ([~]) | 70.6% |
+| LiveFresh | 10 | 10 ([x]) | 100.0% |
+| FitTaste | 2 | 2 ([x]) | 100.0% |
 
-- [x] Total products: **1471**
-- [x] Total with photos: **997** (67.8%)
-- [ ] MPreis/Unimarkt photos: heisse-preise dump has no image URLs (0%)
-- [x] Filtering: classics `dishes.dish_key` + pack-size ≥150 g + non-meal exclusions
+- [x] Total products: **2263**
+- [x] Total with photos: **1819** (80.4%)
+- [x] MPreis photos: live webshop connector `mpreis-shop` (101/101)
+- [ ] Unimarkt photos: 0/29 (heisse-preise dump has no image URLs; unimarkt.at shop needs a connector)
 
 ## Logos
 
-- [x] Logo index rows: **135** (`data/logos.csv`)
-- Handelskette logos present: ['Billa', 'Hofer', 'Lidl', 'Penny', 'Spar', 'dm']
-- [ ] Missing Handelskette logos: MPreis, Unimarkt, denn's BioMarkt, ADEG, Nah&Frisch, Fit to Go, Billa Plus (separate), Eurospar/Interspar (covered by Spar)
+- [x] Logo index rows: **149** (`data/logos.csv`)
+- Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
+- [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
 - Brands in products: 263; top brands missing logo file: 6
   - [ ] fit2go.meals (Fit2go GmbH) (24 products)
   - [ ] TCM Emaille-Auflaufform (8 products)
@@ -95,16 +100,20 @@ Other OSM chains in bbox:
 
 | Chain | Price rows | Status breakdown |
 |---|---|---|
-| Spar [~] | 526 | live 2026: 401 · Preis 2025: 125 |
-| Billa [~] | 483 | live 2026: 481 · Preis 2025: 2 |
-| MPreis [ ] | 149 | Preis 2023: 79 · Preis 2024: 70 |
-| Hofer [~] | 86 | Preis 2025: 55 · live 2026: 30 · Preis unbestätigt: 1 |
+| Billa [~] | 596 | live 2026: 594 · Preis 2025: 2 |
+| Spar [~] | 577 | live 2026: 442 · Preis 2025: 135 |
+| Gurkerl [x] | 356 | live 2026: 356 |
+| Hofer [~] | 123 | Preis 2025: 87 · live 2026: 35 · Preis unbestätigt: 1 |
+| MPreis [x] | 101 | live 2026: 101 |
+| PrepMyMeal [x] | 90 | live 2026: 90 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | Fit to Go [x] | 24 | live 2026: 24 |
 | dm [~] | 23 | live 2026: 12 · Preis 2025: 11 |
+| LiveFresh [x] | 10 | live 2026: 10 |
 | Lidl [x] | 6 | live 2026: 6 |
-- [x] MPreis/Unimarkt prices appended from heisse-preise.io (stale 2023–2024 dump dates — marked `Preis YYYY`, not live)
-- [ ] Fresh live tariffs for MPreis/Unimarkt/Hofer/dm: need browser or revived shop APIs
+| Penny [x] | 2 | live 2026: 2 |
+- [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)
+- [ ] Fresh live prices for Unimarkt/Hofer/dm/Spar-2025 rows: need shop connectors or browser
 
 ## Public datasets
 
@@ -136,13 +145,14 @@ Other OSM chains in bbox:
 - [ ] `denns` — **catalog-only**: denns-biomarkt.at is Sanity marketing/info site; no product listing, `/sitemap.xml` 404, robots → biomarkt.de sitemap 404; no public product JSON/API; not bypassing bot protection (none needed — simply no shop data)
 - [ ] `adeg` — **catalog-only**: adeg.at sitemap = pages/news/recipes only; no online shop / product API
 - [ ] `nah-frisch` — **catalog-only**: nahundfrisch.at franchise info site; no webshop
+- [x] `mpreis-shop` — **live** MPreis webshop connector (sitemap + category pages + product JSON-LD; robots-allowed, `/search/` never used): 271 pages crawled, 0 errors → 101 ready meals with photo, live 2026 price, GTIN, pack size; 85 with nutrition table. CLI `food search … --store mpreis-shop`, MCP `mpreis_product`.
 
 ## Totals snapshot
 
-- Products: 1471
-- Prices: 1326
+- Products: 2263
+- Prices: 1937 (live 2026: 1672)
+- Logos: 149
 - Stores (OSM Linz bbox): 498
-- Logos: 135
 - Companies: 83
 - Online meal-prep: 96
 - External datasets catalogued: 11
