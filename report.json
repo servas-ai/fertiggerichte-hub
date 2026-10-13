@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13 14:44 UTC",
+ "generated": "2026-10-13 15:41 UTC",
  "connectors": [
   {
    "id": "billa",
    "store": "BILLA",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:04Z",
-   "latency_s": 0.55,
+   "ts": "2026-10-13T15:40:48Z",
+   "latency_s": 0.43,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -16,7 +16,7 @@
     "price_eur": 1.49,
     "source_url": "https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-56152-01709617834-_HJngsp4.jpg",
-    "fetched_at": "2026-10-13T14:43:05+00:00"
+    "fetched_at": "2026-10-13T15:40:48+00:00"
    },
    "result": "pass"
   },
@@ -24,8 +24,8 @@
    "id": "dm",
    "store": "dm",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:05Z",
-   "latency_s": 3.71,
+   "ts": "2026-10-13T15:40:49Z",
+   "latency_s": 3.54,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -35,7 +35,7 @@
     "price_eur": 1.15,
     "source_url": "https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1759529391/assets/pas/images/650eacac-8246-4826-a6cf-718ab04b6e56/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
-    "fetched_at": "2026-10-13T14:43:05+00:00"
+    "fetched_at": "2026-10-13T15:40:49+00:00"
    },
    "result": "pass"
   },
@@ -43,8 +43,8 @@
    "id": "dm-heisse",
    "store": "dm",
    "status_declared": "stale",
-   "ts": "2026-10-13T14:43:09Z",
-   "latency_s": 17.14,
+   "ts": "2026-10-13T15:40:52Z",
+   "latency_s": 2.65,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -54,7 +54,7 @@
     "price_eur": 1.75,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-13T14:43:26+00:00"
+    "fetched_at": "2026-10-13T15:40:55+00:00"
    },
    "result": "pass"
   },
@@ -62,8 +62,8 @@
    "id": "gourmetfein",
    "store": "Online: Gourmetfein",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:28Z",
-   "latency_s": 3.33,
+   "ts": "2026-10-13T15:40:57Z",
+   "latency_s": 2.85,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -73,7 +73,7 @@
     "price_eur": 24.9,
     "source_url": "https://shop.gourmetfein.com/products/weisswurst-1-8kg",
     "image_url": "https://cdn.shopify.com/s/files/1/0843/0020/2301/files/weisswurstleberk_se.jpg?v=1700573711",
-    "fetched_at": "2026-10-13T14:43:31+00:00"
+    "fetched_at": "2026-10-13T15:40:59+00:00"
    },
    "result": "pass"
   },
@@ -81,8 +81,8 @@
    "id": "gurkerl",
    "store": "Gurkerl.at",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:31Z",
-   "latency_s": 0.32,
+   "ts": "2026-10-13T15:40:59Z",
+   "latency_s": 0.43,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -92,7 +92,7 @@
     "price_eur": 16.1,
     "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
     "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
-    "fetched_at": "2026-10-13T14:43:31+00:00"
+    "fetched_at": "2026-10-13T15:41:00+00:00"
    },
    "result": "pass"
   },
@@ -100,8 +100,8 @@
    "id": "heisse-preise",
    "store": "heisse-preise.io",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:31Z",
-   "latency_s": 2.79,
+   "ts": "2026-10-13T15:41:00Z",
+   "latency_s": 2.64,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -111,7 +111,7 @@
     "price_eur": 11.99,
     "source_url": "ager-hirschgulasch-geschnitten-00730647",
     "image_url": null,
-    "fetched_at": "2026-10-13T14:43:34+00:00"
+    "fetched_at": "2026-10-13T15:41:03+00:00"
    },
    "result": "pass"
   },
@@ -119,8 +119,8 @@
    "id": "hofer",
    "store": "HOFER",
    "status_declared": "stale",
-   "ts": "2026-10-13T14:43:36Z",
-   "latency_s": 2.8,
+   "ts": "2026-10-13T15:41:04Z",
+   "latency_s": 2.78,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -130,7 +130,7 @@
     "price_eur": 19.98,
     "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
     "image_url": null,
-    "fetched_at": "2026-10-13T14:43:38+00:00"
+    "fetched_at": "2026-10-13T15:41:07+00:00"
    },
    "result": "pass"
   },
@@ -138,8 +138,8 @@
    "id": "livefresh",
    "store": "Online: LiveFresh",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:52Z",
-   "latency_s": 1.16,
+   "ts": "2026-10-13T15:41:20Z",
+   "latency_s": 1.23,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -149,7 +149,7 @@
     "price_eur": 5.99,
     "source_url": "https://livefresh.at/products/pasta-cheesy-spinat-400g",
     "image_url": "https://cdn.shopify.com/s/files/1/0058/6432/5231/files/cheesy-spinat-pasta.jpg?v=1771934953",
-    "fetched_at": "2026-10-13T14:43:53+00:00"
+    "fetched_at": "2026-10-13T15:41:21+00:00"
    },
    "result": "pass"
   },
@@ -157,8 +157,8 @@
    "id": "mpreis",
    "store": "MPREIS",
    "status_declared": "stale",
-   "ts": "2026-10-13T14:43:53Z",
-   "latency_s": 2.71,
+   "ts": "2026-10-13T15:41:22Z",
+   "latency_s": 2.63,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -168,7 +168,7 @@
     "price_eur": 6.5,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-13T14:43:56+00:00"
+    "fetched_at": "2026-10-13T15:41:24+00:00"
    },
    "result": "pass"
   },
@@ -176,8 +176,8 @@
    "id": "mpreis-shop",
    "store": "MPreis",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:57Z",
-   "latency_s": 6.95,
+   "ts": "2026-10-13T15:41:26Z",
+   "latency_s": 6.94,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -187,7 +187,7 @@
     "price_eur": 1.39,
     "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
     "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
-    "fetched_at": "2026-10-13T14:43:59+00:00"
+    "fetched_at": "2026-10-13T15:41:28+00:00"
    },
    "result": "pass"
   },
@@ -195,8 +195,8 @@
    "id": "off",
    "store": "Open Food Facts",
    "status_declared": "live",
-   "ts": "2026-10-13T14:44:05Z",
-   "latency_s": 1.22,
+   "ts": "2026-10-13T15:41:33Z",
+   "latency_s": 1.15,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -206,7 +206,7 @@
     "price_eur": null,
     "source_url": "https://world.openfoodfacts.org/product/4099200121543",
     "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
-    "fetched_at": "2026-10-13T14:44:06+00:00"
+    "fetched_at": "2026-10-13T15:41:34+00:00"
    },
    "result": "pass"
   },
@@ -214,8 +214,8 @@
    "id": "penny",
    "store": "PENNY",
    "status_declared": "live",
-   "ts": "2026-10-13T14:44:06Z",
-   "latency_s": 4.47,
+   "ts": "2026-10-13T15:41:34Z",
+   "latency_s": 5.11,
    "count": 2,
    "schema_errors": [],
    "sample": {
@@ -225,7 +225,7 @@
     "price_eur": 3.99,
     "source_url": "https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544771-0110601565-ojOoc2dp.jpg",
-    "fetched_at": "2026-10-13T14:44:09+00:00"
+    "fetched_at": "2026-10-13T15:41:37+00:00"
    },
    "result": "pass"
   },
@@ -233,8 +233,8 @@
    "id": "prepmymeal",
    "store": "Online: PrepMyMeal",
    "status_declared": "live",
-   "ts": "2026-10-13T14:44:10Z",
-   "latency_s": 6.08,
+   "ts": "2026-10-13T15:41:39Z",
+   "latency_s": 6.27,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -244,7 +244,7 @@
     "price_eur": 14.5,
     "source_url": "https://prepmymeal.at/products/ch-gemuse-lasagne-3",
     "image_url": "https://cdn.shopify.com/s/files/1/0337/6349/1884/files/GemuseLasagne_a6c6f64f-6b37-46d8-8384-9b826021345c.png?v=1737014090",
-    "fetched_at": "2026-10-13T14:44:17+00:00"
+    "fetched_at": "2026-10-13T15:41:45+00:00"
    },
    "result": "pass"
   },
@@ -252,8 +252,8 @@
    "id": "spar",
    "store": "SPAR/INTERSPAR",
    "status_declared": "live",
-   "ts": "2026-10-13T14:44:17Z",
-   "latency_s": 2.78,
+   "ts": "2026-10-13T15:41:45Z",
+   "latency_s": 2.66,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -263,7 +263,7 @@
     "price_eur": 4.99,
     "source_url": null,
     "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001282876/dt_main.jpg",
-    "fetched_at": "2026-10-13T14:44:19+00:00"
+    "fetched_at": "2026-10-13T15:41:48+00:00"
    },
    "result": "pass"
   },
@@ -271,8 +271,8 @@
    "id": "unimarkt",
    "store": "Unimarkt",
    "status_declared": "stale",
-   "ts": "2026-10-13T14:44:21Z",
-   "latency_s": 3.49,
+   "ts": "2026-10-13T15:41:50Z",
+   "latency_s": 2.69,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -282,7 +282,7 @@
     "price_eur": 5.39,
     "source_url": "/Felix-Erdaepfelgulasch-3692",
     "image_url": null,
-    "fetched_at": "2026-10-13T14:44:24+00:00"
+    "fetched_at": "2026-10-13T15:41:52+00:00"
    },
    "result": "pass"
   },
@@ -290,7 +290,7 @@
    "id": "adeg",
    "store": "ADEG",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:04Z",
+   "ts": "2026-10-13T15:40:48Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -300,7 +300,7 @@
    "id": "bio-kistl",
    "store": "Biohof Achleitner / Bio-Kistl OÖ",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:05Z",
+   "ts": "2026-10-13T15:40:49Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -310,7 +310,7 @@
    "id": "denns",
    "store": "denn's BioMarkt",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:05Z",
+   "ts": "2026-10-13T15:40:49Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -320,7 +320,7 @@
    "id": "fittogo",
    "store": "Fit to Go",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:27Z",
+   "ts": "2026-10-13T15:40:56Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -330,7 +330,7 @@
    "id": "foodora-market",
    "store": "foodora market (Dmart)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:27Z",
+   "ts": "2026-10-13T15:40:56Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -340,8 +340,8 @@
    "id": "lidl",
    "store": "Lidl",
    "status_declared": "live",
-   "ts": "2026-10-13T14:43:40Z",
-   "latency_s": 11.88,
+   "ts": "2026-10-13T15:41:08Z",
+   "latency_s": 11.65,
    "count": 0,
    "result": "fail",
    "error": "HTTPError: HTTP Error 401: Unauthorized"
@@ -350,7 +350,7 @@
    "id": "lieferando-shops",
    "store": "Lieferando Shops",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:52Z",
+   "ts": "2026-10-13T15:41:20Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -360,7 +360,7 @@
    "id": "mjam",
    "store": "mjam (now foodora)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:43:53Z",
+   "ts": "2026-10-13T15:41:21Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -370,7 +370,7 @@
    "id": "nah-frisch",
    "store": "Nah&Frisch",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:44:05Z",
+   "ts": "2026-10-13T15:41:33Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -380,7 +380,7 @@
    "id": "unimarkt-shop",
    "store": "Unimarkt (UNIONLINE Shop)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:44:26Z",
+   "ts": "2026-10-13T15:41:54Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -390,7 +390,7 @@
    "id": "wokostswas",
    "store": "wokostswas.at",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T14:44:26Z",
+   "ts": "2026-10-13T15:41:54Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -402,7 +402,7 @@
    "id": "vergleich",
    "name": "Fertiggerichte-Vergleich",
    "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T14:38:50Z",
+   "ts": "2026-10-13T15:37:22Z",
    "live": true,
    "tabs": [
     {
@@ -410,7 +410,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 78,
+     "images": 82,
      "screenshot": "screenshots/vergleich/home_1920.png",
      "ok": true
     },
@@ -419,7 +419,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 64,
+     "images": 62,
      "screenshot": "screenshots/vergleich/feed_1920.png",
      "ok": true
     },
@@ -437,7 +437,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 13,
+     "images": 12,
      "screenshot": "screenshots/vergleich/board_1920.png",
      "ok": true
     },
@@ -464,7 +464,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 91,
+     "images": 93,
      "screenshot": "screenshots/vergleich/kategorien_1920.png",
      "ok": true
     },
@@ -482,7 +482,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 11,
+     "images": 9,
      "screenshot": "screenshots/vergleich/ladenprofil_1920.png",
      "ok": true
     },
@@ -491,7 +491,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 701,
+     "images": 679,
      "screenshot": "screenshots/vergleich/marken_1920.png",
      "ok": true
     },
@@ -500,7 +500,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 197,
+     "images": 195,
      "screenshot": "screenshots/vergleich/familien_1920.png",
      "ok": true
     },
@@ -509,7 +509,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 89,
+     "images": 90,
      "screenshot": "screenshots/vergleich/dashboard_1920.png",
      "ok": true
     },
@@ -518,7 +518,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 74,
+     "images": 70,
      "screenshot": "screenshots/vergleich/gesundheit_1920.png",
      "ok": true
     },
@@ -527,7 +527,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 89,
+     "images": 88,
      "screenshot": "screenshots/vergleich/analyse_1920.png",
      "ok": true
     },
@@ -572,7 +572,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 1048,
+     "images": 1027,
      "screenshot": "screenshots/vergleich/wer_1920.png",
      "ok": true
     },
@@ -599,7 +599,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 230,
+     "images": 234,
      "screenshot": "screenshots/vergleich/logos_1920.png",
      "ok": true
     },
@@ -617,7 +617,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 81,
+     "images": 74,
      "screenshot": "screenshots/vergleich/hersteller_1920.png",
      "ok": true
     },
@@ -635,7 +635,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 127,
+     "images": 147,
      "screenshot": "screenshots/vergleich/online_1920.png",
      "ok": true
     },
@@ -653,7 +653,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 271,
+     "images": 272,
      "screenshot": "screenshots/vergleich/kombi_1920.png",
      "ok": true
     },
@@ -662,7 +662,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 96,
+     "images": 116,
      "screenshot": "screenshots/vergleich/ftg_1920.png",
      "ok": true
     },
@@ -680,7 +680,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 194,
+     "images": 185,
      "screenshot": "screenshots/vergleich/home_390.png",
      "ok": true
     },
@@ -689,7 +689,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 64,
+     "images": 62,
      "screenshot": "screenshots/vergleich/feed_390.png",
      "ok": true
     },
@@ -707,7 +707,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 13,
+     "images": 12,
      "screenshot": "screenshots/vergleich/board_390.png",
      "ok": true
     },
@@ -734,7 +734,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 91,
+     "images": 93,
      "screenshot": "screenshots/vergleich/kategorien_390.png",
      "ok": true
     },
@@ -752,7 +752,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 11,
+     "images": 9,
      "screenshot": "screenshots/vergleich/ladenprofil_390.png",
      "ok": true
     },
@@ -761,7 +761,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 701,
+     "images": 679,
      "screenshot": "screenshots/vergleich/marken_390.png",
      "ok": true
     },
@@ -770,7 +770,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 197,
+     "images": 195,
      "screenshot": "screenshots/vergleich/familien_390.png",
      "ok": true
     },
@@ -779,7 +779,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 89,
+     "images": 90,
      "screenshot": "screenshots/vergleich/dashboard_390.png",
      "ok": true
     },
@@ -788,7 +788,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 70,
+     "images": 66,
      "screenshot": "screenshots/vergleich/gesundheit_390.png",
      "ok": true
     },
@@ -797,7 +797,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 89,
+     "images": 88,
      "screenshot": "screenshots/vergleich/analyse_390.png",
      "ok": true
     },
@@ -842,7 +842,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 1048,
+     "images": 1027,
      "screenshot": "screenshots/vergleich/wer_390.png",
      "ok": true
     },
@@ -869,81 +869,57 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 230,
+     "images": 234,
      "screenshot": "screenshots/vergleich/logos_390.png",
      "ok": true
     },
     {
      "tab": "Netz 3D",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich/netz_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.evaluate: Target crashed "
     },
     {
      "tab": "Läden & Werke",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 81,
-     "screenshot": "screenshots/vergleich/hersteller_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=hersteller\", waiting until \"networkidle\"\n"
     },
     {
      "tab": "Filialen in der Nähe",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 51,
-     "screenshot": "screenshots/vergleich/filialen_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=filialen\", waiting until \"networkidle\"\n"
     },
     {
      "tab": "Online-Anbieter",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 127,
-     "screenshot": "screenshots/vergleich/online_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=online\", waiting until \"networkidle\"\n"
     },
     {
      "tab": "Wochenplaner",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 14,
-     "screenshot": "screenshots/vergleich/planer_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=planer\", waiting until \"networkidle\"\n"
     },
     {
      "tab": "Kombi-Ideen",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 271,
-     "screenshot": "screenshots/vergleich/kombi_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=kombi\", waiting until \"networkidle\"\n"
     },
     {
      "tab": "Fit to Go vs. Supermarkt",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 96,
-     "screenshot": "screenshots/vergleich/ftg_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=ftg\", waiting until \"networkidle\"\n"
     },
     {
      "tab": "Multipot-Pro Garzeiten",
      "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich/multipot_390.png",
-     "ok": true
+     "ok": false,
+     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=multipot\", waiting until \"networkidle\"\n"
     }
    ]
   },
@@ -951,556 +927,14 @@
    "id": "vergleich-servas",
    "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
    "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T14:40:33Z",
-   "live": true,
-   "tabs": [
-    {
-     "tab": "home",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 78,
-     "screenshot": "screenshots/vergleich-servas/home_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Feed",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 64,
-     "screenshot": "screenshots/vergleich-servas/feed_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Galerie",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 142,
-     "screenshot": "screenshots/vergleich-servas/galerie_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Vergleichs-Board",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 13,
-     "screenshot": "screenshots/vergleich-servas/board_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Gericht vergleichen",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 41,
-     "screenshot": "screenshots/vergleich-servas/gerichte_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Top-Listen",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 116,
-     "screenshot": "screenshots/vergleich-servas/top_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Kategorien",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 91,
-     "screenshot": "screenshots/vergleich-servas/kategorien_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Marken-Profil",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 11,
-     "screenshot": "screenshots/vergleich-servas/markenprofil_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Laden-Profil",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 11,
-     "screenshot": "screenshots/vergleich-servas/ladenprofil_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Marken",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 701,
-     "screenshot": "screenshots/vergleich-servas/marken_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Markenfamilien",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 197,
-     "screenshot": "screenshots/vergleich-servas/familien_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Dashboard",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 89,
-     "screenshot": "screenshots/vergleich-servas/dashboard_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Gesundheit & Qualität",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 74,
-     "screenshot": "screenshots/vergleich-servas/gesundheit_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Analyse",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 89,
-     "screenshot": "screenshots/vergleich-servas/analyse_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Preis vs. Protein",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/scatter_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Verpackungen",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 32,
-     "screenshot": "screenshots/vergleich-servas/pack_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Marken-Matrix",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 106,
-     "screenshot": "screenshots/vergleich-servas/matrix_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Hersteller",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 68,
-     "screenshot": "screenshots/vergleich-servas/hersteller-seiten_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Wer steckt dahinter?",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 1048,
-     "screenshot": "screenshots/vergleich-servas/wer_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Firmenvergleich",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 15,
-     "screenshot": "screenshots/vergleich-servas/firmen_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Hersteller-Qualität",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/qualitaet_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Logos",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 230,
-     "screenshot": "screenshots/vergleich-servas/logos_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Netz 3D",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/netz_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Läden & Werke",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 81,
-     "screenshot": "screenshots/vergleich-servas/hersteller_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Filialen in der Nähe",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 60,
-     "screenshot": "screenshots/vergleich-servas/filialen_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Online-Anbieter",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 127,
-     "screenshot": "screenshots/vergleich-servas/online_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Wochenplaner",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 14,
-     "screenshot": "screenshots/vergleich-servas/planer_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Kombi-Ideen",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 271,
-     "screenshot": "screenshots/vergleich-servas/kombi_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Fit to Go vs. Supermarkt",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 96,
-     "screenshot": "screenshots/vergleich-servas/ftg_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "Multipot-Pro Garzeiten",
-     "viewport": 1920,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/multipot_1920.png",
-     "ok": true
-    },
-    {
-     "tab": "home",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 194,
-     "screenshot": "screenshots/vergleich-servas/home_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Feed",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 64,
-     "screenshot": "screenshots/vergleich-servas/feed_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Galerie",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 142,
-     "screenshot": "screenshots/vergleich-servas/galerie_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Vergleichs-Board",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 13,
-     "screenshot": "screenshots/vergleich-servas/board_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Gericht vergleichen",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 41,
-     "screenshot": "screenshots/vergleich-servas/gerichte_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Top-Listen",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 116,
-     "screenshot": "screenshots/vergleich-servas/top_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Kategorien",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 91,
-     "screenshot": "screenshots/vergleich-servas/kategorien_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Marken-Profil",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 11,
-     "screenshot": "screenshots/vergleich-servas/markenprofil_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Laden-Profil",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 11,
-     "screenshot": "screenshots/vergleich-servas/ladenprofil_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Marken",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 701,
-     "screenshot": "screenshots/vergleich-servas/marken_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Markenfamilien",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 197,
-     "screenshot": "screenshots/vergleich-servas/familien_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Dashboard",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 89,
-     "screenshot": "screenshots/vergleich-servas/dashboard_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Gesundheit & Qualität",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 70,
-     "screenshot": "screenshots/vergleich-servas/gesundheit_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Analyse",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 89,
-     "screenshot": "screenshots/vergleich-servas/analyse_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Preis vs. Protein",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/scatter_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Verpackungen",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 32,
-     "screenshot": "screenshots/vergleich-servas/pack_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Marken-Matrix",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 88,
-     "screenshot": "screenshots/vergleich-servas/matrix_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Hersteller",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 56,
-     "screenshot": "screenshots/vergleich-servas/hersteller-seiten_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Wer steckt dahinter?",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 1048,
-     "screenshot": "screenshots/vergleich-servas/wer_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Firmenvergleich",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 15,
-     "screenshot": "screenshots/vergleich-servas/firmen_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Hersteller-Qualität",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/qualitaet_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Logos",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 230,
-     "screenshot": "screenshots/vergleich-servas/logos_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Netz 3D",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/netz_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Läden & Werke",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 81,
-     "screenshot": "screenshots/vergleich-servas/hersteller_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Filialen in der Nähe",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 51,
-     "screenshot": "screenshots/vergleich-servas/filialen_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Online-Anbieter",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 127,
-     "screenshot": "screenshots/vergleich-servas/online_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Wochenplaner",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 14,
-     "screenshot": "screenshots/vergleich-servas/planer_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Kombi-Ideen",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 271,
-     "screenshot": "screenshots/vergleich-servas/kombi_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Fit to Go vs. Supermarkt",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 96,
-     "screenshot": "screenshots/vergleich-servas/ftg_390.png",
-     "ok": true
-    },
-    {
-     "tab": "Multipot-Pro Garzeiten",
-     "viewport": 390,
-     "console_errors": [],
-     "broken_images": [],
-     "images": 0,
-     "screenshot": "screenshots/vergleich-servas/multipot_390.png",
-     "ok": true
-    }
-   ]
+   "live": null,
+   "tabs": []
   },
   {
    "id": "einkaufsanalyse",
    "name": "Einkaufsanalyse",
    "url": "https://servas-ai.github.io/einkaufsanalyse/",
-   "ts": "2026-10-13T14:42:29Z",
+   "ts": "2026-10-13T15:40:13Z",
    "live": true,
    "tabs": [
     {
@@ -1508,7 +942,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 0,
+     "images": 5,
      "screenshot": "screenshots/einkaufsanalyse/home_1920.png",
      "ok": true
     },
@@ -1517,7 +951,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 0,
+     "images": 5,
      "screenshot": "screenshots/einkaufsanalyse/uebersicht_1920.png",
      "ok": true
     },
@@ -1535,7 +969,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 0,
+     "images": 6,
      "screenshot": "screenshots/einkaufsanalyse/laeden_1920.png",
      "ok": true
     },
@@ -1553,7 +987,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 0,
+     "images": 17,
      "screenshot": "screenshots/einkaufsanalyse/protein_1920.png",
      "ok": true
     },
@@ -1562,7 +996,7 @@
      "viewport": 1920,
      "console_errors": [],
      "broken_images": [],
-     "images": 0,
+     "images": 30,
      "screenshot": "screenshots/einkaufsanalyse/bons_1920.png",
      "ok": true
     },
@@ -1651,7 +1085,7 @@
   }
  ],
  "dataset": {
-  "ts": "2026-10-13T14:44:26Z",
+  "ts": "2026-10-13T15:41:54Z",
   "products": 2483,
   "by_store": [
    [
@@ -1751,7 +1185,7 @@
    "photo": 92.8,
    "producer": 35.1,
    "brand": 86.8,
-   "logos_total": 242
+   "logos_total": 248
   },
   "fill_rate_products": {
    "bio": 100.0,
@@ -1780,54 +1214,59 @@
    "establishments": 4706,
    "products": 2483,
    "companies": 133,
-   "logos": 242,
+   "logos": 248,
    "producer_quality": 4
   }
  },
  "changelog": {
   "servas-ai/fertiggerichte-vergleich": [
    [
-    "84c555f",
-    "2026-10-13T13:57",
-    "update"
+    "dc28df2",
+    "2026-10-13T15:40",
+    "logos T15: +6 vision-gated brand logos (Podravka, Heura, Nordsee, Mama, Maza, Englert) + aliases Omis/Danny/Spar Linguine; strict logo-less 98→89 brands / 273→262 products"
    ],
    [
-    "d324215",
-    "2026-10-13T13:56",
-    "hourly 2026-10-13T13: +49 verified meals (Gurkerl 34: Wagner Piccolinis, YOUCOOK Butter Chicken, Farniente Lasagne, Inzersdorfer/Felix/Knorr cans+soups, VIFON/Mama/Yopokki/Buldak; BILLA 15: Heura Backhendl, Kaiserschmarrn, Omis Apfelstrudel, Milchreis, Nordsee/iglo/Frosta Fisch) · brand-tree Heura/Nordsee·HOMANN/Yopokki/VIFON/Podravka/Windisch/Farniente · score.py store-aware dedupe feeds PriceCompare · rows 2436→2529"
+    "8cf7c1b",
+    "2026-10-13T15:34",
+    "deploy: score v2, gaps overlay, Linz providers, own brands + worker leftovers"
    ],
    [
-    "b023e1a",
-    "2026-10-13T13:34",
-    "Daten-Squad 2026-10-13T13b: +20 vision-gated brand logos (Wagner, Südtiroler Kochwerk, GAON, Amlacher, Ackerl, Stangl, Volante, frank., Freda, Della Mamma, Coppenrath & Wiese, Rians, Oyakata, Wojnar's, Blue Elephant, Ökoland, Basenbox, Dovgan, Kozy Shack, John West) + producer aliases (Feelfood, Pure, Casa di Pietro, Marinus, Jürgen Langbein, Original Greisinger, Gourmand&Vegetal); strict logo-less 140→112 brands / 394→296 products"
+    "963b429",
+    "2026-10-13T15:32",
+    "data: Hofer fill (hofer.at crawl 1276 + OFF Hofer + heisse-preise w/ price_date, Altpreis >12 Monate flagged), +39 MPreis ready meals (mpreis-shop), new public/stores_linz_2026-10-13.json (498 OSM stores, distance_km from Gruberstraße 19)"
    ],
    [
-    "7b49e37",
-    "2026-10-13T12:52",
-    "logos: +13 company/producer logos (Firmen 111/133 with logo)"
+    "9f87a86",
+    "2026-10-13T15:24",
+    "hourly 2026-10-13T14: +58 verified heat-up products (23 complete meals: Wagner Piccolinis, Pietro Pizzi, Iglo/M&S breaded fish, Alpenhain Back-Camembert, Iglo Mohnnudeln, Clever Apfelstrudel, dmBio Gemüsepfanne; 28 protein components: Iglo/followfood/M&S fish fingers, Iglo/Clever/Rebel Kids nuggets, Schulzi's/Berger Knödel) Gurkerl 37 / BILLA 20 / dm 1 · BILLA promo→Normalpreis fix (3 Suprema) + TK packaging fix (6) · brand-tree Schulzi's/Berger/Alpenhain/Rebel Kids · gaps_overlay deadlock fix"
    ],
    [
-    "657dac8",
-    "2026-10-13T12:36",
-    "hourly 2026-10-13T12: +52 BILLA meals (Dr. Oetker Ristorante/Tradizionale/La Mia Grande/Suprema, Gustavo Gusto, Wagner Steinofen/Piccolinis, Freda High Protein, iglo Holy Slice/Krautfleckerl, Namdong K-Noodles, Coppenrath & Wiese Apfelstrudel, Frosta), pizza-pesto stage fix, brand tree Coppenrath→Oetker/Freda→siu foods/Namdong→Unilever, Dashboard 'Gleiches Produkt – wo am günstigsten?' cross-store price compare"
+    "98b5aa7",
+    "2026-10-13T15:21",
+    "data: merge Linz non-supermarket ready meals into data.json via export_app (+119 rows: Subway 59, NORDSEE 39, FitTaste +16, Fit to Go +5; segment + delivers_4020 kept; grocery rows excluded); top50 gate ok"
    ],
    [
-    "a5ba738",
-    "2026-10-13T12:21",
-    "Daten-Squad 2026-10-13T12: +16 vision-gated brand logos (YOUCOOK, Andros, deFLORiAN, AIA, Indomie, Arla, Thiriet, Hammermühle, Landtmann's, Ashoka, Strauss, Danke Bauer, Shan'shi, Riso Gallo, Esterhazy, Galbani) + Iglo case aliases; strict logo-less 154→139 brands / 430→368 products"
+    "fa2020b",
+    "2026-10-13T15:13",
+    "data: own-brand ready meals BILLA/SPAR/PENNY (+145 rows, segment=ready_meal, availability_level=chain, price_date; score v2) + public/grocery_ownbrands.json (6961 grocery own-brand items, 2.3 MB)"
    ],
    [
-    "3d60a5b",
-    "2026-10-13T11:58",
-    "Daten-Squad 2026-10-13T11b: +30 vision-gated brand logos (NÖM, Danone, Bibigo, Zurück zum Ursprung, Meica, Heinz, Hilcona, Hengstenberg, Kotányi, NENI, Golfera, Stadtküche, Jeden Tag, Gü …) + 14 brand aliases"
+    "8072d8d",
+    "2026-10-13T15:11",
+    "data: Linz non-supermarket providers (fit2go, FITTASTE, NORDSEE, Subway; segment, delivers_4020) + 212 provider stores with distance_km from Gruberstraße 19"
    ],
    [
-    "90f271d",
-    "2026-10-13T11:53",
-    "hourly 2026-10-13T11: +72 meals (Gurkerl 38 / MPreis 34: Wagner, Dr. Oetker Ristorante/Tradizionale, Gustavo Gusto, Alnatura, Iglo Holy Slice, followfood, Frosta Nasi Goreng), MPreis per-portion nutrition fix (19 rows corrected), logos Gustavo Gusto/Morgentau + Samyang alias, brand tree European Pizza Group/Oetker/followfood/Gustavo Gusto, Dashboard Protein-Effizienz Bestenliste + Makro-Mix chart"
+    "fc0c91b",
+    "2026-10-13T14:20",
+    "score v2: portion/day-target, dry detection (_ov fix), sugar penalty, ingredient veg bonus, NOVA source, meal check; deploy gate top50 + gaps_overlay step"
    ]
   ],
   "servas-ai/food-connectors": [
+   [
+    "aa3d626",
+    "2026-10-13T15:23",
+    "feat(billa/penny): storage class (frozen/chilled from badge, parent category, -18°C statement) + category path in enrich; keep Normalpreis (price.standard) next to promo price; more TK stems (Mohnnudeln, Apfelstrudel, Fischstäbchen, Erdäpfeltascherl); gurkerl fetch adds TK Fischstäbchen/Schlemmerfilet categories; tests (2026-10-13T14)"
+   ],
    [
     "641914b",
     "2026-10-13T12:36",
@@ -1862,14 +1301,14 @@
     "3772004",
     "2026-10-13T04:34",
     "docs(hofer): note OFF/Aldi CDN photo path; Akamai blocks hofer.at"
-   ],
-   [
-    "0980843",
-    "2026-10-13T04:00",
-    "fix(livefresh): fetch(limit=N) must filter bowls before truncating"
    ]
   ],
   "servas-ai/fertiggerichte-daten": [
+   [
+    "51cab5a",
+    "2026-10-13T15:36",
+    "logos: +6 vision-gated brand logos (Podravka, Heura, Nordsee from Wikimedia Commons PD; Mama red wordmark mama.co.th, Maza maza.at, Englert feinkost-englert.de mono→dark) + aliases Omis→Omis Schmankerl, Danny→Danone, Spar Linguine→Spar; strict logo-less 98→89 brands / 273→262 products; company logos 118/133 unchanged; rejected Yopokki (timeout/TLS), Windisch (icon only), innocent, Findus, Leitinger, Thai Delight; evidence raw/logos_squad_2026-10-13T15.json"
+   ],
    [
     "ebb207e",
     "2026-10-13T14:39",
@@ -1904,11 +1343,6 @@
     "8abca80",
     "2026-10-13T11:54",
     "logos: +30 vision-gated brand logos (NÖM, Danone, Bibigo, Zurück zum Ursprung, Meica, Heinz, Hilcona, Hengstenberg, Kotányi, Nongshim, NENI, Golfera, Stadtküche, Jeden Tag, Gü, Greenforce, Wiegert, Berger Schinken, Bürger …) from Wikimedia Commons (licence noted) or official site headers + 14 safe aliases to existing logo files; strict logo-less 208→160 brands / 555→464 products; evidence raw/logos_squad_2026-10-13T11.json"
-   ],
-   [
-    "4d0d6c9",
-    "2026-10-13T11:31",
-    "companies: +24 legal entities from public legal notices — 21 UIDs verified live via EU VIES (11 AT, 10 DE), FN 27→39, LEI-or-UID 50→71/133; 12 candidates rejected with reasons (evidence raw/impressum_vies_2026-10-13.json); overlay survives GLEIF reruns; validator UID/FN format checks"
    ]
   ],
   "servas-ai/einkaufsanalyse": [

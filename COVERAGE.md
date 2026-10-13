@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T13:35:56Z UTC
-**Next biggest gap:** Logos (strict, file required): 112 brands / 296 products still without a logo file (was 140/394 before 2026-10-13T13b) — ~215 of those products are Hofer/Lidl/dm/Spar/Penny/MPreis/Gurkerl Eigenmarken (Good Choice 47, Pappudia 24, dmBio 15, Chef Select 13, SPAR enjoy 12 — no clean official asset; Aldi CDN 403). Top non-Eigenmarken left: The Green Garden 11 (≠ Asia Green Garden), Namdong 6 (Unilever 403), Wiener Virtshaus 4 (no site), Pasta Box/Elsässer/La Fermière (white-only SVG)/Atelier Délices 3. Company logos 114/133. Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T15:35:22Z UTC
+**Next biggest gap:** Logos (strict, file required): 89 brands / 262 products still without a logo file (was 98/273 before 2026-10-13T15, 112/296 before T14) — ~200 of those products are Hofer/Lidl/dm/Spar/Penny/MPreis/Gurkerl Eigenmarken (Good Choice 48, Pappudia 24, dmBio 15, Chef Select 13, SPAR enjoy 12, Chef Menü 9, Vemondo 7, M/MPreis 12 — no clean official asset; Aldi CDN 403). Top non-Eigenmarken left: Namdong 6 (Unilever 403), The Green Garden 6 (only Onobox mark), Wiener Virtshaus 4 (no site), Pasta Box/Elsässer 3, Yopokki 1 (ypfoods.co.kr timeout / yopokki-us.com TLS fail), Windisch 1 (only 'W' icon), Thai Delight/innocent/Findus/IDS/Harvest 1 each (no usable asset). Company logos 118/133 (15 known dead ends). Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -9,20 +9,20 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 
 | Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |
 |---|---|---|---|---|---|
-| Spar | [x] | 592 | [x] | 50 | [x] |
-| Billa | [x] | 670 | [x] | 74 | [x] |
+| Spar | [x] | 586 | [x] | 50 | [x] |
+| Billa | [x] | 649 | [x] | 74 | [x] |
 | Billa Plus | [ ] | 0 | [x] | 9 | [x] |
-| Hofer | [x] | 224 | [x] | 37 | [x] |
-| Lidl | [x] | 40 | [x] | 20 | [x] |
+| Hofer | [x] | 222 | [x] | 37 | [x] |
+| Lidl | [x] | 37 | [x] | 20 | [x] |
 | Penny | [x] | 17 | [x] | 22 | [x] |
 | dm | [x] | 33 | [x] | 28 | [x] |
 | denn's BioMarkt | [ ] | 0 | [x] | 2 | [x] |
-| MPreis | [x] | 211 | [ ] | 0 | [x] |
+| MPreis | [x] | 209 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
 | Fit to Go | [x] | 24 | [ ] | 0 | [x] |
-| Gurkerl | [x] | 464 | [ ] | 0 | [x] |
+| Gurkerl | [x] | 453 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
 
@@ -45,14 +45,14 @@ Other OSM chains in bbox:
 
 | Chain | Products | With image_url | % photos |
 |---|---|---|---|
-| Billa | 670 | 667 ([x]) | 99.6% |
-| Spar | 592 | 592 ([x]) | 100.0% |
-| Gurkerl | 464 | 464 ([x]) | 100.0% |
-| Hofer | 224 | 122 ([~]) | 54.5% |
-| MPreis | 211 | 207 ([~]) | 98.1% |
-| unbekannt (OFF) | 135 | 124 ([~]) | 91.9% |
-| PrepMyMeal | 91 | 91 ([x]) | 100.0% |
-| Lidl | 40 | 29 ([~]) | 72.5% |
+| Billa | 649 | 646 ([x]) | 99.5% |
+| Spar | 586 | 580 ([~]) | 99.0% |
+| Gurkerl | 453 | 453 ([x]) | 100.0% |
+| Hofer | 222 | 119 ([~]) | 53.6% |
+| MPreis | 209 | 205 ([~]) | 98.1% |
+| unbekannt (OFF) | 122 | 108 ([~]) | 88.5% |
+| PrepMyMeal | 90 | 90 ([x]) | 100.0% |
+| Lidl | 37 | 25 ([~]) | 67.6% |
 | dm | 33 | 31 ([~]) | 93.9% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
 | Fit to Go | 24 | 24 ([x]) | 100.0% |
@@ -60,26 +60,26 @@ Other OSM chains in bbox:
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
 | FitTaste | 2 | 2 ([x]) | 100.0% |
 
-- [x] Total products: **2542**
-- [x] Total with photos: **2375** (93.4%)
-- [ ] MPreis photos: live webshop connector `mpreis-shop` (207/211)
+- [x] Total products: **2483**
+- [x] Total with photos: **2305** (92.8%)
+- [ ] MPreis photos: live webshop connector `mpreis-shop` (205/209)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
 
-- [x] Logo index rows: **238** (198 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **248** (209 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 350; brands without a logo file: 112 (296 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 70 brands / 154 products); logo rows with file: 198/238; top 8:
-  - [ ] Good Choice (47 products)
+- Brands in products: 326; brands without a logo file: 89 (262 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 50 brands / 121 products); logo rows with file: 209/248; top 8:
+  - [ ] Good Choice (48 products)
   - [ ] Pappudia (24 products)
   - [ ] dmBio (15 products)
   - [ ] Chef Select (13 products)
   - [ ] Spar enjoy (12 products)
-  - [ ] The Green Garden (11 products)
-  - [ ] Vemondo (8 products)
-  - [ ] Chef Menü (8 products)
-- [~] Company/producer logos (app Firmen view, `companies.json`): **114/133** companies with a logo (was 111; 2026-10-13T13b via new brand logos Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; earlier 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (19): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, BioGourmet, Dairy 4 Fun, Doppelt, Franuí (SSL EOF), Ablinger, Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft, La Crêpe de Brocéliande, Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed), Zum Dorfkrug (domain parked), deli gourmet. Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`.
+  - [ ] Chef Menü (9 products)
+  - [ ] Vemondo (7 products)
+  - [ ] Namdong (6 products)
+- [~] Company/producer logos (app Firmen view, `companies.json`): **118/133** companies with a logo (was 114 before 2026-10-13T14: deli gourmet→deli dip, Ablinger, BioGourmet, Zum Dorfkrug now have vision-gated official logos; T15 brand logos Podravka/Heura/Nordsee/Mama/Maza/Englert are brand rows only — none of the 133 companies maps to them, so still 118; earlier 2026-10-13T13b via Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (15, known dead ends): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, Dairy 4 Fun (TLS), Doppelt, Franuí (SSL EOF), Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft (TLS), La Crêpe de Brocéliande (TLS), Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed). Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`, `raw/logos_squad_2026-10-13T14.json`, `raw/logos_squad_2026-10-13T15.json`.
 
 ## Companies
 
@@ -97,12 +97,12 @@ Other OSM chains in bbox:
 
 | Chain | Price rows | Status breakdown |
 |---|---|---|
-| Billa [~] | 648 | live 2026: 646 · Preis 2025: 2 |
-| Spar [~] | 577 | live 2026: 442 · Preis 2025: 135 |
-| Gurkerl [x] | 464 | live 2026: 464 |
-| MPreis [x] | 210 | live 2026: 210 |
-| Hofer [~] | 123 | Preis 2025: 87 · live 2026: 35 · Preis unbestätigt: 1 |
-| PrepMyMeal [x] | 91 | live 2026: 91 |
+| Billa [~] | 629 | live 2026: 624 · Preis 2025: 5 |
+| Spar [~] | 572 | live 2026: 439 · Preis 2025: 133 |
+| Gurkerl [x] | 453 | live 2026: 453 |
+| MPreis [x] | 208 | live 2026: 208 |
+| Hofer [~] | 119 | Preis 2025: 85 · live 2026: 33 · Preis unbestätigt: 1 |
+| PrepMyMeal [x] | 90 | live 2026: 90 |
 | dm [~] | 32 | live 2026: 26 · Preis 2025: 6 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | Fit to Go [x] | 24 | live 2026: 24 |
@@ -158,11 +158,13 @@ Other OSM chains in bbox:
 - [x] `company:gleif` matcher (2026-10-13T10, food-connectors 27ed143): GLEIF exact legalName + fulltext over spelling variants (original / ASCII / ö→oe / legal-form-stripped); accept only token-Jaccard ≥ 0.85 on legal-form-agnostic, diacritic-folded names, same legal-form family (AG≡SpA≡NV, GmbH≡m.b.H.≡srl≡s.r.o.) and legal-address country = hint. LEI 25→50 (e.g. BILLA AG = Billa Aktiengesellschaft FN 118556y, Nestlé Österreich, FELIX Austria → parent Orkla, NÖM, Berglandmilch, Dr. Oetker AT, Danone AT, Radatz, Dr. Schär SpA, Rügenwalder Mühle). Rejected on purpose: Lidl Österreich GmbH LEI = German HRB entity (Neckarsulm), dm Verwaltungsgesellschaft, Ehrmann SE vs label 'Ehrmann GmbH', Unimarkt KG. Evidence `fertiggerichte-daten/raw/gleif_matching_2026-10-13T10.json`.
 - [~] Brand logos (2026-10-13T11, Daten-Squad, daten 8abca80): **+30 vision-gated logos** — Wikimedia Commons (licence in source/note): Danone, Heinz, Hilcona, Hengstenberg (CC BY-SA 4.0, TIFF→PNG thumb), Kotányi, Nongshim, Perutnina Ptuj, Riso Scotti, SalzburgMilch, eismann, Uncle Ben's, Weight Watchers, Andechser Natur; official site headers (robots.txt checked, no JS/cookies): NÖM (+ nöm PRO/Cremix aliases), Zurück zum Ursprung, Bibigo, Berger Schinken, Bürger, Delamaris, DimmidiSì, Golfera, GREENFORCE, Gü (wordmark cropped from official og:image), Jeden Tag, Meica, NENI, Stadtküche (kasnudl.com), Wiegert, Bauernland (weinbergmaier.at), Brajlović (192 px site icon). **+14 aliases** only onto rows that really have a file (Tressbrüder, Planted., 'Maggi, Nestlé', Hubers, Little Lunch, Knorr Kaiser Teller, FitTaste, Hut & Stiel, VEGA VITA, Billabio, Spar Natur Pur, Dr. Oetker Ristorante …). Strict logo-less (file required): **208→154 brands, 555→430 products** (lenient row count 151/349→97/224). Rejected: Findus favicon (shape only), La Fermière (white-only SVG), miil.at/oyakata.de (other companies), Basenbox favicon, Riso Gallo (photo of a sign), Esterhazy (entity unverified), Thai President Foods (producer ≠ Mama brand). coverage.py now counts only logo rows with a file (file-less Hofer/Lidl Eigenmarken placeholders no longer hide gaps). Evidence fertiggerichte-daten/raw/logos_squad_2026-10-13T11.json. Deployed app 3d60a5b (99 app rows now show one of the new logos; app rows with logo 1600→1741 incl. hourly T11).
 
+- [~] Brand logos (2026-10-13T15, Daten-Squad): **+6 vision-gated logos** — Wikimedia Commons (Public domain): Podravka (2024 SVG), Heura (Foods for Tomorrow, freigestellt), Nordsee (2024 SVG; LEH-Lizenzmarke von HOMANN); official sites (imprint/robots checked, no JS/cookies): Mama (red MAMA wordmark, mama.co.th — not the TF parent logo), Maza (maza.at SVG), Englert (feinkost-englert.de header logo, white mono recoloured to #1f1f1f for light UI). **+3 aliases** onto file-backed rows: Omis→Omis Schmankerl (REWE-AT GS1 9010437), Danny→Danone (OFF 'Danone Dany'), Spar Linguine→Spar (SPAR-AT GS1 9100000). Strict logo-less **98→89 brands / 273→262 products**; logo rows with file 203→209/248. Rejected: Yopokki (ypfoods.co.kr timeout, yopokki-us.com TLS handshake failure — not bypassed), Windisch ('W' icon only), innocent (cream icon only), Findus (en.wiki fair-use only), Feinkost Leitinger (white-only + generic brand string 'Feinkost'), Thai Delight (product photo only), La Cocina de Lola (entity unverified). Evidence fertiggerichte-daten/raw/logos_squad_2026-10-13T15.json.
+
 ## Totals snapshot
 
-- Products: 2542
-- Prices: 2216 (live 2026: 1956)
-- Logos: 238
+- Products: 2483
+- Prices: 2174 (live 2026: 1915)
+- Logos: 248
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (50 with LEI, 71 with LEI or verified UID, 39 with FN)
 - Online meal-prep: 96

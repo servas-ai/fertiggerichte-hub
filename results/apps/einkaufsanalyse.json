@@ -2,7 +2,7 @@
  "id": "einkaufsanalyse",
  "name": "Einkaufsanalyse",
  "url": "https://servas-ai.github.io/einkaufsanalyse/",
- "ts": "2026-10-13T14:42:29Z",
+ "ts": "2026-10-13T15:40:13Z",
  "live": true,
  "tabs": [
   {
@@ -10,7 +10,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 5,
    "screenshot": "screenshots/einkaufsanalyse/home_1920.png",
    "ok": true
   },
@@ -19,7 +19,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 5,
    "screenshot": "screenshots/einkaufsanalyse/uebersicht_1920.png",
    "ok": true
   },
@@ -37,7 +37,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 6,
    "screenshot": "screenshots/einkaufsanalyse/laeden_1920.png",
    "ok": true
   },
@@ -55,7 +55,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 17,
    "screenshot": "screenshots/einkaufsanalyse/protein_1920.png",
    "ok": true
   },
@@ -64,7 +64,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 30,
    "screenshot": "screenshots/einkaufsanalyse/bons_1920.png",
    "ok": true
   },
