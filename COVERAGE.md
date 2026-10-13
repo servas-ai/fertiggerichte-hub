@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T02:54:59Z UTC
-**Next biggest gap:** Unimarkt has no live shop connector (29 stale dump rows, 0 photos); denn's/ADEG/Nah&Frisch have no product source
+**Last updated:** 2026-10-13T03:16:47Z UTC
+**Next biggest gap:** Spar photos/prices: 228/592 ready meals without photo and 135 prices only 2025; then Hofer 134/224 without photo + 87 Preis-2025 rows (Unimarkt verified closed → no live source possible; denn's/ADEG/Nah&Frisch have no product source)
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -63,7 +63,7 @@ Other OSM chains in bbox:
 - [x] Total products: **2263**
 - [x] Total with photos: **1819** (80.4%)
 - [x] MPreis photos: live webshop connector `mpreis-shop` (101/101)
-- [ ] Unimarkt photos: 0/29 (heisse-preise dump has no image URLs; unimarkt.at shop needs a connector)
+- [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
 
@@ -113,7 +113,8 @@ Other OSM chains in bbox:
 | Lidl [x] | 6 | live 2026: 6 |
 | Penny [x] | 2 | live 2026: 2 |
 - [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)
-- [ ] Fresh live prices for Unimarkt/Hofer/dm/Spar-2025 rows: need shop connectors or browser
+- [ ] Fresh live prices for Hofer/dm/Spar-2025 rows: need shop connectors or browser
+- [-] Unimarkt: no live price possible — webshop closed 02/2024, chain exited retail 02-03/2026 (29 rows kept as flagged 2023/24 history)
 
 ## Public datasets
 
@@ -146,6 +147,7 @@ Other OSM chains in bbox:
 - [ ] `adeg` — **catalog-only**: adeg.at sitemap = pages/news/recipes only; no online shop / product API
 - [ ] `nah-frisch` — **catalog-only**: nahundfrisch.at franchise info site; no webshop
 - [x] `mpreis-shop` — **live** MPreis webshop connector (sitemap + category pages + product JSON-LD; robots-allowed, `/search/` never used): 271 pages crawled, 0 errors → 101 ready meals with photo, live 2026 price, GTIN, pack size; 85 with nutrition table. CLI `food search … --store mpreis-shop`, MCP `mpreis_product`.
+- [-] `unimarkt-shop` — **closed, verified 2026-10-13**: shop.unimarkt.at answers 200 but sampled sitemap slugs (/fertiggerichte, /suppen, /snacks-fertiggerichte, /gulaschsuppe) 302 → / (others 404) = splash "UNIONLINE hat seinen Service eingestellt – Vielen Dank für Ihre Treue"; ajaxGateway only cart/merkliste actions; /suche/ 403 (not retried). Shop closed 02/2024 (cash.at), Unimarkt left retail 02–03/2026 (ooe.ORF.at: ~90 stores, ADEG 21 / Spar 23 / Nah&Frisch 2). Registered as catalog-only in food-connectors; evidence `fertiggerichte-daten/raw/unimarkt_shop_probe_2026-10-13.json`. OSM still tags some ex-Unimarkt branches.
 
 ## Totals snapshot
 

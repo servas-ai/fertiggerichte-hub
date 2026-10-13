@@ -29,7 +29,7 @@ for c, n in cnt.most_common():
 tot_img = sum(img.values())
 ph += ["", f"- [x] Total products: **{len(P)}**", f"- [x] Total with photos: **{tot_img}** ({tot_img/len(P)*100:.1f}%)",
        f"- {x(img['MPreis']==cnt['MPreis'] and cnt['MPreis'])} MPreis photos: live webshop connector `mpreis-shop` ({img['MPreis']}/{cnt['MPreis']})",
-       f"- {x(img['Unimarkt']==cnt['Unimarkt'] and cnt['Unimarkt'])} Unimarkt photos: {img['Unimarkt']}/{cnt['Unimarkt']} (heisse-preise dump has no image URLs; unimarkt.at shop needs a connector)", ""]
+       f"- {x(img['Unimarkt']==cnt['Unimarkt'] and cnt['Unimarkt'])} Unimarkt photos: {img['Unimarkt']}/{cnt['Unimarkt']} — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only", ""]
 by = collections.defaultdict(collections.Counter)
 for r in PR: by[r["chain"]][r["price_status"]] += 1
 tp = ["## Tariffs & prices", "", "| Chain | Price rows | Status breakdown |", "|---|---|---|"]
@@ -37,7 +37,8 @@ for c, k in sorted(by.items(), key=lambda kv: -sum(kv[1].values())):
     n = sum(k.values()); live = k.get("live 2026", 0)
     tp.append(f"| {c} [{'x' if live == n else '~' if live else ' '}] | {n} | {' · '.join(f'{a}: {b}' for a, b in k.most_common())} |")
 tp += ["- [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)",
-       "- [ ] Fresh live prices for Unimarkt/Hofer/dm/Spar-2025 rows: need shop connectors or browser", ""]
+       "- [ ] Fresh live prices for Hofer/dm/Spar-2025 rows: need shop connectors or browser",
+       "- [-] Unimarkt: no live price possible — webshop closed 02/2024, chain exited retail 02-03/2026 (29 rows kept as flagged 2023/24 history)", ""]
 lgsec = S.get("Logos", "")
 missing = [c for c in ["MPreis", "Unimarkt", "denn's BioMarkt", "ADEG", "Nah&Frisch", "Fit to Go", "Billa Plus"] if not (c.lower() in logo_names or SLUG.get(c, c.lower()) in logo_names)]
 lgsec = re.sub(r"- \[.\] Logo index rows: \*\*\d+\*\*", f"- [x] Logo index rows: **{len(L)}**", lgsec)
