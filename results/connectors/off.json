@@ -2,9 +2,18 @@
  "id": "off",
  "store": "Open Food Facts",
  "status_declared": "live",
- "ts": "2026-10-13T01:26:14Z",
- "latency_s": 12.73,
- "count": 0,
- "result": "fail",
- "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+ "ts": "2026-10-13T01:52:24Z",
+ "latency_s": 1.53,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "Gulasch (Rind)",
+  "brand": "PRIMANA",
+  "store": "Open Food Facts",
+  "price_eur": null,
+  "source_url": "https://world.openfoodfacts.org/product/4099200121543",
+  "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
+  "fetched_at": "2026-10-13T01:52:26+00:00"
+ },
+ "result": "pass"
 }

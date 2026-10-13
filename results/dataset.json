@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-13T01:26:48Z",
+ "ts": "2026-10-13T01:52:46Z",
  "products": 1293,
  "by_store": [
   [
@@ -102,7 +102,7 @@
   "producers": 22,
   "establishments": 4706,
   "products": 1293,
-  "companies": 76,
+  "companies": 83,
   "logos": 135,
   "producer_quality": 4
  }

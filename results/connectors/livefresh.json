@@ -2,8 +2,8 @@
  "id": "livefresh",
  "store": "Online: LiveFresh",
  "status_declared": "live",
- "ts": "2026-10-13T01:26:04Z",
- "latency_s": 6.33,
+ "ts": "2026-10-13T01:52:12Z",
+ "latency_s": 6.52,
  "count": 0,
  "schema_errors": [],
  "result": "fail"

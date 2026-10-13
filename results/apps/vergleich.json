@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T01:22:04Z",
+ "ts": "2026-10-13T01:47:52Z",
  "live": true,
  "tabs": [
   {
@@ -10,7 +10,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 43,
+   "images": 41,
    "screenshot": "screenshots/vergleich/home_1920.png",
    "ok": true
   },
@@ -19,7 +19,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 34,
+   "images": 35,
    "screenshot": "screenshots/vergleich/gerichte_1920.png",
    "ok": true
   },
@@ -28,7 +28,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 116,
+   "images": 118,
    "screenshot": "screenshots/vergleich/top_1920.png",
    "ok": true
   },
@@ -46,8 +46,17 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 291,
+   "images": 299,
    "screenshot": "screenshots/vergleich/marken_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83d\udc6a Markenfamilien",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 178,
+   "screenshot": "screenshots/vergleich/familien_1920.png",
    "ok": true
   },
   {
@@ -64,7 +73,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 69,
+   "images": 60,
    "screenshot": "screenshots/vergleich/gesundheit_1920.png",
    "ok": true
   },
@@ -91,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 27,
+   "images": 28,
    "screenshot": "screenshots/vergleich/pack_1920.png",
    "ok": true
   },
@@ -109,7 +118,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 605,
+   "images": 602,
    "screenshot": "screenshots/vergleich/wer_1920.png",
    "ok": true
   },
@@ -118,8 +127,26 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 13,
+   "images": 14,
    "screenshot": "screenshots/vergleich/firmen_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Hersteller-Qualit\u00e4t",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/vergleich/qualitaet_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Online-Anbieter",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/vergleich/online_1920.png",
    "ok": true
   },
   {
@@ -127,7 +154,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 96,
+   "images": 97,
    "screenshot": "screenshots/vergleich/matrix_1920.png",
    "ok": true
   },
@@ -154,7 +181,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 35,
+   "images": 70,
    "screenshot": "screenshots/vergleich/hersteller_1920.png",
    "ok": true
   },
@@ -163,7 +190,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 12,
+   "images": 14,
    "screenshot": "screenshots/vergleich/planer_1920.png",
    "ok": true
   },
@@ -172,7 +199,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 273,
+   "images": 275,
    "screenshot": "screenshots/vergleich/kombi_1920.png",
    "ok": true
   },
@@ -208,7 +235,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 188,
+   "images": 193,
    "screenshot": "screenshots/vergleich/home_390.png",
    "ok": true
   },
@@ -217,7 +244,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 34,
+   "images": 35,
    "screenshot": "screenshots/vergleich/gerichte_390.png",
    "ok": true
   },
@@ -226,7 +253,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 116,
+   "images": 118,
    "screenshot": "screenshots/vergleich/top_390.png",
    "ok": true
   },
@@ -244,8 +271,17 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 291,
+   "images": 302,
    "screenshot": "screenshots/vergleich/marken_390.png",
+   "ok": true
+  },
+  {
+   "tab": "\ud83d\udc6a Markenfamilien",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 178,
+   "screenshot": "screenshots/vergleich/familien_390.png",
    "ok": true
   },
   {
@@ -262,7 +298,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 61,
+   "images": 52,
    "screenshot": "screenshots/vergleich/gesundheit_390.png",
    "ok": true
   },
@@ -289,7 +325,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 27,
+   "images": 28,
    "screenshot": "screenshots/vergleich/pack_390.png",
    "ok": true
   },
@@ -316,8 +352,26 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 13,
+   "images": 14,
    "screenshot": "screenshots/vergleich/firmen_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Hersteller-Qualit\u00e4t",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/vergleich/qualitaet_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Online-Anbieter",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/vergleich/online_390.png",
    "ok": true
   },
   {
@@ -325,7 +379,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 78,
+   "images": 79,
    "screenshot": "screenshots/vergleich/matrix_390.png",
    "ok": true
   },
@@ -352,7 +406,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 35,
+   "images": 70,
    "screenshot": "screenshots/vergleich/hersteller_390.png",
    "ok": true
   },
@@ -361,7 +415,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 12,
+   "images": 14,
    "screenshot": "screenshots/vergleich/planer_390.png",
    "ok": true
   },
@@ -370,7 +424,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 273,
+   "images": 275,
    "screenshot": "screenshots/vergleich/kombi_390.png",
    "ok": true
   },
