@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T15:37:22Z",
+ "ts": "2026-10-13T16:02:46Z",
  "live": true,
  "tabs": [
   {
@@ -476,50 +476,74 @@
   {
    "tab": "Netz 3D",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.evaluate: Target crashed "
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/vergleich/netz_390.png",
+   "ok": true
   },
   {
    "tab": "L\u00e4den & Werke",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=hersteller\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 74,
+   "screenshot": "screenshots/vergleich/hersteller_390.png",
+   "ok": true
   },
   {
    "tab": "Filialen in der N\u00e4he",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=filialen\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 51,
+   "screenshot": "screenshots/vergleich/filialen_390.png",
+   "ok": true
   },
   {
    "tab": "Online-Anbieter",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=online\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 147,
+   "screenshot": "screenshots/vergleich/online_390.png",
+   "ok": true
   },
   {
    "tab": "Wochenplaner",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=planer\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 14,
+   "screenshot": "screenshots/vergleich/planer_390.png",
+   "ok": true
   },
   {
    "tab": "Kombi-Ideen",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=kombi\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 272,
+   "screenshot": "screenshots/vergleich/kombi_390.png",
+   "ok": true
   },
   {
    "tab": "Fit to Go vs. Supermarkt",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=ftg\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 116,
+   "screenshot": "screenshots/vergleich/ftg_390.png",
+   "ok": true
   },
   {
    "tab": "Multipot-Pro Garzeiten",
    "viewport": 390,
-   "ok": false,
-   "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=multipot\", waiting until \"networkidle\"\n"
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/vergleich/multipot_390.png",
+   "ok": true
   }
  ]
 }
