@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T18:21:53Z",
+ "ts": "2026-10-13T19:05:36Z",
  "live": true,
  "tabs": [
   {
@@ -10,17 +10,14 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 82,
+   "images": 80,
    "screenshot": "screenshots/vergleich-servas/home_1920.png",
    "ok": true
   },
   {
    "tab": "Feed",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 503 ()",
-    "TypeError: Failed to fetch dynamically imported module: https://servas-ai.github.io/fertiggerichte-vergleich/assets/Feed-D8ftzLc6.js"
-   ],
+   "console_errors": [],
    "broken_images": [],
    "images": 62,
    "screenshot": "screenshots/vergleich-servas/feed_1920.png",
@@ -40,7 +37,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 12,
+   "images": 11,
    "screenshot": "screenshots/vergleich-servas/board_1920.png",
    "ok": true
   },
@@ -58,7 +55,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 116,
+   "images": 112,
    "screenshot": "screenshots/vergleich-servas/top_1920.png",
    "ok": true
   },
@@ -67,7 +64,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 93,
+   "images": 92,
    "screenshot": "screenshots/vergleich-servas/kategorien_1920.png",
    "ok": true
   },
@@ -94,7 +91,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 687,
+   "images": 696,
    "screenshot": "screenshots/vergleich-servas/marken_1920.png",
    "ok": true
   },
@@ -112,7 +109,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 92,
+   "images": 93,
    "screenshot": "screenshots/vergleich-servas/dashboard_1920.png",
    "ok": true
   },
@@ -157,7 +154,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 106,
+   "images": 108,
    "screenshot": "screenshots/vergleich-servas/matrix_1920.png",
    "ok": true
   },
@@ -166,7 +163,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 68,
+   "images": 69,
    "screenshot": "screenshots/vergleich-servas/hersteller-seiten_1920.png",
    "ok": true
   },
@@ -175,7 +172,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 1032,
+   "images": 1114,
    "screenshot": "screenshots/vergleich-servas/wer_1920.png",
    "ok": true
   },
@@ -202,7 +199,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 240,
+   "images": 242,
    "screenshot": "screenshots/vergleich-servas/logos_1920.png",
    "ok": true
   },
@@ -220,7 +217,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 74,
+   "images": 75,
    "screenshot": "screenshots/vergleich-servas/hersteller_1920.png",
    "ok": true
   },
@@ -283,7 +280,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 189,
+   "images": 187,
    "screenshot": "screenshots/vergleich-servas/home_390.png",
    "ok": true
   },
@@ -310,7 +307,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 12,
+   "images": 11,
    "screenshot": "screenshots/vergleich-servas/board_390.png",
    "ok": true
   },
@@ -328,7 +325,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 116,
+   "images": 112,
    "screenshot": "screenshots/vergleich-servas/top_390.png",
    "ok": true
   },
@@ -337,7 +334,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 93,
+   "images": 92,
    "screenshot": "screenshots/vergleich-servas/kategorien_390.png",
    "ok": true
   },
@@ -364,7 +361,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 687,
+   "images": 696,
    "screenshot": "screenshots/vergleich-servas/marken_390.png",
    "ok": true
   },
@@ -382,7 +379,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 92,
+   "images": 93,
    "screenshot": "screenshots/vergleich-servas/dashboard_390.png",
    "ok": true
   },
@@ -427,7 +424,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 88,
+   "images": 90,
    "screenshot": "screenshots/vergleich-servas/matrix_390.png",
    "ok": true
   },
@@ -436,7 +433,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 56,
+   "images": 57,
    "screenshot": "screenshots/vergleich-servas/hersteller-seiten_390.png",
    "ok": true
   },
@@ -445,7 +442,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 1032,
+   "images": 1114,
    "screenshot": "screenshots/vergleich-servas/wer_390.png",
    "ok": true
   },
@@ -472,7 +469,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 240,
+   "images": 242,
    "screenshot": "screenshots/vergleich-servas/logos_390.png",
    "ok": true
   },
@@ -490,7 +487,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 74,
+   "images": 75,
    "screenshot": "screenshots/vergleich-servas/hersteller_390.png",
    "ok": true
   },
