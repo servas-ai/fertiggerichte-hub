@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-13T02:58:01Z",
- "products": 2263,
+ "ts": "2026-10-13T03:54:44Z",
+ "products": 2335,
  "by_store": [
   [
    "Billa",
@@ -19,12 +19,12 @@
    224
   ],
   [
-   "unbekannt (OFF)",
-   136
+   "MPreis",
+   174
   ],
   [
-   "MPreis",
-   101
+   "unbekannt (OFF)",
+   135
   ],
   [
    "PrepMyMeal",
@@ -62,7 +62,7 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1044
+   1063
   ],
   [
    "Kühlregal (Menüschale/frisch)",
@@ -70,11 +70,11 @@
   ],
   [
    "Tiefkühl (TK)",
-   313
+   323
   ],
   [
    "Dose/Konserve",
-   270
+   313
   ],
   [
    "Trocken/Instant",
@@ -94,41 +94,41 @@
   ]
  ],
  "coverage": {
-  "nutrition": 66.9,
-  "price": 85.6,
-  "photo": 80.4,
-  "producer": 32.6,
-  "brand": 85.2,
-  "logos_total": 149
+  "nutrition": 67.2,
+  "price": 86.0,
+  "photo": 90.6,
+  "producer": 34.7,
+  "brand": 85.7,
+  "logos_total": 155
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 85.2,
+  "brand": 85.7,
   "chain": 100.0,
-  "dish": 32.2,
-  "image_url": 80.4,
+  "dish": 33.1,
+  "image_url": 90.6,
   "name": 100.0,
-  "origin": 31.3,
-  "pack_size_g": 91.2,
-  "producer": 32.6,
+  "origin": 30.4,
+  "pack_size_g": 91.5,
+  "producer": 34.7,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 93.9,
+  "url": 94.1,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 1937,
+  "prices": 2009,
   "brand_tree": 8,
   "online_mealprep": 96,
   "online_providers": 3,
-  "nutrition": 1515,
+  "nutrition": 1571,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 2263,
+  "products": 2335,
   "companies": 83,
-  "logos": 149,
+  "logos": 155,
   "producer_quality": 4
  }
 }
