@@ -39,7 +39,8 @@ for c, k in sorted(by.items(), key=lambda kv: -sum(kv[1].values())):
     n = sum(k.values()); live = k.get("live 2026", 0)
     tp.append(f"| {c} [{'x' if live == n else '~' if live else ' '}] | {n} | {' · '.join(f'{a}: {b}' for a, b in k.most_common())} |")
 tp += ["- [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)",
-       "- [ ] Fresh live prices for Hofer/Spar-2025 rows: need shop connectors or browser (hofer.at Akamai 403, interspar.at Cloudflare)",
+       f"- [~] Spar: live 2026 prices via food-connectors `spar-shop` (SPAR public search API, exact article number; 2026-10-13T19: 'Preis 2025' 150→31). Remaining Spar 'Preis 2025' {by['Spar'].get('Preis 2025',0)}: 17 article numbers no longer in SPAR's index (delisted), 11 counter/weight products (priced per 100 g), 2 pack-size mismatches, rest without article number and no exact name hit",
+       "- [ ] Fresh live prices for Hofer 'Preis 2025' rows: hofer.at Akamai 403, heisse-preise has no 2026 Hofer dates — no sanctioned live source yet",
        "- [x] dm: live 2026 prices via food-connectors `dm` (dm.at sitemap + products.dm.de product JSON); the 6 remaining 'Preis 2025' dm rows are not in the dm.at 2026 product sitemap (delisted) -> no live price possible, kept flagged",
        "- [-] Unimarkt: no live price possible — webshop closed 02/2024, chain exited retail 02-03/2026 (29 rows kept as flagged 2023/24 history)", ""]
 lgsec = S.get("Logos", "")

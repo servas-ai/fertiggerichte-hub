@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T18:58:00Z UTC
-**Next biggest gap:** Photos: Subway 0/59 — subway.com menu pages drop non-browser clients (HTTP/2 reset / HTTP/1.1 tarpit) and media.subway.com robots.txt is Disallow: / → needs a sanctioned source; Hofer 101/224 without photo are historic; Unimarkt 0/29 (chain closed). Logos (strict, file required): 104 brands / 305 products — almost all Handels-Eigenmarken (Good Choice 49, Pappudia 24, dmBio 16, Spar enjoy, Chef Select/Menü, Vemondo, M/MPreis); real producer brands left: Namdong 11, The Green Garden 6, Yum Yum 5 (unreachable), Vifon 2. Companies: **15/133** still without LEI or verified UID (28 product rows) — remaining hard cases (UK Gü, CH Planted Foods AG, dissolved Delikatessa, Bauck GmbH without public UID, Mochi/Kasnudl/Knödelwerkstatt name mismatches, Firmenbuch key for the rest).
+**Last updated:** 2026-10-13T20:00:45Z UTC
+**Next biggest gap:** Prices: Hofer 130 'Preis 2025' rows (hofer.at Akamai 403, no 2026 Hofer source) and 236 rows without any price (OFF-only 112 without store, Subway 59 / NORDSEE 39 no public price list, Lidl 31 API 401). Photos: Subway 0/59 (subway.com drops non-browser clients, media.subway.com robots Disallow), Hofer 101/224 historic, Unimarkt 0/29 (chain closed). Logos (strict, file required): ~104 brands — mostly Handels-Eigenmarken (Good Choice, Pappudia, dmBio, Spar enjoy, Chef Select/Menü); producer brands left Namdong, The Green Garden, Yum Yum, Vifon. Companies: 15/133 without LEI or verified UID (hard cases, Firmenbuch key needed).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -10,19 +10,19 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |
 |---|---|---|---|---|---|
 | Spar | [x] | 660 | [x] | 50 | [x] |
-| Billa | [x] | 775 | [x] | 74 | [x] |
+| Billa | [x] | 780 | [x] | 74 | [x] |
 | Billa Plus | [ ] | 0 | [x] | 9 | [x] |
 | Hofer | [x] | 224 | [x] | 37 | [x] |
 | Lidl | [x] | 37 | [x] | 20 | [x] |
 | Penny | [x] | 22 | [x] | 22 | [x] |
 | dm | [x] | 34 | [x] | 28 | [x] |
 | denn's BioMarkt | [ ] | 0 | [x] | 2 | [x] |
-| MPreis | [x] | 272 | [ ] | 0 | [x] |
+| MPreis | [x] | 296 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
 | Fit to Go | [x] | 29 | [ ] | 0 | [x] |
-| Gurkerl | [x] | 505 | [ ] | 0 | [x] |
+| Gurkerl | [x] | 506 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
 
@@ -45,10 +45,10 @@ Other OSM chains in bbox:
 
 | Chain | Products | With image_url | % photos |
 |---|---|---|---|
-| Billa | 775 | 772 ([x]) | 99.6% |
+| Billa | 780 | 777 ([x]) | 99.6% |
 | Spar | 660 | 654 ([~]) | 99.1% |
-| Gurkerl | 505 | 505 ([x]) | 100.0% |
-| MPreis | 272 | 262 ([~]) | 96.3% |
+| Gurkerl | 506 | 506 ([x]) | 100.0% |
+| MPreis | 296 | 284 ([~]) | 95.9% |
 | Hofer | 224 | 123 ([~]) | 54.9% |
 | unbekannt (OFF) | 112 | 100 ([~]) | 89.3% |
 | PrepMyMeal | 90 | 90 ([x]) | 100.0% |
@@ -62,9 +62,9 @@ Other OSM chains in bbox:
 | FitTaste | 18 | 18 ([x]) | 100.0% |
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
 
-- [x] Total products: **2915**
-- [x] Total with photos: **2676** (91.8%)
-- [ ] MPreis photos: live webshop connector `mpreis-shop` (262/272)
+- [x] Total products: **2945**
+- [x] Total with photos: **2704** (91.8%)
+- [ ] MPreis photos: live webshop connector `mpreis-shop` (284/296)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
@@ -72,7 +72,7 @@ Other OSM chains in bbox:
 - [x] Logo index rows: **250** (211 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 346; brands without a logo file: 104 (305 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 65 brands / 155 products); logo rows with file: 211/250; top 8:
+- Brands in products: 353; brands without a logo file: 110 (315 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 71 brands / 165 products); logo rows with file: 211/250; top 8:
   - [ ] Good Choice (49 products)
   - [ ] Pappudia (24 products)
   - [ ] dmBio (16 products)
@@ -99,10 +99,10 @@ Other OSM chains in bbox:
 
 | Chain | Price rows | Status breakdown |
 |---|---|---|
-| Billa [~] | 763 | live 2026: 746 · : 12 · Preis 2025: 5 |
-| Spar [~] | 647 | live 2026: 493 · Preis 2025: 150 · : 4 |
-| Gurkerl [x] | 505 | live 2026: 505 |
-| MPreis [x] | 268 | live 2026: 268 |
+| Billa [~] | 768 | live 2026: 751 · : 12 · Preis 2025: 5 |
+| Spar [~] | 647 | live 2026: 612 · Preis 2025: 31 · : 4 |
+| Gurkerl [x] | 506 | live 2026: 506 |
+| MPreis [x] | 292 | live 2026: 292 |
 | Hofer [~] | 164 | Preis 2025: 130 · live 2026: 27 · Preis unbestätigt: 7 |
 | PrepMyMeal [x] | 90 | live 2026: 90 |
 | dm [~] | 33 | live 2026: 27 · Preis 2025: 6 |
@@ -113,7 +113,8 @@ Other OSM chains in bbox:
 | Penny [x] | 7 | live 2026: 7 |
 | Lidl [x] | 6 | live 2026: 6 |
 - [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows replaced; only 52/149 still listed)
-- [ ] Fresh live prices for Hofer/Spar-2025 rows: need shop connectors or browser (hofer.at Akamai 403, interspar.at Cloudflare)
+- [~] Spar: live 2026 prices via food-connectors `spar-shop` (SPAR public search API, exact article number; 2026-10-13T19: 'Preis 2025' 150→31). Remaining Spar 'Preis 2025' 31: 17 article numbers no longer in SPAR's index (delisted), 11 counter/weight products (priced per 100 g), 2 pack-size mismatches, rest without article number and no exact name hit
+- [ ] Fresh live prices for Hofer 'Preis 2025' rows: hofer.at Akamai 403, heisse-preise has no 2026 Hofer dates — no sanctioned live source yet
 - [x] dm: live 2026 prices via food-connectors `dm` (dm.at sitemap + products.dm.de product JSON); the 6 remaining 'Preis 2025' dm rows are not in the dm.at 2026 product sitemap (delisted) -> no live price possible, kept flagged
 - [-] Unimarkt: no live price possible — webshop closed 02/2024, chain exited retail 02-03/2026 (29 rows kept as flagged 2023/24 history)
 
@@ -169,11 +170,12 @@ Other OSM chains in bbox:
 
 - [-] Hofer photo gap (2026-10-13T16): fuzzy brand+name match of the 101 photo-less Hofer rows against the 1276-product hofer.at sitemap crawl (raw/hofer_2026-10-13) → only FAIRHOF Spareribs Sous Vide matches; the rest (Good Choice/Primana/Cucina Nobile heisse-preise 2023–25 rows) are no longer listed → no photo source, kept as historic.
 - [-] Subway (2026-10-13T18): nutrition PDF (subway.com/v1v2/assets/de-at/…c2-march-2026) still OK (200, parser on local branch squad/linz-providers); per-item photos blocked — subway.com/de-AT menu HTML: HTTP/2 INTERNAL_ERROR / HTTP/1.1 25 s timeout from the box, WebFetch text-only or 404; media.subway.com robots Disallow: /; not bypassed. Evidence fertiggerichte-daten/raw/subway_2026-10-13T18.json.
+- [x] `spar-shop` — **live** (2026-10-13T19, Daten-Squad): SPAR's public product search API `search-spar.spar-ics.com/fact-finder/rest/v4/search/products_lmos_at` (JSON index behind the interspar.at shop, same endpoint heisse-preise uses; host has no robots.txt; no login/cookies; interspar.at Cloudflare HTML never requested). Exact lookup by article number (`interspar.at/p/<id>` or CDN image id) → current + regular price, €/kg, pack, stock status, image. CLI `food search … --store spar-shop`, MCP `spar_product` (food-connectors 1b4bbfc/509f6f6). `code-internal` is a SPAR-internal 88… code, **not** a GTIN — never mapped to ean. Data: all 167 non-live Spar rows re-checked → 122 articles confirmed listed with today's price (121 unchanged since 2025 = still current; Iglo Lasagne al Forno now 700 g/7.49 vs dataset 350 g → skipped by pack-size guard, as was a 350 vs 370 g soup), 17 article numbers no longer listed (kept flagged), 11 counter/weight products (per-100 g pricing, unchanged), 17 without article number and no exact name hit. Spar live 2026 **493→612**, Spar 'Preis 2025' **150→31**; dataset live prices 2224→2373. Overlay `fertig/spar_live_overlay.json` applied in score.py before price_status; script `fertiggerichte-daten/scripts/enrich_spar_live.py`; evidence `raw/spar_live_2026-10-13T19.json` (daten 1403505, app deploy 7102641).
 
 ## Totals snapshot
 
-- Products: 2915
-- Prices: 2567 (live 2026: 2224)
+- Products: 2945
+- Prices: 2597 (live 2026: 2373)
 - Logos: 250
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
