@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T12:20:50Z UTC
-**Next biggest gap:** Logos (strict, file required): 139 brands / 368 products still without a logo file — top: Good Choice 47 (Hofer, file-less placeholder; Aldi CDN 403), Pappudia 23, dmBio 15, Chef Select 13, SPAR enjoy 12 (file-less row), GAON 10, The Green Garden 10, Vemondo 8. T12 closed Youcook/Deflorian/Strauss/AIA/Andros/Indomie/Hammermühle/Landtmann's/Shan'shi/Riso Gallo/Danke Bauer/Esterhazy/Arla/Thiriet/Ashoka/Galbani (+Iglo case aliases). Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T12:53:50Z UTC
+**Next biggest gap:** Logos (strict, file required): brands without a logo file still led by Hofer/Lidl/dm/Spar Eigenmarken (Good Choice 47, Pappudia 23, dmBio 15, Chef Select 13, SPAR enjoy 12 — no clean official asset; Aldi CDN 403). Company logos 111/133 (22 small producers without verified site). Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -10,19 +10,19 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |
 |---|---|---|---|---|---|
 | Spar | [x] | 592 | [x] | 50 | [x] |
-| Billa | [x] | 618 | [x] | 74 | [x] |
+| Billa | [x] | 670 | [x] | 74 | [x] |
 | Billa Plus | [ ] | 0 | [x] | 9 | [x] |
 | Hofer | [x] | 224 | [x] | 37 | [x] |
 | Lidl | [x] | 40 | [x] | 20 | [x] |
 | Penny | [x] | 17 | [x] | 22 | [x] |
 | dm | [x] | 33 | [x] | 28 | [x] |
 | denn's BioMarkt | [ ] | 0 | [x] | 2 | [x] |
-| MPreis | [x] | 178 | [ ] | 0 | [x] |
+| MPreis | [x] | 211 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [ ] | 0 | [x] | 10 | [x] |
 | Fit to Go | [x] | 24 | [ ] | 0 | [x] |
-| Gurkerl | [x] | 400 | [ ] | 0 | [x] |
+| Gurkerl | [x] | 464 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
 
@@ -45,13 +45,13 @@ Other OSM chains in bbox:
 
 | Chain | Products | With image_url | % photos |
 |---|---|---|---|
-| Billa | 618 | 615 ([x]) | 99.5% |
+| Billa | 670 | 667 ([x]) | 99.6% |
 | Spar | 592 | 592 ([x]) | 100.0% |
-| Gurkerl | 400 | 400 ([x]) | 100.0% |
+| Gurkerl | 464 | 464 ([x]) | 100.0% |
 | Hofer | 224 | 122 ([~]) | 54.5% |
-| MPreis | 178 | 174 ([~]) | 97.8% |
+| MPreis | 211 | 207 ([~]) | 98.1% |
 | unbekannt (OFF) | 135 | 124 ([~]) | 91.9% |
-| PrepMyMeal | 90 | 90 ([x]) | 100.0% |
+| PrepMyMeal | 91 | 91 ([x]) | 100.0% |
 | Lidl | 40 | 29 ([~]) | 72.5% |
 | dm | 33 | 31 ([~]) | 93.9% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
@@ -60,15 +60,15 @@ Other OSM chains in bbox:
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
 | FitTaste | 2 | 2 ([x]) | 100.0% |
 
-- [x] Total products: **2392**
-- [x] Total with photos: **2225** (93.0%)
-- [ ] MPreis photos: live webshop connector `mpreis-shop` (174/178)
+- [x] Total products: **2542**
+- [x] Total with photos: **2375** (93.4%)
+- [ ] MPreis photos: live webshop connector `mpreis-shop` (207/211)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
 
-- [x] Logo index rows: **212** (165 with a logo file) (`data/logos.csv`)
-- Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
+- [x] Logo index rows: **223** (178 with a logo file) (`data/logos.csv`)
+- Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
 - Brands in products: 339; brands without a logo file: 139 (368 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 85 brands / 188 products); logo rows with file: 165/212; top 8:
   - [ ] Good Choice (47 products)
@@ -79,15 +79,7 @@ Other OSM chains in bbox:
   - [ ] GAON - Koreanisches Restaurant (10 products)
   - [ ] The Green Garden (10 products)
   - [ ] Vemondo (8 products)
-- Producers missing logo (sample): 17 of top 20
-  - [ ] BILLA AG
-  - [ ] Unilever Austria
-  - [ ] BILLA AG, Billa AG, IZ NÖ Süd, Straße 3, Objekt 16, 2355 Wr. Neudorf
-  - [ ] Maresi Austria GmbH
-  - [ ] Billa AG
-  - [ ] Fit2go GmbH, Pucking (Produktion lt. Krone: Manufaktur Wien)
-  - [ ] Iglo Austria
-  - [ ] Pastificio RANA S.p.A.
+- [~] Company/producer logos (app Firmen view, `companies.json`): **111/133** companies with a logo (was 88; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods from official sites with imprint/legal-name check, REWE Group + Mars from Wikimedia Commons (public domain) — plus brand-alias fallback in `scripts/app_companies.py`, e.g. Kasnudl→Stadtküche, Berglandmilch→Schärdinger, Allos→Little Lunch). Still without logo (22): BS Gastro (Wiener Virtshaus), Stangl, Staudinger, Ager, Amlacher, Glatz (Njami), Plant Based Power, BioGourmet, Dairy 4 Fun, Doppelt, Franuí (SSL EOF), Ablinger, Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft, La Crêpe de Brocéliande, Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only, no wordmark), Whollees/Winkelbauer (TLS hostname mismatch, not bypassed), Zum Dorfkrug (domain parked), deli gourmet. Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`.
 
 ## Companies
 
@@ -105,12 +97,12 @@ Other OSM chains in bbox:
 
 | Chain | Price rows | Status breakdown |
 |---|---|---|
-| Billa [~] | 596 | live 2026: 594 · Preis 2025: 2 |
+| Billa [~] | 648 | live 2026: 646 · Preis 2025: 2 |
 | Spar [~] | 577 | live 2026: 442 · Preis 2025: 135 |
-| Gurkerl [x] | 400 | live 2026: 400 |
-| MPreis [x] | 177 | live 2026: 177 |
+| Gurkerl [x] | 464 | live 2026: 464 |
+| MPreis [x] | 210 | live 2026: 210 |
 | Hofer [~] | 123 | Preis 2025: 87 · live 2026: 35 · Preis unbestätigt: 1 |
-| PrepMyMeal [x] | 90 | live 2026: 90 |
+| PrepMyMeal [x] | 91 | live 2026: 91 |
 | dm [~] | 32 | live 2026: 26 · Preis 2025: 6 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | Fit to Go [x] | 24 | live 2026: 24 |
@@ -168,9 +160,9 @@ Other OSM chains in bbox:
 
 ## Totals snapshot
 
-- Products: 2392
-- Prices: 2066 (live 2026: 1806)
-- Logos: 212
+- Products: 2542
+- Prices: 2216 (live 2026: 1956)
+- Logos: 223
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (50 with LEI, 71 with LEI or verified UID, 39 with FN)
 - Online meal-prep: 96
