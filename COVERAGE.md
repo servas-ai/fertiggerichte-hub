@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T11:04:03Z UTC
-**Next biggest gap:** Companies: 83/133 without LEI (small AT producers; next = FN/UID via Firmenbuch HVD key or North Data public pages, revenue 16/133). Hofer still 102/224 without photo and 87 Hofer + 135 Spar rows on 2025 prices (hofer.at Akamai 403, interspar.at Cloudflare). Lidl 11 + Penny 5 photos: OFF has the Penny Chef-Menü items but without images (checked 2026-10-13T10). Logo-less brands (Pappudia, dmBio, GAON, The Green Garden, Deflorian, Bibigo, Strauss) need an official asset. Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T11:33:29Z UTC
+**Next biggest gap:** Companies: 62/133 still without LEI or verified UID (Unilever Austria, iglo Austria, Fit2go, YOUCOOK, Ehrmann, Stangl, Strauss … have no legal notice reachable without JS; next = Firmenbuch HVD key or North Data public pages; revenue 16/133). Hofer still 102/224 without photo and 87 Hofer + 135 Spar rows on 2025 prices (hofer.at Akamai 403, interspar.at Cloudflare). Lidl 11 + Penny 5 photos: OFF has the Penny Chef-Menü items but without images (checked 2026-10-13T10). Logo-less brands (Pappudia, dmBio, GAON, The Green Garden, Deflorian, Bibigo, Strauss) need an official asset. Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -92,10 +92,12 @@ Other OSM chains in bbox:
 ## Companies
 
 - [~] GLEIF lookups in dataset: **50/133** companies have LEI (was 25/83; +25 via stricter-but-broader matcher, 2026-10-13T10). Remaining 83 have no GLEIF record under their label name (many small AT producers never needed an LEI) or only a non-matching candidate (rejected list in `fertiggerichte-daten/raw/gleif_matching_2026-10-13T10.json`)
-- [~] Firmenbuchnummer (FN) present: **27/133** (from GLEIF register fields RA000017, not live HVD)
+- [~] Firmenbuchnummer (FN) present: **39/133** (27 from GLEIF RA000017 + 12 from the companies' own legal notices)
+- [~] Legal entity identified (LEI or VIES-verified UID): **71/133** (was 50); UID present: **21/133** (11 ATU, 10 DE), all checked live in EU VIES 2026-10-13
 - [~] Konzernmutter (GLEIF ultimate parent): **8/133**
 - [ ] Firmenbuch HVD API: **blocked** — `FIRMENBUCH_API_KEY` not set
 - [x] VIES connector: live in food-connectors (`food company --vies`)
+- [x] Impressum connector: live in food-connectors (`food company NAME --impressum DOMAIN`, MCP `company_impressum`): FN/HRB/UID from the public legal notice (robots.txt respected, no JS/cookies), every UID verified via VIES + name match
 - [x] North Data connector: live public-page mode (`food company --northdata`)
 - [~] Revenue fields filled: **16/133**
 
@@ -169,6 +171,8 @@ Other OSM chains in bbox:
 - Prices: 2066 (live 2026: 1806)
 - Logos: 166
 - Stores (OSM Linz bbox): 498
-- Companies: 133 (50 with LEI)
+- Companies: 133 (50 with LEI, 71 with LEI or verified UID, 39 with FN)
 - Online meal-prep: 96
 - External datasets catalogued: 11
+
+- [x] `company:impressum` (2026-10-13T11, food-connectors fd204f4, daten 4d0d6c9, app 8c5cda5): 73 candidate company sites probed (+16 alternates). Accepted 24: VIES-verified AT UIDs for Ja! Natürlich (FN 113231t), A. Darbo AG (FN 46033x), Hink, Wiesbauer Gourmet Gastro, MORGENTAU, Brajlovic, Ehrenwort, Hubers Landhendl, Revo Foods, Wech-Geflügel, **Lidl Österreich GmbH (ATU37893801, FN 131556s; the AT entity GLEIF lacked)**; DE UIDs (VIES valid, full legal name next to the UID on the page, reviewed) for FRoSTA Tiefkühlkost, FRoSTA AG, iglo GmbH, Allos, Landliebe, Hamker, Every., LPP Lotao, RILA Feinkost-Importe, Heiderbeck; FN only (no or invalid UID) for PENNY GmbH (FN 160330f), Blasko (FN 74665b), Alimentastic (FN 673845z; printed UID invalid in VIES). Rejected on purpose (entity mismatch): Mochi Production vs Mochi GmbH, Graninger Holding vs Graninger GmbH, Meica (GmbH & Co. KG), Alnatura (Produktions- und Handels GmbH), Bauck vs Bauckhof, Ehrmann (AG), REWE subsidiaries (page = REWE International AG), Landtmann (Querfeld's), Inzersdorfer (Maresi), Kasnudl (Knödelhütte), Hochreiter Quality Meat (Lebensmittelbetriebe). No imprint found or JS-only: Unilever AT, iglo AT, Fit2go, YOUCOOK, Stangl, Strauss, Danone, Deflorian, Planted and others. Evidence `fertiggerichte-daten/raw/impressum_vies_2026-10-13.json`.
