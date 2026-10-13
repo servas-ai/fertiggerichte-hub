@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T21:21:11Z UTC
-**Next biggest gap:** 205 OFF-only rows without store/price ('unbekannt (OFF)', 112→205 after the mealkits import) — match them by EAN/exact name against the live store connectors (spar-shop, penny-shop, mpreis-shop, dm, billa). Then Hofer 130 'Preis 2025' rows (hofer.at Akamai 403, no 2026 Hofer source), Subway 59 / NORDSEE 39 without public price list, Lidl 31 (API 401). Penny: 15 of 30 rows still without price = Chef Menü / OFF rows that are not in penny.at's ~450-item online assortment (5 of them also without any photo: OFF has none, BILLA does not list Chef Menü); re-run `food fetch --store penny-shop` weekly — the online assortment rotates with the weekly offers. ADEG dead end (Issuu flipbook only). Logos: ~104 brands, mostly Handels-Eigenmarken. Companies: 15/133 without LEI or verified UID.
+**Last updated:** 2026-10-13T22:47:24Z UTC
+**Next biggest gap:** HelloFresh logo closed (93 products, official CDN SVG vision-gated 2026-10-13T22). Remaining: 205 OFF-only rows in products.csv without store/price — score.py already applies fertig/offonly_store_overlay.json at app build (19 GTIN matches → 13 store/price applied, 13 OFF twins dropped as dups, 1 size mismatch; app OFF ≈179). products.csv has no EAN column so daten export still shows 205 until a separate EAN-aware export. Then Hofer 130 'Preis 2025' (hofer.at Akamai 403), Subway 59 / NORDSEE 39 without public price list, Lidl 31 (API 401). Logos next: Good Choice (49, Hofer Eigenmarke), Pappudia (24, Lidl), dmBio (16) — Eigenmarken often dead-end for freigestellte assets.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -71,11 +71,10 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **250** (211 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **251** (212 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 359; brands without a logo file: 115 (416 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 76 brands / 266 products); logo rows with file: 211/250; top 8:
-  - [ ] HelloFresh (93 products)
+- Brands in products: 359; brands without a logo file: 114 (323 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 75 brands / 173 products); logo rows with file: 212/251; top 8:
   - [ ] Good Choice (49 products)
   - [ ] Pappudia (24 products)
   - [ ] dmBio (16 products)
@@ -83,6 +82,7 @@ Other OSM chains in bbox:
   - [ ] Spar enjoy (12 products)
   - [ ] Namdong (11 products)
   - [ ] Chef Menü (9 products)
+  - [ ] SPAR enjoy (7 products)
 - [~] Company/producer logos (app Firmen view, `companies.json`): **118/133** companies with a logo (was 114 before 2026-10-13T14: deli gourmet→deli dip, Ablinger, BioGourmet, Zum Dorfkrug now have vision-gated official logos; T15 brand logos Podravka/Heura/Nordsee/Mama/Maza/Englert are brand rows only — none of the 133 companies maps to them, so still 118; earlier 2026-10-13T13b via Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (15, known dead ends): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, Dairy 4 Fun (TLS), Doppelt, Franuí (SSL EOF), Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft (TLS), La Crêpe de Brocéliande (TLS), Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed). Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`, `raw/logos_squad_2026-10-13T14.json`, `raw/logos_squad_2026-10-13T15.json`.
 
 ## Companies
@@ -180,12 +180,13 @@ Other OSM chains in bbox:
 - [x] `spar-shop` — **live** (2026-10-13T19, Daten-Squad): SPAR's public product search API `search-spar.spar-ics.com/fact-finder/rest/v4/search/products_lmos_at` (JSON index behind the interspar.at shop, same endpoint heisse-preise uses; host has no robots.txt; no login/cookies; interspar.at Cloudflare HTML never requested). Exact lookup by article number (`interspar.at/p/<id>` or CDN image id) → current + regular price, €/kg, pack, stock status, image. CLI `food search … --store spar-shop`, MCP `spar_product` (food-connectors 1b4bbfc/509f6f6). `code-internal` is a SPAR-internal 88… code, **not** a GTIN — never mapped to ean. Data: all 167 non-live Spar rows re-checked → 122 articles confirmed listed with today's price (121 unchanged since 2025 = still current; Iglo Lasagne al Forno now 700 g/7.49 vs dataset 350 g → skipped by pack-size guard, as was a 350 vs 370 g soup), 17 article numbers no longer listed (kept flagged), 11 counter/weight products (per-100 g pricing, unchanged), 17 without article number and no exact name hit. Spar live 2026 **493→612**, Spar 'Preis 2025' **150→31**; dataset live prices 2224→2373. Overlay `fertig/spar_live_overlay.json` applied in score.py before price_status; script `fertiggerichte-daten/scripts/enrich_spar_live.py`; evidence `raw/spar_live_2026-10-13T19.json` (daten 1403505, app deploy 7102641).
 - [x] `penny-shop` — **live** (2026-10-13T21, Daten-Squad, food-connectors 46014e3): penny.at public online-assortment JSON `www.penny.at/api/product-discovery/products?page=N&pageSize=100` (+ `/products/<sku>`) — the calls the penny.at shop makes itself (REWE product-discovery API; robots.txt = Sitemap line only; no login/cookies; heisse-preise's old `/api/products` path is disabled since 10/2025). 453 items (incl. weekly offers): regular + standard price, promo text/validity, €/unit, pack, category path, origin, official commercetools image; no GTIN/nutrition (→ identical BILLA article `00-<no.>` / OFF). CLI `food fetch|search --store penny-shop`, MCP `penny_product`, `penny_search`; 6 offline tests.
 - [~] Penny products (2026-10-13T21, Daten-Squad): **22→30** products, live 2026 prices **7→15**, photos **17→25**. +8 ready meals from the online assortment: Podravka Rindergulasch 400 g 4.99, Ich bin Österreich Wiener Schnitzel 750 g 4.99 (Normalpreis 5.99), Dr. Oetker Ristorante Pizza 2er 720 g 3.49 (div. Sorten), Gabelkönig Semmelknödel-Rolle 450 g 2.79 (Normal 3.59), Maggi Magic Asia Instantnudeln 63 g 0.99, Taste of Asia Knuspergarnelen 260 g 3.29 (Normal 4.39), Heinz Baked Beans 415 g 2.99, Iglo Fischstäbchen 450 g 2.99. 7 existing penny.at rows re-confirmed live; **multi-buy guard**: Iglo Ofenbackfisch 3.49 was the 'bei 2 Packungen' price → single-pack Normalpreis 6.99 (same for Baked Beans 1.99 'bei 3 Dosen' → 2.99). Rejected: Iglo Polardorsch div. Sorten (plain fillets), PENNY READY Spätzle/Gnocchi (plain sides), Würze/Brühe/Pommes. No nutrition for multi-variant offers (variant unknown). 15 Chef Menü/OFF Penny rows not in the online assortment → unchanged. Overlay `fertig/penny_live_overlay.json` (score.py, pack-size guard ±5 %); evidence `fertiggerichte-daten/raw/penny_2026-10-13T21.json`.
+- 2026-10-13T22 Daten-Squad: HelloFresh logo added (cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg, robots OK, vision-gated; 93 products). OFF GTIN store overlay confirmed loaded by score.py (19 matched / 13 applied / 13 dups dropped / 1 size mismatch) — app-only until products.csv gains EAN export; hub COVERAGE refreshed.
 
 ## Totals snapshot
 
 - Products: 3079
 - Prices: 2725 (live 2026: 2501)
-- Logos: 250
+- Logos: 251
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
 - Online meal-prep: 96
