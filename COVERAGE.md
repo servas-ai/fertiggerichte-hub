@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T12:53:59Z UTC
-**Next biggest gap:** Logos (strict, file required): brands without a logo file still led by Hofer/Lidl/dm/Spar Eigenmarken (Good Choice 47, Pappudia 23, dmBio 15, Chef Select 13, SPAR enjoy 12 — no clean official asset; Aldi CDN 403). Company logos 111/133 (22 small producers without verified site). Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T13:35:56Z UTC
+**Next biggest gap:** Logos (strict, file required): 112 brands / 296 products still without a logo file (was 140/394 before 2026-10-13T13b) — ~215 of those products are Hofer/Lidl/dm/Spar/Penny/MPreis/Gurkerl Eigenmarken (Good Choice 47, Pappudia 24, dmBio 15, Chef Select 13, SPAR enjoy 12 — no clean official asset; Aldi CDN 403). Top non-Eigenmarken left: The Green Garden 11 (≠ Asia Green Garden), Namdong 6 (Unilever 403), Wiener Virtshaus 4 (no site), Pasta Box/Elsässer/La Fermière (white-only SVG)/Atelier Délices 3. Company logos 114/133. Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -67,19 +67,19 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **223** (178 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **238** (198 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 350; brands without a logo file: 140 (394 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 88 brands / 222 products); logo rows with file: 178/223; top 8:
+- Brands in products: 350; brands without a logo file: 112 (296 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 70 brands / 154 products); logo rows with file: 198/238; top 8:
   - [ ] Good Choice (47 products)
   - [ ] Pappudia (24 products)
-  - [ ] Wagner (19 products)
   - [ ] dmBio (15 products)
   - [ ] Chef Select (13 products)
   - [ ] Spar enjoy (12 products)
   - [ ] The Green Garden (11 products)
-  - [ ] GAON - Koreanisches Restaurant (10 products)
-- [~] Company/producer logos (app Firmen view, `companies.json`): **111/133** companies with a logo (was 88; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods from official sites with imprint/legal-name check, REWE Group + Mars from Wikimedia Commons (public domain) — plus brand-alias fallback in `scripts/app_companies.py`, e.g. Kasnudl→Stadtküche, Berglandmilch→Schärdinger, Allos→Little Lunch). Still without logo (22): BS Gastro (Wiener Virtshaus), Stangl, Staudinger, Ager, Amlacher, Glatz (Njami), Plant Based Power, BioGourmet, Dairy 4 Fun, Doppelt, Franuí (SSL EOF), Ablinger, Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft, La Crêpe de Brocéliande, Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only, no wordmark), Whollees/Winkelbauer (TLS hostname mismatch, not bypassed), Zum Dorfkrug (domain parked), deli gourmet. Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`.
+  - [ ] Vemondo (8 products)
+  - [ ] Chef Menü (8 products)
+- [~] Company/producer logos (app Firmen view, `companies.json`): **114/133** companies with a logo (was 111; 2026-10-13T13b via new brand logos Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; earlier 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (19): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, BioGourmet, Dairy 4 Fun, Doppelt, Franuí (SSL EOF), Ablinger, Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft, La Crêpe de Brocéliande, Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed), Zum Dorfkrug (domain parked), deli gourmet. Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`.
 
 ## Companies
 
@@ -162,7 +162,7 @@ Other OSM chains in bbox:
 
 - Products: 2542
 - Prices: 2216 (live 2026: 1956)
-- Logos: 223
+- Logos: 238
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (50 with LEI, 71 with LEI or verified UID, 39 with FN)
 - Online meal-prep: 96
