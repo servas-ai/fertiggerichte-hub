@@ -1,6 +1,6 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-13 18:05 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-13 18:25 UTC via `./run_all.sh` (stündlich).
 
 **Connectors:** 15 ✅ / 1 ❌ / 10 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 2841
 
@@ -9,7 +9,7 @@ Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Autom
 | App | URL | Live | Tabs getestet | Konsolen-Fehler | Kaputte Bilder |
 |---|---|---|---|---|---|
 | Fertiggerichte-Vergleich | https://martin-hausleitner.github.io/fertiggerichte-vergleich/ | ✅ | 30 | 0 | 0 |
-| Fertiggerichte-Vergleich (servas-ai Pages) | https://servas-ai.github.io/fertiggerichte-vergleich/ | ✅ | 30 | 0 | 0 |
+| Fertiggerichte-Vergleich (servas-ai Pages) | https://servas-ai.github.io/fertiggerichte-vergleich/ | ✅ | 30 | 2 | 0 |
 | Einkaufsanalyse | https://servas-ai.github.io/einkaufsanalyse/ | ✅ | 8 | 0 | 0 |
 
 ## Repositories
@@ -43,36 +43,36 @@ flowchart LR
 
 | | Connector | Store | Items | Latenz | Beispielprodukt (Beweis) | Zeitpunkt |
 |---|---|---|---|---|---|---|
-| ✅ | `billa` | BILLA | 3 | 0.4 s | [MAGGI Fix für Gulasch](https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152) · 1.49 € | 2026-10-13T18:04:07Z |
-| ✅ | `dm` | dm | 3 | 3.99 s | [babylove Menü Kartoffeltopf mit Rindergulasch ab d](https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat) · 1.15 € | 2026-10-13T18:04:07Z |
-| ✅ | `dm-heisse` | dm | 3 | 3.04 s | HiPP Menü Spätzle mit Gulasch ab 8 Monaten, 220 g · 1.75 € | 2026-10-13T18:04:11Z |
-| ✅ | `gourmetfein` | Online: Gourmetfein | 3 | 2.88 s | [Weißwurst 1,8kg](https://shop.gourmetfein.com/products/weisswurst-1-8kg) · 24.9 € | 2026-10-13T18:04:16Z |
-| ✅ | `gurkerl` | Gurkerl.at | 3 | 0.43 s | [AMA Kalb Rosé Austria Gulasch geschnitten](https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten) · 16.1 € | 2026-10-13T18:04:19Z |
-| ✅ | `heisse-preise` | heisse-preise.io | 3 | 2.73 s | [Ager Hirschgulasch geschnitten](ager-hirschgulasch-geschnitten-00730647) · 11.99 € | 2026-10-13T18:04:19Z |
-| ✅ | `hofer` | HOFER | 3 | 34.91 s | [GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg](sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg) · 19.98 € | 2026-10-13T18:04:24Z |
-| ✅ | `livefresh` | Online: LiveFresh | 3 | 1.5 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-13T18:05:12Z |
-| ✅ | `mpreis` | MPREIS | 3 | 3.07 s | AIA Puten Gulasch · 6.5 € | 2026-10-13T18:05:13Z |
-| ✅ | `mpreis-shop` | MPreis | 3 | 6.86 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-13T18:05:18Z |
-| ✅ | `off` | Open Food Facts | 3 | 0.96 s | [Gulasch (Rind)](https://world.openfoodfacts.org/product/4099200121543) | 2026-10-13T18:05:25Z |
-| ✅ | `penny` | PENNY | 2 | 3.91 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-13T18:05:26Z |
-| ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 5.23 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-13T18:05:30Z |
-| ✅ | `spar` | SPAR/INTERSPAR | 3 | 3.23 s | Baron de Sel Gourmet Gulasch Bio 55g · 4.99 € | 2026-10-13T18:05:35Z |
-| ✅ | `unimarkt` | Unimarkt | 3 | 4.19 s | [Felix Erdäpfelgulasch](/Felix-Erdaepfelgulasch-3692) · 5.39 € | 2026-10-13T18:05:40Z |
-| 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-13T18:04:06Z |
-| 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-13T18:04:07Z |
-| 📇 | `denns` | denn's BioMarkt | 0 | 0.0 s |  | 2026-10-13T18:04:07Z |
-| 📇 | `fittogo` | Fit to Go | 0 | 0.0 s |  | 2026-10-13T18:04:16Z |
-| 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-13T18:04:16Z |
-| ❌ | `lidl` | Lidl | 0 | 11.48 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-13T18:05:00Z |
-| 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-13T18:05:12Z |
-| 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-13T18:05:13Z |
-| 📇 | `nah-frisch` | Nah&Frisch | 0 | 0.0 s |  | 2026-10-13T18:05:25Z |
-| 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-13T18:05:46Z |
-| 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-13T18:05:46Z |
+| ✅ | `billa` | BILLA | 3 | 0.47 s | [MAGGI Fix für Gulasch](https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152) · 1.49 € | 2026-10-13T18:24:19Z |
+| ✅ | `dm` | dm | 3 | 3.77 s | [babylove Menü Kartoffeltopf mit Rindergulasch ab d](https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat) · 1.15 € | 2026-10-13T18:24:20Z |
+| ✅ | `dm-heisse` | dm | 3 | 2.95 s | HiPP Menü Spätzle mit Gulasch ab 8 Monaten, 220 g · 1.75 € | 2026-10-13T18:24:24Z |
+| ✅ | `gourmetfein` | Online: Gourmetfein | 3 | 2.96 s | [Weißwurst 1,8kg](https://shop.gourmetfein.com/products/weisswurst-1-8kg) · 24.9 € | 2026-10-13T18:24:28Z |
+| ✅ | `gurkerl` | Gurkerl.at | 3 | 0.47 s | [AMA Kalb Rosé Austria Gulasch geschnitten](https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten) · 16.1 € | 2026-10-13T18:24:31Z |
+| ✅ | `heisse-preise` | heisse-preise.io | 3 | 3.01 s | [Ager Hirschgulasch geschnitten](ager-hirschgulasch-geschnitten-00730647) · 11.99 € | 2026-10-13T18:24:32Z |
+| ✅ | `hofer` | HOFER | 3 | 2.81 s | [GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg](sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg) · 19.98 € | 2026-10-13T18:24:37Z |
+| ✅ | `livefresh` | Online: LiveFresh | 3 | 1.08 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-13T18:24:53Z |
+| ✅ | `mpreis` | MPREIS | 3 | 2.77 s | AIA Puten Gulasch · 6.5 € | 2026-10-13T18:24:54Z |
+| ✅ | `mpreis-shop` | MPreis | 3 | 6.67 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-13T18:24:58Z |
+| ✅ | `off` | Open Food Facts | 3 | 3.48 s | [Gulasch (Rind)](https://world.openfoodfacts.org/product/4099200121543) | 2026-10-13T18:25:05Z |
+| ✅ | `penny` | PENNY | 2 | 4.67 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-13T18:25:08Z |
+| ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 5.24 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-13T18:25:13Z |
+| ✅ | `spar` | SPAR/INTERSPAR | 3 | 2.7 s | Baron de Sel Gourmet Gulasch Bio 55g · 4.99 € | 2026-10-13T18:25:19Z |
+| ✅ | `unimarkt` | Unimarkt | 3 | 2.72 s | [Felix Erdäpfelgulasch](/Felix-Erdaepfelgulasch-3692) · 5.39 € | 2026-10-13T18:25:23Z |
+| 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-13T18:24:19Z |
+| 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-13T18:24:20Z |
+| 📇 | `denns` | denn's BioMarkt | 0 | 0.0 s |  | 2026-10-13T18:24:20Z |
+| 📇 | `fittogo` | Fit to Go | 0 | 0.0 s |  | 2026-10-13T18:24:28Z |
+| 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-13T18:24:28Z |
+| ❌ | `lidl` | Lidl | 0 | 11.44 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-13T18:24:41Z |
+| 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-13T18:24:53Z |
+| 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-13T18:24:54Z |
+| 📇 | `nah-frisch` | Nah&Frisch | 0 | 0.0 s |  | 2026-10-13T18:25:05Z |
+| 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-13T18:25:27Z |
+| 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-13T18:25:27Z |
 
 ## Datensatz
 
-**2841 Produkte** · Tabellen: brand_tree 8, companies 133, establishments 4706, logos 248, nutrition 2009, online_mealprep 96, online_providers 3, prices 2493, producer_quality 4, producers 22, products 2841, stores 498
+**2841 Produkte** · Tabellen: brand_tree 8, companies 133, establishments 4706, logos 249, nutrition 2009, online_mealprep 96, online_providers 3, prices 2493, producer_quality 4, producers 22, products 2841, stores 498
 
 | Abdeckung | % |
 |---|---|
@@ -81,7 +81,7 @@ flowchart LR
 | photo | 91.7 |
 | producer | 35.9 |
 | brand | 88.4 |
-| logos_total | 248 |
+| logos_total | 249 |
 
 <details><summary>Produkte nach Kette</summary>
 
@@ -141,22 +141,22 @@ flowchart LR
 | Dashboard | <img src="screenshots/vergleich/dashboard_1920.png" width="420"> | <img src="screenshots/vergleich/dashboard_390.png" width="140"> |
 | Gesundheit & Qualität | <img src="screenshots/vergleich/gesundheit_1920.png" width="420"> | <img src="screenshots/vergleich/gesundheit_390.png" width="140"> |
 | Analyse | <img src="screenshots/vergleich/analyse_1920.png" width="420"> | <img src="screenshots/vergleich/analyse_390.png" width="140"> |
-| Preis vs. Protein | – | <img src="screenshots/vergleich/scatter_390.png" width="140"> |
-| Verpackungen | – | <img src="screenshots/vergleich/pack_390.png" width="140"> |
-| Marken-Matrix | – | <img src="screenshots/vergleich/matrix_390.png" width="140"> |
-| Hersteller | – | <img src="screenshots/vergleich/hersteller-seiten_390.png" width="140"> |
-| Wer steckt dahinter? | – | <img src="screenshots/vergleich/wer_390.png" width="140"> |
-| Firmenvergleich | – | <img src="screenshots/vergleich/firmen_390.png" width="140"> |
-| Hersteller-Qualität | – | <img src="screenshots/vergleich/qualitaet_390.png" width="140"> |
-| Logos | – | <img src="screenshots/vergleich/logos_390.png" width="140"> |
-| Netz 3D | – | <img src="screenshots/vergleich/netz_390.png" width="140"> |
-| Läden & Werke | – | <img src="screenshots/vergleich/hersteller_390.png" width="140"> |
-| Filialen in der Nähe | – | <img src="screenshots/vergleich/filialen_390.png" width="140"> |
-| Online-Anbieter | – | <img src="screenshots/vergleich/online_390.png" width="140"> |
-| Wochenplaner | – | <img src="screenshots/vergleich/planer_390.png" width="140"> |
-| Kombi-Ideen | – | <img src="screenshots/vergleich/kombi_390.png" width="140"> |
-| Fit to Go vs. Supermarkt | – | <img src="screenshots/vergleich/ftg_390.png" width="140"> |
-| Multipot-Pro Garzeiten | – | <img src="screenshots/vergleich/multipot_390.png" width="140"> |
+| Preis vs. Protein | <img src="screenshots/vergleich/scatter_1920.png" width="420"> | <img src="screenshots/vergleich/scatter_390.png" width="140"> |
+| Verpackungen | <img src="screenshots/vergleich/pack_1920.png" width="420"> | <img src="screenshots/vergleich/pack_390.png" width="140"> |
+| Marken-Matrix | <img src="screenshots/vergleich/matrix_1920.png" width="420"> | <img src="screenshots/vergleich/matrix_390.png" width="140"> |
+| Hersteller | <img src="screenshots/vergleich/hersteller-seiten_1920.png" width="420"> | <img src="screenshots/vergleich/hersteller-seiten_390.png" width="140"> |
+| Wer steckt dahinter? | <img src="screenshots/vergleich/wer_1920.png" width="420"> | <img src="screenshots/vergleich/wer_390.png" width="140"> |
+| Firmenvergleich | <img src="screenshots/vergleich/firmen_1920.png" width="420"> | <img src="screenshots/vergleich/firmen_390.png" width="140"> |
+| Hersteller-Qualität | <img src="screenshots/vergleich/qualitaet_1920.png" width="420"> | <img src="screenshots/vergleich/qualitaet_390.png" width="140"> |
+| Logos | <img src="screenshots/vergleich/logos_1920.png" width="420"> | <img src="screenshots/vergleich/logos_390.png" width="140"> |
+| Netz 3D | <img src="screenshots/vergleich/netz_1920.png" width="420"> | <img src="screenshots/vergleich/netz_390.png" width="140"> |
+| Läden & Werke | <img src="screenshots/vergleich/hersteller_1920.png" width="420"> | <img src="screenshots/vergleich/hersteller_390.png" width="140"> |
+| Filialen in der Nähe | <img src="screenshots/vergleich/filialen_1920.png" width="420"> | <img src="screenshots/vergleich/filialen_390.png" width="140"> |
+| Online-Anbieter | <img src="screenshots/vergleich/online_1920.png" width="420"> | <img src="screenshots/vergleich/online_390.png" width="140"> |
+| Wochenplaner | <img src="screenshots/vergleich/planer_1920.png" width="420"> | <img src="screenshots/vergleich/planer_390.png" width="140"> |
+| Kombi-Ideen | <img src="screenshots/vergleich/kombi_1920.png" width="420"> | <img src="screenshots/vergleich/kombi_390.png" width="140"> |
+| Fit to Go vs. Supermarkt | <img src="screenshots/vergleich/ftg_1920.png" width="420"> | <img src="screenshots/vergleich/ftg_390.png" width="140"> |
+| Multipot-Pro Garzeiten | <img src="screenshots/vergleich/multipot_1920.png" width="420"> | <img src="screenshots/vergleich/multipot_390.png" width="140"> |
 
 ### Fertiggerichte-Vergleich (servas-ai Pages)
 
@@ -210,6 +210,7 @@ flowchart LR
 
 **servas-ai/fertiggerichte-vergleich**
 
+- `8abc549` 2026-10-13 18:20 — hourly T17: +49 verified meals (MPreis 31: Felix/Inzersdorfer Gulasch+Chili+Erdäpfelgulasch, Knorr Meister Kessel x3, Alnatura Linseneintopf/Suppen, Schenkel Hummer-/Zwiebelsuppe, Exotic Food Tom Kha/Tom Yum, Wolfensberger & Pomella Knödel x3, Iglo Grammelknödel, Dr. Oetker Bistro x5, Piccolinis x2, Jeden Tag Chili/Frühlingsrollen; BILLA 15: Gustavo Gusto Amore Napoli x3 + Halloween, Wagner Piccolinis x5/Big Sensation x2/Backfrische, Dr. Oetker Ofenfrische, Iglo Ofenbackfisch, Deliciosu Poké Bowl; PENNY 3 via REWE article twins); producers +24 / Identitätskennzeichen +12 (OFF emb_codes); brand tree +WP Fine Food, Exotic Food, Markant/Jeden Tag, Deliciosu; stage fix pizza names w/o 'Pizza'; MPreis placeholder images removed; rows 2775→2824
 - `dbb8e12` 2026-10-13 17:33 — data: companies +26 legal entities via Impressum + live EU VIES (LEI-or-UID 80→106/133, UID 21→47, FN 39→47; Unilever, iglo, Fit2go, YOUCOOK, Stangl, Andros, PENNY, dm …)
 - `647ce6c` 2026-10-13 16:57 — hourly T16: +35 meals (Gurkerl 15: Inzersdorfer Krautfleisch/Reisfleisch/Linsen+Bohnen mit Speck, Felix Linsen, Wagner AirFryer Snacks x4, followfood Pizza Pockets/Dinkel-Pizza/Fischstäbchen, Leitgeb's Kärntner Nudeln x2, Alnatura Spinat-Cashew-Taschen; BILLA 20: Dr. Oetker Bistro Baguettes x7 + La Mia Pinsa x2 + Ofenfrische, Wagner Piccolinis/Big Sensation, BILLA/Clever TK-Baguettes x4, Iglo Goldschatz x2/Fisch'n'Rösti, Clever Knusperfilet); stage fix TK-Baguettes/Goldschatz/AirFryer → meal; brand tree +Leitgeb's (FN 662213v); rows 2740→2775
 - `f40cd26` 2026-10-13 16:30 — data: companies +9 verified GLEIF LEIs (Alnatura, Molkerei Müller, Rana, Ehrmann GmbH, Galana, Delamaris, Doppelt, Dairy 4 Fun, Crêpe de Brocéliande); LEI 50→59/133
@@ -217,10 +218,10 @@ flowchart LR
 - `8cf7c1b` 2026-10-13 15:34 — deploy: score v2, gaps overlay, Linz providers, own brands + worker leftovers
 - `963b429` 2026-10-13 15:32 — data: Hofer fill (hofer.at crawl 1276 + OFF Hofer + heisse-preise w/ price_date, Altpreis >12 Monate flagged), +39 MPreis ready meals (mpreis-shop), new public/stores_linz_2026-10-13.json (498 OSM stores, distance_km from Gruberstraße 19)
 - `9f87a86` 2026-10-13 15:24 — hourly 2026-10-13T14: +58 verified heat-up products (23 complete meals: Wagner Piccolinis, Pietro Pizzi, Iglo/M&S breaded fish, Alpenhain Back-Camembert, Iglo Mohnnudeln, Clever Apfelstrudel, dmBio Gemüsepfanne; 28 protein components: Iglo/followfood/M&S fish fingers, Iglo/Clever/Rebel Kids nuggets, Schulzi's/Berger Knödel) Gurkerl 37 / BILLA 20 / dm 1 · BILLA promo→Normalpreis fix (3 Suprema) + TK packaging fix (6) · brand-tree Schulzi's/Berger/Alpenhain/Rebel Kids · gaps_overlay deadlock fix
-- `98b5aa7` 2026-10-13 15:21 — data: merge Linz non-supermarket ready meals into data.json via export_app (+119 rows: Subway 59, NORDSEE 39, FitTaste +16, Fit to Go +5; segment + delivers_4020 kept; grocery rows excluded); top50 gate ok
 
 **servas-ai/food-connectors**
 
+- `086a6e3` 2026-10-13 18:25 — fix(mpreis): drop shop placeholder image (/assets/noImage_detail-*.webp, site-relative → 404 downstream); only absolute http image URLs kept; tests (2026-10-13T17)
 - `3500939` 2026-10-13 17:28 — fix(impressum): VAT regex accepts grouped-digit UIDs ('ATU 43 20 34 03', 'NL 853 640 804 B 01') seen on penny.at/heiploeg.com legal notices; test (2026-10-13T17)
 - `aa3d626` 2026-10-13 15:23 — feat(billa/penny): storage class (frozen/chilled from badge, parent category, -18°C statement) + category path in enrich; keep Normalpreis (price.standard) next to promo price; more TK stems (Mohnnudeln, Apfelstrudel, Fischstäbchen, Erdäpfeltascherl); gurkerl fetch adds TK Fischstäbchen/Schlemmerfilet categories; tests (2026-10-13T14)
 - `641914b` 2026-10-13 12:36 — feat(billa): more ready-meal search stems (TK pizza, Krautfleckerl, Germknödel, Kaiserschmarrn, noodle cups) (2026-10-13T12)
@@ -228,7 +229,6 @@ flowchart LR
 - `fd204f4` 2026-10-13 11:30 — feat(company): impressum adapter — FN/HRB/UID from public legal notices (robots.txt respected), every UID verified live via EU VIES with name match; CLI --impressum, MCP company_impressum; tests
 - `27ed143` 2026-10-13 11:03 — fix(company): stricter + broader GLEIF matching — spelling variants (ASCII/ö→oe/legal-form-stripped), legal-form families (AG≡SpA, GmbH≡m.b.H.≡srl), country must match legal address, min score 0.85; tests
 - `8862425` 2026-10-13 10:43 — fix(billa): category listing 404 — fetch falls back to meal search stems (2026-10-13T10)
-- `d838413` 2026-10-13 10:01 — feat(dm): live dm.at connector (sitemap + public products.dm.de product JSON: price, GTIN, nutrition, ingredients, origin, non-AI image); heisse dm snapshot moved to dm-heisse
 
 **servas-ai/fertiggerichte-daten**
 

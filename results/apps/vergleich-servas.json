@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T18:01:21Z",
+ "ts": "2026-10-13T18:21:53Z",
  "live": true,
  "tabs": [
   {
@@ -17,7 +17,10 @@
   {
    "tab": "Feed",
    "viewport": 1920,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: the server responded with a status of 503 ()",
+    "TypeError: Failed to fetch dynamically imported module: https://servas-ai.github.io/fertiggerichte-vergleich/assets/Feed-D8ftzLc6.js"
+   ],
    "broken_images": [],
    "images": 62,
    "screenshot": "screenshots/vergleich-servas/feed_1920.png",

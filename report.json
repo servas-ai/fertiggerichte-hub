@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13 18:05 UTC",
+ "generated": "2026-10-13 18:25 UTC",
  "connectors": [
   {
    "id": "billa",
    "store": "BILLA",
    "status_declared": "live",
-   "ts": "2026-10-13T18:04:07Z",
-   "latency_s": 0.4,
+   "ts": "2026-10-13T18:24:19Z",
+   "latency_s": 0.47,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -16,7 +16,7 @@
     "price_eur": 1.49,
     "source_url": "https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-56152-01709617834-_HJngsp4.jpg",
-    "fetched_at": "2026-10-13T18:04:07+00:00"
+    "fetched_at": "2026-10-13T18:24:20+00:00"
    },
    "result": "pass"
   },
@@ -24,8 +24,8 @@
    "id": "dm",
    "store": "dm",
    "status_declared": "live",
-   "ts": "2026-10-13T18:04:07Z",
-   "latency_s": 3.99,
+   "ts": "2026-10-13T18:24:20Z",
+   "latency_s": 3.77,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -35,7 +35,7 @@
     "price_eur": 1.15,
     "source_url": "https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1759529391/assets/pas/images/650eacac-8246-4826-a6cf-718ab04b6e56/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
-    "fetched_at": "2026-10-13T18:04:07+00:00"
+    "fetched_at": "2026-10-13T18:24:20+00:00"
    },
    "result": "pass"
   },
@@ -43,8 +43,8 @@
    "id": "dm-heisse",
    "store": "dm",
    "status_declared": "stale",
-   "ts": "2026-10-13T18:04:11Z",
-   "latency_s": 3.04,
+   "ts": "2026-10-13T18:24:24Z",
+   "latency_s": 2.95,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -54,7 +54,7 @@
     "price_eur": 1.75,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-13T18:04:14+00:00"
+    "fetched_at": "2026-10-13T18:24:27+00:00"
    },
    "result": "pass"
   },
@@ -62,8 +62,8 @@
    "id": "gourmetfein",
    "store": "Online: Gourmetfein",
    "status_declared": "live",
-   "ts": "2026-10-13T18:04:16Z",
-   "latency_s": 2.88,
+   "ts": "2026-10-13T18:24:28Z",
+   "latency_s": 2.96,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -73,7 +73,7 @@
     "price_eur": 24.9,
     "source_url": "https://shop.gourmetfein.com/products/weisswurst-1-8kg",
     "image_url": "https://cdn.shopify.com/s/files/1/0843/0020/2301/files/weisswurstleberk_se.jpg?v=1700573711",
-    "fetched_at": "2026-10-13T18:04:19+00:00"
+    "fetched_at": "2026-10-13T18:24:31+00:00"
    },
    "result": "pass"
   },
@@ -81,8 +81,8 @@
    "id": "gurkerl",
    "store": "Gurkerl.at",
    "status_declared": "live",
-   "ts": "2026-10-13T18:04:19Z",
-   "latency_s": 0.43,
+   "ts": "2026-10-13T18:24:31Z",
+   "latency_s": 0.47,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -92,7 +92,7 @@
     "price_eur": 16.1,
     "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
     "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
-    "fetched_at": "2026-10-13T18:04:19+00:00"
+    "fetched_at": "2026-10-13T18:24:32+00:00"
    },
    "result": "pass"
   },
@@ -100,8 +100,8 @@
    "id": "heisse-preise",
    "store": "heisse-preise.io",
    "status_declared": "live",
-   "ts": "2026-10-13T18:04:19Z",
-   "latency_s": 2.73,
+   "ts": "2026-10-13T18:24:32Z",
+   "latency_s": 3.01,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -111,7 +111,7 @@
     "price_eur": 11.99,
     "source_url": "ager-hirschgulasch-geschnitten-00730647",
     "image_url": null,
-    "fetched_at": "2026-10-13T18:04:22+00:00"
+    "fetched_at": "2026-10-13T18:24:35+00:00"
    },
    "result": "pass"
   },
@@ -119,8 +119,8 @@
    "id": "hofer",
    "store": "HOFER",
    "status_declared": "stale",
-   "ts": "2026-10-13T18:04:24Z",
-   "latency_s": 34.91,
+   "ts": "2026-10-13T18:24:37Z",
+   "latency_s": 2.81,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -130,7 +130,7 @@
     "price_eur": 19.98,
     "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
     "image_url": null,
-    "fetched_at": "2026-10-13T18:04:59+00:00"
+    "fetched_at": "2026-10-13T18:24:39+00:00"
    },
    "result": "pass"
   },
@@ -138,8 +138,8 @@
    "id": "livefresh",
    "store": "Online: LiveFresh",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:12Z",
-   "latency_s": 1.5,
+   "ts": "2026-10-13T18:24:53Z",
+   "latency_s": 1.08,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -149,7 +149,7 @@
     "price_eur": 5.99,
     "source_url": "https://livefresh.at/products/pasta-cheesy-spinat-400g",
     "image_url": "https://cdn.shopify.com/s/files/1/0058/6432/5231/files/cheesy-spinat-pasta.jpg?v=1771934953",
-    "fetched_at": "2026-10-13T18:05:13+00:00"
+    "fetched_at": "2026-10-13T18:24:54+00:00"
    },
    "result": "pass"
   },
@@ -157,8 +157,8 @@
    "id": "mpreis",
    "store": "MPREIS",
    "status_declared": "stale",
-   "ts": "2026-10-13T18:05:13Z",
-   "latency_s": 3.07,
+   "ts": "2026-10-13T18:24:54Z",
+   "latency_s": 2.77,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -168,7 +168,7 @@
     "price_eur": 6.5,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-13T18:05:16+00:00"
+    "fetched_at": "2026-10-13T18:24:57+00:00"
    },
    "result": "pass"
   },
@@ -176,8 +176,8 @@
    "id": "mpreis-shop",
    "store": "MPreis",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:18Z",
-   "latency_s": 6.86,
+   "ts": "2026-10-13T18:24:58Z",
+   "latency_s": 6.67,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -187,7 +187,7 @@
     "price_eur": 1.39,
     "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
     "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
-    "fetched_at": "2026-10-13T18:05:20+00:00"
+    "fetched_at": "2026-10-13T18:25:00+00:00"
    },
    "result": "pass"
   },
@@ -195,8 +195,8 @@
    "id": "off",
    "store": "Open Food Facts",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:25Z",
-   "latency_s": 0.96,
+   "ts": "2026-10-13T18:25:05Z",
+   "latency_s": 3.48,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -206,7 +206,7 @@
     "price_eur": null,
     "source_url": "https://world.openfoodfacts.org/product/4099200121543",
     "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
-    "fetched_at": "2026-10-13T18:05:26+00:00"
+    "fetched_at": "2026-10-13T18:25:08+00:00"
    },
    "result": "pass"
   },
@@ -214,8 +214,8 @@
    "id": "penny",
    "store": "PENNY",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:26Z",
-   "latency_s": 3.91,
+   "ts": "2026-10-13T18:25:08Z",
+   "latency_s": 4.67,
    "count": 2,
    "schema_errors": [],
    "sample": {
@@ -225,7 +225,7 @@
     "price_eur": 3.99,
     "source_url": "https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544771-0110601565-ojOoc2dp.jpg",
-    "fetched_at": "2026-10-13T18:05:28+00:00"
+    "fetched_at": "2026-10-13T18:25:11+00:00"
    },
    "result": "pass"
   },
@@ -233,8 +233,8 @@
    "id": "prepmymeal",
    "store": "Online: PrepMyMeal",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:30Z",
-   "latency_s": 5.23,
+   "ts": "2026-10-13T18:25:13Z",
+   "latency_s": 5.24,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -244,7 +244,7 @@
     "price_eur": 14.5,
     "source_url": "https://prepmymeal.at/products/ch-gemuse-lasagne-3",
     "image_url": "https://cdn.shopify.com/s/files/1/0337/6349/1884/files/GemuseLasagne_a6c6f64f-6b37-46d8-8384-9b826021345c.png?v=1737014090",
-    "fetched_at": "2026-10-13T18:05:35+00:00"
+    "fetched_at": "2026-10-13T18:25:18+00:00"
    },
    "result": "pass"
   },
@@ -252,8 +252,8 @@
    "id": "spar",
    "store": "SPAR/INTERSPAR",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:35Z",
-   "latency_s": 3.23,
+   "ts": "2026-10-13T18:25:19Z",
+   "latency_s": 2.7,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -263,7 +263,7 @@
     "price_eur": 4.99,
     "source_url": null,
     "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001282876/dt_main.jpg",
-    "fetched_at": "2026-10-13T18:05:39+00:00"
+    "fetched_at": "2026-10-13T18:25:21+00:00"
    },
    "result": "pass"
   },
@@ -271,8 +271,8 @@
    "id": "unimarkt",
    "store": "Unimarkt",
    "status_declared": "stale",
-   "ts": "2026-10-13T18:05:40Z",
-   "latency_s": 4.19,
+   "ts": "2026-10-13T18:25:23Z",
+   "latency_s": 2.72,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -282,7 +282,7 @@
     "price_eur": 5.39,
     "source_url": "/Felix-Erdaepfelgulasch-3692",
     "image_url": null,
-    "fetched_at": "2026-10-13T18:05:44+00:00"
+    "fetched_at": "2026-10-13T18:25:25+00:00"
    },
    "result": "pass"
   },
@@ -290,7 +290,7 @@
    "id": "adeg",
    "store": "ADEG",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:04:06Z",
+   "ts": "2026-10-13T18:24:19Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -300,7 +300,7 @@
    "id": "bio-kistl",
    "store": "Biohof Achleitner / Bio-Kistl OÖ",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:04:07Z",
+   "ts": "2026-10-13T18:24:20Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -310,7 +310,7 @@
    "id": "denns",
    "store": "denn's BioMarkt",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:04:07Z",
+   "ts": "2026-10-13T18:24:20Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -320,7 +320,7 @@
    "id": "fittogo",
    "store": "Fit to Go",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:04:16Z",
+   "ts": "2026-10-13T18:24:28Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -330,7 +330,7 @@
    "id": "foodora-market",
    "store": "foodora market (Dmart)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:04:16Z",
+   "ts": "2026-10-13T18:24:28Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -340,8 +340,8 @@
    "id": "lidl",
    "store": "Lidl",
    "status_declared": "live",
-   "ts": "2026-10-13T18:05:00Z",
-   "latency_s": 11.48,
+   "ts": "2026-10-13T18:24:41Z",
+   "latency_s": 11.44,
    "count": 0,
    "result": "fail",
    "error": "HTTPError: HTTP Error 401: Unauthorized"
@@ -350,7 +350,7 @@
    "id": "lieferando-shops",
    "store": "Lieferando Shops",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:05:12Z",
+   "ts": "2026-10-13T18:24:53Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -360,7 +360,7 @@
    "id": "mjam",
    "store": "mjam (now foodora)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:05:13Z",
+   "ts": "2026-10-13T18:24:54Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -370,7 +370,7 @@
    "id": "nah-frisch",
    "store": "Nah&Frisch",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:05:25Z",
+   "ts": "2026-10-13T18:25:05Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -380,7 +380,7 @@
    "id": "unimarkt-shop",
    "store": "Unimarkt (UNIONLINE Shop)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:05:46Z",
+   "ts": "2026-10-13T18:25:27Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -390,7 +390,7 @@
    "id": "wokostswas",
    "store": "wokostswas.at",
    "status_declared": "catalog-only",
-   "ts": "2026-10-13T18:05:46Z",
+   "ts": "2026-10-13T18:25:27Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -402,7 +402,7 @@
    "id": "vergleich",
    "name": "Fertiggerichte-Vergleich",
    "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T17:59:55Z",
+   "ts": "2026-10-13T18:15:04Z",
    "live": true,
    "tabs": [
     {
@@ -475,7 +475,8 @@
      "broken_images": [],
      "images": 11,
      "screenshot": "screenshots/vergleich/markenprofil_1920.png",
-     "ok": true
+     "ok": true,
+     "retried_after_crash": true
     },
     {
      "tab": "Laden-Profil",
@@ -534,98 +535,148 @@
     {
      "tab": "Preis vs. Protein",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.evaluate: Target crashed "
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/scatter_1920.png",
+     "ok": true
     },
     {
      "tab": "Verpackungen",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=pack\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 32,
+     "screenshot": "screenshots/vergleich/pack_1920.png",
+     "ok": true
     },
     {
      "tab": "Marken-Matrix",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=matrix\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 106,
+     "screenshot": "screenshots/vergleich/matrix_1920.png",
+     "ok": true
     },
     {
      "tab": "Hersteller",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=hersteller-seiten\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 68,
+     "screenshot": "screenshots/vergleich/hersteller-seiten_1920.png",
+     "ok": true
     },
     {
      "tab": "Wer steckt dahinter?",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=wer\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 1032,
+     "screenshot": "screenshots/vergleich/wer_1920.png",
+     "ok": true
     },
     {
      "tab": "Firmenvergleich",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=firmen\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 12,
+     "screenshot": "screenshots/vergleich/firmen_1920.png",
+     "ok": true
     },
     {
      "tab": "Hersteller-Qualität",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=qualitaet\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/qualitaet_1920.png",
+     "ok": true
     },
     {
      "tab": "Logos",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=logos\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 240,
+     "screenshot": "screenshots/vergleich/logos_1920.png",
+     "ok": true
     },
     {
      "tab": "Netz 3D",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=netz\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/netz_1920.png",
+     "ok": true
     },
     {
      "tab": "Läden & Werke",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=hersteller\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 74,
+     "screenshot": "screenshots/vergleich/hersteller_1920.png",
+     "ok": true
     },
     {
      "tab": "Filialen in der Nähe",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=filialen\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 60,
+     "screenshot": "screenshots/vergleich/filialen_1920.png",
+     "ok": true,
+     "retried_after_crash": true
     },
     {
      "tab": "Online-Anbieter",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=online\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 147,
+     "screenshot": "screenshots/vergleich/online_1920.png",
+     "ok": true
     },
     {
      "tab": "Wochenplaner",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=planer\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 14,
+     "screenshot": "screenshots/vergleich/planer_1920.png",
+     "ok": true,
+     "retried_after_crash": true
     },
     {
      "tab": "Kombi-Ideen",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=kombi\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 272,
+     "screenshot": "screenshots/vergleich/kombi_1920.png",
+     "ok": true
     },
     {
      "tab": "Fit to Go vs. Supermarkt",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=ftg\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 116,
+     "screenshot": "screenshots/vergleich/ftg_1920.png",
+     "ok": true
     },
     {
      "tab": "Multipot-Pro Garzeiten",
      "viewport": 1920,
-     "ok": false,
-     "error": "Page.goto: Page crashed\nCall log:\n  - navigating to \"https://martin-hausleitner.github.io/fertiggerichte-vergleich/#tab=multipot\", waiting until \"networkidle\"\n"
+     "console_errors": [],
+     "broken_images": [],
+     "images": 0,
+     "screenshot": "screenshots/vergleich/multipot_1920.png",
+     "ok": true
     },
     {
      "tab": "home",
@@ -903,7 +954,7 @@
    "id": "vergleich-servas",
    "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
    "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-13T18:01:21Z",
+   "ts": "2026-10-13T18:21:53Z",
    "live": true,
    "tabs": [
     {
@@ -918,7 +969,10 @@
     {
      "tab": "Feed",
      "viewport": 1920,
-     "console_errors": [],
+     "console_errors": [
+      "Failed to load resource: the server responded with a status of 503 ()",
+      "TypeError: Failed to fetch dynamically imported module: https://servas-ai.github.io/fertiggerichte-vergleich/assets/Feed-D8ftzLc6.js"
+     ],
      "broken_images": [],
      "images": 62,
      "screenshot": "screenshots/vergleich-servas/feed_1920.png",
@@ -1452,7 +1506,7 @@
    "id": "einkaufsanalyse",
    "name": "Einkaufsanalyse",
    "url": "https://servas-ai.github.io/einkaufsanalyse/",
-   "ts": "2026-10-13T18:03:31Z",
+   "ts": "2026-10-13T18:23:44Z",
    "live": true,
    "tabs": [
     {
@@ -1603,7 +1657,7 @@
   }
  ],
  "dataset": {
-  "ts": "2026-10-13T18:05:46Z",
+  "ts": "2026-10-13T18:25:27Z",
   "products": 2841,
   "by_store": [
    [
@@ -1711,7 +1765,7 @@
    "photo": 91.7,
    "producer": 35.9,
    "brand": 88.4,
-   "logos_total": 248
+   "logos_total": 249
   },
   "fill_rate_products": {
    "bio": 100.0,
@@ -1740,12 +1794,17 @@
    "establishments": 4706,
    "products": 2841,
    "companies": 133,
-   "logos": 248,
+   "logos": 249,
    "producer_quality": 4
   }
  },
  "changelog": {
   "servas-ai/fertiggerichte-vergleich": [
+   [
+    "8abc549",
+    "2026-10-13T18:20",
+    "hourly T17: +49 verified meals (MPreis 31: Felix/Inzersdorfer Gulasch+Chili+Erdäpfelgulasch, Knorr Meister Kessel x3, Alnatura Linseneintopf/Suppen, Schenkel Hummer-/Zwiebelsuppe, Exotic Food Tom Kha/Tom Yum, Wolfensberger & Pomella Knödel x3, Iglo Grammelknödel, Dr. Oetker Bistro x5, Piccolinis x2, Jeden Tag Chili/Frühlingsrollen; BILLA 15: Gustavo Gusto Amore Napoli x3 + Halloween, Wagner Piccolinis x5/Big Sensation x2/Backfrische, Dr. Oetker Ofenfrische, Iglo Ofenbackfisch, Deliciosu Poké Bowl; PENNY 3 via REWE article twins); producers +24 / Identitätskennzeichen +12 (OFF emb_codes); brand tree +WP Fine Food, Exotic Food, Markant/Jeden Tag, Deliciosu; stage fix pizza names w/o 'Pizza'; MPreis placeholder images removed; rows 2775→2824"
+   ],
    [
     "dbb8e12",
     "2026-10-13T17:33",
@@ -1780,14 +1839,14 @@
     "9f87a86",
     "2026-10-13T15:24",
     "hourly 2026-10-13T14: +58 verified heat-up products (23 complete meals: Wagner Piccolinis, Pietro Pizzi, Iglo/M&S breaded fish, Alpenhain Back-Camembert, Iglo Mohnnudeln, Clever Apfelstrudel, dmBio Gemüsepfanne; 28 protein components: Iglo/followfood/M&S fish fingers, Iglo/Clever/Rebel Kids nuggets, Schulzi's/Berger Knödel) Gurkerl 37 / BILLA 20 / dm 1 · BILLA promo→Normalpreis fix (3 Suprema) + TK packaging fix (6) · brand-tree Schulzi's/Berger/Alpenhain/Rebel Kids · gaps_overlay deadlock fix"
-   ],
-   [
-    "98b5aa7",
-    "2026-10-13T15:21",
-    "data: merge Linz non-supermarket ready meals into data.json via export_app (+119 rows: Subway 59, NORDSEE 39, FitTaste +16, Fit to Go +5; segment + delivers_4020 kept; grocery rows excluded); top50 gate ok"
    ]
   ],
   "servas-ai/food-connectors": [
+   [
+    "086a6e3",
+    "2026-10-13T18:25",
+    "fix(mpreis): drop shop placeholder image (/assets/noImage_detail-*.webp, site-relative → 404 downstream); only absolute http image URLs kept; tests (2026-10-13T17)"
+   ],
    [
     "3500939",
     "2026-10-13T17:28",
@@ -1822,11 +1881,6 @@
     "8862425",
     "2026-10-13T10:43",
     "fix(billa): category listing 404 — fetch falls back to meal search stems (2026-10-13T10)"
-   ],
-   [
-    "d838413",
-    "2026-10-13T10:01",
-    "feat(dm): live dm.at connector (sitemap + public products.dm.de product JSON: price, GTIN, nutrition, ingredients, origin, non-AI image); heisse dm snapshot moved to dm-heisse"
    ]
   ],
   "servas-ai/fertiggerichte-daten": [

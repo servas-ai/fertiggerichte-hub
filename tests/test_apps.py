@@ -29,15 +29,17 @@ def test_app(app):
     with sync_playwright() as pw:
         b = pw.chromium.launch(args=['--no-sandbox','--disable-dev-shm-usage'])
         for vw, vh in [(1920,1080),(390,844)]:
-            pg = b.new_page(viewport={"width":vw,"height":vh})
             errs = []
-            pg.on("console", lambda m: errs.append(m.text[:200]) if m.type=="error" else None)
-            pg.on("pageerror", lambda e: errs.append(("pageerror: "+str(e))[:200]))
-            pg.goto(app["url"], wait_until="networkidle", timeout=60000)
+            def fresh_page():
+                p2 = b.new_page(viewport={"width":vw,"height":vh})
+                p2.on("console", lambda m: errs.append(m.text[:200]) if m.type=="error" else None)
+                p2.on("pageerror", lambda e: errs.append(("pageerror: "+str(e))[:200]))
+                try: p2.goto(app["url"], wait_until="networkidle", timeout=60000)
+                except Exception: p2.goto(app["url"], wait_until="load", timeout=60000)
+                return p2
+            pg = fresh_page()
             tabs = [{"id":None,"t":"home"}] + discover(app["url"])
-            for t in tabs[:30]:
-                errs.clear()
-                try:
+            def run_tab(pg, t):
                     if t["id"] and t["mode"]=="hash":
                         pg.goto(app["url"]+"#tab="+t["id"], wait_until="networkidle", timeout=45000)
                     elif t["id"]:
@@ -50,8 +52,24 @@ def test_app(app):
                     nimg = pg.evaluate("document.images.length")
                     fn = f"screenshots/{app['id']}/{slug(t["id"] or "home")}_{vw}.png"
                     pg.screenshot(path=os.path.join(ROOT, fn))
-                    res["tabs"].append({"tab":t["t"],"viewport":vw,"console_errors":list(errs),"broken_images":broken,"images":nimg,"screenshot":fn,"ok":True})
+                    return {"tab":t["t"],"viewport":vw,"console_errors":list(errs),"broken_images":broken,"images":nimg,"screenshot":fn,"ok":True}
+            for t in tabs[:30]:
+                errs.clear()
+                try:
+                    res["tabs"].append(run_tab(pg, t))
                 except Exception as e:
+                    # 2026-10-13: renderer OOM on a long-lived page (box memory pressure) -> fresh page, retry once
+                    done = False
+                    for _attempt in range(2):
+                        if not any(k in str(e).lower() for k in ("crash","closed","timeout")): break
+                        try: pg.close()
+                        except Exception: pass
+                        try:
+                            pg = fresh_page(); errs.clear()
+                            r2 = run_tab(pg, t); r2["retried_after_crash"] = True
+                            res["tabs"].append(r2); done = True; break
+                        except Exception as e2: e = e2
+                    if done: continue
                     res["tabs"].append({"tab":t["t"],"viewport":vw,"ok":False,"error":str(e)[:200]})
             pg.close()
         b.close()
