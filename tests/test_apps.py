@@ -27,7 +27,7 @@ def test_app(app):
         json.dump(res, open(f"{OUT}/{app['id']}.json","w"), indent=1); pytest.skip("not live")
     sd = os.path.join(ROOT, "screenshots", app["id"]); os.makedirs(sd, exist_ok=True)
     with sync_playwright() as pw:
-        b = pw.chromium.launch()
+        b = pw.chromium.launch(args=['--no-sandbox','--disable-dev-shm-usage'])
         for vw, vh in [(1920,1080),(390,844)]:
             pg = b.new_page(viewport={"width":vw,"height":vh})
             errs = []

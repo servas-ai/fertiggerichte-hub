@@ -1,0 +1,153 @@
+{
+ "id": "einkaufsanalyse",
+ "name": "Einkaufsanalyse",
+ "url": "https://servas-ai.github.io/einkaufsanalyse/",
+ "ts": "2026-10-13T09:59:52Z",
+ "live": true,
+ "tabs": [
+  {
+   "tab": "home",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 5,
+   "screenshot": "screenshots/einkaufsanalyse/home_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "\u00dcbersicht",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 5,
+   "screenshot": "screenshots/einkaufsanalyse/uebersicht_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Verlauf",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/einkaufsanalyse/verlauf_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "L\u00e4den",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/einkaufsanalyse/laeden_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Kategorien",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/einkaufsanalyse/kategorien_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Protein & Gesundheit",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 17,
+   "screenshot": "screenshots/einkaufsanalyse/protein_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Kassenbons",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 30,
+   "screenshot": "screenshots/einkaufsanalyse/bons_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "Import",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/einkaufsanalyse/import_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "home",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 5,
+   "screenshot": "screenshots/einkaufsanalyse/home_390.png",
+   "ok": true
+  },
+  {
+   "tab": "\u00dcbersicht",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 5,
+   "screenshot": "screenshots/einkaufsanalyse/uebersicht_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Verlauf",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/einkaufsanalyse/verlauf_390.png",
+   "ok": true
+  },
+  {
+   "tab": "L\u00e4den",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 6,
+   "screenshot": "screenshots/einkaufsanalyse/laeden_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Kategorien",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/einkaufsanalyse/kategorien_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Protein & Gesundheit",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 17,
+   "screenshot": "screenshots/einkaufsanalyse/protein_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Kassenbons",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 30,
+   "screenshot": "screenshots/einkaufsanalyse/bons_390.png",
+   "ok": true
+  },
+  {
+   "tab": "Import",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 0,
+   "screenshot": "screenshots/einkaufsanalyse/import_390.png",
+   "ok": true
+  }
+ ]
+}
