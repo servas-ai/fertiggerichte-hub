@@ -1,10 +1,19 @@
 {
  "id": "nah-frisch",
  "store": "Nah&Frisch",
- "status_declared": "catalog-only",
- "ts": "2026-10-13T19:57:22Z",
- "latency_s": 0.0,
- "count": 0,
+ "status_declared": "live",
+ "ts": "2026-10-13T21:09:22Z",
+ "latency_s": 171.78,
+ "count": 2,
  "schema_errors": [],
- "result": "catalog"
+ "sample": {
+  "name": "Inzersdorfer Fertiggerichte oder Suppen",
+  "brand": "Inzersdorfer",
+  "store": "Nah&Frisch",
+  "price_eur": null,
+  "source_url": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche",
+  "image_url": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
+  "fetched_at": "2026-10-13T21:12:02+00:00"
+ },
+ "result": "pass"
 }

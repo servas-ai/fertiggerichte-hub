@@ -1,19 +1,5 @@
 {
  "id": "dm-heisse",
- "store": "dm",
- "status_declared": "stale",
- "ts": "2026-10-13T19:56:35Z",
- "latency_s": 3.97,
- "count": 3,
- "schema_errors": [],
- "sample": {
-  "name": "HiPP Men\u00fc Sp\u00e4tzle mit Gulasch ab 8 Monaten, 220 g",
-  "brand": null,
-  "store": "dm",
-  "price_eur": 1.75,
-  "source_url": null,
-  "image_url": null,
-  "fetched_at": "2026-10-13T19:56:39+00:00"
- },
- "result": "pass"
+ "result": "fail",
+ "error": " scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  r = {\"id\": aid, \"store\": getattr(a,\"store\",\"\"), \"status_declared\": getattr(a,\"status\",\"\"), \"ts\": datetime.datetime.utcnow().isoformat(timespec=\"seconds\")+\"Z\"}\n"
 }
