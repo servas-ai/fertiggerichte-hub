@@ -2,8 +2,8 @@
  "id": "penny",
  "store": "PENNY",
  "status_declared": "live",
- "ts": "2026-10-13T12:01:50Z",
- "latency_s": 5.83,
+ "ts": "2026-10-13T13:01:44Z",
+ "latency_s": 7.09,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 3.99,
   "source_url": "https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771",
   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544771-0110601565-ojOoc2dp.jpg",
-  "fetched_at": "2026-10-13T12:01:53+00:00"
+  "fetched_at": "2026-10-13T13:01:48+00:00"
  },
  "result": "pass"
 }

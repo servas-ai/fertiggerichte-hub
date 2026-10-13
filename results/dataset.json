@@ -1,10 +1,10 @@
 {
- "ts": "2026-10-13T12:02:15Z",
- "products": 2392,
+ "ts": "2026-10-13T13:02:11Z",
+ "products": 2542,
  "by_store": [
   [
    "Billa",
-   618
+   670
   ],
   [
    "Spar",
@@ -12,7 +12,7 @@
   ],
   [
    "Gurkerl",
-   400
+   464
   ],
   [
    "Hofer",
@@ -20,7 +20,7 @@
   ],
   [
    "MPreis",
-   178
+   211
   ],
   [
    "unbekannt (OFF)",
@@ -28,7 +28,7 @@
   ],
   [
    "PrepMyMeal",
-   90
+   91
   ],
   [
    "Lidl",
@@ -62,23 +62,23 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1060
+   1063
+  ],
+  [
+   "Tiefkühl (TK)",
+   449
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   352
+   377
   ],
   [
    "Dose/Konserve",
    334
   ],
   [
-   "Tiefkühl (TK)",
-   332
-  ],
-  [
    "Trocken/Instant",
-   269
+   274
   ],
   [
    "Glas",
@@ -94,41 +94,41 @@
   ]
  ],
  "coverage": {
-  "nutrition": 68.2,
-  "price": 86.4,
-  "photo": 93.0,
-  "producer": 35.3,
-  "brand": 86.5,
-  "logos_total": 198
+  "nutrition": 70.3,
+  "price": 87.2,
+  "photo": 93.4,
+  "producer": 36.0,
+  "brand": 87.3,
+  "logos_total": 223
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 86.5,
+  "brand": 87.3,
   "chain": 100.0,
-  "dish": 32.4,
-  "image_url": 93.0,
+  "dish": 30.6,
+  "image_url": 93.4,
   "name": 100.0,
-  "origin": 31.9,
-  "pack_size_g": 91.7,
-  "producer": 35.3,
+  "origin": 33.9,
+  "pack_size_g": 92.2,
+  "producer": 36.0,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 94.4,
+  "url": 94.8,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 2066,
+  "prices": 2216,
   "brand_tree": 8,
   "online_mealprep": 96,
   "online_providers": 3,
-  "nutrition": 1633,
+  "nutrition": 1789,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 2392,
+  "products": 2542,
   "companies": 133,
-  "logos": 198,
+  "logos": 223,
   "producer_quality": 4
  }
 }
