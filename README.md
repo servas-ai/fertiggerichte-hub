@@ -4,6 +4,10 @@ Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Autom
 
 **Connectors:** 11 ✅ / 3 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 1293
 
+## Coverage checklist
+
+Live gap tracker: **[COVERAGE.md](./COVERAGE.md)** (products, Linz branches, logos, companies, tariffs, public datasets, online meal-prep).
+
 ## Apps
 
 | App | URL | Live | Tabs getestet | Konsolen-Fehler | Kaputte Bilder |
