@@ -51,7 +51,7 @@ bc = collections.Counter(p["brand"].strip() for p in P if p.get("brand", "").str
 bmiss = [(b, n) for b, n in bc.most_common() if b.lower() not in logo_file_names]
 bmiss_row = [(b, n) for b, n in bc.most_common() if b.lower() not in logo_names]
 blk = f"- Brands in products: {len(bc)}; brands without a logo file: {len(bmiss)} ({sum(n for _, n in bmiss)} products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': {len(bmiss_row)} brands / {sum(n for _, n in bmiss_row)} products); logo rows with file: {len(LF)}/{len(L)}; top 8:\n" + "\n".join(f"  - [ ] {b} ({n} products)" for b, n in bmiss[:8]) + "\n"
-lgsec = re.sub(r"(?ms)^- Brands in products:.*?(?=^- Producers missing logo)", lambda m: blk, lgsec)
+lgsec = re.sub(r"(?ms)^- Brands in products:.*?(?=^- (?:Producers missing logo|\[.\] Company/producer logos))", lambda m: blk, lgsec)
 meal = len(P); prices = len(PR)
 tot = ["## Totals snapshot", "", f"- Products: {meal}", f"- Prices: {prices} (live 2026: {sum(v.get('live 2026',0) for v in by.values())})",
        f"- Logos: {len(L)}"] + [l for l in S.get("Totals snapshot", "").splitlines() if re.match(r"- (Stores|Companies|Online|External)", l)]
