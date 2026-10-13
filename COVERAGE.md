@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T11:33:29Z UTC
-**Next biggest gap:** Companies: 62/133 still without LEI or verified UID (Unilever Austria, iglo Austria, Fit2go, YOUCOOK, Ehrmann, Stangl, Strauss … have no legal notice reachable without JS; next = Firmenbuch HVD key or North Data public pages; revenue 16/133). Hofer still 102/224 without photo and 87 Hofer + 135 Spar rows on 2025 prices (hofer.at Akamai 403, interspar.at Cloudflare). Lidl 11 + Penny 5 photos: OFF has the Penny Chef-Menü items but without images (checked 2026-10-13T10). Logo-less brands (Pappudia, dmBio, GAON, The Green Garden, Deflorian, Bibigo, Strauss) need an official asset. Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
+**Last updated:** 2026-10-13T11:55:11Z UTC
+**Next biggest gap:** Logos (strict, file required): 154 brands / 430 products still without a logo file — top: Good Choice 47 (Hofer, file-less placeholder; Aldi CDN 403), Pappudia 23, Youcook 17 (file-less row), dmBio 15, Chef Select 13, SPAR enjoy 12 (file-less row), GAON 10, The Green Garden 10, Deflorian 10, M (MPreis Eigenmarke) 12. Companies: 62/133 without LEI or verified UID (JS-only imprints; Firmenbuch key missing). Hofer 102/224 without photo, 87 Hofer + 135 Spar rows on 2025 prices (Akamai/Cloudflare). Product deserts: denn's/ADEG/Nah&Frisch (catalog-only).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -67,18 +67,18 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **166** (`data/logos.csv`)
+- [x] Logo index rows: **198** (149 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'Spar', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 339; brands without logo row: 151 (349 products); top 8:
+- Brands in products: 339; brands without a logo file: 154 (430 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 97 brands / 224 products); logo rows with file: 149/198; top 8:
+  - [ ] Good Choice (47 products)
   - [ ] Pappudia (23 products)
+  - [ ] Youcook (17 products)
   - [ ] dmBio (15 products)
+  - [ ] Chef Select (13 products)
+  - [ ] Spar enjoy (12 products)
   - [ ] GAON - Koreanisches Restaurant (10 products)
   - [ ] The Green Garden (10 products)
-  - [ ] Deflorian (10 products)
-  - [ ] Bibigo (9 products)
-  - [ ] Strauss (8 products)
-  - [ ] Mochi (7 products)
 - Producers missing logo (sample): 17 of top 20
   - [ ] BILLA AG
   - [ ] Unilever Austria
@@ -164,15 +164,14 @@ Other OSM chains in bbox:
 
 - [~] Brand logos (2026-10-13T10): +10 vision-gated logos wired to ~79 app rows — Bertagni, Bonduelle, HOFMANNs, Landliebe, Alpro, Müller (Molkerei Müller), Picard, Schärdinger (Wikimedia Commons, licence noted) + Freshery (freshery.sk shop logo), Every. (every-foods.com header); Karnerta logo now also mapped to brand 'Karnerta' (MPreis). Pappudia, GAON, The Green Garden, Deflorian, Bibigo, Strauss, Mochi: no verifiable official logo source found this run (no own site / Commons hit; Bibigo site has no extractable logo asset) → stay empty. Lidl `/q/api/search` again 401 for every sweep request after 4 OK single probes → stopped (no workaround). Penny online API (453 items) has only flyer items without nutrition/GTIN → not imported. Evidence `fertiggerichte-daten/raw/logos_lidl_penny_2026-10-13T10.json`.
 - [x] `company:gleif` matcher (2026-10-13T10, food-connectors 27ed143): GLEIF exact legalName + fulltext over spelling variants (original / ASCII / ö→oe / legal-form-stripped); accept only token-Jaccard ≥ 0.85 on legal-form-agnostic, diacritic-folded names, same legal-form family (AG≡SpA≡NV, GmbH≡m.b.H.≡srl≡s.r.o.) and legal-address country = hint. LEI 25→50 (e.g. BILLA AG = Billa Aktiengesellschaft FN 118556y, Nestlé Österreich, FELIX Austria → parent Orkla, NÖM, Berglandmilch, Dr. Oetker AT, Danone AT, Radatz, Dr. Schär SpA, Rügenwalder Mühle). Rejected on purpose: Lidl Österreich GmbH LEI = German HRB entity (Neckarsulm), dm Verwaltungsgesellschaft, Ehrmann SE vs label 'Ehrmann GmbH', Unimarkt KG. Evidence `fertiggerichte-daten/raw/gleif_matching_2026-10-13T10.json`.
+- [~] Brand logos (2026-10-13T11, Daten-Squad, daten 8abca80): **+30 vision-gated logos** — Wikimedia Commons (licence in source/note): Danone, Heinz, Hilcona, Hengstenberg (CC BY-SA 4.0, TIFF→PNG thumb), Kotányi, Nongshim, Perutnina Ptuj, Riso Scotti, SalzburgMilch, eismann, Uncle Ben's, Weight Watchers, Andechser Natur; official site headers (robots.txt checked, no JS/cookies): NÖM (+ nöm PRO/Cremix aliases), Zurück zum Ursprung, Bibigo, Berger Schinken, Bürger, Delamaris, DimmidiSì, Golfera, GREENFORCE, Gü (wordmark cropped from official og:image), Jeden Tag, Meica, NENI, Stadtküche (kasnudl.com), Wiegert, Bauernland (weinbergmaier.at), Brajlović (192 px site icon). **+14 aliases** only onto rows that really have a file (Tressbrüder, Planted., 'Maggi, Nestlé', Hubers, Little Lunch, Knorr Kaiser Teller, FitTaste, Hut & Stiel, VEGA VITA, Billabio, Spar Natur Pur, Dr. Oetker Ristorante …). Strict logo-less (file required): **208→154 brands, 555→430 products** (lenient row count 151/349→97/224). Rejected: Findus favicon (shape only), La Fermière (white-only SVG), miil.at/oyakata.de (other companies), Basenbox favicon, Riso Gallo (photo of a sign), Esterhazy (entity unverified), Thai President Foods (producer ≠ Mama brand). coverage.py now counts only logo rows with a file (file-less Hofer/Lidl Eigenmarken placeholders no longer hide gaps). Evidence fertiggerichte-daten/raw/logos_squad_2026-10-13T11.json. Deployed app 3d60a5b (99 app rows now show one of the new logos; app rows with logo 1600→1741 incl. hourly T11).
 
 ## Totals snapshot
 
 - Products: 2392
 - Prices: 2066 (live 2026: 1806)
-- Logos: 166
+- Logos: 198
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (50 with LEI, 71 with LEI or verified UID, 39 with FN)
 - Online meal-prep: 96
 - External datasets catalogued: 11
-
-- [x] `company:impressum` (2026-10-13T11, food-connectors fd204f4, daten 4d0d6c9, app 8c5cda5): 73 candidate company sites probed (+16 alternates). Accepted 24: VIES-verified AT UIDs for Ja! Natürlich (FN 113231t), A. Darbo AG (FN 46033x), Hink, Wiesbauer Gourmet Gastro, MORGENTAU, Brajlovic, Ehrenwort, Hubers Landhendl, Revo Foods, Wech-Geflügel, **Lidl Österreich GmbH (ATU37893801, FN 131556s; the AT entity GLEIF lacked)**; DE UIDs (VIES valid, full legal name next to the UID on the page, reviewed) for FRoSTA Tiefkühlkost, FRoSTA AG, iglo GmbH, Allos, Landliebe, Hamker, Every., LPP Lotao, RILA Feinkost-Importe, Heiderbeck; FN only (no or invalid UID) for PENNY GmbH (FN 160330f), Blasko (FN 74665b), Alimentastic (FN 673845z; printed UID invalid in VIES). Rejected on purpose (entity mismatch): Mochi Production vs Mochi GmbH, Graninger Holding vs Graninger GmbH, Meica (GmbH & Co. KG), Alnatura (Produktions- und Handels GmbH), Bauck vs Bauckhof, Ehrmann (AG), REWE subsidiaries (page = REWE International AG), Landtmann (Querfeld's), Inzersdorfer (Maresi), Kasnudl (Knödelhütte), Hochreiter Quality Meat (Lebensmittelbetriebe). No imprint found or JS-only: Unilever AT, iglo AT, Fit2go, YOUCOOK, Stangl, Strauss, Danone, Deflorian, Planted and others. Evidence `fertiggerichte-daten/raw/impressum_vies_2026-10-13.json`.

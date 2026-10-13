@@ -14,6 +14,8 @@ for m in re.finditer(r"(?m)^\| ([^|]+?) \| \[.\] \| \d+ \| \[(.)\] \| (\d+) \| \
     branches[m.group(1)] = (m.group(2), int(m.group(3)))
 cnt = collections.Counter(p["chain"] for p in P); img = collections.Counter(p["chain"] for p in P if p["image_url"])
 logo_names = {l["name"].lower() for l in L} | {l["slug"] for l in L} | {b.lower() for l in L for b in (l.get("brands") or "").split("|") if b}
+LF = [l for l in L if (l.get("file") or "").strip()]  # rows that actually carry a logo file (file-less placeholder rows don't count)
+logo_file_names = {l["name"].lower() for l in LF} | {l["slug"] for l in LF} | {b.lower() for l in LF for b in (l.get("brands") or "").split("|") if b}
 CH = ["Spar", "Billa", "Billa Plus", "Hofer", "Lidl", "Penny", "dm", "denn's BioMarkt", "MPreis", "Unimarkt", "ADEG", "Nah&Frisch", "Fit to Go", "Gurkerl", "Eurospar", "Interspar"]
 SLUG = {"denn's BioMarkt": "denns", "Nah&Frisch": "nah-frisch", "Billa Plus": "billa-plus", "Fit to Go": "fit2go", "Eurospar": "spar", "Interspar": "spar"}
 x = lambda b: "[x]" if b else "[ ]"
@@ -42,12 +44,13 @@ tp += ["- [x] MPreis: live 2026 prices from the webshop (stale 2023/24 dump rows
        "- [-] Unimarkt: no live price possible — webshop closed 02/2024, chain exited retail 02-03/2026 (29 rows kept as flagged 2023/24 history)", ""]
 lgsec = S.get("Logos", "")
 missing = [c for c in ["MPreis", "Unimarkt", "denn's BioMarkt", "ADEG", "Nah&Frisch", "Fit to Go", "Billa Plus", "Gurkerl"] if not (c.lower() in logo_names or SLUG.get(c, c.lower()) in logo_names)]
-lgsec = re.sub(r"- \[.\] Logo index rows: \*\*\d+\*\*", f"- [x] Logo index rows: **{len(L)}**", lgsec)
+lgsec = re.sub(r"- \[.\] Logo index rows: \*\*\d+\*\*(?: \(\d+ with a logo file\))?", f"- [x] Logo index rows: **{len(L)}** ({len(LF)} with a logo file)", lgsec)
 lgsec = re.sub(r"- Handelskette logos present: .*", f"- Handelskette logos present: {sorted(l['name'] for l in L if l['category']=='Handelskette')}", lgsec)
 lgsec = re.sub(r"- \[.\] Missing Handelskette logos: .*", (f"- [ ] Missing Handelskette logos: {', '.join(missing)}" if missing else "- [x] All tracked Handelskette logos present") + " (Eurospar/Interspar covered by Spar)", lgsec)
 bc = collections.Counter(p["brand"].strip() for p in P if p.get("brand", "").strip())
-bmiss = [(b, n) for b, n in bc.most_common() if b.lower() not in logo_names]
-blk = f"- Brands in products: {len(bc)}; brands without logo row: {len(bmiss)} ({sum(n for _, n in bmiss)} products); top 8:\n" + "\n".join(f"  - [ ] {b} ({n} products)" for b, n in bmiss[:8]) + "\n"
+bmiss = [(b, n) for b, n in bc.most_common() if b.lower() not in logo_file_names]
+bmiss_row = [(b, n) for b, n in bc.most_common() if b.lower() not in logo_names]
+blk = f"- Brands in products: {len(bc)}; brands without a logo file: {len(bmiss)} ({sum(n for _, n in bmiss)} products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': {len(bmiss_row)} brands / {sum(n for _, n in bmiss_row)} products); logo rows with file: {len(LF)}/{len(L)}; top 8:\n" + "\n".join(f"  - [ ] {b} ({n} products)" for b, n in bmiss[:8]) + "\n"
 lgsec = re.sub(r"(?ms)^- Brands in products:.*?(?=^- Producers missing logo)", lambda m: blk, lgsec)
 meal = len(P); prices = len(PR)
 tot = ["## Totals snapshot", "", f"- Products: {meal}", f"- Prices: {prices} (live 2026: {sum(v.get('live 2026',0) for v in by.values())})",
