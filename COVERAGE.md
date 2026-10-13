@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T03:52:41Z UTC
-**Next biggest gap:** Hofer photos/prices: ~134/224 without photo and 87 Preis-2025 rows; Spar photos complete. denn's/ADEG/Nah&Frisch still have no product source.
+**Last updated:** 2026-10-13T04:34:16Z UTC
+**Next biggest gap:** Hofer still 102/224 without photo (Akamai blocks hofer.at; OFF/Aldi CDN strict-match exhausted). No 2026 Hofer prices in heisse. Product deserts: denn's/ADEG/Nah&Frisch (0).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -48,7 +48,7 @@ Other OSM chains in bbox:
 | Billa | 618 | 615 ([x]) | 99.5% |
 | Spar | 592 | 592 ([x]) | 100.0% |
 | Gurkerl | 356 | 356 ([x]) | 100.0% |
-| Hofer | 224 | 90 ([~]) | 40.2% |
+| Hofer | 224 | 122 ([~]) | 54.5% |
 | MPreis | 174 | 170 ([~]) | 97.7% |
 | unbekannt (OFF) | 135 | 124 ([~]) | 91.9% |
 | PrepMyMeal | 90 | 90 ([x]) | 100.0% |
@@ -61,7 +61,7 @@ Other OSM chains in bbox:
 | FitTaste | 2 | 2 ([x]) | 100.0% |
 
 - [x] Total products: **2335**
-- [x] Total with photos: **2115** (90.6%)
+- [x] Total with photos: **2147** (91.9%)
 - [ ] MPreis photos: live webshop connector `mpreis-shop` (170/174)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
@@ -106,7 +106,7 @@ Other OSM chains in bbox:
 | Spar [~] | 577 | live 2026: 442 · Preis 2025: 135 |
 | Gurkerl [x] | 356 | live 2026: 356 |
 | MPreis [x] | 173 | live 2026: 173 |
-| Hofer [~] | 123 | Preis 2025: 87 · live 2026: 35 · Preis unbestätigt: 1 |
+| Hofer [~] | 123 | Preis 2025: 71 · live 2026: 35 · Preis 2024: 10 · Preis 2023: 6 · Preis unbestätigt: 1 |
 | PrepMyMeal [x] | 90 | live 2026: 90 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | Fit to Go [x] | 24 | live 2026: 24 |
@@ -151,6 +151,9 @@ Other OSM chains in bbox:
 - [x] `mpreis-shop` — **live** MPreis webshop connector (sitemap + category pages + product JSON-LD; robots-allowed, `/search/` never used): 271 pages crawled, 0 errors → 101 ready meals with photo, live 2026 price, GTIN, pack size; 85 with nutrition table. CLI `food search … --store mpreis-shop`, MCP `mpreis_product`.
 - [-] `unimarkt-shop` — **closed, verified 2026-10-13**: shop.unimarkt.at answers 200 but sampled sitemap slugs (/fertiggerichte, /suppen, /snacks-fertiggerichte, /gulaschsuppe) 302 → / (others 404) = splash "UNIONLINE hat seinen Service eingestellt – Vielen Dank für Ihre Treue"; ajaxGateway only cart/merkliste actions; /suche/ 403 (not retried). Shop closed 02/2024 (cash.at), Unimarkt left retail 02–03/2026 (ooe.ORF.at: ~90 stores, ADEG 21 / Spar 23 / Nah&Frisch 2). Registered as catalog-only in food-connectors; evidence `fertiggerichte-daten/raw/unimarkt_shop_probe_2026-10-13.json`. OSM still tags some ex-Unimarkt branches.
 - [x] `spar` CDN images — **live** (2026-10-13): heisse-preise spar article id → `cdn1.interspar.at/cachableservlets/articleImage.dam/at/{id}/dt_main.jpg` HEAD-verified for all 228 previously photo-less Spar ready meals (228/228). CLI/MCP `food search` / Spar adapter now returns `image_url`. Evidence `fertiggerichte-daten/raw/spar_cdn_images_2026-10-13.json`. interspar.at HTML still Cloudflare-blocked.
+- Hofer photos +35→32 net strict OFF matches (90→122/224); prices: 86 heisse provenance refresh (no 2026 dates; hofer.at Akamai 403). Script: fertiggerichte-daten/scripts/enrich_hofer_images.py.
+
+- Hofer enrichment 2026-10-13: photos 90→122/224 via strict OFF match (scripts/enrich_hofer_images.py in fertiggerichte-daten); 86 heisse price provenance refreshes (no 2026 Hofer dates; hofer.at Akamai 403). Aldi CDN brandfam near-misses unused after strict filter.
 
 ## Totals snapshot
 
