@@ -1,34 +1,42 @@
 {
- "ts": "2026-10-13T16:08:22Z",
- "products": 2483,
+ "ts": "2026-10-13T17:16:38Z",
+ "products": 2841,
  "by_store": [
   [
    "Billa",
-   649
+   740
   ],
   [
    "Spar",
-   586
+   660
   ],
   [
    "Gurkerl",
-   453
-  ],
-  [
-   "Hofer",
-   222
+   490
   ],
   [
    "MPreis",
-   209
+   251
+  ],
+  [
+   "Hofer",
+   224
   ],
   [
    "unbekannt (OFF)",
-   122
+   112
   ],
   [
    "PrepMyMeal",
    90
+  ],
+  [
+   "Subway",
+   59
+  ],
+  [
+   "NORDSEE",
+   39
   ],
   [
    "Lidl",
@@ -36,53 +44,53 @@
   ],
   [
    "dm",
-   33
+   34
+  ],
+  [
+   "Fit to Go",
+   29
   ],
   [
    "Unimarkt",
    29
   ],
   [
-   "Fit to Go",
-   24
+   "Penny",
+   19
   ],
   [
-   "Penny",
-   17
+   "FitTaste",
+   18
   ],
   [
    "LiveFresh",
    10
-  ],
-  [
-   "FitTaste",
-   2
   ]
  ],
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   944
+   1007
   ],
   [
    "Tiefkühl (TK)",
-   460
+   561
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   401
+   519
   ],
   [
    "Dose/Konserve",
-   350
+   374
   ],
   [
    "Trocken/Instant",
-   285
+   321
   ],
   [
    "Glas",
-   18
+   34
   ],
   [
    "Sous-vide (vakuum)",
@@ -94,39 +102,39 @@
   ]
  ],
  "coverage": {
-  "nutrition": 69.7,
-  "price": 87.6,
-  "photo": 92.8,
-  "producer": 35.1,
-  "brand": 86.8,
+  "nutrition": 70.7,
+  "price": 87.8,
+  "photo": 91.7,
+  "producer": 35.9,
+  "brand": 88.4,
   "logos_total": 248
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 86.8,
+  "brand": 88.4,
   "chain": 100.0,
-  "dish": 32.7,
-  "image_url": 92.8,
+  "dish": 28.9,
+  "image_url": 91.7,
   "name": 100.0,
-  "origin": 33.9,
-  "pack_size_g": 92.1,
-  "producer": 35.1,
+  "origin": 30.7,
+  "pack_size_g": 91.5,
+  "producer": 35.9,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 94.5,
+  "url": 92.7,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 2174,
+  "prices": 2493,
   "brand_tree": 8,
   "online_mealprep": 96,
   "online_providers": 3,
-  "nutrition": 1731,
+  "nutrition": 2009,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 2483,
+  "products": 2841,
   "companies": 133,
   "logos": 248,
   "producer_quality": 4

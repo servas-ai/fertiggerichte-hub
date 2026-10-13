@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T16:02:46Z",
+ "ts": "2026-10-13T17:10:49Z",
  "live": true,
  "tabs": [
   {
@@ -91,7 +91,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 679,
+   "images": 687,
    "screenshot": "screenshots/vergleich/marken_1920.png",
    "ok": true
   },
@@ -109,7 +109,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 90,
+   "images": 92,
    "screenshot": "screenshots/vergleich/dashboard_1920.png",
    "ok": true
   },
@@ -172,7 +172,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 1027,
+   "images": 1032,
    "screenshot": "screenshots/vergleich/wer_1920.png",
    "ok": true
   },
@@ -199,7 +199,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 234,
+   "images": 240,
    "screenshot": "screenshots/vergleich/logos_1920.png",
    "ok": true
   },
@@ -280,7 +280,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 185,
+   "images": 189,
    "screenshot": "screenshots/vergleich/home_390.png",
    "ok": true
   },
@@ -361,7 +361,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 679,
+   "images": 687,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },
@@ -379,7 +379,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 90,
+   "images": 92,
    "screenshot": "screenshots/vergleich/dashboard_390.png",
    "ok": true
   },
@@ -442,7 +442,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 1027,
+   "images": 1032,
    "screenshot": "screenshots/vergleich/wer_390.png",
    "ok": true
   },
@@ -469,7 +469,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 234,
+   "images": 240,
    "screenshot": "screenshots/vergleich/logos_390.png",
    "ok": true
   },
