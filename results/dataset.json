@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T00:54:30Z",
+ "ts": "2026-10-14T01:59:15Z",
  "products": 3075,
  "by_store": [
   [
@@ -115,7 +115,7 @@
   "photo": 92.2,
   "producer": 45.8,
   "brand": 89.3,
-  "logos_total": 259
+  "logos_total": 284
  },
  "fill_rate_products": {
   "bio": 100.0,
@@ -145,7 +145,7 @@
   "establishments": 4706,
   "products": 3075,
   "companies": 133,
-  "logos": 259,
+  "logos": 284,
   "producer_quality": 4
  }
 }
