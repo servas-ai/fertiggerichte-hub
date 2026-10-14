@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-14T04:00:00Z UTC
-**Next biggest gap:** every. (50) + bofrost* (144) + Fit2go (30) refreshes into the app via the next hourly export (all staged in fertig; Connector UI must add store 'every.' to shops.ts ONLINE/Online.tsx + STORE_LOGO → analysis/logos/every-foods.svg); next online-provider candidate **Little Lunch** (littlelunch.com WordPress + produkt-sitemap.xml, no Shopify/WC API — verify own shop + AT delivery first); Juit prices (login-only); logo long tail (Yuu'n mee, Allgroo, Bedford, Costa); Hofer 130 'Preis 2025' (Akamai 403); Subway photos; Lidl API 401. Verified dead ends: Foodist, Kochzauber, Mealprep.at, Gourmetfein (Wurst only), eismann.at→de, Dinnerly (→dinnerly.com meal-kit), ADEG, Unimarkt; logo rejects The Green Garden, Wiener Virtshaus, Pasta Box, Elsässer.
+**Last updated:** 2026-10-14T04:20:12Z UTC
+**Next biggest gap:** every. (50) + bofrost* (144) + Fit2go (30) refreshes into the app via the next hourly export (all staged in fertig; Connector UI must add store 'every.' to shops.ts ONLINE/Online.tsx + STORE_LOGO → analysis/logos/every-foods.svg); no open online-provider candidate left after **Little Lunch = dead end** (own shop closed 30.09.2025, T0404) — next: find new AT-delivering ready-meal shops, or use littlelunch.com product pages as manufacturer nutrition for the 2 Spar Thai Curry rows; Juit prices (login-only); logo long tail (The Green Garden, Wiener Virtshaus, Pasta Box, Elsässer = known rejects; Pierre Baguette 3); Hofer 130 'Preis 2025' (Akamai 403); Subway photos; Lidl API 401. Verified dead ends: Little Lunch (shop closed), Foodist, Kochzauber, Mealprep.at, Gourmetfein (Wurst only), eismann.at→de, Dinnerly (→dinnerly.com meal-kit), ADEG, Unimarkt; logo rejects The Green Garden, Wiener Virtshaus, Pasta Box, Elsässer.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -9,7 +9,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 
 | Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |
 |---|---|---|---|---|---|
-| Spar | [x] | 719 | [x] | 50 | [x] |
+| Spar | [x] | 735 | [x] | 50 | [x] |
 | Billa | [x] | 807 | [x] | 74 | [x] |
 | Billa Plus | [ ] | 0 | [x] | 9 | [x] |
 | Hofer | [x] | 223 | [x] | 37 | [x] |
@@ -17,11 +17,11 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Penny | [x] | 29 | [x] | 22 | [x] |
 | dm | [x] | 35 | [x] | 28 | [x] |
 | denn's BioMarkt | [x] | 5 | [x] | 2 | [x] |
-| MPreis | [x] | 383 | [ ] | 0 | [x] |
+| MPreis | [x] | 388 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [x] | 7 | [x] | 10 | [x] |
-| Fit to Go | [x] | 29 → **30 staged** | [ ] | 0 | [x] |
+| Fit to Go | [x] | 30 | [ ] | 0 | [x] |
 | Gurkerl | [x] | 536 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
@@ -46,10 +46,11 @@ Other OSM chains in bbox:
 | Chain | Products | With image_url | % photos |
 |---|---|---|---|
 | Billa | 807 | 804 ([x]) | 99.6% |
-| Spar | 719 | 713 ([~]) | 99.2% |
+| Spar | 735 | 729 ([~]) | 99.2% |
 | Gurkerl | 536 | 536 ([x]) | 100.0% |
-| MPreis | 383 | 369 ([~]) | 96.3% |
+| MPreis | 388 | 374 ([~]) | 96.4% |
 | Hofer | 223 | 129 ([~]) | 57.8% |
+| bofrost | 144 | 144 ([x]) | 100.0% |
 | unbekannt (OFF) | 93 | 84 ([~]) | 90.3% |
 | HelloFresh | 93 | 93 ([x]) | 100.0% |
 | PrepMyMeal | 92 | 92 ([x]) | 100.0% |
@@ -58,34 +59,35 @@ Other OSM chains in bbox:
 | NORDSEE | 39 | 39 ([x]) | 100.0% |
 | Lidl | 37 | 25 ([~]) | 67.6% |
 | dm | 35 | 33 ([~]) | 94.3% |
+| Fit to Go | 30 | 30 ([x]) | 100.0% |
 | Penny | 29 | 24 ([~]) | 82.8% |
-| Fit to Go | 29 → **30 staged** | 29 ([x]) | 100.0% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
 | FitTaste | 18 | 18 ([x]) | 100.0% |
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
 | Nah&Frisch | 7 | 7 ([x]) | 100.0% |
 | denn's BioMarkt | 5 | 5 ([x]) | 100.0% |
 
-- [x] Total products: **3293**
-- [x] Total with photos: **3060** (92.9%)
-- [ ] MPreis photos: live webshop connector `mpreis-shop` (369/383)
+- [x] Total products: **3459**
+- [x] Total with photos: **3226** (93.3%)
+- [ ] MPreis photos: live webshop connector `mpreis-shop` (374/388)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
 
-- [x] Logo index rows: **286** (271 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **291** (276 with a logo file) (`data/logos.csv`)
+- Logos done T0404 (2026-10-14, Daten-Squad, daten a48f61f): +5 vision-gated official brand logos — yuun-mee (yuu-n-mee.at header SVG; aliases Yuu'n mee/Yuu´n Mee/Yuu'n Mee), allgroo (allgroo.com Wix wordmark), bedford (bedford.de script logo, white→#1f1f1f), costa (costa.de footer wordmark), beyond-meat (Wikimedia Commons 2022 PD text logo); entities cross-checked with Impressum/producer address; strict logo-less 53→46 brands / 84→64 products; logo rows 286/271→291/276 with_file; rejected: Allgroo multi-brand strip, Bedford 'B' monogram, Yuu'n Mee loader PNG, COSTA shrimp decoration icon; deferred: Pierre Baguette (SPA, no logo asset URL). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0404.json`; staged in fertig 119b03b (local) for the next hourly export.
 - Logos done T0136 (2026-10-14): +28 vision-gated brand logos (henglein, rebel-meat, just-veg, findus, diamond, lorado, schwaben-krone[+SchwabenKrone], harvest-moon, yopokki, vitasia, pan, flotte-lotte, spar-bbq, thai-delight, dozz, hildegard-gruenkraft, deliciosu, deluxe, auinger, alpenstrudel, sushitime, ich-bin-oesterreich, muehlen[+Rügenwalder], big-snack, ocean-sea, franui, arteoliva, penny-ready); strict logo-less 68→39 brands / 84→55 products; logo rows 265/241→284/269 with_file; rejected: El Tequito(Kania), Gabelkönig(promo), Windisch(W-only), Natur Aktiv/Bio Natura(no mark), innocent(partial), SPAR Free From(cut), Holzbauer/INTERSPAR(plated), GOLDEN/My Vay/SELECT&GO/SOTO(no usable asset).
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 370; brands without a logo file: 53 (84 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 47 brands / 77 products); logo rows with file: 271/286; top 8:
+- Brands in products: 370; brands without a logo file: 46 (64 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 40 brands / 57 products); logo rows with file: 276/291; top 8:
   - [ ] The Green Garden (6 products)
   - [ ] Wiener Virtshaus (4 products)
-  - [ ] Yuu'n mee (4 products)
-  - [ ] Allgroo (4 products)
   - [ ] Pasta Box (3 products)
   - [ ] Elsässer (3 products)
-  - [ ] Bedford (3 products)
-  - [ ] Costa (3 products)
+  - [ ] Pierre Baguette (3 products)
+  - [ ] Asia (2 products)
+  - [ ] Vifon (2 products)
+  - [ ] SPAR Asia (2 products)
 - [~] Company/producer logos (app Firmen view, `companies.json`): **118/133** companies with a logo (was 114 before 2026-10-13T14: deli gourmet→deli dip, Ablinger, BioGourmet, Zum Dorfkrug now have vision-gated official logos; T15 brand logos Podravka/Heura/Nordsee/Mama/Maza/Englert are brand rows only — none of the 133 companies maps to them, so still 118; earlier 2026-10-13T13b via Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (15, known dead ends): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, Dairy 4 Fun (TLS), Doppelt, Franuí (SSL EOF), Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft (TLS), La Crêpe de Brocéliande (TLS), Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed). Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`, `raw/logos_squad_2026-10-13T14.json`, `raw/logos_squad_2026-10-13T15.json`.
 
 ## Companies
@@ -105,14 +107,15 @@ Other OSM chains in bbox:
 | Chain | Price rows | Status breakdown |
 |---|---|---|
 | Billa [~] | 795 | live 2026: 778 · : 12 · Preis 2025: 5 |
-| Spar [~] | 706 | live 2026: 672 · Preis 2025: 31 · : 3 |
+| Spar [~] | 722 | live 2026: 688 · Preis 2025: 31 · : 3 |
 | Gurkerl [x] | 536 | live 2026: 536 |
-| MPreis [x] | 381 | live 2026: 381 |
+| MPreis [x] | 386 | live 2026: 386 |
 | Hofer [~] | 164 | Preis 2025: 130 · live 2026: 27 · Preis unbestätigt: 7 |
+| bofrost [x] | 144 | live 2026: 144 |
 | HelloFresh [x] | 93 | live 2026: 93 |
 | PrepMyMeal [x] | 92 | live 2026: 92 |
 | dm [~] | 34 | live 2026: 28 · Preis 2025: 6 |
-| Fit to Go [x] | 29 → **30 staged** | live 2026: 29 |
+| Fit to Go [x] | 30 | live 2026: 30 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | FitTaste [x] | 16 | live 2026: 16 |
 | Penny [x] | 14 | live 2026: 14 |
@@ -148,6 +151,7 @@ Other OSM chains in bbox:
 - [~] Online: **Juit** (new 2026-10-14T0202): 50 sellable frozen ready meals (of 116 dish entries), all with EAN, net weight, nutrition/100 g, ingredients and official packshot (50/50 HEAD 200); ships to AT via DHL Express 8,99 €; **no prices** (api.juitnow.com price lists need login → 401, not bypassed, `price_eur` null). Operator Juit GmbH Bielefeld HRB 42921, USt-ID DE316648632 (VIES valid; no LEI). In `data/online_mealprep.csv`; staged in `fertig/online_mealprep.json` for the next hourly app export. Evidence `fertiggerichte-daten/raw/juit_2026-10-14T0202.json`
 - [x] Online: **bofrost*** (new 2026-10-14T0238): **144 finished frozen ready meals** from the public bofrost.at shop (sitemap → product pages: JSON-LD price + availability + images, pack line with €/kg, nutrition per 100 g, ingredients, Nutri-Score badge) — all 144 with live price (median 13,79 € per pack, median 2,87 € per 10 g protein), €/kg, pack size, nutrition, Nutri-Score (A 4 · B 13 · C 97 · D 29 · E 1) and HEAD-200 photo; no GTIN on bofrost.at (`ean` empty). Categories: Pfannengerichte, Pasta, Schlemmer-Menüs, Hausmannskost, Suppen, Länderküche, Pizza, Fleisch-/Geflügelzubereitungen, vegetarisch/vegan; 10 non-dishes dropped (plain Knödel/Spätzle, Suppeneinlagen, Suppengemüse, Waffeln). `veg` taken from the published ingredient list (allergen trace notes ignored), not from the name. Home delivery by bofrost* drivers (14 AT Niederlassungen, OÖ: Sattledt); delivery fee / PLZ area not on public pages → `shipping_eur` null, `delivers_linz` unknown. Operator bofrost* Austria GmbH, Ötztal-Bahnhof, FN 185873v, UID ATU66058936 (Impressum). In `data/online_mealprep.csv`; staged in `fertig/online_mealprep.json` (`bofrost_build.py` hook, chain `bofrost*` in build.py) for the next hourly app export. Evidence `fertiggerichte-daten/raw/bofrost_2026-10-14T0238.json`, script `scripts/enrich_bofrost.py`
 - [x] Online: **every.** (new 2026-10-14T0341, Daten-Squad): **50 frozen plant-based ready meals** (bowls, curries, pasta, stews, salads) from every-foods.com — public Shopify storefront JSON `eat.every-foods.com/products.json` (single-meal price EUR, SKU, availability, packshots) + public product pages (Storyblok `product` blok: weight 350–550 g, nutrition per 100 g + per pack, ingredients incl. 'für AT' labels, preparation). Ready meals = product_type `Meal`, price > 0, listed in `sitemap-products.xml`: 54 candidates → **50 kept** (all with price, weight, nutrition, ingredients and HEAD-200 photo; all 50 thumbnails visually checked = real dish photos), 4 dropped (sambal-curry-noodles: no product blok/delisted page; mushroom-gnocchi, green-pesto-gnocchi, green-boost-bowl: no nutrition table published → not invented). Median **8,99 €** single price (bundles/subscription cheaper), median 4,47 € per 10 g protein (best 2,74), median 20,2 g protein/pack; no GTIN published (`ean` empty); `veg` true for all 50 (shop 'Vegan' tag or ingredient list without animal products, trace notes ignored); `bio` null (Bio-Kontrollstelle DE-ÖKO-001 in Impressum, but per-dish organic status not published). One source typo flagged (Red Pesto Gnocchi per-pack protein 1,4 g vs 4,1 g/100 g → per 100 g used, `nut_flag`). **AT delivery verified** on the shop's own page `eat.every-foods.com/policies/shipping-policy` ('Österreich (DPD)'; 5,99 €, free from 8 meals, Express 7,99 €); AGB §6 still says DE-only → conflict documented in evidence. Operator **Every. GmbH**, Ritterstraße 9–10, 10969 Berlin, HRB 221768 B (AG Charlottenburg), USt-ID DE335586517 (Impressum; already in companies, now with address/management/register court). Logo: existing every-foods.svg wordmark (vision re-check PASS) + aliases every./Online: every. In `data/online_mealprep.csv`; staged in `fertig/online_mealprep.json` (`every_build.py` hook in online_mealprep_build.py, chain `every.` in build.py; fertig 945b2dd local) for the next hourly app export. Evidence `fertiggerichte-daten/raw/every_2026-10-14T0341.json`, script `scripts/enrich_every.py` (daten b156046).
+- [-] Online: **Little Lunch** (verified DEAD END 2026-10-14T0404): own littlelunch.com online shop **closed 30.09.2025** (page `littlelunch.com/shop-zu-und-nu/`: 'unseren eigenen Onlineshop leider zum 30. September 2025 zu schließen'); `/shop/`, `/warenkorb/`, `/kasse/` are empty shells; the 23 product pages in `produkt-sitemap.xml` carry ingredients + nutrition per 100 g only (no price, no GTIN, no JSON-LD Offer) and link to German retailers (Amazon.de, Flink, Picnic, REWE, Rossmann) → no own sale, no AT delivery. Publisher per Impressum Allos Hof-Manufaktur GmbH, Bremen, HRB 27982 HB, DE284733525 (already in companies). Brand stays covered via AT grocery rows (dm 8, Billa 2, Spar 2). Evidence `fertiggerichte-daten/raw/littlelunch_2026-10-14T0404.json`.
 - [x] Total online meal-prep rows: **340** (290→340: PrepMyMeal 86, bofrost* 144, Juit 50, every. 50, LiveFresh 10)
 - [x] Connectors: `prepmymeal`, `livefresh`, `gourmetfein` (Shopify `/products.json` — Wurst-only dead end for ready meals, verified T0307), `juit` (public storefront content bundle, MCP `juit_dishes`), `bofrost` (public sitemap + product pages, MCP `bofrost_product` / `bofrost_search`), `fittogo` (public sitemap + product HTML, MCP `fittogo_product` / `fittogo_search`), `every` (public Shopify products.json + product pages, MCP `every_product` / `every_search`)
 - [x] `fittogo` — **live** (2026-10-14T0307, Daten-Squad): fit2go.meals public product sitemap `fittogo.at/sitemap/products/1.xml` + product HTML (Hydrogen/Oxygen; `/products.json` and collection `*.json` 404). Pack nutrition (kcal/Protein/Carbs/Fett) + Gesamt-Einwaage from the rendered page → per 100 g; official CDN packshot HEAD-200; `price_eur` = published 12er-box 9,99 €/Meal (Einzel-SKU 0,00 €; 6er 10,49 / 18er 9,49). AT shipping 4,99 €. CLI `food fetch|search --store fittogo`, MCP `fittogo_product` / `fittogo_search`; 2 offline tests. Catalog refresh **24→30** finished dishes in `fertig/ftg_items.json` + `other.json` (adds Thai Red Curry; fills BBQ Chicken nutrition previously missing; fixes stale Linsencurry/Kichererbsencurry handle→title mismatches). Staged for next hourly app export (Fit to Go 29→30). Evidence `fertiggerichte-daten/raw/fittogo_2026-10-14T0307.json`, script `scripts/enrich_fittogo.py`.
@@ -198,14 +202,13 @@ Other OSM chains in bbox:
 
 
 - [x] `every` — **live** (2026-10-14T0341, Daten-Squad, food-connectors bab2e1d): every. (every-foods.com) — public Shopify storefront JSON `eat.every-foods.com/products.json` (DE/AT 'da' shop; CH/BNL are separate shops) + product pages `every-foods.com/products/<handle>` (Next.js RSC payload → Storyblok `product` blok; bilingual DE/EN nutrition-table parser, per-pack consistency check `extra.pack_inconsistent`). robots `*` disallows only /account/ /api/ /discount/ (none used); no login/cookies; 1 req/s. CLI `food fetch|search --store every`, MCP `every_product`, `every_search`; 5 offline tests (trimmed real fixture). 50/54 meals kept. No GTIN published.
-- [-] Probed 2026-10-14T0341: **Dinnerly** dinnerly.at 301 → dinnerly.com (meal-kit, not finished meals — dead end); **Little Lunch** littlelunch.com = WordPress (Rank Math) with `produkt-sitemap.xml`, no Shopify `/products.json` (404), no WooCommerce Store API (404) — own online sale + AT delivery not yet verified (candidate, not a dead end).
-
+- [-] Probed 2026-10-14T0341: **Dinnerly** dinnerly.at 301 → dinnerly.com (meal-kit, not finished meals — dead end); **Little Lunch** littlelunch.com = WordPress (Rank Math) with `produkt-sitemap.xml`, no Shopify `/products.json` (404), no WooCommerce Store API (404) — own online sale + AT delivery not yet verified at T0341 → **re-probed T0404: dead end** (own shop closed 30.09.2025, see Online meal-prep).
 
 ## Totals snapshot
 
-- Products: 3293
-- Prices: 2911 (live 2026: 2688)
-- Logos: 286
+- Products: 3459
+- Prices: 3077 (live 2026: 2854)
+- Logos: 291
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
 - Online meal-prep: 340
