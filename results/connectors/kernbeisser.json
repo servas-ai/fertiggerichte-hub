@@ -1,0 +1,19 @@
+{
+ "id": "kernbeisser",
+ "store": "Online: Kernbei\u00dfer",
+ "status_declared": "live",
+ "ts": "2026-10-14T05:56:55Z",
+ "latency_s": 18.52,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "Maghreb-Hirse mit Artischocken",
+  "brand": "Kernbei\u00dfer",
+  "store": "Online: Kernbei\u00dfer",
+  "price_eur": 9.0,
+  "source_url": "https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/",
+  "image_url": "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-hirse.jpg",
+  "fetched_at": "2026-10-14T05:57:08+00:00"
+ },
+ "result": "pass"
+}
