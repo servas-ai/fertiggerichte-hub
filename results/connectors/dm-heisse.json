@@ -2,8 +2,8 @@
  "id": "dm-heisse",
  "store": "dm",
  "status_declared": "stale",
- "ts": "2026-10-14T03:57:54Z",
- "latency_s": 2.89,
+ "ts": "2026-10-14T04:50:20Z",
+ "latency_s": 2.76,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 1.75,
   "source_url": null,
   "image_url": null,
-  "fetched_at": "2026-10-14T03:57:56+00:00"
+  "fetched_at": "2026-10-14T04:50:23+00:00"
  },
  "result": "pass"
 }
