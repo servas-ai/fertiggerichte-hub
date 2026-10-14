@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-14T03:04:00Z UTC
-**Next biggest gap:** bofrost* rows into the app via the next hourly export (staged), then more AT-delivering frozen/meal-prep services (eismann.at redirects to eismann.de — not AT; Foodist, Kochzauber, Mealprep.at still unverified), Juit prices (login-only), logo dead-end long tail (The Green Garden 6, Wiener Virtshaus 4, Pasta Box 3, Elsässer 3), Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401.
+**Last updated:** 2026-10-14T03:07:00Z UTC
+**Next biggest gap:** bofrost* + Fit2go refreshes into the app via the next hourly export (both staged in fertig); Juit prices (login-only); logo dead-end long tail (The Green Garden 6, Wiener Virtshaus 4, Pasta Box 3, Elsässer 3 — already rejected, don't re-probe); Hofer 130 'Preis 2025' (Akamai 403); Subway photos; Lidl API 401. AT-meal-prep dead ends now verified (Foodist→morenutrition, Kochzauber DNS fail, Mealprep.at parked, Gourmetfein = Wurst only, eismann.at→de).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -21,7 +21,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [x] | 7 | [x] | 10 | [x] |
-| Fit to Go | [x] | 29 | [ ] | 0 | [x] |
+| Fit to Go | [x] | 29 → **30 staged** | [ ] | 0 | [x] |
 | Gurkerl | [x] | 536 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
@@ -59,7 +59,7 @@ Other OSM chains in bbox:
 | Lidl | 37 | 25 ([~]) | 67.6% |
 | dm | 35 | 33 ([~]) | 94.3% |
 | Penny | 29 | 24 ([~]) | 82.8% |
-| Fit to Go | 29 | 29 ([x]) | 100.0% |
+| Fit to Go | 29 → **30 staged** | 29 ([x]) | 100.0% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
 | FitTaste | 18 | 18 ([x]) | 100.0% |
 | LiveFresh | 10 | 10 ([x]) | 100.0% |
@@ -112,7 +112,7 @@ Other OSM chains in bbox:
 | HelloFresh [x] | 93 | live 2026: 93 |
 | PrepMyMeal [x] | 92 | live 2026: 92 |
 | dm [~] | 34 | live 2026: 28 · Preis 2025: 6 |
-| Fit to Go [x] | 29 | live 2026: 29 |
+| Fit to Go [x] | 29 → **30 staged** | live 2026: 29 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | FitTaste [x] | 16 | live 2026: 16 |
 | Penny [x] | 14 | live 2026: 14 |
@@ -148,8 +148,8 @@ Other OSM chains in bbox:
 - [~] Online: **Juit** (new 2026-10-14T0202): 50 sellable frozen ready meals (of 116 dish entries), all with EAN, net weight, nutrition/100 g, ingredients and official packshot (50/50 HEAD 200); ships to AT via DHL Express 8,99 €; **no prices** (api.juitnow.com price lists need login → 401, not bypassed, `price_eur` null). Operator Juit GmbH Bielefeld HRB 42921, USt-ID DE316648632 (VIES valid; no LEI). In `data/online_mealprep.csv`; staged in `fertig/online_mealprep.json` for the next hourly app export. Evidence `fertiggerichte-daten/raw/juit_2026-10-14T0202.json`
 - [x] Online: **bofrost*** (new 2026-10-14T0238): **144 finished frozen ready meals** from the public bofrost.at shop (sitemap → product pages: JSON-LD price + availability + images, pack line with €/kg, nutrition per 100 g, ingredients, Nutri-Score badge) — all 144 with live price (median 13,79 € per pack, median 2,87 € per 10 g protein), €/kg, pack size, nutrition, Nutri-Score (A 4 · B 13 · C 97 · D 29 · E 1) and HEAD-200 photo; no GTIN on bofrost.at (`ean` empty). Categories: Pfannengerichte, Pasta, Schlemmer-Menüs, Hausmannskost, Suppen, Länderküche, Pizza, Fleisch-/Geflügelzubereitungen, vegetarisch/vegan; 10 non-dishes dropped (plain Knödel/Spätzle, Suppeneinlagen, Suppengemüse, Waffeln). `veg` taken from the published ingredient list (allergen trace notes ignored), not from the name. Home delivery by bofrost* drivers (14 AT Niederlassungen, OÖ: Sattledt); delivery fee / PLZ area not on public pages → `shipping_eur` null, `delivers_linz` unknown. Operator bofrost* Austria GmbH, Ötztal-Bahnhof, FN 185873v, UID ATU66058936 (Impressum). In `data/online_mealprep.csv`; staged in `fertig/online_mealprep.json` (`bofrost_build.py` hook, chain `bofrost*` in build.py) for the next hourly app export. Evidence `fertiggerichte-daten/raw/bofrost_2026-10-14T0238.json`, script `scripts/enrich_bofrost.py`
 - [x] Total online meal-prep rows: **290**
-- [x] Connectors: `prepmymeal`, `livefresh`, `gourmetfein` (Shopify `/products.json`), `juit` (public storefront content bundle, MCP `juit_dishes`), `bofrost` (public sitemap + product pages, MCP `bofrost_product` / `bofrost_search`)
-- [ ] fit2go.meals / more providers: Hydrogen-shop or no public API (catalog)
+- [x] Connectors: `prepmymeal`, `livefresh`, `gourmetfein` (Shopify `/products.json` — Wurst-only dead end for ready meals, verified T0307), `juit` (public storefront content bundle, MCP `juit_dishes`), `bofrost` (public sitemap + product pages, MCP `bofrost_product` / `bofrost_search`), `fittogo` (public sitemap + product HTML, MCP `fittogo_product` / `fittogo_search`)
+- [x] `fittogo` — **live** (2026-10-14T0307, Daten-Squad): fit2go.meals public product sitemap `fittogo.at/sitemap/products/1.xml` + product HTML (Hydrogen/Oxygen; `/products.json` and collection `*.json` 404). Pack nutrition (kcal/Protein/Carbs/Fett) + Gesamt-Einwaage from the rendered page → per 100 g; official CDN packshot HEAD-200; `price_eur` = published 12er-box 9,99 €/Meal (Einzel-SKU 0,00 €; 6er 10,49 / 18er 9,49). AT shipping 4,99 €. CLI `food fetch|search --store fittogo`, MCP `fittogo_product` / `fittogo_search`; 2 offline tests. Catalog refresh **24→30** finished dishes in `fertig/ftg_items.json` + `other.json` (adds Thai Red Curry; fills BBQ Chicken nutrition previously missing; fixes stale Linsencurry/Kichererbsencurry handle→title mismatches). Staged for next hourly app export (Fit to Go 29→30). Evidence `fertiggerichte-daten/raw/fittogo_2026-10-14T0307.json`, script `scripts/enrich_fittogo.py`.
 
 ## Connectors / catalog findings (this run)
 
@@ -191,6 +191,10 @@ Other OSM chains in bbox:
 - [x] Brand logos (2026-10-14T0106, Daten-Squad): **+12 vision-gated logos** — **Therese Mölk** (MPreis-Bäckereimarke, badge crop from MPreis Cloudinary packshot Himbeerknödel 9005015055459; therese-moelk.at → mpreis.at brand page has only photo banners), **Ager** (oval 'QUALITÄT AGER' from BILLA packshot, low-res/soft), **TANN** (SPAR-Eigenmarke, Interspar dt_zoom packshot, low-res/soft; spar.at Eigenmarken page = Cloudflare challenge, not bypassed), **Njami** (NJAMI + 'by Delamaris' lockup, BILLA packshot), **PIZZ'AH** (Hofer, OFF 4061463587275 full-res), **Leibspeis'** (Hofer, OFF 4099200227771 full-res), **MCENNEDY** (Lidl, 1500px rendition referenced by the robots-allowed /p/ product page), **Staudinger** (gold 'STAUDINGER'S' arch from BILLA packshot; producer sites TLS EOF / cert mismatch, not bypassed), **Exotic Food** (official exoticfoodthailand.com logo PNG, unmodified), **Taste Of Asia** (Penny packshot), **Fryzza** (MPreis packshot wordmark), **Schenkel** (MPreis packshot wordmark band). **+2 aliases** onto file-backed rows: Nature‘s Gold→Nature's Gold, Wech→Wech-Geflügel GmbH. Strict logo-less **83→68 brands / 112→84 products**; logo rows **259→265** (229→241 with file). Rejected: SPAR Asia (pack shows only SPAR chain logo, no sub-brand wordmark), Vifon (producer unverified), Go (no packshot, generic string), Asia (descriptor); T0006 dead ends not re-probed. Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0106.json`. Validator PASS.
 - [x] `juit` — **live** (2026-10-14T0202, Daten-Squad, food-connectors f5654f9): Juit public storefront content bundle `cdn.juit.gmbh/content-de.json` (Contentful export juit.com loads itself; robots disallows only /order /profile /checkout /thankyou; no login/cookies). CLI `food fetch|search --store juit`, MCP `juit_dishes`; 4 offline tests. 50 sellable dishes with EAN + nutrition + packshot; prices login-only (401) → null. New logo: Juit wordmark (official favicon SVG, viewBox crop, vision gate PASS).
 - [x] `bofrost` — **live** (2026-10-14T0238, Daten-Squad, food-connectors c4418a1): bofrost* Austria public shop — sitemap index `bofrost.at/sitemap.xml` → PRODUCT sitemap (419 URLs) → product pages (schema.org JSON-LD Product: price, availability, images; pack line '2 x 300 g = 600 g (1 kg = € 23,32)'; nutrition table per 100 g; ingredients; Nutri-Score badge). robots `*` disallows only /cart /checkout /account /shop/ajax/ /crm (none used); no login/cookies; 1 req/s. CLI `food fetch|search --store bofrost`, MCP `bofrost_product`, `bofrost_search`; 2 offline tests. 154 ready-meal candidates → 144 finished dishes. No GTIN published. New logo: bofrost* wordmark (official SVG from the site's Organization JSON-LD, white fill recoloured to #1f1f1f, vision gate PASS); logo rows 285→286 (271 with file).
+
+- [x] `fittogo` — **live** (2026-10-14T0307, Daten-Squad, food-connectors): fittogo.at Hydrogen shop — product sitemap + product HTML (pack nutrition + Einwaage + packshot); `/products.json` 404 confirmed. CLI `food fetch|search --store fittogo`, MCP `fittogo_product` + `fittogo_search`; 2 offline tests. 30/30 ready meals kept (all HEAD-200 photos). price_eur = 12er-box 9,99 €/Meal. Operator Fit2go GmbH FN 615822x / ATU80022878 (already in companies).
+- [-] AT meal-prep dead ends **verified 2026-10-14T0307** (do not re-probe): **Foodist** foodist.de 301 → morenutrition.de/collections/foodist (snack/Abo-Boxen, no ready meals); **Kochzauber** kochzauber.de / www DNS fail (NXDOMAIN); **Mealprep.at** mealprep.at + www → parked `/lander`; **eismann.at** 301 → eismann.de (DE only, reconfirmed); **Gourmetfein** Shopify live but 75 Wurst/Leberkäse/Grill items, 0 Fertiggerichte (connector kept, not imported); **Marianne's Mealprep** Aspach, 5 km radius only (not Linz). Marley Spoon Ready-to-heat still login-walled for prices/nutrition.
+
 
 ## Totals snapshot
 
