@@ -1,8 +1,8 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-14 07:05 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-14 07:06 UTC via `./run_all.sh` (stündlich).
 
-**Connectors:** 26 ✅ / 2 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3459
+**Connectors:** 27 ✅ / 1 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3459
 
 ## Apps
 
@@ -63,6 +63,7 @@ flowchart LR
 | ✅ | `mpreis` | MPREIS | 3 | 2.51 s | AIA Puten Gulasch · 6.5 € | 2026-10-14T07:00:51Z |
 | ✅ | `mpreis-shop` | MPreis | 3 | 7.52 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-14T07:00:55Z |
 | ✅ | `nah-frisch` | Nah&Frisch | 3 | 230.96 s | [Inzersdorfer Fertiggerichte oder Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-14T07:01:02Z |
+| ✅ | `off` | Open Food Facts | 3 | 7.09 s | [Gulasch (Rind)](https://world.openfoodfacts.org/product/4099200121543) | 2026-10-14T07:06:09Z |
 | ✅ | `penny` | PENNY | 2 | 4.53 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-14T07:05:04Z |
 | ✅ | `penny-shop` | PENNY | 2 | 7.71 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-14T07:05:09Z |
 | ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 5.83 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-14T07:05:17Z |
@@ -75,7 +76,6 @@ flowchart LR
 | ❌ | `lidl` | Lidl | 0 | 11.31 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-14T07:00:36Z |
 | 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-14T07:00:47Z |
 | 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-14T07:00:51Z |
-| ❌ | `off` | Open Food Facts | 0 | 11.12 s | `HTTPError: HTTP Error 503: Service Temporarily Unavailable` | 2026-10-14T07:04:53Z |
 | 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-14T07:05:32Z |
 | 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-14T07:05:32Z |
 

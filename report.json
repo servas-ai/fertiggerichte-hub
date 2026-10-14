@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14 07:05 UTC",
+ "generated": "2026-10-14 07:06 UTC",
  "connectors": [
   {
    "id": "billa",
@@ -382,6 +382,25 @@
    "result": "pass"
   },
   {
+   "id": "off",
+   "store": "Open Food Facts",
+   "status_declared": "live",
+   "ts": "2026-10-14T07:06:09Z",
+   "latency_s": 7.09,
+   "count": 3,
+   "schema_errors": [],
+   "sample": {
+    "name": "Gulasch (Rind)",
+    "brand": "PRIMANA",
+    "store": "Open Food Facts",
+    "price_eur": null,
+    "source_url": "https://world.openfoodfacts.org/product/4099200121543",
+    "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
+    "fetched_at": "2026-10-14T07:06:16+00:00"
+   },
+   "result": "pass"
+  },
+  {
    "id": "penny",
    "store": "PENNY",
    "status_declared": "live",
@@ -554,16 +573,6 @@
    "count": 0,
    "schema_errors": [],
    "result": "catalog"
-  },
-  {
-   "id": "off",
-   "store": "Open Food Facts",
-   "status_declared": "live",
-   "ts": "2026-10-14T07:04:53Z",
-   "latency_s": 11.12,
-   "count": 0,
-   "result": "fail",
-   "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
   },
   {
    "id": "unimarkt-shop",
