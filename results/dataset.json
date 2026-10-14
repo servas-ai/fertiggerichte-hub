@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-14T03:05:05Z",
- "products": 3293,
+ "ts": "2026-10-14T04:03:23Z",
+ "products": 3459,
  "by_store": [
   [
    "Billa",
@@ -8,7 +8,7 @@
   ],
   [
    "Spar",
-   719
+   735
   ],
   [
    "Gurkerl",
@@ -16,11 +16,15 @@
   ],
   [
    "MPreis",
-   383
+   388
   ],
   [
    "Hofer",
    223
+  ],
+  [
+   "bofrost",
+   144
   ],
   [
    "unbekannt (OFF)",
@@ -55,11 +59,11 @@
    35
   ],
   [
-   "Penny",
-   29
+   "Fit to Go",
+   30
   ],
   [
-   "Fit to Go",
+   "Penny",
    29
   ],
   [
@@ -86,19 +90,19 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1074
+   1215
   ],
   [
    "Tiefkühl (TK)",
-   885
+   903
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   554
+   556
   ],
   [
    "Dose/Konserve",
-   407
+   412
   ],
   [
    "Trocken/Instant",
@@ -118,40 +122,40 @@
   ]
  ],
  "coverage": {
-  "nutrition": 74.8,
-  "price": 88.4,
-  "photo": 92.9,
-  "producer": 48.7,
-  "brand": 90.0,
+  "nutrition": 76.0,
+  "price": 89.0,
+  "photo": 93.3,
+  "producer": 50.9,
+  "brand": 90.5,
   "logos_total": 286
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 90.0,
+  "brand": 90.5,
   "chain": 100.0,
-  "dish": 26.1,
-  "ean": 27.7,
-  "image_url": 92.9,
+  "dish": 25.8,
+  "ean": 26.8,
+  "image_url": 93.3,
   "name": 100.0,
-  "origin": 29.9,
-  "pack_size_g": 92.8,
-  "producer": 48.7,
+  "origin": 28.9,
+  "pack_size_g": 93.1,
+  "producer": 50.9,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 93.7,
+  "url": 94.0,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 2911,
+  "prices": 3077,
   "brand_tree": 8,
-  "online_mealprep": 290,
-  "online_providers": 3,
-  "nutrition": 2463,
+  "online_mealprep": 340,
+  "online_providers": 5,
+  "nutrition": 2629,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 3293,
+  "products": 3459,
   "companies": 133,
   "logos": 286,
   "producer_quality": 4
