@@ -1,38 +1,46 @@
 {
- "ts": "2026-10-14T01:59:15Z",
- "products": 3075,
+ "ts": "2026-10-14T03:05:05Z",
+ "products": 3293,
  "by_store": [
   [
    "Billa",
-   780
+   807
   ],
   [
    "Spar",
-   660
+   719
   ],
   [
    "Gurkerl",
-   521
+   536
   ],
   [
    "MPreis",
-   310
+   383
   ],
   [
    "Hofer",
-   224
+   223
   ],
   [
    "unbekannt (OFF)",
-   192
+   93
+  ],
+  [
+   "HelloFresh",
+   93
   ],
   [
    "PrepMyMeal",
-   90
+   92
   ],
   [
    "Subway",
    59
+  ],
+  [
+   "Juit",
+   50
   ],
   [
    "NORDSEE",
@@ -48,7 +56,7 @@
   ],
   [
    "Penny",
-   30
+   29
   ],
   [
    "Fit to Go",
@@ -78,23 +86,23 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1013
+   1074
   ],
   [
    "Tiefkühl (TK)",
-   736
+   885
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   542
+   554
   ],
   [
    "Dose/Konserve",
-   400
+   407
   ],
   [
    "Trocken/Instant",
-   325
+   314
   ],
   [
    "Glas",
@@ -110,42 +118,42 @@
   ]
  ],
  "coverage": {
-  "nutrition": 72.6,
-  "price": 88.9,
-  "photo": 92.2,
-  "producer": 45.8,
-  "brand": 89.3,
-  "logos_total": 284
+  "nutrition": 74.8,
+  "price": 88.4,
+  "photo": 92.9,
+  "producer": 48.7,
+  "brand": 90.0,
+  "logos_total": 286
  },
  "fill_rate_products": {
   "bio": 100.0,
-  "brand": 89.3,
+  "brand": 90.0,
   "chain": 100.0,
-  "dish": 27.5,
-  "ean": 31.3,
-  "image_url": 92.2,
+  "dish": 26.1,
+  "ean": 27.7,
+  "image_url": 92.9,
   "name": 100.0,
-  "origin": 30.3,
-  "pack_size_g": 92.0,
-  "producer": 45.8,
+  "origin": 29.9,
+  "pack_size_g": 92.8,
+  "producer": 48.7,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 93.2,
+  "url": 93.7,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 2734,
+  "prices": 2911,
   "brand_tree": 8,
-  "online_mealprep": 96,
+  "online_mealprep": 290,
   "online_providers": 3,
-  "nutrition": 2232,
+  "nutrition": 2463,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 3075,
+  "products": 3293,
   "companies": 133,
-  "logos": 284,
+  "logos": 286,
   "producer_quality": 4
  }
 }
