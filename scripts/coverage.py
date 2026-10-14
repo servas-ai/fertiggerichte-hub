@@ -18,7 +18,7 @@ cnt = collections.Counter(p["chain"] for p in P); img = collections.Counter(p["c
 logo_names = {l["name"].lower() for l in L} | {l["slug"] for l in L} | {b.lower() for l in L for b in (l.get("brands") or "").split("|") if b}
 LF = [l for l in L if (l.get("file") or "").strip()]  # rows that actually carry a logo file (file-less placeholder rows don't count)
 logo_file_names = {l["name"].lower() for l in LF} | {l["slug"] for l in LF} | {b.lower() for l in LF for b in (l.get("brands") or "").split("|") if b}
-CH = ["Spar", "Billa", "Billa Plus", "Hofer", "Lidl", "Penny", "dm", "denn's BioMarkt", "MPreis", "Unimarkt", "ADEG", "Nah&Frisch", "Fit to Go", "Gurkerl", "Eurospar", "Interspar"]
+CH = ["Spar", "Billa", "Billa Plus", "Hofer", "Lidl", "Penny", "dm", "denn's BioMarkt", "MPreis", "Unimarkt", "ADEG", "Nah&Frisch", "Fit to Go", "Gurkerl", "Alfies", "Eurospar", "Interspar"]
 SLUG = {"denn's BioMarkt": "denns", "Nah&Frisch": "nah-frisch", "Billa Plus": "billa-plus", "Fit to Go": "fit2go", "Eurospar": "spar", "Interspar": "spar"}
 x = lambda b: "[x]" if b else "[ ]"
 st = ["## Stores", "", "| Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |", "|---|---|---|---|---|---|"]
