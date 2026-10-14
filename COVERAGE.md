@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-14T01:50:14Z UTC
-**Next biggest gap:** Logo long-tail singles mostly closed in T0136 (+28 vision-gated). Remaining strict logo-less are known dead ends + vague 1-product strings: The Green Garden (6), Wiener Virtshaus (4), Pasta Box (3), Elsässer (3), Asia/Vifon/SPAR Asia/Go (2 each), then GOLDEN/Pik./FK/Holzbauer/Wild/Pop-Up/SELECT&GO/My Vay/SOTO/Gabelkönig/Windisch/Natur Aktiv/Bio Natura/innocent/SPAR Free From/INTERSPAR (plated or no isolatable wordmark after T0136 probe). Then Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401.
+**Last updated:** 2026-10-14T02:11:55Z UTC
+**Next biggest gap:** Juit prices (login-only; check for a public price page/feed), then logo dead-end long tail (The Green Garden 6, Wiener Virtshaus 4, Pasta Box 3, Elsässer 3, Asia/Vifon/SPAR Asia/Go 2 each), Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401. More AT-delivering meal-prep shops still to probe (Foodist, Kochzauber, Mealprep.at not verified).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -71,11 +71,11 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **284** (269 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **285** (270 with a logo file) (`data/logos.csv`)
 - Logos done T0136 (2026-10-14): +28 vision-gated brand logos (henglein, rebel-meat, just-veg, findus, diamond, lorado, schwaben-krone[+SchwabenKrone], harvest-moon, yopokki, vitasia, pan, flotte-lotte, spar-bbq, thai-delight, dozz, hildegard-gruenkraft, deliciosu, deluxe, auinger, alpenstrudel, sushitime, ich-bin-oesterreich, muehlen[+Rügenwalder], big-snack, ocean-sea, franui, arteoliva, penny-ready); strict logo-less 68→39 brands / 84→55 products; logo rows 265/241→284/269 with_file; rejected: El Tequito(Kania), Gabelkönig(promo), Windisch(W-only), Natur Aktiv/Bio Natura(no mark), innocent(partial), SPAR Free From(cut), Holzbauer/INTERSPAR(plated), GOLDEN/My Vay/SELECT&GO/SOTO(no usable asset).
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 357; brands without a logo file: 39 (55 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 33 brands / 48 products); logo rows with file: 269/284; top 8:
+- Brands in products: 357; brands without a logo file: 39 (55 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 33 brands / 48 products); logo rows with file: 270/285; top 8:
   - [ ] The Green Garden (6 products)
   - [ ] Wiener Virtshaus (4 products)
   - [ ] Pasta Box (3 products)
@@ -91,7 +91,7 @@ Other OSM chains in bbox:
 - [~] GLEIF lookups in dataset: **60/133** companies have LEI (was 59; +1 ANDROS for BONNE MAMAN 2026-10-13T19, evidence `fertiggerichte-daten/raw/gleif_verified_2026-10-13T19.json`; was 50 before T16). Remaining without LEI have no GLEIF record under their label name or only a non-matching candidate
 - [~] Firmenbuchnummer (FN) present: **54/133** (was 47; +7 from T19 Impressum/VIES); German register no. (HRA/HRB) present: **20/133**
 - [~] Legal entity identified (LEI or VIES-verified UID): **118/133** (was 106 before 2026-10-13T19, 80 before T17, 71 before T16); UID present: **60/133** (35 ATU, 20 DE, 3 IT, 1 FR, 1 NL), all checked live in EU VIES. Products whose producer is still unidentified: **28** company-linked rows (was 53)
-- [~] Konzernmutter (GLEIF ultimate parent): **11/133**
+- [x] Konzernmutter (GLEIF ultimate parent): **11/133** companies (10 of 57 unique LEIs) have a reported parent; re-checked 2026-10-14T0202 for all 57 LEIs via GLEIF relationship + reporting-exception endpoints: the rest report exceptions (NON_CONSOLIDATING 13, NO_KNOWN_PERSON 12, NATURAL_PERSONS 11, NON_PUBLIC 6, NO_LEI 3 — parent exists but has no LEI: SPAR, Alnatura, Estyria) and 2 have no record (GMS Gourmet, Wiesbauer) → nothing more obtainable from GLEIF. Evidence `fertiggerichte-daten/raw/gleif_parents_2026-10-14T0202.json`
 - [ ] Firmenbuch HVD API: **blocked** — `FIRMENBUCH_API_KEY` not set
 - [x] VIES connector: live in food-connectors (`food company --vies`)
 - [x] Impressum connector: live in food-connectors (`food company NAME --impressum DOMAIN`, MCP `company_impressum`): FN/HRB/UID from the public legal notice (robots.txt respected, no JS/cookies), every UID verified via VIES + name match
@@ -143,8 +143,9 @@ Other OSM chains in bbox:
 
 - [x] Online: PrepMyMeal: 86 dishes (`data/online_mealprep.csv`)
 - [x] Online: LiveFresh: 10 dishes (`data/online_mealprep.csv`)
-- [x] Total online meal-prep rows: **96**
-- [x] Connectors: `prepmymeal`, `livefresh`, `gourmetfein` (Shopify `/products.json`)
+- [~] Online: **Juit** (new 2026-10-14T0202): 50 sellable frozen ready meals (of 116 dish entries), all with EAN, net weight, nutrition/100 g, ingredients and official packshot (50/50 HEAD 200); ships to AT via DHL Express 8,99 €; **no prices** (api.juitnow.com price lists need login → 401, not bypassed, `price_eur` null). Operator Juit GmbH Bielefeld HRB 42921, USt-ID DE316648632 (VIES valid; no LEI). In `data/online_mealprep.csv`; staged in `fertig/online_mealprep.json` for the next hourly app export. Evidence `fertiggerichte-daten/raw/juit_2026-10-14T0202.json`
+- [x] Total online meal-prep rows: **146**
+- [x] Connectors: `prepmymeal`, `livefresh`, `gourmetfein` (Shopify `/products.json`), `juit` (public storefront content bundle, MCP `juit_dishes`)
 - [ ] fit2go.meals / more providers: Hydrogen-shop or no public API (catalog)
 
 ## Connectors / catalog findings (this run)
@@ -185,13 +186,14 @@ Other OSM chains in bbox:
 - [x] Brand logos (2026-10-13T23, Daten-Squad): **+7 vision-gated logos** (packshot crops from official retailer/OFF/Gurkerl assets already in dataset) — **Good Choice** (59 rows, Hofer Eigenmarke; Aldi CDN not re-probed), **SPAR enjoy** (20 rows, Spar enjoy|SPAR enjoy|Spar Enjoy aliases merged), **dmBio** (16), **Pappudia** (25, Lidl; OFF Hummus pack), **Chef Select** (15), **Chef Menü** (11), **Namdong** (11, Unilever; namdong.com Akamai 403 not bypassed). Strict logo-less **114→96 brands / 323→165 products**; logo rows **251→254** (212→219 with file); Good Choice aliases (+GOOD) cover 59 rows. EAN-aware daten export: products.csv gains `ean` column; `offonly_store_overlay.json` applied (13 matched / 9 store+price applied / 4 OFF twins dropped; 6 overlay GTINs absent from CSV OFF set). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-13T23.json`, `raw/offonly_ean_export_2026-10-13T23.json`. Validator PASS.
 - [x] Brand logos (2026-10-14T0006, Daten-Squad): **+4 vision-gated logos** — **Delikatessa** (Penny-Eigenmarke, crop from Penny commercetools packshot Wurstknödel; 3 rows), **Rettenswert** (Hofer-Eigenmarke 'von Unverschwendet', crop from OFF 4061463369697 full-res front; 3 rows), **Wolfensberger & Pomella** (official wp-finefood.com header logo, unmodified PNG; Gurkerl packs carry the 'Südtiroler Kochwerk' label instead; 3 rows), **Schulzi´s Knödel** (badge crop from BRoK Catering producer article image, robots/crawl-delay respected; 3 rows). Strict logo-less **87→83 brands / 124→112 products**; logo rows **257→259** (225→229 with file). Rejected: The Green Garden + Wiener Virtshaus (plated-meal photos only, no producer site), Pasta Box (unlabelled black trays; producer Čerstvá pasta – Jan Blažek CZ has no identifiable site; Sodebo PastaBox is a different brand), Elsässer ('Original frische Elsässer' is a descriptor, not a wordmark). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0006.json`. Validator PASS.
 - [x] Brand logos (2026-10-14T0106, Daten-Squad): **+12 vision-gated logos** — **Therese Mölk** (MPreis-Bäckereimarke, badge crop from MPreis Cloudinary packshot Himbeerknödel 9005015055459; therese-moelk.at → mpreis.at brand page has only photo banners), **Ager** (oval 'QUALITÄT AGER' from BILLA packshot, low-res/soft), **TANN** (SPAR-Eigenmarke, Interspar dt_zoom packshot, low-res/soft; spar.at Eigenmarken page = Cloudflare challenge, not bypassed), **Njami** (NJAMI + 'by Delamaris' lockup, BILLA packshot), **PIZZ'AH** (Hofer, OFF 4061463587275 full-res), **Leibspeis'** (Hofer, OFF 4099200227771 full-res), **MCENNEDY** (Lidl, 1500px rendition referenced by the robots-allowed /p/ product page), **Staudinger** (gold 'STAUDINGER'S' arch from BILLA packshot; producer sites TLS EOF / cert mismatch, not bypassed), **Exotic Food** (official exoticfoodthailand.com logo PNG, unmodified), **Taste Of Asia** (Penny packshot), **Fryzza** (MPreis packshot wordmark), **Schenkel** (MPreis packshot wordmark band). **+2 aliases** onto file-backed rows: Nature‘s Gold→Nature's Gold, Wech→Wech-Geflügel GmbH. Strict logo-less **83→68 brands / 112→84 products**; logo rows **259→265** (229→241 with file). Rejected: SPAR Asia (pack shows only SPAR chain logo, no sub-brand wordmark), Vifon (producer unverified), Go (no packshot, generic string), Asia (descriptor); T0006 dead ends not re-probed. Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0106.json`. Validator PASS.
+- [x] `juit` — **live** (2026-10-14T0202, Daten-Squad, food-connectors f5654f9): Juit public storefront content bundle `cdn.juit.gmbh/content-de.json` (Contentful export juit.com loads itself; robots disallows only /order /profile /checkout /thankyou; no login/cookies). CLI `food fetch|search --store juit`, MCP `juit_dishes`; 4 offline tests. 50 sellable dishes with EAN + nutrition + packshot; prices login-only (401) → null. New logo: Juit wordmark (official favicon SVG, viewBox crop, vision gate PASS).
 
 ## Totals snapshot
 
 - Products: 3075
 - Prices: 2734 (live 2026: 2510)
-- Logos: 284
+- Logos: 285
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
-- Online meal-prep: 96
+- Online meal-prep: 146
 - External datasets catalogued: 11
