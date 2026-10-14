@@ -2,7 +2,7 @@
 
 Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-14 06:02 UTC via `./run_all.sh` (stündlich).
 
-**Connectors:** 25 ✅ / 2 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3459
+**Connectors:** 26 ✅ / 1 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3459
 
 ## Apps
 
@@ -62,6 +62,7 @@ flowchart LR
 | ✅ | `mpreis` | MPREIS | 3 | 2.62 s | AIA Puten Gulasch · 6.5 € | 2026-10-14T05:57:29Z |
 | ✅ | `mpreis-shop` | MPreis | 3 | 8.04 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-14T05:57:33Z |
 | ✅ | `nah-frisch` | Nah&Frisch | 3 | 233.91 s | [Inzersdorfer Fertiggerichte oder Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-14T05:57:41Z |
+| ✅ | `off` | Open Food Facts | 3 | 3.14 s | [Gulasch (Rind)](https://world.openfoodfacts.org/product/4099200121543) | 2026-10-14T06:02:32Z |
 | ✅ | `penny` | PENNY | 2 | 3.22 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-14T06:01:46Z |
 | ✅ | `penny-shop` | PENNY | 2 | 7.6 s | [Schweinefleisch für Reisfleisch/Gulasch](https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771) · 3.99 € | 2026-10-14T06:01:50Z |
 | ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 8.6 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-14T06:01:57Z |
@@ -74,7 +75,6 @@ flowchart LR
 | ❌ | `lidl` | Lidl | 0 | 11.5 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-14T05:57:13Z |
 | 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-14T05:57:25Z |
 | 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-14T05:57:29Z |
-| ❌ | `off` | Open Food Facts | 0 | 11.14 s | `HTTPError: HTTP Error 503: Service Temporarily Unavailable` | 2026-10-14T06:01:35Z |
 | 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-14T06:02:15Z |
 | 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-14T06:02:15Z |
 
