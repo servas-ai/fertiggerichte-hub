@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-13T23:44:03Z UTC
-**Next biggest gap:** Remaining logo-less brands now long tail: The Green Garden (6, Gurkerl collab, no packshot), Wiener Virtshaus (4, BS Gastro no site), Delikatessa/Rettenswert/Pasta Box/Elsässer/Schulzi´s/Wolfensberger & Pomella (3 each). EAN overlay partial in daten (205→192 OFF). Then Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401.
+**Last updated:** 2026-10-14T00:41:30Z UTC
+**Next biggest gap:** Remaining logo-less brands are hard dead ends + 2–3-product tail: The Green Garden (6, Gurkerl collab, plated photos only), Wiener Virtshaus (4, BS Gastro no site, plated photos), Pasta Box (3, unlabelled trays, Čerstvá pasta CZ no site), Elsässer (3, descriptor not wordmark), Therese Mölk (3), then 2-product brands (Ager, TANN, Njami, PIZZ'AH, Leibspeis', MCENNEDY, Staudinger). EAN overlay partial in daten (205→192 OFF). Then Hofer 130 'Preis 2025' (Akamai 403), Subway photos, Lidl API 401.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -71,18 +71,19 @@ Other OSM chains in bbox:
 
 ## Logos
 
-- [x] Logo index rows: **257** (225 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **259** (229 with a logo file) (`data/logos.csv`)
 - Handelskette logos present: ['ADEG', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 357; brands without a logo file: 87 (124 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 62 brands / 88 products); logo rows with file: 225/257; top 8:
+- Brands in products: 357; brands without a logo file: 83 (112 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 60 brands / 82 products); logo rows with file: 229/259; top 8:
   - [ ] The Green Garden (6 products)
   - [ ] Wiener Virtshaus (4 products)
-  - [ ] Delikatessa (3 products)
-  - [ ] Rettenswert (3 products)
   - [ ] Pasta Box (3 products)
   - [ ] Elsässer (3 products)
-  - [ ] Schulzi´s Knödel (3 products)
-  - [ ] Wolfensberger & Pomella (3 products)
+  - [ ] Therese Mölk (3 products)
+  - [ ] Ager (2 products)
+  - [ ] TANN (2 products)
+  - [ ] Njami (2 products)
+  - [x] done 2026-10-14T0006: Delikatessa (3), Rettenswert (3), Wolfensberger & Pomella (3), Schulzi´s Knödel (3)
 - [~] Company/producer logos (app Firmen view, `companies.json`): **118/133** companies with a logo (was 114 before 2026-10-13T14: deli gourmet→deli dip, Ablinger, BioGourmet, Zum Dorfkrug now have vision-gated official logos; T15 brand logos Podravka/Heura/Nordsee/Mama/Maza/Englert are brand rows only — none of the 133 companies maps to them, so still 118; earlier 2026-10-13T13b via Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (15, known dead ends): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, Dairy 4 Fun (TLS), Doppelt, Franuí (SSL EOF), Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft (TLS), La Crêpe de Brocéliande (TLS), Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed). Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`, `raw/logos_squad_2026-10-13T14.json`, `raw/logos_squad_2026-10-13T15.json`.
 
 ## Companies
@@ -182,12 +183,13 @@ Other OSM chains in bbox:
 - [~] Penny products (2026-10-13T21, Daten-Squad): **22→30** products, live 2026 prices **7→15**, photos **17→25**. +8 ready meals from the online assortment: Podravka Rindergulasch 400 g 4.99, Ich bin Österreich Wiener Schnitzel 750 g 4.99 (Normalpreis 5.99), Dr. Oetker Ristorante Pizza 2er 720 g 3.49 (div. Sorten), Gabelkönig Semmelknödel-Rolle 450 g 2.79 (Normal 3.59), Maggi Magic Asia Instantnudeln 63 g 0.99, Taste of Asia Knuspergarnelen 260 g 3.29 (Normal 4.39), Heinz Baked Beans 415 g 2.99, Iglo Fischstäbchen 450 g 2.99. 7 existing penny.at rows re-confirmed live; **multi-buy guard**: Iglo Ofenbackfisch 3.49 was the 'bei 2 Packungen' price → single-pack Normalpreis 6.99 (same for Baked Beans 1.99 'bei 3 Dosen' → 2.99). Rejected: Iglo Polardorsch div. Sorten (plain fillets), PENNY READY Spätzle/Gnocchi (plain sides), Würze/Brühe/Pommes. No nutrition for multi-variant offers (variant unknown). 15 Chef Menü/OFF Penny rows not in the online assortment → unchanged. Overlay `fertig/penny_live_overlay.json` (score.py, pack-size guard ±5 %); evidence `fertiggerichte-daten/raw/penny_2026-10-13T21.json`.
 - 2026-10-13T22 Daten-Squad: HelloFresh logo added (cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg, robots OK, vision-gated; 93 products). OFF GTIN store overlay confirmed loaded by score.py (19 matched / 13 applied / 13 dups dropped / 1 size mismatch) — app-only until products.csv gains EAN export; hub COVERAGE refreshed.
 - [x] Brand logos (2026-10-13T23, Daten-Squad): **+7 vision-gated logos** (packshot crops from official retailer/OFF/Gurkerl assets already in dataset) — **Good Choice** (59 rows, Hofer Eigenmarke; Aldi CDN not re-probed), **SPAR enjoy** (20 rows, Spar enjoy|SPAR enjoy|Spar Enjoy aliases merged), **dmBio** (16), **Pappudia** (25, Lidl; OFF Hummus pack), **Chef Select** (15), **Chef Menü** (11), **Namdong** (11, Unilever; namdong.com Akamai 403 not bypassed). Strict logo-less **114→96 brands / 323→165 products**; logo rows **251→254** (212→219 with file); Good Choice aliases (+GOOD) cover 59 rows. EAN-aware daten export: products.csv gains `ean` column; `offonly_store_overlay.json` applied (13 matched / 9 store+price applied / 4 OFF twins dropped; 6 overlay GTINs absent from CSV OFF set). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-13T23.json`, `raw/offonly_ean_export_2026-10-13T23.json`. Validator PASS.
+- [x] Brand logos (2026-10-14T0006, Daten-Squad): **+4 vision-gated logos** — **Delikatessa** (Penny-Eigenmarke, crop from Penny commercetools packshot Wurstknödel; 3 rows), **Rettenswert** (Hofer-Eigenmarke 'von Unverschwendet', crop from OFF 4061463369697 full-res front; 3 rows), **Wolfensberger & Pomella** (official wp-finefood.com header logo, unmodified PNG; Gurkerl packs carry the 'Südtiroler Kochwerk' label instead; 3 rows), **Schulzi´s Knödel** (badge crop from BRoK Catering producer article image, robots/crawl-delay respected; 3 rows). Strict logo-less **87→83 brands / 124→112 products**; logo rows **257→259** (225→229 with file). Rejected: The Green Garden + Wiener Virtshaus (plated-meal photos only, no producer site), Pasta Box (unlabelled black trays; producer Čerstvá pasta – Jan Blažek CZ has no identifiable site; Sodebo PastaBox is a different brand), Elsässer ('Original frische Elsässer' is a descriptor, not a wordmark). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0006.json`. Validator PASS.
 
 ## Totals snapshot
 
 - Products: 3075
 - Prices: 2734 (live 2026: 2510)
-- Logos: 257
+- Logos: 259
 - Stores (OSM Linz bbox): 498
 - Companies: 133 (60 with LEI, 118 with LEI or verified UID, 54 with FN)
 - Online meal-prep: 96
