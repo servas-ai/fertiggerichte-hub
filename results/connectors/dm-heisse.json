@@ -1,7 +1,19 @@
 {
  "id": "dm-heisse",
- "result": "fail",
- "error": "timeout 300s",
- "latency_s": 300,
- "count": 0
+ "store": "dm",
+ "status_declared": "stale",
+ "ts": "2026-10-14T00:49:39Z",
+ "latency_s": 2.75,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "HiPP Men\u00fc Sp\u00e4tzle mit Gulasch ab 8 Monaten, 220 g",
+  "brand": null,
+  "store": "dm",
+  "price_eur": 1.75,
+  "source_url": null,
+  "image_url": null,
+  "fetched_at": "2026-10-14T00:49:42+00:00"
+ },
+ "result": "pass"
 }

@@ -1,5 +1,19 @@
 {
  "id": "heisse-preise",
- "result": "fail",
- "error": "smoke exited rc=-9 without output: "
+ "store": "heisse-preise.io",
+ "status_declared": "live",
+ "ts": "2026-10-14T00:49:46Z",
+ "latency_s": 2.68,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "Ager Hirschgulasch geschnitten",
+  "brand": null,
+  "store": "BILLA",
+  "price_eur": 11.99,
+  "source_url": "ager-hirschgulasch-geschnitten-00730647",
+  "image_url": null,
+  "fetched_at": "2026-10-14T00:49:49+00:00"
+ },
+ "result": "pass"
 }

@@ -1,0 +1,19 @@
+{
+ "id": "penny-shop",
+ "store": "PENNY",
+ "status_declared": "live",
+ "ts": "2026-10-14T00:54:10Z",
+ "latency_s": 7.55,
+ "count": 2,
+ "schema_errors": [],
+ "sample": {
+  "name": "Schweinefleisch f\u00fcr Reisfleisch/Gulasch",
+  "brand": "Ich bin \u00d6sterreich",
+  "store": "PENNY",
+  "price_eur": 3.99,
+  "source_url": "https://www.penny.at/produkte/schweinefleisch-fuer-reisfleischgulasch-78544771",
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544771-0110601565-ojOoc2dp.jpg",
+  "fetched_at": "2026-10-14T00:54:17+00:00"
+ },
+ "result": "pass"
+}

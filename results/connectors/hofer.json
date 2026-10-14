@@ -1,7 +1,19 @@
 {
  "id": "hofer",
- "result": "fail",
- "error": "timeout 300s",
- "latency_s": 300,
- "count": 0
+ "store": "HOFER",
+ "status_declared": "stale",
+ "ts": "2026-10-14T00:49:51Z",
+ "latency_s": 2.68,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "GENUSS 100% AUS \u00d6STERREICH Rindsgulasch 1kg",
+  "brand": null,
+  "store": "HOFER",
+  "price_eur": 19.98,
+  "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
+  "image_url": null,
+  "fetched_at": "2026-10-14T00:49:53+00:00"
+ },
+ "result": "pass"
 }
