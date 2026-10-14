@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-13T22:24:31Z",
+ "ts": "2026-10-13T23:52:16Z",
  "live": true,
  "tabs": [
   {
@@ -10,7 +10,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 64,
+   "images": 62,
    "screenshot": "screenshots/vergleich/home_1920.png",
    "ok": true
   },
@@ -37,7 +37,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 12,
+   "images": 11,
    "screenshot": "screenshots/vergleich/board_1920.png",
    "ok": true
   },
@@ -55,7 +55,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 115,
+   "images": 113,
    "screenshot": "screenshots/vergleich/top_1920.png",
    "ok": true
   },
@@ -91,7 +91,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 735,
+   "images": 741,
    "screenshot": "screenshots/vergleich/marken_1920.png",
    "ok": true
   },
@@ -109,7 +109,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 86,
+   "images": 87,
    "screenshot": "screenshots/vergleich/dashboard_1920.png",
    "ok": true
   },
@@ -118,7 +118,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 69,
+   "images": 70,
    "screenshot": "screenshots/vergleich/gesundheit_1920.png",
    "ok": true
   },
@@ -172,10 +172,9 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 1302,
+   "images": 1310,
    "screenshot": "screenshots/vergleich/wer_1920.png",
-   "ok": true,
-   "retried_after_crash": true
+   "ok": true
   },
   {
    "tab": "Firmenvergleich",
@@ -200,7 +199,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 245,
+   "images": 246,
    "screenshot": "screenshots/vergleich/logos_1920.png",
    "ok": true
   },
@@ -281,7 +280,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 165,
+   "images": 171,
    "screenshot": "screenshots/vergleich/home_390.png",
    "ok": true
   },
@@ -308,7 +307,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 12,
+   "images": 11,
    "screenshot": "screenshots/vergleich/board_390.png",
    "ok": true
   },
@@ -326,7 +325,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 115,
+   "images": 113,
    "screenshot": "screenshots/vergleich/top_390.png",
    "ok": true
   },
@@ -362,7 +361,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 735,
+   "images": 741,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },
@@ -380,7 +379,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 86,
+   "images": 87,
    "screenshot": "screenshots/vergleich/dashboard_390.png",
    "ok": true
   },
@@ -443,7 +442,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 1302,
+   "images": 1310,
    "screenshot": "screenshots/vergleich/wer_390.png",
    "ok": true
   },
@@ -470,7 +469,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 245,
+   "images": 246,
    "screenshot": "screenshots/vergleich/logos_390.png",
    "ok": true
   },
