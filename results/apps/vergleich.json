@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-14T05:49:18Z",
+ "ts": "2026-10-14T06:57:11Z",
  "live": true,
  "tabs": [
   {
@@ -28,7 +28,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 2,
+   "images": 6,
    "screenshot": "screenshots/vergleich/plan_1920.png",
    "ok": true
   },
@@ -71,12 +71,9 @@
   {
    "tab": "Marken",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 503 ()",
-    "Failed to load resource: the server responded with a status of 404 ()"
-   ],
+   "console_errors": [],
    "broken_images": [],
-   "images": 831,
+   "images": 882,
    "screenshot": "screenshots/vergleich/marken_1920.png",
    "ok": true
   },
@@ -112,7 +109,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 2,
+   "images": 6,
    "screenshot": "screenshots/vergleich/plan_390.png",
    "ok": true
   },
@@ -157,7 +154,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 833,
+   "images": 882,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },

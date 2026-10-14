@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-14T06:02:15Z",
+ "ts": "2026-10-14T07:05:32Z",
  "products": 3459,
  "by_store": [
   [
@@ -149,14 +149,14 @@
  "counts": {
   "prices": 3077,
   "brand_tree": 8,
-  "online_mealprep": 371,
+  "online_mealprep": 406,
   "online_providers": 3,
   "nutrition": 2629,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
   "products": 3459,
-  "companies": 136,
+  "companies": 137,
   "logos": 293,
   "producer_quality": 4
  }
