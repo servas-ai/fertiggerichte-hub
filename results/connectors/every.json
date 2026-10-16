@@ -2,8 +2,8 @@
  "id": "every",
  "store": "Online: every.",
  "status_declared": "live",
- "ts": "2026-10-14T07:59:20Z",
- "latency_s": 12.75,
+ "ts": "2026-10-16T16:58:50Z",
+ "latency_s": 14.74,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 8.99,
   "source_url": "https://every-foods.com/products/pumpkin-zucchini-risotto",
   "image_url": "https://cdn.shopify.com/s/files/1/0228/6528/1104/files/Pumpkinzucchinirisottowebsite.png?v=1791186791",
-  "fetched_at": "2026-10-14T07:59:30+00:00"
+  "fetched_at": "2026-10-16T16:59:01+00:00"
  },
  "result": "pass"
 }

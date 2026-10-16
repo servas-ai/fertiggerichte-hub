@@ -2,8 +2,8 @@
  "id": "bofrost",
  "store": "Online: bofrost*",
  "status_declared": "live",
- "ts": "2026-10-14T07:59:01Z",
- "latency_s": 6.99,
+ "ts": "2026-10-16T16:58:11Z",
+ "latency_s": 7.33,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 14.99,
   "source_url": "https://www.bofrost.at/shop/fleisch_44196/fleischzubereitungen_34987/wiener-rindsgulasch_03373.html",
   "image_url": "https://www.bofrost.at/medias/03373-AT-wiener-rindsgulasch-pic1.jpeg-W920xH575R1.6?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDQ2ODI5N3xpbWFnZS9qcGVnfGFHVmxMMmd6Tmk4eE1EZ3hNVGt3TVRnd05EVTNOQzlYT1RJd2VFZzFOelZTTVM0Mlh6QXpNemN6WDBGVVgzZHBaVzVsY2kxeWFXNWtjMmQxYkdGelkyaGZjR2xqTVM1cWNHVm58YzBkYTJlZTY5YTkzNjFiOTg2MDMzZWM5MzYyOWE1YWMwZGFmYmYzNzM0MmRmYzkyZjNlYzM5NDMyOWVmYzlhZg",
-  "fetched_at": "2026-10-14T07:59:02+00:00"
+  "fetched_at": "2026-10-16T16:58:13+00:00"
  },
  "result": "pass"
 }

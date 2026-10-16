@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-14T08:05:45Z",
- "products": 3637,
+ "ts": "2026-10-16T17:07:24Z",
+ "products": 3641,
  "by_store": [
   [
    "Billa",
@@ -24,7 +24,7 @@
   ],
   [
    "Alfies",
-   178
+   182
   ],
   [
    "bofrost",
@@ -94,11 +94,11 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1221
+   1222
   ],
   [
    "Tiefkühl (TK)",
-   1007
+   1009
   ],
   [
    "Kühlregal (Menüschale/frisch)",
@@ -110,7 +110,7 @@
   ],
   [
    "Trocken/Instant",
-   331
+   332
   ],
   [
    "Glas",
@@ -137,11 +137,11 @@
   "bio": 100.0,
   "brand": 90.9,
   "chain": 100.0,
-  "dish": 24.6,
+  "dish": 24.5,
   "ean": 26.1,
   "image_url": 93.6,
   "name": 100.0,
-  "origin": 30.5,
+  "origin": 30.6,
   "pack_size_g": 93.3,
   "producer": 48.4,
   "product_id": 100.0,
@@ -151,15 +151,15 @@
   "vegan": 100.0
  },
  "counts": {
-  "prices": 3255,
+  "prices": 3259,
   "brand_tree": 8,
   "online_mealprep": 406,
   "online_providers": 3,
-  "nutrition": 2807,
+  "nutrition": 2811,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 3637,
+  "products": 3641,
   "companies": 138,
   "logos": 294,
   "producer_quality": 4
