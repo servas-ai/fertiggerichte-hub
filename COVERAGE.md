@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
 **Last updated:** 2026-10-14T07:33:28Z UTC
-**Next biggest gap:** **Alfies live (T0740)** — 178 ready meals staged in fertig alfies_src.json for the next hourly (Connector UI: add store 'Alfies' to shops.ts + STORE_LOGO → analysis/logos/alfies.svg; Wien/Graz only, not Linz). Next: Alfies has 115 more ready meals that were out of stock in every AT warehouse at T0740 (re-run `food fetch --store alfies` in daytime to pick up restocked items) + Alfies logo long tail (11er, Ajinomoto/Oyakata, Getvoila, Stefri = new logo-less brands); then Billa Plus (0 products — same assortment as billa.at online shop, needs chain mapping, not a new source), Hofer photos 129/223 (Akamai 403), Subway photos 0/59, Lidl API 401, Juit prices login-only. Verified dead ends: Frischepost, Alnatura (T0537), Foodpunk, Little Lunch, Foodist, Kochzauber, Mealprep.at, Gourmetfein (Wurst only), eismann.at→de, Dinnerly (meal-kit), ADEG, Unimarkt.
+**Next biggest gap:** (T1706, 2026-10-16) Company legal-entity gap now 13/138 (was 15): Stadtküche → Knödelhütte GmbH (kasnudl.at Impressum + VIES), Unimarkt → GLEIF 529900X5GBP4KNVUYQ35; still unidentified: Mochi Production GmbH, Kasnudl GmbH (label entity), Gü Puds (UK), Bauck GmbH, Delikatessa GmbH, Franuí España SL, Gastrotech s.r.o. (SK/CZ, VIES needs the number), Hildegard-Grünkraft, Knödelwerkstatt G.m.b.H (AT, not the Munich KG), Planted Foods AG (CH), Peter Hiel (Wien), Verband der MPREIS-Partner — evidence `fertiggerichte-daten/raw/companies_identify_2026-10-16T1706.json`. Alfies restock item **closed**: +4 restocked at T0809 (182 kept), the remaining 111 were still out of stock in all 5 warehouses at T1706 (57 h later) → treated as delisted, no further re-runs. Then: duplicate company row `kontakt-everygmbh` → merge into `everygmbh`; Alfies logo long tail (11er, Ajinomoto/Oyakata, Getvoila, Stefri); Billa Plus/Eurospar/Interspar = chain mapping of existing billa.at/spar.at rows, not new sources; Hofer photos 129/223 (Akamai 403), Subway photos 0/59, Lidl API 401, Juit prices login-only. Verified dead ends: Frischepost, Alnatura (T0537), Foodpunk, Little Lunch, Foodist, Kochzauber, Mealprep.at, Gourmetfein (Wurst only), eismann.at→de, Dinnerly (meal-kit), ADEG, Unimarkt.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -23,7 +23,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Nah&Frisch | [x] | 7 | [x] | 10 | [x] |
 | Fit to Go | [x] | 30 | [ ] | 0 | [x] |
 | Gurkerl | [x] | 536 | [ ] | 0 | [x] |
-| Alfies | [x] | 178 | [ ] | 0 | [x] |
+| Alfies | [x] | 182 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
 | Interspar | [ ] | 0 | [x] | 4 | [x] |
 
@@ -101,9 +101,9 @@ Other OSM chains in bbox:
 
 ## Companies
 
-- [~] GLEIF lookups in dataset: **61/138** companies have LEI (+1 Alfie's GmbH 984500B8Z9EOKFE27580 T0740, GLEIF ACTIVE, registeredAs 352065v = FN, ultimate parent exception NO_KNOWN_PERSON; was 59; +1 ANDROS for BONNE MAMAN 2026-10-13T19, evidence `fertiggerichte-daten/raw/gleif_verified_2026-10-13T19.json`; was 50 before T16). Remaining without LEI have no GLEIF record under their label name or only a non-matching candidate
-- [~] Firmenbuchnummer (FN) present: **58/138** (+1 Alfie's GmbH FN 352065v HG Wien T0740; was 55/135; +1 Golden Veggies GmbH FN 550344f LG Graz T0605; +1 Kernbeißer OG FN 622470y HG Wien T0504; was 47 before T19 Impressum/VIES); German register no. (HRA/HRB) present: **21/134** (+ Löwenanteil HRB 212808 T0441)
-- [~] Legal entity identified (LEI or VIES-verified UID): **123/138** (+1 Alfie's GmbH ATU68436258 VIES valid, name+address match, + LEI T0740; was 120/135; +1 Golden Veggies GmbH (Goldblatt) ATU76525048 VIES-valid, name+address match, no GLEIF record T0605; +1 Kernbeißer OG ATU80744456 VIES-valid with matching name/address T0504, no GLEIF record; T0441 +1 Löwenanteil GmbH DE316057151); UID present: **65/138** (36 ATU, 20 DE, 3 IT, 1 FR, 1 NL), all checked live in EU VIES. Products whose producer is still unidentified: **28** company-linked rows (was 53)
+- [~] GLEIF lookups in dataset: **62/138** companies have LEI (+1 Unimarkt = UNIMARKT Handelsgesellschaft m.b.H. & Co. KG, Traun, LEI 529900X5GBP4KNVUYQ35, FN 25076b, entity ACTIVE / registration LAPSED since 2017 T1706; was 61; +1 Alfie's GmbH 984500B8Z9EOKFE27580 T0740, GLEIF ACTIVE, registeredAs 352065v = FN, ultimate parent exception NO_KNOWN_PERSON; was 59; +1 ANDROS for BONNE MAMAN 2026-10-13T19, evidence `fertiggerichte-daten/raw/gleif_verified_2026-10-13T19.json`; was 50 before T16). Remaining without LEI have no GLEIF record under their label name or only a non-matching candidate
+- [~] Firmenbuchnummer (FN) present: **60/138** (+1 Stadtküche/Knödelhütte GmbH FN 675365i HG Wien, +1 Unimarkt FN 25076b T1706; Alimentastic legal name corrected to Alimentastic GmbH, Salzburg, LG Salzburg (Impressum UID ATU70319525 VIES-invalid → not verified); was 58; +1 Alfie's GmbH FN 352065v HG Wien T0740; was 55/135; +1 Golden Veggies GmbH FN 550344f LG Graz T0605; +1 Kernbeißer OG FN 622470y HG Wien T0504; was 47 before T19 Impressum/VIES); German register no. (HRA/HRB) present: **21/134** (+ Löwenanteil HRB 212808 T0441)
+- [~] Legal entity identified (LEI or VIES-verified UID): **125/138** (+1 Stadtküche → Knödelhütte GmbH ATU83103945 VIES valid, name+address match (kasnudl.at Impressum), +1 Unimarkt via GLEIF T1706; rejected look-alikes Mochi GmbH, BauckOnline GmbH, Knödelwerkstatt GmbH & Co. KG München, Gastrotech UG; was 123; +1 Alfie's GmbH ATU68436258 VIES valid, name+address match, + LEI T0740; was 120/135; +1 Golden Veggies GmbH (Goldblatt) ATU76525048 VIES-valid, name+address match, no GLEIF record T0605; +1 Kernbeißer OG ATU80744456 VIES-valid with matching name/address T0504, no GLEIF record; T0441 +1 Löwenanteil GmbH DE316057151); UID present: **65/138** (36 ATU, 20 DE, 3 IT, 1 FR, 1 NL), all checked live in EU VIES. Products whose producer is still unidentified: **28** company-linked rows (was 53)
 - [x] Konzernmutter (GLEIF ultimate parent): **11/133** companies (10 of 57 unique LEIs) have a reported parent; re-checked 2026-10-14T0202 for all 57 LEIs via GLEIF relationship + reporting-exception endpoints: the rest report exceptions (NON_CONSOLIDATING 13, NO_KNOWN_PERSON 12, NATURAL_PERSONS 11, NON_PUBLIC 6, NO_LEI 3 — parent exists but has no LEI: SPAR, Alnatura, Estyria) and 2 have no record (GMS Gourmet, Wiesbauer) → nothing more obtainable from GLEIF. Evidence `fertiggerichte-daten/raw/gleif_parents_2026-10-14T0202.json`
 - [ ] Firmenbuch HVD API: **blocked** — `FIRMENBUCH_API_KEY` not set
 - [x] VIES connector: live in food-connectors (`food company --vies`)
@@ -119,7 +119,7 @@ Other OSM chains in bbox:
 | Spar [~] | 722 | live 2026: 688 · Preis 2025: 31 · : 3 |
 | Gurkerl [x] | 536 | live 2026: 536 |
 | MPreis [x] | 386 | live 2026: 386 |
-| Alfies [x] | 178 | live 2026: 178 |
+| Alfies [x] | 182 | live 2026: 182 |
 | Hofer [~] | 164 | Preis 2025: 130 · live 2026: 27 · Preis unbestätigt: 7 |
 | bofrost [x] | 144 | live 2026: 144 |
 | Löwenanteil [x] | 17 | live 2026: 17 |
@@ -230,7 +230,7 @@ Other OSM chains in bbox:
 
 ## Totals snapshot
 
-- Products: 3637 (dataset; +178 Alfies T0740 via data/supplemental; app rows 3542 after sensecheck 12 + Alfies 178 staged in fertig alfies_src.json for the next hourly)
+- Products: 3641 (dataset; +4 Alfies restock T0809, committed T1706; +178 Alfies T0740 via data/supplemental; app rows 3542 after sensecheck 12 + Alfies 178 staged in fertig alfies_src.json for the next hourly)
 - Prices: 3255 (live 2026: 3032)
 - Logos: 294 (279 with file; +Alfies T0740)
 - Stores (OSM Linz bbox): 498
