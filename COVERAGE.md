@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-14T07:33:28Z UTC
-**Next biggest gap:** (T1706, 2026-10-16) Company legal-entity gap now 13/138 (was 15): Stadtküche → Knödelhütte GmbH (kasnudl.at Impressum + VIES), Unimarkt → GLEIF 529900X5GBP4KNVUYQ35; still unidentified: Mochi Production GmbH, Kasnudl GmbH (label entity), Gü Puds (UK), Bauck GmbH, Delikatessa GmbH, Franuí España SL, Gastrotech s.r.o. (SK/CZ, VIES needs the number), Hildegard-Grünkraft, Knödelwerkstatt G.m.b.H (AT, not the Munich KG), Planted Foods AG (CH), Peter Hiel (Wien), Verband der MPREIS-Partner — evidence `fertiggerichte-daten/raw/companies_identify_2026-10-16T1706.json`. Alfies restock item **closed**: +4 restocked at T0809 (182 kept), the remaining 111 were still out of stock in all 5 warehouses at T1706 (57 h later) → treated as delisted, no further re-runs. Then: duplicate company row `kontakt-everygmbh` → merge into `everygmbh`; Alfies logo long tail (11er, Ajinomoto/Oyakata, Getvoila, Stefri); Billa Plus/Eurospar/Interspar = chain mapping of existing billa.at/spar.at rows, not new sources; Hofer photos 129/223 (Akamai 403), Subway photos 0/59, Lidl API 401, Juit prices login-only. Verified dead ends: Frischepost, Alnatura (T0537), Foodpunk, Little Lunch, Foodist, Kochzauber, Mealprep.at, Gourmetfein (Wurst only), eismann.at→de, Dinnerly (meal-kit), ADEG, Unimarkt.
+**Last updated:** 2026-10-16T17:41:10Z UTC
+**Next biggest gap:** (T1736, 2026-10-16) Logo long tail closed for 11er, Ajinomoto(+Oyakata), getvoila, Mamma Emma + alias fixes Followfood/Frank Juice/Knödelwerkstatt (strict logo-less 61→54 brands, 100→75 products). Remaining logo tail is mostly known dead ends (The Green Garden, Wiener Virtshaus, Pasta Box, Elsässer, Pierre Baguette) plus generic store sub-labels (Asia, SPAR Asia) and Vifon (producer unverified), Followfish (old wordmark, no asset). Company legal-entity gap still 13/138 (Mochi Production GmbH, Kasnudl GmbH, Gü Puds (UK), Bauck GmbH, Delikatessa GmbH, Franuí España SL, Gastrotech s.r.o., Hildegard-Grünkraft, Knödelwerkstatt GmbH (AT; Impressum UID truncated, address Hauptstraße 12, 4581 Rosenau am Hengstpaß found T1736), Planted Foods AG (CH), Peter Hiel (Wien), Verband der MPREIS-Partner) — evidence `fertiggerichte-daten/raw/companies_identify_2026-10-16T1706.json`. Then: duplicate company row `kontakt-everygmbh` → merge into `everygmbh` (needs a producer-string normalisation in the fertig export, not a data-only patch); Billa Plus/Eurospar/Interspar = chain mapping of existing rows; Hofer photos 129/223 (Akamai 403), Subway photos 0/59, Lidl API 401, Juit prices login-only. Verified dead ends: Frischepost, Alnatura, Foodpunk, Little Lunch, Foodist, Kochzauber, Mealprep.at, Gourmetfein, eismann.at→de, Dinnerly, ADEG, Unimarkt.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -51,7 +51,11 @@ Other OSM chains in bbox:
 | Gurkerl | 536 | 536 ([x]) | 100.0% |
 | MPreis | 388 | 374 ([~]) | 96.4% |
 | Hofer | 223 | 129 ([~]) | 57.8% |
-| Alfies | 178 | 178 ([x]) | 100.0% |
+| Alfies | 182 | 182 ([x]) | 100.0% |
+| Löwenanteil | 17 | 17 ([x]) | 100.0% |
+| Kernbeißer | 6 | 6 ([x]) | 100.0% |
+| Goldblatt (staged) | 8 | 8 ([x]) | 100.0% |
+| iss mich! (staged) | 35 | 35 ([x]) | 100.0% |
 | bofrost | 144 | 144 ([x]) | 100.0% |
 | unbekannt (OFF) | 93 | 84 ([~]) | 90.3% |
 | HelloFresh | 93 | 93 ([x]) | 100.0% |
@@ -62,10 +66,6 @@ Other OSM chains in bbox:
 | Lidl | 37 | 25 ([~]) | 67.6% |
 | dm | 35 | 33 ([~]) | 94.3% |
 | Fit to Go | 30 | 30 ([x]) | 100.0% |
-| Löwenanteil | 17 | 17 ([x]) | 100.0% |
-| Kernbeißer | 6 | 6 ([x]) | 100.0% |
-| Goldblatt (staged) | 8 | 8 ([x]) | 100.0% |
-| iss mich! (staged) | 35 | 35 ([x]) | 100.0% |
 | Penny | 29 | 24 ([~]) | 82.8% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
 | FitTaste | 18 | 18 ([x]) | 100.0% |
@@ -73,14 +73,15 @@ Other OSM chains in bbox:
 | Nah&Frisch | 7 | 7 ([x]) | 100.0% |
 | denn's BioMarkt | 5 | 5 ([x]) | 100.0% |
 
-- [x] Total products: **3637**
-- [x] Total with photos: **3404** (93.6%)
+- [x] Total products: **3641**
+- [x] Total with photos: **3408** (93.6%)
 - [ ] MPreis photos: live webshop connector `mpreis-shop` (374/388)
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
 ## Logos
 
-- [x] Logo index rows: **294** (279 with a logo file) (`data/logos.csv`)
+- [x] Logo index rows: **298** (283 with a logo file) (`data/logos.csv`)
+- Logos done T1736 (2026-10-16, Daten-Squad): **+4 vision-gated brand logos** — elfer/11er (11er.at official oval SVG, Frastanz), Ajinomoto (Commons PD wordmark; also used for 'Ajinomoto Oyakata' rows, whose brand name carries the parent mark), getvoila (getvoila.com header SVG, light #FAF7F4 recoloured #1f1f1f; brand confirmed via getvoila.com product sitemap neapolitanische-pizza-*), Mamma Emma (mammaemma.it SVG). **+3 alias fixes** onto existing file-backed rows: followfood ← 'Followfood'/'followfood GmbH', frank-juice ← 'Frank Juice'/'FrankJuice GmbH', knoedelwerkstatt ← 'Die Knödelwerkstatt'/'Knödelwerkstatt Ges.m.b.H.' (AT, Rosenau am Hengstpaß per Impressum). Strict logo-less **61→54 brands / 100→75 products**; logo rows 294/279→298/283 with_file. Rejected: Followfish alias (packshot shows the old followfish wordmark ≠ followfood logo). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-16T1736.json`, script `scripts/merge_logos_squad_2026-10-16T1736.py`; staged in fertig analysis/logos for the next hourly export.
 - Logos T0605 (2026-10-14, Daten-Squad, daten 8a7c203): Goldblatt already had a vision-gated official logo row (`goldblatt.svg`, goldblatt.at shop SVG `goldblatt-logo-2026_fuer-Shop.svg`: gold circular leaf seal + serif GOLDBLATT wordmark, vision gate re-checked PASS T0537) → **+2 aliases** 'Online: Goldblatt' / 'Golden Veggies' only; logo rows unchanged **293/278**. Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0537.json`; fertig `analysis/logos/goldblatt.svg` present, l3_build entry present.
 - Logos done T0504 (2026-10-14, Daten-Squad): +1 vision-gated official brand logo — kernbeisser (kernbeisser.at schema.org Organization.logo `logo-kernbeisser-2024-schwarz.png`, handwritten script wordmark 'kernbeißer', black on transparent 1398×286, unmodified); logo rows 292/277→293/278 with_file. Primary win this run = new Kernbeißer connector (6 meals). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0504.json`; staged in fertig analysis/logos.
 - Logos done T0441 (2026-10-14, Daten-Squad): +1 vision-gated official brand logo — loewenanteil (loewenanteil.com CDN LowenanteilLogo1.png 1208×1208 circular seal LÖWENANTEIL + crowned lion + 'JETZT BIN ICH SATT' / ESTD 2017); logo rows 291/276→292/277 with_file. Primary win this run = new Löwenanteil connector (17 meals). Evidence `fertiggerichte-daten/raw/logos_squad_2026-10-14T0441.json`; staged in fertig analysis/logos.
@@ -88,15 +89,15 @@ Other OSM chains in bbox:
 - Logos done T0136 (2026-10-14): +28 vision-gated brand logos (henglein, rebel-meat, just-veg, findus, diamond, lorado, schwaben-krone[+SchwabenKrone], harvest-moon, yopokki, vitasia, pan, flotte-lotte, spar-bbq, thai-delight, dozz, hildegard-gruenkraft, deliciosu, deluxe, auinger, alpenstrudel, sushitime, ich-bin-oesterreich, muehlen[+Rügenwalder], big-snack, ocean-sea, franui, arteoliva, penny-ready); strict logo-less 68→39 brands / 84→55 products; logo rows 265/241→284/269 with_file; rejected: El Tequito(Kania), Gabelkönig(promo), Windisch(W-only), Natur Aktiv/Bio Natura(no mark), innocent(partial), SPAR Free From(cut), Holzbauer/INTERSPAR(plated), GOLDEN/My Vay/SELECT&GO/SOTO(no usable asset).
 - Handelskette logos present: ['ADEG', 'Alfies', 'Billa', 'Billa Plus', 'Gurkerl', 'Hofer', 'Lidl', 'MPreis', 'Nah&Frisch', 'Penny', 'REWE Group', 'Spar', 'Subway', 'Unimarkt', "denn's BioMarkt", 'dm']
 - [x] All tracked Handelskette logos present (Eurospar/Interspar covered by Spar)
-- Brands in products: 387; brands without a logo file: 61 (100 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 54 brands / 92 products); logo rows with file: 279/294; top 8:
+- Brands in products: 387; brands without a logo file: 54 (75 products) — strict count, file-less placeholder rows excluded (lenient 'no logo row at all': 47 brands / 67 products); logo rows with file: 283/298; top 8:
   - [ ] The Green Garden (6 products)
-  - [ ] 11er (6 products)
-  - [ ] Ajinomoto (5 products)
-  - [ ] Ajinomoto Oyakata (5 products)
   - [ ] Wiener Virtshaus (4 products)
-  - [ ] Getvoila (4 products)
   - [ ] Pasta Box (3 products)
   - [ ] Elsässer (3 products)
+  - [ ] Pierre Baguette (3 products)
+  - [ ] Asia (2 products)
+  - [ ] Vifon (2 products)
+  - [ ] SPAR Asia (2 products)
 - [~] Company/producer logos (app Firmen view, `companies.json`): **118/133** companies with a logo (was 114 before 2026-10-13T14: deli gourmet→deli dip, Ablinger, BioGourmet, Zum Dorfkrug now have vision-gated official logos; T15 brand logos Podravka/Heura/Nordsee/Mama/Maza/Englert are brand rows only — none of the 133 companies maps to them, so still 118; earlier 2026-10-13T13b via Stangl, Amlacher, Blue Elephant→Winkelbauer brand fallback; `NO_BRAND_FALLBACK` keeps PLANT BASED POWER from inheriting the Alimentastic distributor logo; 2026-10-13T12:44 +13 vision-gated company logos — Alimentastic, Bauck Mühle, Cecchin, ehrenwort, Greisinger, Hamker, Heiderbeck, Hiel, Mochi, Rila, Tops Foods, REWE Group, Mars). Still without logo (15, known dead ends): BS Gastro (Wiener Virtshaus, no site), Staudinger (logo white lettering, 238px), Ager (icon-font logo only), Glatz (Njami), Plant Based Power, Dairy 4 Fun (TLS), Doppelt, Franuí (SSL EOF), Galana (HTTP 406), Gastrotech, Hildegard-Grünkraft (TLS), La Crêpe de Brocéliande (TLS), Lamercantile Scardovi, Rügenwalder Mühle (windmill icon only), Whollees (TLS hostname mismatch, not bypassed). Evidence `fertiggerichte-daten/raw/logos_companies_2026-10-13T13.json`, `raw/logos_squad_2026-10-13T13b.json`, `raw/logos_squad_2026-10-13T14.json`, `raw/logos_squad_2026-10-13T15.json`.
 
 ## Companies
@@ -231,8 +232,8 @@ Other OSM chains in bbox:
 ## Totals snapshot
 
 - Products: 3641 (dataset; +4 Alfies restock T0809, committed T1706; +178 Alfies T0740 via data/supplemental; app rows 3542 after sensecheck 12 + Alfies 178 staged in fertig alfies_src.json for the next hourly)
-- Prices: 3255 (live 2026: 3032)
-- Logos: 294 (279 with file; +Alfies T0740)
+- Prices: 3259 (live 2026: 3036) (+4 Alfies restock T1706)
+- Logos: 298 (283 with file; +4 brand logos + 3 alias fixes T1736)
 - Stores (OSM Linz bbox): 498
 - Companies: 138 (61 with LEI, 123 with LEI or verified UID, 65 with UID, 58 with FN; +Alfie's GmbH T0740)
 - Online meal-prep: 406 (+35 iss mich! T0636)
