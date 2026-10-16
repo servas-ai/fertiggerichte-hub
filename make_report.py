@@ -40,6 +40,8 @@ for c in conns:
     ev = (f"[{s.get('name','')[:50]}]({s['source_url']})" if s.get("source_url") else s.get("name","")[:50]) + (f" · {s['price_eur']} €" if s.get("price_eur") else "")
     if c["result"]=="fail": ev = "`"+(c.get("error") or str(c.get("schema_errors") or "0 Treffer"))[:90].replace("|","/")+"`"
     L.append(f"| {icon.get(c['result'],'?')} | `{c['id']}` | {c.get('store','')} | {c.get('count',0)} | {c.get('latency_s','')} s | {ev} | {c.get('ts','')} |")
+if os.path.exists(f"{R}/KNOWN_ISSUES.md"):
+    L += ["", "### Bekannte Ausfälle (manuell gepflegt)", "", open(f"{R}/KNOWN_ISSUES.md").read().strip()]
 cv = ds.get("coverage",{})
 L += ["", "## Datensatz", "", f"**{ds.get('products','?')} Produkte** · Tabellen: " + ", ".join(f"{k} {v}" for k,v in sorted(ds.get("counts",{}).items())), "",
  "| Abdeckung | % |", "|---|---|"] + [f"| {k} | {v} |" for k,v in cv.items()]
