@@ -1,0 +1,19 @@
+{
+ "id": "myproduct",
+ "store": "Online: myProduct",
+ "status_declared": "live",
+ "ts": "2026-10-16T21:54:46Z",
+ "latency_s": 24.89,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "Bio Szegediner Gulasch 460g - Fertiggericht von Hartls Kulinarikum",
+  "brand": "Hartls Kulinarikum",
+  "store": "Online: myProduct",
+  "price_eur": 12.79,
+  "source_url": "https://myproduct.at/bio-szegediner-gulasch-450ml-hartls-kulinarikum",
+  "image_url": null,
+  "fetched_at": "2026-10-16T21:55:11+00:00"
+ },
+ "result": "pass"
+}
