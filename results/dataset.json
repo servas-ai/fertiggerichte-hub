@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-16T21:59:51Z",
+ "ts": "2026-10-16T23:00:10Z",
  "products": 3641,
  "by_store": [
   [
@@ -128,10 +128,10 @@
  "coverage": {
   "nutrition": 77.2,
   "price": 89.5,
-  "photo": 93.6,
+  "photo": 93.7,
   "producer": 48.4,
   "brand": 90.9,
-  "logos_total": 299
+  "logos_total": 304
  },
  "fill_rate_products": {
   "bio": 100.0,
@@ -139,7 +139,7 @@
   "chain": 100.0,
   "dish": 24.5,
   "ean": 26.1,
-  "image_url": 93.6,
+  "image_url": 93.7,
   "name": 100.0,
   "origin": 30.6,
   "pack_size_g": 93.3,
@@ -161,7 +161,7 @@
   "establishments": 4706,
   "products": 3641,
   "companies": 148,
-  "logos": 299,
+  "logos": 304,
   "producer_quality": 4
  }
 }
