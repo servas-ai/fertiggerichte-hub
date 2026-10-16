@@ -2,8 +2,8 @@
  "id": "mpreis",
  "store": "MPREIS",
  "status_declared": "stale",
- "ts": "2026-10-16T19:00:37Z",
- "latency_s": 3.1,
+ "ts": "2026-10-16T19:58:49Z",
+ "latency_s": 3.46,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 6.5,
   "source_url": null,
   "image_url": null,
-  "fetched_at": "2026-10-16T19:00:40+00:00"
+  "fetched_at": "2026-10-16T19:58:53+00:00"
  },
  "result": "pass"
 }

@@ -2,8 +2,8 @@
  "id": "off",
  "store": "Open Food Facts",
  "status_declared": "live",
- "ts": "2026-10-16T19:04:57Z",
- "latency_s": 11.64,
+ "ts": "2026-10-16T20:03:15Z",
+ "latency_s": 11.46,
  "count": 0,
  "result": "fail",
  "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"

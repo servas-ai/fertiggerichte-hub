@@ -2,8 +2,8 @@
  "id": "heisse-preise",
  "store": "heisse-preise.io",
  "status_declared": "live",
- "ts": "2026-10-16T18:59:05Z",
- "latency_s": 3.21,
+ "ts": "2026-10-16T19:57:32Z",
+ "latency_s": 3.26,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 11.99,
   "source_url": "ager-hirschgulasch-geschnitten-00730647",
   "image_url": null,
-  "fetched_at": "2026-10-16T18:59:09+00:00"
+  "fetched_at": "2026-10-16T19:57:35+00:00"
  },
  "result": "pass"
 }
