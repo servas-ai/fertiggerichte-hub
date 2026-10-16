@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16 17:07 UTC",
+ "generated": "2026-10-16 18:06 UTC",
  "connectors": [
   {
    "id": "alfies",
    "store": "Alfies",
    "status_declared": "live",
-   "ts": "2026-10-16T16:58:04Z",
-   "latency_s": 5.9,
+   "ts": "2026-10-16T17:58:59Z",
+   "latency_s": 5.3,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -16,7 +16,7 @@
     "price_eur": 4.49,
     "source_url": "https://www.alfies.at/produkt/knorr-meisterkessel-gulaschsuppe-dose-500g",
     "image_url": "https://static.alfies.at/assortment/images/products/2024/11/img_t/knorr-meisterkessel-gulaschsuppe-dose-500g_1731503057.jpg",
-    "fetched_at": "2026-10-16T16:58:07+00:00"
+    "fetched_at": "2026-10-16T17:59:01+00:00"
    },
    "result": "pass"
   },
@@ -24,8 +24,8 @@
    "id": "billa",
    "store": "BILLA",
    "status_declared": "live",
-   "ts": "2026-10-16T16:58:10Z",
-   "latency_s": 0.57,
+   "ts": "2026-10-16T17:59:04Z",
+   "latency_s": 0.47,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -35,7 +35,7 @@
     "price_eur": 1.49,
     "source_url": "https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-56152-01709617834-_HJngsp4.jpg",
-    "fetched_at": "2026-10-16T16:58:10+00:00"
+    "fetched_at": "2026-10-16T17:59:04+00:00"
    },
    "result": "pass"
   },
@@ -43,8 +43,8 @@
    "id": "bofrost",
    "store": "Online: bofrost*",
    "status_declared": "live",
-   "ts": "2026-10-16T16:58:11Z",
-   "latency_s": 7.33,
+   "ts": "2026-10-16T17:59:05Z",
+   "latency_s": 6.4,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -54,7 +54,7 @@
     "price_eur": 14.99,
     "source_url": "https://www.bofrost.at/shop/fleisch_44196/fleischzubereitungen_34987/wiener-rindsgulasch_03373.html",
     "image_url": "https://www.bofrost.at/medias/03373-AT-wiener-rindsgulasch-pic1.jpeg-W920xH575R1.6?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDQ2ODI5N3xpbWFnZS9qcGVnfGFHVmxMMmd6Tmk4eE1EZ3hNVGt3TVRnd05EVTNOQzlYT1RJd2VFZzFOelZTTVM0Mlh6QXpNemN6WDBGVVgzZHBaVzVsY2kxeWFXNWtjMmQxYkdGelkyaGZjR2xqTVM1cWNHVm58YzBkYTJlZTY5YTkzNjFiOTg2MDMzZWM5MzYyOWE1YWMwZGFmYmYzNzM0MmRmYzkyZjNlYzM5NDMyOWVmYzlhZg",
-    "fetched_at": "2026-10-16T16:58:13+00:00"
+    "fetched_at": "2026-10-16T17:59:06+00:00"
    },
    "result": "pass"
   },
@@ -62,7 +62,7 @@
    "id": "denns",
    "store": "denn's BioMarkt",
    "status_declared": "live",
-   "ts": "2026-10-16T16:58:18Z",
+   "ts": "2026-10-16T17:59:11Z",
    "latency_s": 3.97,
    "count": 1,
    "schema_errors": [],
@@ -73,7 +73,7 @@
     "price_eur": 3.49,
     "source_url": "https://www.denns-biomarkt.at/angebote/",
     "image_url": "https://images.dennree.de/fitinto/576x384/564131.top.png",
-    "fetched_at": "2026-10-16T16:58:22+00:00"
+    "fetched_at": "2026-10-16T17:59:15+00:00"
    },
    "result": "pass"
   },
@@ -81,8 +81,8 @@
    "id": "dm",
    "store": "dm",
    "status_declared": "live",
-   "ts": "2026-10-16T16:58:22Z",
-   "latency_s": 6.43,
+   "ts": "2026-10-16T17:59:15Z",
+   "latency_s": 5.48,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -92,7 +92,7 @@
     "price_eur": 1.15,
     "source_url": "https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
     "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1759529391/assets/pas/images/650eacac-8246-4826-a6cf-718ab04b6e56/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat",
-    "fetched_at": "2026-10-16T16:58:25+00:00"
+    "fetched_at": "2026-10-16T17:59:17+00:00"
    },
    "result": "pass"
   },
@@ -100,8 +100,8 @@
    "id": "dm-heisse",
    "store": "dm",
    "status_declared": "stale",
-   "ts": "2026-10-16T16:58:29Z",
-   "latency_s": 19.52,
+   "ts": "2026-10-16T17:59:21Z",
+   "latency_s": 18.54,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -111,7 +111,7 @@
     "price_eur": 1.75,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-16T16:58:48+00:00"
+    "fetched_at": "2026-10-16T17:59:39+00:00"
    },
    "result": "pass"
   },
@@ -119,8 +119,8 @@
    "id": "every",
    "store": "Online: every.",
    "status_declared": "live",
-   "ts": "2026-10-16T16:58:50Z",
-   "latency_s": 14.74,
+   "ts": "2026-10-16T17:59:41Z",
+   "latency_s": 14.15,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -130,7 +130,7 @@
     "price_eur": 8.99,
     "source_url": "https://every-foods.com/products/pumpkin-zucchini-risotto",
     "image_url": "https://cdn.shopify.com/s/files/1/0228/6528/1104/files/Pumpkinzucchinirisottowebsite.png?v=1791186791",
-    "fetched_at": "2026-10-16T16:59:01+00:00"
+    "fetched_at": "2026-10-16T17:59:51+00:00"
    },
    "result": "pass"
   },
@@ -138,8 +138,8 @@
    "id": "fittogo",
    "store": "Online: Fit2go",
    "status_declared": "live",
-   "ts": "2026-10-16T16:59:05Z",
-   "latency_s": 27.26,
+   "ts": "2026-10-16T17:59:55Z",
+   "latency_s": 5.07,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -149,7 +149,7 @@
     "price_eur": 9.99,
     "source_url": "https://fittogo.at/products/auberginen-chili-con-carne-mit-kase-uberbacken",
     "image_url": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/28.png?v=1790673442",
-    "fetched_at": "2026-10-16T16:59:08+00:00"
+    "fetched_at": "2026-10-16T17:59:57+00:00"
    },
    "result": "pass"
   },
@@ -157,8 +157,8 @@
    "id": "goldblatt",
    "store": "Online: Goldblatt",
    "status_declared": "live",
-   "ts": "2026-10-16T16:59:32Z",
-   "latency_s": 4.53,
+   "ts": "2026-10-16T18:00:00Z",
+   "latency_s": 4.16,
    "count": 2,
    "schema_errors": [],
    "sample": {
@@ -168,7 +168,7 @@
     "price_eur": 11.99,
     "source_url": "https://goldblatt.at/products/bio-erdapfel-gulasch",
     "image_url": "https://cdn.shopify.com/s/files/1/0917/3450/7860/files/f1-gb-260520-erdapfel-gulasch.jpg?v=1780485280",
-    "fetched_at": "2026-10-16T16:59:35+00:00"
+    "fetched_at": "2026-10-16T18:00:03+00:00"
    },
    "result": "pass"
   },
@@ -176,8 +176,8 @@
    "id": "gourmetfein",
    "store": "Online: Gourmetfein",
    "status_declared": "live",
-   "ts": "2026-10-16T16:59:37Z",
-   "latency_s": 3.97,
+   "ts": "2026-10-16T18:00:04Z",
+   "latency_s": 3.18,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -187,7 +187,7 @@
     "price_eur": 24.9,
     "source_url": "https://shop.gourmetfein.com/products/weisswurst-1-8kg",
     "image_url": "https://cdn.shopify.com/s/files/1/0843/0020/2301/files/weisswurstleberk_se.jpg?v=1700573711",
-    "fetched_at": "2026-10-16T16:59:41+00:00"
+    "fetched_at": "2026-10-16T18:00:08+00:00"
    },
    "result": "pass"
   },
@@ -195,8 +195,8 @@
    "id": "gurkerl",
    "store": "Gurkerl.at",
    "status_declared": "live",
-   "ts": "2026-10-16T16:59:41Z",
-   "latency_s": 0.44,
+   "ts": "2026-10-16T18:00:08Z",
+   "latency_s": 0.39,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -206,7 +206,7 @@
     "price_eur": 19.22,
     "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
     "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
-    "fetched_at": "2026-10-16T16:59:41+00:00"
+    "fetched_at": "2026-10-16T18:00:08+00:00"
    },
    "result": "pass"
   },
@@ -214,8 +214,8 @@
    "id": "heisse-preise",
    "store": "heisse-preise.io",
    "status_declared": "live",
-   "ts": "2026-10-16T16:59:41Z",
-   "latency_s": 3.57,
+   "ts": "2026-10-16T18:00:08Z",
+   "latency_s": 3.07,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -225,7 +225,7 @@
     "price_eur": 11.99,
     "source_url": "ager-hirschgulasch-geschnitten-00730647",
     "image_url": null,
-    "fetched_at": "2026-10-16T16:59:45+00:00"
+    "fetched_at": "2026-10-16T18:00:11+00:00"
    },
    "result": "pass"
   },
@@ -233,8 +233,8 @@
    "id": "hofer",
    "store": "HOFER",
    "status_declared": "stale",
-   "ts": "2026-10-16T16:59:47Z",
-   "latency_s": 3.38,
+   "ts": "2026-10-16T18:00:13Z",
+   "latency_s": 2.91,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -244,7 +244,7 @@
     "price_eur": 19.98,
     "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
     "image_url": null,
-    "fetched_at": "2026-10-16T16:59:50+00:00"
+    "fetched_at": "2026-10-16T18:00:16+00:00"
    },
    "result": "pass"
   },
@@ -252,8 +252,8 @@
    "id": "issmich",
    "store": "Online: iss mich!",
    "status_declared": "live",
-   "ts": "2026-10-16T16:59:52Z",
-   "latency_s": 35.95,
+   "ts": "2026-10-16T18:00:17Z",
+   "latency_s": 30.33,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -263,7 +263,7 @@
     "price_eur": 11.5,
     "source_url": "https://www.issmich.at/Bio-Shop/Eintoepfe/Fleisch/15/Bio-Rotweingulasch-vom-Freilandrind",
     "image_url": "https://www.issmich.at/media/85/1d/62/1707491699/bio-rotweingulasch-vom-freilandrind_iss-mich-1.jpg",
-    "fetched_at": "2026-10-16T17:00:18+00:00"
+    "fetched_at": "2026-10-16T18:00:39+00:00"
    },
    "result": "pass"
   },
@@ -271,8 +271,8 @@
    "id": "juit",
    "store": "Online: Juit",
    "status_declared": "live",
-   "ts": "2026-10-16T17:00:28Z",
-   "latency_s": 1.5,
+   "ts": "2026-10-16T18:00:47Z",
+   "latency_s": 0.58,
    "count": 1,
    "schema_errors": [],
    "sample": {
@@ -282,7 +282,7 @@
     "price_eur": null,
     "source_url": "https://www.juit.com/de/gerichte/rindergulasch-mit-paprika",
     "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/3huwNQCNl3tKDf7FkJpuH1/62a805c51b823a7809c866afa6e3d59c/OS106_Rindergulasch_Spetzler_center_new.png",
-    "fetched_at": "2026-10-16T17:00:29+00:00"
+    "fetched_at": "2026-10-16T18:00:48+00:00"
    },
    "result": "pass"
   },
@@ -290,8 +290,8 @@
    "id": "kernbeisser",
    "store": "Online: Kernbeißer",
    "status_declared": "live",
-   "ts": "2026-10-16T17:00:29Z",
-   "latency_s": 43.53,
+   "ts": "2026-10-16T18:00:48Z",
+   "latency_s": 21.05,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -301,7 +301,7 @@
     "price_eur": 9.0,
     "source_url": "https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/",
     "image_url": "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-hirse.jpg",
-    "fetched_at": "2026-10-16T17:01:03+00:00"
+    "fetched_at": "2026-10-16T18:01:04+00:00"
    },
    "result": "pass"
   },
@@ -309,8 +309,8 @@
    "id": "livefresh",
    "store": "Online: LiveFresh",
    "status_declared": "live",
-   "ts": "2026-10-16T17:01:25Z",
-   "latency_s": 1.13,
+   "ts": "2026-10-16T18:01:22Z",
+   "latency_s": 1.31,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -320,7 +320,7 @@
     "price_eur": 5.99,
     "source_url": "https://livefresh.at/products/pasta-cheesy-spinat-400g",
     "image_url": "https://cdn.shopify.com/s/files/1/0058/6432/5231/files/cheesy-spinat-pasta.jpg?v=1771934953",
-    "fetched_at": "2026-10-16T17:01:26+00:00"
+    "fetched_at": "2026-10-16T18:01:23+00:00"
    },
    "result": "pass"
   },
@@ -328,8 +328,8 @@
    "id": "loewenanteil",
    "store": "Online: Löwenanteil",
    "status_declared": "live",
-   "ts": "2026-10-16T17:01:26Z",
-   "latency_s": 2.52,
+   "ts": "2026-10-16T18:01:23Z",
+   "latency_s": 2.17,
    "count": 1,
    "schema_errors": [],
    "sample": {
@@ -339,7 +339,7 @@
     "price_eur": 9.99,
     "source_url": "https://www.loewenanteil.com/products/veganes-gulasch",
     "image_url": "https://cdn.shopify.com/s/files/1/0271/2908/6026/files/veganes-gulasch-fertiggericht-lowenanteil-lowenanteil-327131.jpg?v=1780501433",
-    "fetched_at": "2026-10-16T17:01:29+00:00"
+    "fetched_at": "2026-10-16T18:01:25+00:00"
    },
    "result": "pass"
   },
@@ -347,8 +347,8 @@
    "id": "mpreis",
    "store": "MPREIS",
    "status_declared": "stale",
-   "ts": "2026-10-16T17:01:29Z",
-   "latency_s": 3.46,
+   "ts": "2026-10-16T18:01:25Z",
+   "latency_s": 3.37,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -358,7 +358,7 @@
     "price_eur": 6.5,
     "source_url": null,
     "image_url": null,
-    "fetched_at": "2026-10-16T17:01:32+00:00"
+    "fetched_at": "2026-10-16T18:01:29+00:00"
    },
    "result": "pass"
   },
@@ -366,8 +366,8 @@
    "id": "mpreis-shop",
    "store": "MPreis",
    "status_declared": "live",
-   "ts": "2026-10-16T17:01:34Z",
-   "latency_s": 52.93,
+   "ts": "2026-10-16T18:01:30Z",
+   "latency_s": 6.64,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -377,7 +377,7 @@
     "price_eur": 1.39,
     "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
     "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
-    "fetched_at": "2026-10-16T17:02:22+00:00"
+    "fetched_at": "2026-10-16T18:01:32+00:00"
    },
    "result": "pass"
   },
@@ -385,8 +385,8 @@
    "id": "nah-frisch",
    "store": "Nah&Frisch",
    "status_declared": "live",
-   "ts": "2026-10-16T17:02:27Z",
-   "latency_s": 266.37,
+   "ts": "2026-10-16T18:01:37Z",
+   "latency_s": 248.79,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -396,26 +396,7 @@
     "price_eur": null,
     "source_url": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche",
     "image_url": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
-    "fetched_at": "2026-10-16T17:05:40+00:00"
-   },
-   "result": "pass"
-  },
-  {
-   "id": "off",
-   "store": "Open Food Facts",
-   "status_declared": "live",
-   "ts": "2026-10-16T17:06:54Z",
-   "latency_s": 1.47,
-   "count": 3,
-   "schema_errors": [],
-   "sample": {
-    "name": "Gulasch (Rind)",
-    "brand": "PRIMANA",
-    "store": "Open Food Facts",
-    "price_eur": null,
-    "source_url": "https://world.openfoodfacts.org/product/4099200121543",
-    "image_url": "https://images.openfoodfacts.org/images/products/409/920/012/1543/front_en.28.400.jpg",
-    "fetched_at": "2026-10-16T17:06:55+00:00"
+    "fetched_at": "2026-10-16T18:04:35+00:00"
    },
    "result": "pass"
   },
@@ -423,8 +404,8 @@
    "id": "penny",
    "store": "PENNY",
    "status_declared": "live",
-   "ts": "2026-10-16T17:06:55Z",
-   "latency_s": 4.45,
+   "ts": "2026-10-16T18:05:58Z",
+   "latency_s": 4.13,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -434,7 +415,7 @@
     "price_eur": 15.99,
     "source_url": "https://www.penny.at/produkte/rindsgulaschfleisch-78544603",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544603-1766311244-NR5-Ymtf.jpg",
-    "fetched_at": "2026-10-16T17:06:58+00:00"
+    "fetched_at": "2026-10-16T18:06:00+00:00"
    },
    "result": "pass"
   },
@@ -442,8 +423,8 @@
    "id": "penny-shop",
    "store": "PENNY",
    "status_declared": "live",
-   "ts": "2026-10-16T17:07:00Z",
-   "latency_s": 7.38,
+   "ts": "2026-10-16T18:06:02Z",
+   "latency_s": 7.53,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -453,7 +434,7 @@
     "price_eur": 15.99,
     "source_url": "https://www.penny.at/produkte/rindsgulaschfleisch-78544603",
     "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544603-1766311244-NR5-Ymtf.jpg",
-    "fetched_at": "2026-10-16T17:07:07+00:00"
+    "fetched_at": "2026-10-16T18:06:09+00:00"
    },
    "result": "pass"
   },
@@ -461,8 +442,8 @@
    "id": "prepmymeal",
    "store": "Online: PrepMyMeal",
    "status_declared": "live",
-   "ts": "2026-10-16T17:07:07Z",
-   "latency_s": 6.54,
+   "ts": "2026-10-16T18:06:09Z",
+   "latency_s": 6.58,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -472,7 +453,7 @@
     "price_eur": 14.5,
     "source_url": "https://prepmymeal.at/products/ch-gemuse-lasagne-3",
     "image_url": "https://cdn.shopify.com/s/files/1/0337/6349/1884/files/GemuseLasagne_a6c6f64f-6b37-46d8-8384-9b826021345c.png?v=1737014090",
-    "fetched_at": "2026-10-16T17:07:14+00:00"
+    "fetched_at": "2026-10-16T18:06:16+00:00"
    },
    "result": "pass"
   },
@@ -480,8 +461,8 @@
    "id": "spar",
    "store": "SPAR/INTERSPAR",
    "status_declared": "live",
-   "ts": "2026-10-16T17:07:14Z",
-   "latency_s": 3.3,
+   "ts": "2026-10-16T18:06:16Z",
+   "latency_s": 3.51,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -491,7 +472,7 @@
     "price_eur": 4.99,
     "source_url": null,
     "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001282876/dt_main.jpg",
-    "fetched_at": "2026-10-16T17:07:17+00:00"
+    "fetched_at": "2026-10-16T18:06:20+00:00"
    },
    "result": "pass"
   },
@@ -499,8 +480,8 @@
    "id": "spar-shop",
    "store": "SPAR/INTERSPAR",
    "status_declared": "live",
-   "ts": "2026-10-16T17:07:19Z",
-   "latency_s": 0.94,
+   "ts": "2026-10-16T18:06:21Z",
+   "latency_s": 0.5,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -510,7 +491,7 @@
     "price_eur": 21.99,
     "source_url": "https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817",
     "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/835817/dt_main.jpg",
-    "fetched_at": "2026-10-16T17:07:20+00:00"
+    "fetched_at": "2026-10-16T18:06:22+00:00"
    },
    "result": "pass"
   },
@@ -518,8 +499,8 @@
    "id": "unimarkt",
    "store": "Unimarkt",
    "status_declared": "stale",
-   "ts": "2026-10-16T17:07:20Z",
-   "latency_s": 2.92,
+   "ts": "2026-10-16T18:06:22Z",
+   "latency_s": 2.85,
    "count": 3,
    "schema_errors": [],
    "sample": {
@@ -529,7 +510,7 @@
     "price_eur": 5.39,
     "source_url": "/Felix-Erdaepfelgulasch-3692",
     "image_url": null,
-    "fetched_at": "2026-10-16T17:07:23+00:00"
+    "fetched_at": "2026-10-16T18:06:25+00:00"
    },
    "result": "pass"
   },
@@ -537,7 +518,7 @@
    "id": "adeg",
    "store": "ADEG",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T16:58:04Z",
+   "ts": "2026-10-16T17:58:59Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -547,7 +528,7 @@
    "id": "bio-kistl",
    "store": "Biohof Achleitner / Bio-Kistl OÖ",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T16:58:11Z",
+   "ts": "2026-10-16T17:59:05Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -557,7 +538,7 @@
    "id": "foodora-market",
    "store": "foodora market (Dmart)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T16:59:32Z",
+   "ts": "2026-10-16T18:00:00Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -567,8 +548,8 @@
    "id": "lidl",
    "store": "Lidl",
    "status_declared": "live",
-   "ts": "2026-10-16T17:01:13Z",
-   "latency_s": 11.74,
+   "ts": "2026-10-16T18:01:09Z",
+   "latency_s": 12.14,
    "count": 0,
    "result": "fail",
    "error": "HTTPError: HTTP Error 401: Unauthorized"
@@ -577,7 +558,7 @@
    "id": "lieferando-shops",
    "store": "Lieferando Shops",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T17:01:25Z",
+   "ts": "2026-10-16T18:01:21Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -587,17 +568,27 @@
    "id": "mjam",
    "store": "mjam (now foodora)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T17:01:29Z",
+   "ts": "2026-10-16T18:01:25Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
    "result": "catalog"
   },
   {
+   "id": "off",
+   "store": "Open Food Facts",
+   "status_declared": "live",
+   "ts": "2026-10-16T18:05:46Z",
+   "latency_s": 11.82,
+   "count": 0,
+   "result": "fail",
+   "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+  },
+  {
    "id": "unimarkt-shop",
    "store": "Unimarkt (UNIONLINE Shop)",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T17:07:24Z",
+   "ts": "2026-10-16T18:06:26Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -607,7 +598,7 @@
    "id": "wokostswas",
    "store": "wokostswas.at",
    "status_declared": "catalog-only",
-   "ts": "2026-10-16T17:07:24Z",
+   "ts": "2026-10-16T18:06:26Z",
    "latency_s": 0.0,
    "count": 0,
    "schema_errors": [],
@@ -619,7 +610,7 @@
    "id": "vergleich",
    "name": "Fertiggerichte-Vergleich",
    "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-16T16:56:14Z",
+   "ts": "2026-10-16T17:57:12Z",
    "live": true,
    "tabs": [
     {
@@ -688,9 +679,11 @@
     {
      "tab": "Marken",
      "viewport": 1920,
-     "console_errors": [],
+     "console_errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+     ],
      "broken_images": [],
-     "images": 872,
+     "images": 932,
      "screenshot": "screenshots/vergleich/marken_1920.png",
      "ok": true
     },
@@ -771,7 +764,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 872,
+     "images": 933,
      "screenshot": "screenshots/vergleich/marken_390.png",
      "ok": true
     },
@@ -790,7 +783,7 @@
    "id": "vergleich-servas",
    "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
    "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
-   "ts": "2026-10-16T16:56:51Z",
+   "ts": "2026-10-16T17:57:48Z",
    "live": true,
    "tabs": [
     {
@@ -859,9 +852,11 @@
     {
      "tab": "Marken",
      "viewport": 1920,
-     "console_errors": [],
+     "console_errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+     ],
      "broken_images": [],
-     "images": 872,
+     "images": 932,
      "screenshot": "screenshots/vergleich-servas/marken_1920.png",
      "ok": true
     },
@@ -942,7 +937,7 @@
      "viewport": 390,
      "console_errors": [],
      "broken_images": [],
-     "images": 872,
+     "images": 933,
      "screenshot": "screenshots/vergleich-servas/marken_390.png",
      "ok": true
     },
@@ -961,7 +956,7 @@
    "id": "einkaufsanalyse",
    "name": "Einkaufsanalyse",
    "url": "https://servas-ai.github.io/einkaufsanalyse/",
-   "ts": "2026-10-16T16:57:28Z",
+   "ts": "2026-10-16T17:58:23Z",
    "live": true,
    "tabs": [
     {
@@ -1112,7 +1107,7 @@
   }
  ],
  "dataset": {
-  "ts": "2026-10-16T17:07:24Z",
+  "ts": "2026-10-16T18:06:26Z",
   "products": 3641,
   "by_store": [
    [
@@ -1244,7 +1239,7 @@
    "photo": 93.6,
    "producer": 48.4,
    "brand": 90.9,
-   "logos_total": 294
+   "logos_total": 298
   },
   "fill_rate_products": {
    "bio": 100.0,
@@ -1274,51 +1269,51 @@
    "establishments": 4706,
    "products": 3641,
    "companies": 138,
-   "logos": 294,
+   "logos": 298,
    "producer_quality": 4
   }
  },
  "changelog": {
   "servas-ai/fertiggerichte-vergleich": [
    [
-    "70c1f58",
-    "2026-10-14T07:57",
-    "data: sensecheck 12-verify — plain fresh pasta (Alfies Bertagni Tagliatelle frische Pasta #2 topPLI, Rana Tagliatelle) out of ranking; 14 Butter Chicken ready meals no longer 'grocery' (8 now rankable); Frosta/MPreis Tagliatelle Wildlachs + Followfood Wildlachs Spaghetti meals. rows 3766, rankable 342→353. Pipeline fertig 51ae554. Gates: pytest 50/50, top50 ok, build ok. No deploy."
+    "44f4d16",
+    "2026-10-16T17:56",
+    "Merge remote-tracking branch 'origin/main' into feature/variant-cap"
    ],
    [
-    "e51a05f",
-    "2026-10-14T07:53",
-    "Online store 'Alfies' (Wien/Graz only): ONLINE/Online/Kategorien, palette, STORE_LOGO logos/alfies.svg; KNOWN_DELIVERY fallback marks Alfies not delivering to 4020 (data entry wins); NFC-normalised delivery name match"
+    "62d713f",
+    "2026-10-16T17:56",
+    "price_condition badge shows price_condition_info source (tooltip: host + checked date; https-only link)"
    ],
    [
-    "8d02a3d",
-    "2026-10-14T07:45",
-    "data: hourly T07 — +25 verified (Gurkerl 14 / BILLA 8 / MPreis 3) + export iss mich! 35 + Alfies 175 (Daten-Squad staged); rows 3542→3766, rankable 316→342"
+    "4fcdce3",
+    "2026-10-16T17:55",
+    "data: sensecheck 14 — SPAR Natur*pur baby jars verified via SPAR category Baby/Menüs: Bio-Gemüse-Risotto 250 g and Mediterrane Bio-Kartoffelpfanne 220 g now baby_food (were ready_meal); Steinpilz-/Tomaten-Risotto 2,49 € stay non-baby. rows 3770, rankable 337. Pipeline fertig 0390483. pytest 73/73, top50 ok, regress ok, build ok. No deploy."
    ],
    [
-    "fe347d7",
-    "2026-10-14T07:18",
-    "data: sensecheck 12 — fish fingers + plain Bällchen components; rows 3532→3542, rankable 317→316"
+    "223f80e",
+    "2026-10-16T17:53",
+    "Merge remote-tracking branch 'origin/main' into feature/variant-cap"
    ],
    [
-    "e43981a",
-    "2026-10-14T07:10",
-    "Online store 'iss mich!' (issmich.at, organic stews/soups in WECK jars): ONLINE/Online/Kategorien lists, palette, STORE_LOGO logos/iss-mich.png; '!' verified through fx hash round-trip"
+    "0f4f069",
+    "2026-10-16T17:53",
+    "variant_note under product name (cards, table, detail, Heute); price_condition badge next to price; 'ohne Limit' toggle (URL nolimit=1) switching top*/top*Uncapped and respecting topCap in Top lists + Heute; label 'Preis-Sieger, Gesundheit mittel' for medium-health price winners"
    ],
    [
-    "7ae923c",
-    "2026-10-14T06:49",
-    "data: hourly T06 — rows 3491→3532: +41 verified Gurkerl rows (Komplettmahlzeit-Ergänzungen: Soy Delish Wrap; heat-up components: 24 fresh filled pasta Rana/Bertagni/Garofalo/La Pasteria/Mamma Emma/Pappudia/Alnatura, 4 sous-vide pre-cooked meat, 4 soup inserts, 5 Knödel/Püree, 3 vegan Cevapcici/Köttbullar/Bällchen); all with source nutrition, price, stock, EAN, photo; plain sous-vide pieces + plain Köttbullar = component (not rankable). Brand tree: Garofalo→Ebro Foods 52 %, Gabelkönig→AgroFresh/Klinger, Steirerhuhn→Lugitsch, GREENFORCE. Gates: pytest 46/46, top50 ok, build ok, Playwright 32 tabs×2 0 errors/blank/overflow, 0/9776 broken img. No deploy."
+    "67b4c00",
+    "2026-10-16T17:51",
+    "data: review 13 decisions — roasts with a named side are dishes (bofrost Surbraten mit Sauerkraut), sauce-only roasts stay components; Steinofenpizza price_condition_info (mpreis.at, checked 2026-10-16); store restored for 7 OFF rows matched via heisse-preise (Billa Thai Red Chicken Curry, Spar Kräftige Hühnersuppe …) lost in 6c11fb6. rows 3770, rankable 337. Pipeline fertig 6f75adb. pytest 70/70, top50 ok, regress ok. No deploy."
    ],
    [
-    "f630930",
-    "2026-10-14T06:36",
-    "data: M&S Breaded Haddock/Cod → component (sensecheck 11 follow-up)"
+    "6c11fb6",
+    "2026-10-16T17:45",
+    "data: review 13 — meat/fish pieces without carb word (Rindsbackerl Sous Vide, Braten, Stelze, Iglo Goldschatz) are components, out of topLight; one variant per dish in top lists (variant_note), delivery shipping/6 in pli (shipPor/pPorEff, PrepMyMeal +1,00 €), max 10/30 per provider (+ top*Uncapped, topCap); SPAR Natur*pur jars baby_food (risotto excluded); Goldschatz portion 200 g; breaded += karaage/tempura/katsu; Steinofenpizza 710 g + price_condition. rows 3770, rankable 347→337. Pipeline fertig fc82d64. pytest 66/66, top50 ok, regress ok. No deploy."
    ],
    [
-    "d7d7f13",
-    "2026-10-14T06:12",
-    "Merge remote-tracking branch 'origin/main' into feature/online-goldblatt"
+    "80131d5",
+    "2026-10-16T17:17",
+    "data: sensecheck 13 — same shop URL with different pack size/price collapsed to one visible row (28 twins hidden via dupOf, e.g. BILLA Lasagne Bolognese 700 g/4,99 € out of topPE, live 400 g/3,19 € kept; Iglo Lasagne al Forno Billa 700 g kept per shop API); Iglo Polar-Dorsch Mediterrane/Serbische Art/Müllerin, Schlemmerfilet, Filegro, Ofenfisch and Planted 'Chicken Kräuter & Zitrone' are components ('Zum Kombinieren'), out of topHealth/topLight; Iglo 'Französische Art Penne, Gemüse & Hühnerfilet' and 'Faschierte Laibchen mit Püree' are meals again. rows 3766, rankable 353→347. Pipeline fertig e8bdca5. Gates: pytest 58/58, top50 ok, build ok. No deploy."
    ]
   ],
   "servas-ai/food-connectors": [
@@ -1365,6 +1360,26 @@
   ],
   "servas-ai/fertiggerichte-daten": [
    [
+    "2260dfc",
+    "2026-10-16T17:43",
+    "Daten-Squad T1736: drop unverified legal-name alias from the 11er logo row (only brand names kept)"
+   ],
+   [
+    "686eab7",
+    "2026-10-16T17:41",
+    "Daten-Squad T1736: logo long tail — +4 vision-gated brand logos (11er/elfer 11er.at SVG, Ajinomoto Commons PD wordmark incl. 'Ajinomoto Oyakata' rows, getvoila getvoila.com SVG recoloured dark, Mamma Emma mammaemma.it SVG) + aliases Followfood/Frank Juice/Die Knödelwerkstatt onto existing file-backed rows; Followfish alias rejected (old wordmark); strict logo-less 61→54 brands / 100→75 products"
+   ],
+   [
+    "37a4feb",
+    "2026-10-16T17:17",
+    "Daten-Squad T1706: Alfies restock — +4 ready meals restocked at T0809 (Feel Food Chili sin Carne, Followfood Pizza BIG Mediterrana, Humza Frühlingsrollen, Mama Noodles Beef; 182 kept); T1706 re-probe of all 5 warehouses: remaining 111 still out of stock everywhere 57 h later → treated as delisted"
+   ],
+   [
+    "348294c",
+    "2026-10-16T17:17",
+    "Daten-Squad T1706: legal entity identified for Stadtküche (Knödelhütte GmbH FN 675365i, ATU83103945 VIES valid via kasnudl.at Impressum) and Unimarkt (GLEIF 529900X5GBP4KNVUYQ35, FN 25076b); Alimentastic GmbH legal name/address/court from Impressum (UID VIES-invalid, not marked verified); rejected 4 look-alike matches with evidence"
+   ],
+   [
     "83b291a",
     "2026-10-14T07:32",
     "Daten-Squad T0740: logo alias 'Every Foods' → every-foods (Alfies lists every. meals as 'Every Foods', 9 rows; existing vision-gated logo) + CRLF fix for the appended Alfie's GmbH companies.csv row"
@@ -1383,26 +1398,6 @@
     "8a7c203",
     "2026-10-14T06:09",
     "Daten-Squad T0605: new online provider Goldblatt (8 High Protein Bio glass-jar ready meals, Bad Waltersdorf, AT)"
-   ],
-   [
-    "504f3f6",
-    "2026-10-14T05:11",
-    "Daten-Squad T0504: new online provider Kernbeißer (6 vegan Vollkorn glass-jar ready meals, Wien, AT-only)"
-   ],
-   [
-    "3196aa7",
-    "2026-10-14T04:52",
-    "Daten-Squad T0441: new online provider Löwenanteil (17 Bio glass-jar ready meals)"
-   ],
-   [
-    "a48f61f",
-    "2026-10-14T04:16",
-    "Daten-Squad T0404: Little Lunch verified DEAD END as online provider (own littlelunch.com shop closed 30.09.2025, product pages only link to DE retailers Amazon/Flink/Picnic/REWE/Rossmann, no price/GTIN; operator per Impressum Allos Hof-Manufaktur GmbH Bremen HRB 27982 HB) + logo long tail: +5 vision-gated official logos (Yuu'n Mee yuu-n-mee.at SVG, Allgroo allgroo.com, Bedford bedford.de recoloured, COSTA costa.de, Beyond Meat Commons PD); strict logo-less 53→46 brands / 84→64 products"
-   ],
-   [
-    "b156046",
-    "2026-10-14T03:59",
-    "Daten-Squad T0341: new online provider every. (every-foods.com, Every. GmbH Berlin HRB 221768 B) — 50 frozen plant-based ready meals shipped to AT (DPD per eat.every-foods.com shipping policy; AGB DE-only conflict documented) with single price (median 8,99 €), weight, nutrition/100 g, ingredients, preparation and HEAD-200 packshot from public Shopify products.json + product pages (food-connectors every bab2e1d); 4 candidates without published nutrition dropped; online meal-prep rows 290→340; every-foods logo aliases; Every. GmbH address/management/register court from Impressum; Little Lunch/Dinnerly probe notes"
    ]
   ],
   "servas-ai/einkaufsanalyse": [

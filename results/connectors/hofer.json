@@ -2,8 +2,8 @@
  "id": "hofer",
  "store": "HOFER",
  "status_declared": "stale",
- "ts": "2026-10-16T16:59:47Z",
- "latency_s": 3.38,
+ "ts": "2026-10-16T18:00:13Z",
+ "latency_s": 2.91,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 19.98,
   "source_url": "sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
   "image_url": null,
-  "fetched_at": "2026-10-16T16:59:50+00:00"
+  "fetched_at": "2026-10-16T18:00:16+00:00"
  },
  "result": "pass"
 }
