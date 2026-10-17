@@ -2,8 +2,8 @@
  "id": "juit",
  "store": "Online: Juit",
  "status_declared": "live",
- "ts": "2026-10-16T22:53:46Z",
- "latency_s": 1.81,
+ "ts": "2026-10-16T23:50:54Z",
+ "latency_s": 1.75,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": null,
   "source_url": "https://www.juit.com/de/gerichte/rindergulasch-mit-paprika",
   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/3huwNQCNl3tKDf7FkJpuH1/62a805c51b823a7809c866afa6e3d59c/OS106_Rindergulasch_Spetzler_center_new.png",
-  "fetched_at": "2026-10-16T22:53:48+00:00"
+  "fetched_at": "2026-10-16T23:50:56+00:00"
  },
  "result": "pass"
 }

@@ -2,8 +2,8 @@
  "id": "gourmetfein",
  "store": "Online: Gourmetfein",
  "status_declared": "live",
- "ts": "2026-10-16T22:52:57Z",
- "latency_s": 8.16,
+ "ts": "2026-10-16T23:50:02Z",
+ "latency_s": 8.24,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 24.9,
   "source_url": "https://shop.gourmetfein.com/products/weisswurst-1-8kg",
   "image_url": "https://cdn.shopify.com/s/files/1/0843/0020/2301/files/weisswurstleberk_se.jpg?v=1700573711",
-  "fetched_at": "2026-10-16T22:53:05+00:00"
+  "fetched_at": "2026-10-16T23:50:10+00:00"
  },
  "result": "pass"
 }

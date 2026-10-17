@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-16T23:00:10Z",
- "products": 3641,
+ "ts": "2026-10-17T00:04:42Z",
+ "products": 3651,
  "by_store": [
   [
    "Billa",
@@ -79,30 +79,30 @@
    18
   ],
   [
+   "Denn's",
+   15
+  ],
+  [
    "LiveFresh",
    10
   ],
   [
    "Nah&Frisch",
    7
-  ],
-  [
-   "Denn's",
-   5
   ]
  ],
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1222
+   1224
   ],
   [
    "Tiefkühl (TK)",
-   1009
+   1012
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   597
+   602
   ],
   [
    "Dose/Konserve",
@@ -127,9 +127,9 @@
  ],
  "coverage": {
   "nutrition": 77.2,
-  "price": 89.5,
-  "photo": 93.7,
-  "producer": 48.4,
+  "price": 89.3,
+  "photo": 93.8,
+  "producer": 48.5,
   "brand": 90.9,
   "logos_total": 304
  },
@@ -138,12 +138,12 @@
   "brand": 90.9,
   "chain": 100.0,
   "dish": 24.5,
-  "ean": 26.1,
-  "image_url": 93.7,
+  "ean": 26.0,
+  "image_url": 93.8,
   "name": 100.0,
-  "origin": 30.6,
+  "origin": 30.5,
   "pack_size_g": 93.3,
-  "producer": 48.4,
+  "producer": 48.5,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
@@ -151,15 +151,15 @@
   "vegan": 100.0
  },
  "counts": {
-  "prices": 3259,
+  "prices": 3260,
   "brand_tree": 8,
   "online_mealprep": 406,
   "online_providers": 3,
-  "nutrition": 2811,
+  "nutrition": 2820,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 3641,
+  "products": 3651,
   "companies": 148,
   "logos": 304,
   "producer_quality": 4
