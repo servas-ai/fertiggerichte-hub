@@ -2,8 +2,8 @@
  "id": "penny-shop",
  "store": "PENNY",
  "status_declared": "live",
- "ts": "2026-10-17T03:35:40Z",
- "latency_s": 8.42,
+ "ts": "2026-10-17T04:02:13Z",
+ "latency_s": 8.52,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 15.99,
   "source_url": "https://www.penny.at/produkte/rindsgulaschfleisch-78544603",
   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-544603-1766311244-NR5-Ymtf.jpg",
-  "fetched_at": "2026-10-17T03:35:48+00:00"
+  "fetched_at": "2026-10-17T04:02:21+00:00"
  },
  "result": "pass"
 }
