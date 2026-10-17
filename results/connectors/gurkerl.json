@@ -2,8 +2,8 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-10-17T03:55:55Z",
- "latency_s": 1.6,
+ "ts": "2026-10-17T04:57:06Z",
+ "latency_s": 1.36,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 21.47,
   "source_url": "https://www.gurkerl.at/42171-rinder-gulaschfleisch-am-stueck",
   "image_url": "https://cdn.gurkerl.at/images/grocery/products/42171/42171-1748015256852597763.JPG",
-  "fetched_at": "2026-10-17T03:55:57+00:00"
+  "fetched_at": "2026-10-17T04:57:07+00:00"
  },
  "result": "pass"
 }

@@ -2,8 +2,8 @@
  "id": "alfies",
  "store": "Alfies",
  "status_declared": "live",
- "ts": "2026-10-17T03:54:42Z",
- "latency_s": 8.85,
+ "ts": "2026-10-17T04:55:52Z",
+ "latency_s": 8.73,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 4.49,
   "source_url": "https://www.alfies.at/produkt/knorr-meisterkessel-gulaschsuppe-dose-500g",
   "image_url": "https://static.alfies.at/assortment/images/products/2024/11/img_t/knorr-meisterkessel-gulaschsuppe-dose-500g_1731503057.jpg",
-  "fetched_at": "2026-10-17T03:54:47+00:00"
+  "fetched_at": "2026-10-17T04:55:58+00:00"
  },
  "result": "pass"
 }

@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-17T04:02:40Z",
- "products": 3651,
+ "ts": "2026-10-17T05:03:48Z",
+ "products": 3659,
  "by_store": [
   [
    "Billa",
@@ -20,7 +20,7 @@
   ],
   [
    "Hofer",
-   223
+   231
   ],
   [
    "Alfies",
@@ -94,15 +94,15 @@
  "by_storage": [
   [
    "Unklar (keine Lagerangabe)",
-   1224
+   1223
   ],
   [
    "Tiefkühl (TK)",
-   1012
+   1017
   ],
   [
    "Kühlregal (Menüschale/frisch)",
-   602
+   603
   ],
   [
    "Dose/Konserve",
@@ -110,7 +110,7 @@
   ],
   [
    "Trocken/Instant",
-   332
+   335
   ],
   [
    "Glas",
@@ -126,10 +126,10 @@
   ]
  ],
  "coverage": {
-  "nutrition": 77.2,
+  "nutrition": 77.0,
   "price": 89.3,
   "photo": 93.9,
-  "producer": 48.5,
+  "producer": 48.4,
   "brand": 90.9,
   "logos_total": 304
  },
@@ -137,13 +137,13 @@
   "bio": 100.0,
   "brand": 90.9,
   "chain": 100.0,
-  "dish": 24.5,
+  "dish": 24.4,
   "ean": 26.0,
   "image_url": 93.9,
   "name": 100.0,
-  "origin": 30.5,
-  "pack_size_g": 93.3,
-  "producer": 48.5,
+  "origin": 30.4,
+  "pack_size_g": 93.4,
+  "producer": 48.4,
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
@@ -151,7 +151,7 @@
   "vegan": 100.0
  },
  "counts": {
-  "prices": 3260,
+  "prices": 3268,
   "brand_tree": 8,
   "online_mealprep": 406,
   "online_providers": 3,
@@ -159,7 +159,7 @@
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 3651,
+  "products": 3659,
   "companies": 148,
   "logos": 304,
   "producer_quality": 4
