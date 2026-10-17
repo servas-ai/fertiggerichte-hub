@@ -2,8 +2,8 @@
  "id": "issmich",
  "store": "Online: iss mich!",
  "status_declared": "live",
- "ts": "2026-10-16T23:50:19Z",
- "latency_s": 34.81,
+ "ts": "2026-10-17T01:16:57Z",
+ "latency_s": 36.32,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 11.5,
   "source_url": "https://www.issmich.at/Bio-Shop/Eintoepfe/Fleisch/15/Bio-Rotweingulasch-vom-Freilandrind",
   "image_url": "https://www.issmich.at/media/85/1d/62/1707491699/bio-rotweingulasch-vom-freilandrind_iss-mich-1.jpg",
-  "fetched_at": "2026-10-16T23:50:45+00:00"
+  "fetched_at": "2026-10-17T01:17:24+00:00"
  },
  "result": "pass"
 }

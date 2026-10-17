@@ -2,8 +2,8 @@
  "id": "unimarkt",
  "store": "Unimarkt",
  "status_declared": "stale",
- "ts": "2026-10-17T00:04:38Z",
- "latency_s": 2.86,
+ "ts": "2026-10-17T01:26:28Z",
+ "latency_s": 2.81,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 5.39,
   "source_url": "/Felix-Erdaepfelgulasch-3692",
   "image_url": null,
-  "fetched_at": "2026-10-17T00:04:40+00:00"
+  "fetched_at": "2026-10-17T01:26:31+00:00"
  },
  "result": "pass"
 }

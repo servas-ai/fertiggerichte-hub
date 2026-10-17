@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-17T00:04:42Z",
+ "ts": "2026-10-17T01:26:33Z",
  "products": 3651,
  "by_store": [
   [
@@ -128,7 +128,7 @@
  "coverage": {
   "nutrition": 77.2,
   "price": 89.3,
-  "photo": 93.8,
+  "photo": 93.9,
   "producer": 48.5,
   "brand": 90.9,
   "logos_total": 304
@@ -139,7 +139,7 @@
   "chain": 100.0,
   "dish": 24.5,
   "ean": 26.0,
-  "image_url": 93.8,
+  "image_url": 93.9,
   "name": 100.0,
   "origin": 30.5,
   "pack_size_g": 93.3,
