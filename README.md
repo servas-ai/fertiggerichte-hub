@@ -1,8 +1,8 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-17 03:34 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-17 03:36 UTC via `./run_all.sh` (stündlich).
 
-**Connectors:** 21 ✅ / 3 ❌ / 5 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** ?
+**Connectors:** 28 ✅ / 2 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3651
 
 ## Apps
 
@@ -56,6 +56,7 @@ flowchart LR
 | ✅ | `gurkerl` | Gurkerl.at | 3 | 1.46 s | [Rinder Gulaschfleisch am Stück](https://www.gurkerl.at/42171-rinder-gulaschfleisch-am-stueck) · 21.47 € | 2026-10-17T02:57:28Z |
 | ✅ | `heisse-preise` | heisse-preise.io | 3 | 2.8 s | [Ager Hirschgulasch geschnitten](ager-hirschgulasch-geschnitten-00730647) · 11.99 € | 2026-10-17T02:57:29Z |
 | ✅ | `hofer` | HOFER | 3 | 2.74 s | [GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg](sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg) · 19.98 € | 2026-10-17T02:57:33Z |
+| ✅ | `issmich` | Online: iss mich! | 3 | 38.43 s | [Bio Rotweingulasch vom Freilandrind](https://www.issmich.at/Bio-Shop/Eintoepfe/Fleisch/15/Bio-Rotweingulasch-vom-Freilandrind) · 11.5 € | 2026-10-17T03:34:56Z |
 | ✅ | `juit` | Online: Juit | 1 | 1.84 s | [Rindergulasch mit gegrillter Paprika](https://www.juit.com/de/gerichte/rindergulasch-mit-paprika) | 2026-10-17T03:16:05Z |
 | ✅ | `kernbeisser` | Online: Kernbeißer | 3 | 36.47 s | [Maghreb-Hirse mit Artischocken](https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/) · 9.0 € | 2026-10-17T03:28:31Z |
 | ✅ | `livefresh` | Online: LiveFresh | 3 | 2.25 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-17T03:29:21Z |
@@ -64,14 +65,21 @@ flowchart LR
 | ✅ | `mpreis-shop` | MPreis | 3 | 8.9 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 1.39 € | 2026-10-17T03:29:30Z |
 | ✅ | `myproduct` | Online: myProduct | 3 | 33.19 s | [Bio Szegediner Gulasch 460g - Fertiggericht von Ha](https://myproduct.at/bio-szegediner-gulasch-450ml-hartls-kulinarikum) · 12.79 € | 2026-10-17T03:29:40Z |
 | ✅ | `nah-frisch` | Nah&Frisch | 3 | 242.95 s | [Inzersdorfer Fertiggerichte oder Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-17T03:30:13Z |
+| ✅ | `penny` | PENNY | 3 | 5.73 s | [Rindsgulaschfleisch](https://www.penny.at/produkte/rindsgulaschfleisch-78544603) · 15.99 € | 2026-10-17T03:35:34Z |
+| ✅ | `penny-shop` | PENNY | 3 | 8.42 s | [Rindsgulaschfleisch](https://www.penny.at/produkte/rindsgulaschfleisch-78544603) · 15.99 € | 2026-10-17T03:35:40Z |
+| ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 10.02 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-17T03:35:48Z |
+| ✅ | `spar` | SPAR/INTERSPAR | 3 | 2.81 s | Baron de Sel Gourmet Gulasch Bio 55g · 4.99 € | 2026-10-17T03:35:59Z |
+| ✅ | `spar-shop` | SPAR/INTERSPAR | 3 | 1.43 s | [TANN Rinds-Bratengulasch](https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817) · 21.99 € | 2026-10-17T03:36:03Z |
+| ✅ | `unimarkt` | Unimarkt | 3 | 2.76 s | [Felix Erdäpfelgulasch](/Felix-Erdaepfelgulasch-3692) · 5.39 € | 2026-10-17T03:36:05Z |
 | 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-17T02:56:15Z |
 | 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-17T02:56:25Z |
 | 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-17T02:57:14Z |
-| ❌ | `issmich` |  | 0 | 300 s | `timeout 300s` |  |
 | ❌ | `lidl` | Lidl | 0 | 12.99 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-17T03:29:08Z |
 | 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-17T03:29:21Z |
 | 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-17T03:29:26Z |
 | ❌ | `off` | Open Food Facts | 0 | 0.76 s | `RobotsDisallowed: https://world.openfoodfacts.org/cgi/search.pl?search_terms=gulasch&count` | 2026-10-17T03:34:16Z |
+| 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-17T03:36:09Z |
+| 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-17T03:36:09Z |
 
 ### Bekannte Ausfälle (manuell gepflegt)
 
@@ -80,15 +88,43 @@ flowchart LR
 
 ## Datensatz
 
-**? Produkte** · Tabellen: 
+**3651 Produkte** · Tabellen: brand_tree 8, companies 148, establishments 4706, logos 304, nutrition 2820, online_mealprep 406, online_providers 3, prices 3260, producer_quality 4, producers 22, products 3651, stores 498
 
 | Abdeckung | % |
 |---|---|
+| nutrition | 77.2 |
+| price | 89.3 |
+| photo | 93.9 |
+| producer | 48.5 |
+| brand | 90.9 |
+| logos_total | 304 |
 
 <details><summary>Produkte nach Kette</summary>
 
 | Kette | Anzahl |
 |---|---|
+| Billa | 807 |
+| Spar | 735 |
+| Gurkerl | 536 |
+| MPreis | 388 |
+| Hofer | 223 |
+| Alfies | 182 |
+| bofrost | 144 |
+| unbekannt (OFF) | 93 |
+| HelloFresh | 93 |
+| PrepMyMeal | 92 |
+| Subway | 59 |
+| Juit | 50 |
+| NORDSEE | 39 |
+| Lidl | 37 |
+| dm | 35 |
+| Fit to Go | 30 |
+| Penny | 29 |
+| Unimarkt | 29 |
+| FitTaste | 18 |
+| Denn's | 15 |
+| LiveFresh | 10 |
+| Nah&Frisch | 7 |
 
 </details>
 
@@ -96,6 +132,14 @@ flowchart LR
 
 | Lagerung | Anzahl |
 |---|---|
+| Unklar (keine Lagerangabe) | 1224 |
+| Tiefkühl (TK) | 1012 |
+| Kühlregal (Menüschale/frisch) | 602 |
+| Dose/Konserve | 422 |
+| Trocken/Instant | 332 |
+| Glas | 34 |
+| Sous-vide (vakuum) | 14 |
+| Beutel ungekühlt (Retort-Pouch) | 11 |
 
 </details>
 
@@ -168,14 +212,6 @@ flowchart LR
 
 **servas-ai/fertiggerichte-daten**
 
-- `9b1a42e` 2026-10-17 01:04 — Daten-Squad T0039: DE VIES back (check-status Available) — 5 DE UIDs from legal notices now VIES-valid (ARCHE DE322242442, Ökoland Nord DE116156996, Rapunzel DE129088402, EgeSun DE455151638, Petersilchen DE124612378; DE discloses no name/address); Petersilchen GmbH now identified (HRB 11924 + valid UID) → legal entity 136→137/148; evidence raw/vies_de_2026-10-17T0039.json
-- `c0bbc5b` 2026-10-17 00:14 — Daten-Squad T0003: Spar photo tail 729→732/735 via SPAR public search API (spar-shop): Inzersdorfer Rindsgulasch 800 g, Inzersdorfer Speckknödelsuppe, ehrenwort BIO Bangkok rotes Thai Curry 35g; dt_main.jpg GET 200, vision-gated; 3 Knorr rows rejected (SPAR names differ); photos 3425→3428/3651
-- `2c7935c` 2026-10-16 23:50 — Daten-Squad T2336: denn's BioMarkt 5→15 products — +9 dennree brand-catalog ready meals (dennree = own brand of the dennree group / denn's BioMarkt; www.dennree.de category+product pages, DE brand site, AT availability per article not stated, marked in source): Al Forno Pizza Käse-Lauch 275 g / Spinat 350 g, Al Forno Flammkuchen Elsässer Art 260 g (TK), Vegane Falafel 200 g, Vegane Burger auf Seitanbasis 180 g, Vegane Gemüsebratlinge Champignon / Rote Bete 150 g, Vegetarische Knuspernuggets 180 g / Schnitzel 200 g — nutrition per 100 g as published (9/9 Atwater ok), ingredients, net weight, packshot by denn's article no. (7 HTTP 200 + vision-gated; 2 'BILD FOLGT' placeholders → no photo); no price/EAN published → none; +1 followfood Piccoli Tomate & Mozzarella 270 g from denns-biomarkt.at 'Neu im Sortiment' (AT, Regalpreis 6,29 €, 1 kg = 23,22 €, official packshot vision-gated; no EAN/nutrition published). Excluded: 8 dennree Tütensuppen (dry mixes), sugo/brühe/canned sides. products 3641→3651, photos 3417→3425, nutrition +9, prices +1; rows also in data/supplemental (kept by export.py); evidence raw/denns_2026-10-16T2336.json (incl. denn's Linz bistro lunch menus, not products); food-connectors c2b408b
-- `b17335b` 2026-10-16 23:24 — Daten-Squad T2307: companies revenue 32→37/148 via North Data public company pages (Jahres-/Konzernabschluss data points, uncensored, estimate=false, register court+number = row, LEI where present) — Zott SE & Co. KG Konzern 1,28 Mrd. € GJ 2025, Allos Hof-Manufaktur 101 Mio. € GJ 2025, followfood 67,4 Mio. € GJ 2025, Euryza 50,2 Mio. € GJ 2024, Kikkoman Trading Europe 188,7 Mio. € GJ 2024/25; employees 47/148 unchanged ('Mitarbeiter' premium-censored on every page); iglo GmbH rejected (unit-inconsistent series); 40 North Data requests ≥10 s apart, all HTTP 200, no 429/captcha; DE VIES check-status still Unavailable (5 DE UIDs unverified, legal entity 136/148). Photo tail: +6 vision-gated official BILLA packshots by exact-EAN BILLA search — Billa 804→807 (BILLA immer gut Miso Suppe, Tom Kha Gai Tofu, Tom Kha Gai Huhn), MPreis 374→377 (Njami Chicken Bowl Curry/Mexicana, Wagner Big Sensation Salami & BBQ), total 3411→3417/3641; 11 MPreis rows stay without photo (shop placeholder, no exact-EAN official packshot elsewhere); evidence raw/companies_northdata_2026-10-16T2307.json
-- `0ef5ec1` 2026-10-16 22:47 — Daten-Squad T2238: +5 vision-gated producer/brand logos for the myProduct.at producers (T2139) — Rapunzel (Commons File:Rapunzel_Naturkost.svg, Public domain, unmodified SVG), ARCHE Naturküche (arche-naturkueche.de header PNG), EgeSun company logo (egesun.de; not mapped to brand Vegan Pete), Sanchon (petersilchen.de brand PNG), Petersilchen company logo; logo rows 299/284→304/289; rettergut.de robots disallow, derit.nl/bioart.at/perfectearth.eu robots.txt unreachable (not fetched); Zwergenwiese/Vegan Pete/Hartl's no own asset; evidence raw/logos_squad_2026-10-16T2238.json
-- `ab418e2` 2026-10-16 22:14 — Daten-Squad T2203: companies employees 46→47/148, revenue 31→32/148 — Rapunzel Naturkost GmbH & Co. KG from its own press page (rapunzel.de/ueber-uns/presse: 'Mitarbeitende: ca. 530', 'Umsatz 2024: 232 Mio. € netto'); 7 other T2139 company sites probed, no published figures; evidence raw/companies_facts_2026-10-16T2203.json
-- `0f8de56` 2026-10-16 22:11 — Daten-Squad T2203: Hofer photo tail via Open Food Facts by exact EAN — +3 vision-gated front packshots (Good Choice Chicken Burger 300 g, Good Choice Schwammerlsauce mit Serviettenknödeln 380 g, Original Greisinger Berner Würstel 400 g), Hofer photos 129→132/223, total 3408→3411/3641; 38 EAN candidates probed (Hofer 21, Lidl 12, Penny 5): 32 have no image on OFF, 3 rejected (unpacked pizza, back label, lid label); Lidl 25/37 and Penny 24/29 unchanged; DE VIES re-run for 5 DE UIDs (ARCHE, Ökoland Nord, Rapunzel, EgeSun, Petersilchen) still MS_UNAVAILABLE (check-status DE Unavailable) → not verified, legal entity stays 136/148, UID 94/148 (VIES-verified unchanged)
-- `2982232` 2026-10-16 21:49 — Daten-Squad T2139: +10 companies behind the myProduct.at ready meals (T2111) — Hartl's Kulinarikum Linz (sole trader, Impressum), Danke Bauer = Roman Fenz e.U. (LEI+FN 368109m+VIES), BioArt AG (LEI+FN 306867a+VIES), ARCHE Naturprodukte (LEI, HRB 85754), Ökoland GmbH Nord (LEI, HRB 201209), Rapunzel Naturkost GmbH & Co. KG (LEI, HRA 14236; +Zwergenwiese), EgeSun GmbH & Co. KG (LEI, HRA 205719; Vegan Pete), Petersilchen GmbH (HRB 11924, Impressum only), Schenkel Erich GmbH (label only, unidentified), myProduct GmbH retailer (FN 431059k, VIES, owners evi.gv.at); companies 138→148, legal entity identified 129→137/148; DE VIES MS_UNAVAILABLE → DE UIDs recorded, not counted; + vision-gated myProduct.at store logo (theme SVG = MageSuite placeholder rejected); logo rows 298/283→299/284
 
 **servas-ai/einkaufsanalyse**
 
