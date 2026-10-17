@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17 20:07 UTC",
+ "generated": "2026-10-17 20:08 UTC",
  "connectors": [
   {
    "id": "alfies",
@@ -1359,6 +1359,11 @@
   ],
   "servas-ai/fertiggerichte-daten": [
    [
+    "a8cc810",
+    "2026-10-17T20:08",
+    "Daten-Squad T2004: Nah&Frisch weekly re-run (food-connectors nah-frisch, new KW43 tab gültig 2026-10-21–27) — +3 ready meals with official tile photo, variants only where the packshot is legible: iglo Mehlspeistraum 8 Marillenknödel 530 g (EAN 9000143262328), Knorr Bitte zu Tisch Fleischklößchen Suppe 58 g, Grießnockerl Suppe 48 g (EAN 8711200430000); nutrition/EAN/pack from identical Gurkerl/BILLA twins (cited); tiles print only multi-buy prices (ab 2 Pkg. je 4,79 / ab 3 Beutel je 1,09) → no price row (multi-buy guard); Knorr Goldaugen Suppenwürfel excluded (broth). Nah&Frisch 7→10, products 3659→3662. Evidence raw/nahfrisch_2026-10-17T2004.json. validate.py OK"
+   ],
+   [
     "ebf1dca",
     "2026-10-17T05:14",
     "Daten-Squad T0502: new store Biohof Achleitner (biohof.at, Eferding OÖ; Biokiste delivery OÖ incl. Linz, Salzburg, Steiermark, west NÖ) via new live connector food-connectors biohof-achleitner (98fdafc) — +13 'Hausg'mocht' heat-up meals from the Bio-Kulinarium (Eintöpfe, Gulasch ×3, Currys ×2, Cremesuppen ×4, Linsen-Moussaka, Hascheeknödel, Putenragout) in Mehrweg jars, live price 2026-10-17 (5,90–9,90 €, median 6,80 €), Füllmenge ca. 350 ml (2 rows only jar volume → size empty), ingredients, 13/13 official photos HEAD 200 + vision-gated (shop 'Symbolfoto', 1 weak); no nutrition/GTIN published (not estimated); 15 tiles excluded (Fruchtaufstriche, Sirup, Kuchen, Apfelmus, Sugo/Bolognese, Klare Rindssuppe, Pakete). Operator Achleitner Biohof GmbH: LEI 529900GY1B6OGAMV9D95, FN 154057f LG Wels, ATU41942706 VIES valid name+address, founded 1996-12-23 (GLEIF; FB 15.01.1997), owner 1 natural person, Stammkapital EUR 40 000 → companies 148→149. Store logo (biohof.at header, vision PASS) → logo rows 304→305 (290 with file). online_mealprep 470→483. Evidence raw/biohof_achleitner_2026-10-17T0502.json, raw/companies_achleitner_2026-10-17T0502.json, raw/logos_squad_2026-10-17T0502.json. validate.py OK"
@@ -1392,11 +1397,6 @@
     "b17335b",
     "2026-10-16T23:24",
     "Daten-Squad T2307: companies revenue 32→37/148 via North Data public company pages (Jahres-/Konzernabschluss data points, uncensored, estimate=false, register court+number = row, LEI where present) — Zott SE & Co. KG Konzern 1,28 Mrd. € GJ 2025, Allos Hof-Manufaktur 101 Mio. € GJ 2025, followfood 67,4 Mio. € GJ 2025, Euryza 50,2 Mio. € GJ 2024, Kikkoman Trading Europe 188,7 Mio. € GJ 2024/25; employees 47/148 unchanged ('Mitarbeiter' premium-censored on every page); iglo GmbH rejected (unit-inconsistent series); 40 North Data requests ≥10 s apart, all HTTP 200, no 429/captcha; DE VIES check-status still Unavailable (5 DE UIDs unverified, legal entity 136/148). Photo tail: +6 vision-gated official BILLA packshots by exact-EAN BILLA search — Billa 804→807 (BILLA immer gut Miso Suppe, Tom Kha Gai Tofu, Tom Kha Gai Huhn), MPreis 374→377 (Njami Chicken Bowl Curry/Mexicana, Wagner Big Sensation Salami & BBQ), total 3411→3417/3641; 11 MPreis rows stay without photo (shop placeholder, no exact-EAN official packshot elsewhere); evidence raw/companies_northdata_2026-10-16T2307.json"
-   ],
-   [
-    "0ef5ec1",
-    "2026-10-16T22:47",
-    "Daten-Squad T2238: +5 vision-gated producer/brand logos for the myProduct.at producers (T2139) — Rapunzel (Commons File:Rapunzel_Naturkost.svg, Public domain, unmodified SVG), ARCHE Naturküche (arche-naturkueche.de header PNG), EgeSun company logo (egesun.de; not mapped to brand Vegan Pete), Sanchon (petersilchen.de brand PNG), Petersilchen company logo; logo rows 299/284→304/289; rettergut.de robots disallow, derit.nl/bioart.at/perfectearth.eu robots.txt unreachable (not fetched); Zwergenwiese/Vegan Pete/Hartl's no own asset; evidence raw/logos_squad_2026-10-16T2238.json"
    ]
   ],
   "servas-ai/einkaufsanalyse": [
