@@ -2,18 +2,9 @@
  "id": "mpreis",
  "store": "MPREIS",
  "status_declared": "stale",
- "ts": "2026-10-17T04:58:37Z",
- "latency_s": 2.64,
- "count": 3,
- "schema_errors": [],
- "sample": {
-  "name": "AIA Puten Gulasch",
-  "brand": null,
-  "store": "MPREIS",
-  "price_eur": 6.5,
-  "source_url": null,
-  "image_url": null,
-  "fetched_at": "2026-10-17T04:58:39+00:00"
- },
- "result": "pass"
+ "ts": "2026-10-17T20:01:57Z",
+ "latency_s": 0.9,
+ "count": 0,
+ "result": "fail",
+ "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
 }

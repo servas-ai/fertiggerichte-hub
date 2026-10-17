@@ -2,18 +2,18 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-10-17T04:57:06Z",
- "latency_s": 1.36,
+ "ts": "2026-10-17T20:00:18Z",
+ "latency_s": 1.43,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Rinder Gulaschfleisch am St\u00fcck",
-  "brand": null,
+  "name": "AMA Kalb Ros\u00e9 Austria Gulasch geschnitten",
+  "brand": "Kalb ros\u00e9 Austria",
   "store": "Gurkerl.at",
-  "price_eur": 21.47,
-  "source_url": "https://www.gurkerl.at/42171-rinder-gulaschfleisch-am-stueck",
-  "image_url": "https://cdn.gurkerl.at/images/grocery/products/42171/42171-1748015256852597763.JPG",
-  "fetched_at": "2026-10-17T04:57:07+00:00"
+  "price_eur": 19.22,
+  "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
+  "fetched_at": "2026-10-17T20:00:20+00:00"
  },
  "result": "pass"
 }

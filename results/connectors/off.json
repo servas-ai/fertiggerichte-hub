@@ -2,8 +2,8 @@
  "id": "off",
  "store": "Open Food Facts",
  "status_declared": "live",
- "ts": "2026-10-17T05:03:13Z",
- "latency_s": 0.68,
+ "ts": "2026-10-17T20:07:16Z",
+ "latency_s": 0.77,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://world.openfoodfacts.org/cgi/search.pl?search_terms=gulasch&countries_tags_en=austria&json=1&page_size=3"

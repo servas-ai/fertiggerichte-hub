@@ -2,18 +2,9 @@
  "id": "spar",
  "store": "SPAR/INTERSPAR",
  "status_declared": "live",
- "ts": "2026-10-17T05:03:39Z",
- "latency_s": 2.73,
- "count": 3,
- "schema_errors": [],
- "sample": {
-  "name": "Baron de Sel Gourmet Gulasch Bio 55g",
-  "brand": null,
-  "store": "SPAR/INTERSPAR",
-  "price_eur": 4.99,
-  "source_url": null,
-  "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001282876/dt_main.jpg",
-  "fetched_at": "2026-10-17T05:03:41+00:00"
- },
- "result": "pass"
+ "ts": "2026-10-17T20:07:41Z",
+ "latency_s": 0.69,
+ "count": 0,
+ "result": "fail",
+ "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
 }

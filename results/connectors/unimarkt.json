@@ -2,18 +2,9 @@
  "id": "unimarkt",
  "store": "Unimarkt",
  "status_declared": "stale",
- "ts": "2026-10-17T05:03:44Z",
- "latency_s": 2.7,
- "count": 3,
- "schema_errors": [],
- "sample": {
-  "name": "Felix Erd\u00e4pfelgulasch",
-  "brand": null,
-  "store": "Unimarkt",
-  "price_eur": 5.39,
-  "source_url": "/Felix-Erdaepfelgulasch-3692",
-  "image_url": null,
-  "fetched_at": "2026-10-17T05:03:46+00:00"
- },
- "result": "pass"
+ "ts": "2026-10-17T20:07:44Z",
+ "latency_s": 0.76,
+ "count": 0,
+ "result": "fail",
+ "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
 }
