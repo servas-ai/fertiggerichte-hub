@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-17T20:07:45Z",
- "products": 3659,
+ "ts": "2026-10-17T21:04:35Z",
+ "products": 3662,
  "by_store": [
   [
    "Billa",
@@ -83,12 +83,12 @@
    15
   ],
   [
-   "LiveFresh",
+   "Nah&Frisch",
    10
   ],
   [
-   "Nah&Frisch",
-   7
+   "LiveFresh",
+   10
   ]
  ],
  "by_storage": [
@@ -98,7 +98,7 @@
   ],
   [
    "Tiefkühl (TK)",
-   1017
+   1018
   ],
   [
    "Kühlregal (Menüschale/frisch)",
@@ -110,7 +110,7 @@
   ],
   [
    "Trocken/Instant",
-   335
+   337
   ],
   [
    "Glas",
@@ -126,9 +126,9 @@
   ]
  ],
  "coverage": {
-  "nutrition": 77.0,
-  "price": 89.3,
-  "photo": 93.9,
+  "nutrition": 77.1,
+  "price": 89.2,
+  "photo": 94.5,
   "producer": 48.4,
   "brand": 90.9,
   "logos_total": 305
@@ -139,9 +139,9 @@
   "chain": 100.0,
   "dish": 24.4,
   "ean": 26.0,
-  "image_url": 93.9,
+  "image_url": 94.5,
   "name": 100.0,
-  "origin": 30.4,
+  "origin": 30.5,
   "pack_size_g": 93.4,
   "producer": 48.4,
   "product_id": 100.0,
@@ -155,11 +155,11 @@
   "brand_tree": 8,
   "online_mealprep": 406,
   "online_providers": 3,
-  "nutrition": 2820,
+  "nutrition": 2823,
   "producers": 22,
   "stores": 498,
   "establishments": 4706,
-  "products": 3659,
+  "products": 3662,
   "companies": 149,
   "logos": 305,
   "producer_quality": 4

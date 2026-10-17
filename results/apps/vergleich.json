@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-17T19:57:10Z",
+ "ts": "2026-10-17T20:54:11Z",
  "live": true,
  "tabs": [
   {
@@ -72,9 +72,22 @@
    "tab": "Marken",
    "viewport": 1920,
    "console_errors": [],
-   "broken_images": [],
+   "broken_images": [
+    "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y25_R14_W01_DE_R2242-19_Main_F2_high-c234504d.jpg",
+    "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y24_R08_W03_UK_UQ16283-3_Main-5high-3593fb61.jpg",
+    "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y25_R03_W41_DE_EXP24924-8_Main_high-dbc2316a.jpg"
+   ],
    "images": 961,
    "screenshot": "screenshots/vergleich/marken_1920.png",
+   "ok": true
+  },
+  {
+   "tab": "L\u00e4den & Werke",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 85,
+   "screenshot": "screenshots/vergleich/hersteller_1920.png",
    "ok": true
   },
   {
@@ -156,6 +169,15 @@
    "broken_images": [],
    "images": 961,
    "screenshot": "screenshots/vergleich/marken_390.png",
+   "ok": true
+  },
+  {
+   "tab": "L\u00e4den & Werke",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 85,
+   "screenshot": "screenshots/vergleich/hersteller_390.png",
    "ok": true
   },
   {
