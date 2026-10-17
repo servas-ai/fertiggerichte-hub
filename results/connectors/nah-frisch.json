@@ -2,8 +2,8 @@
  "id": "nah-frisch",
  "store": "Nah&Frisch",
  "status_declared": "live",
- "ts": "2026-10-17T01:19:11Z",
- "latency_s": 263.2,
+ "ts": "2026-10-17T03:30:13Z",
+ "latency_s": 242.95,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": null,
   "source_url": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche",
   "image_url": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
-  "fetched_at": "2026-10-17T01:22:23+00:00"
+  "fetched_at": "2026-10-17T03:33:09+00:00"
  },
  "result": "pass"
 }
