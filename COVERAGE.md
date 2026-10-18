@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-18T01:25:00Z UTC
-**Next biggest gap:** (T0102, 2026-10-18) **GOURMET Daheim follow-up**: store/brand logo now present (official gourmet-daheim.at vector, vision PASS; covers all 141 rows) + Mahlzeit Linz seller logo; photos 0→8/141 from Mahlzeit's public WordPress media library (5 exact article-number files, 3 unique dish-name matches; connector `gourmet-daheim` maps article-number photos live, food-connectors 4dab3a4). The remaining 133 GOURMET photos have no public source (registration webshop shopmahlzeit.gourmet.at resets TLS; e-paper = page images). Open next: (1) app merge of the 141 GOURMET rows + T2102/T2203/T0102 logo files once the fertig uid freeze lifts; (2) Hofer photo gap 140/231 (delisted 'Preis 2025' rows, no source); (3) Kulinarik im Glas (no price source yet); (4) a new Linz-delivering store or meal-prep shop. Previous gap (T0006): GOURMET Daheim store added (+141 meals).
+**Last updated:** 2026-10-18T01:58:00Z UTC
+**Next biggest gap:** (T0135, 2026-10-18) small run (box load ~285, ~1 GB RAM free): **fit2go.meals 30→32** (+2 new sitemap meals with nutrition + vision-gated hero packshots; fittogo adapter image fix, food-connectors 96b59f4, daten 77648cb). Dead end: shopbio.at (6 Bio-Gläser im 6er-Karton, all out of stock, no nutrition/producer). Open next unchanged: (1) app merge of GOURMET 141 rows + staged logo/photo/price patches once the fertig uid freeze lifts; (2) Hofer photo gap 140/231; (3) Kulinarik im Glas (no price source); (4) a new Linz-delivering store or meal-prep shop. Previous (T0102): (T0102, 2026-10-18) **GOURMET Daheim follow-up**: store/brand logo now present (official gourmet-daheim.at vector, vision PASS; covers all 141 rows) + Mahlzeit Linz seller logo; photos 0→8/141 from Mahlzeit's public WordPress media library (5 exact article-number files, 3 unique dish-name matches; connector `gourmet-daheim` maps article-number photos live, food-connectors 4dab3a4). The remaining 133 GOURMET photos have no public source (registration webshop shopmahlzeit.gourmet.at resets TLS; e-paper = page images). Open next: (1) app merge of the 141 GOURMET rows + T2102/T2203/T0102 logo files once the fertig uid freeze lifts; (2) Hofer photo gap 140/231 (delisted 'Preis 2025' rows, no source); (3) Kulinarik im Glas (no price source yet); (4) a new Linz-delivering store or meal-prep shop. Previous gap (T0006): GOURMET Daheim store added (+141 meals).
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -21,7 +21,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
 | ADEG | [ ] | 0 | [x] | 2 | [x] |
 | Nah&Frisch | [x] | 10 | [x] | 10 | [x] |
-| Fit to Go | [x] | 30 | [ ] | 0 | [x] |
+| Fit to Go | [x] | 32 | [ ] | 0 | [x] |
 | Gurkerl | [x] | 536 | [ ] | 0 | [x] |
 | Alfies | [x] | 182 | [ ] | 0 | [x] |
 | Eurospar | [ ] | 0 | [x] | 25 | [x] |
@@ -69,7 +69,7 @@ Other OSM chains in bbox:
 | NORDSEE | 39 | 39 ([x]) | 100.0% |
 | Lidl | 37 | 25 ([~]) | 67.6% |
 | dm | 35 | 33 ([~]) | 94.3% |
-| Fit to Go | 30 | 30 ([x]) | 100.0% |
+| Fit to Go | 32 | 32 ([x]) | 100.0% |
 | Penny | 29 | 24 ([~]) | 82.8% |
 | Unimarkt | 29 | 0 ([ ]) | 0.0% |
 | FitTaste | 18 | 18 ([x]) | 100.0% |
@@ -82,7 +82,7 @@ Other OSM chains in bbox:
 | GOURMET Daheim (Mahlzeit Linz, online, T0006) | 141 | 8 ([~]) | 5.7% |
 
 - [x] Total products: **3662** (T2004 +3 Nah&Frisch KW43; T0409 +10 Hofer via hofer-shop, −2 Hofer: raw beef + duplicate; T2336 +10 denn's)
-- [x] Total with photos: **3460** (94.5%; T2041 +21 Subway AT menu tiles; T2004 +3 Nah&Frisch tile photos; T0409 +10 Hofer packshots from hofer.at, −2 removed rows; T0003 +3 Spar via SPAR search API; T2336 +8 denn's: 7 dennree packshots + followfood Piccoli; T2307 +6: Billa +3, MPreis +3)
+- [x] Total with photos: **3462** (T0135 +2 fit2go hero packshots; T2041 +21 Subway AT menu tiles; T2004 +3 Nah&Frisch tile photos; T0409 +10 Hofer packshots from hofer.at, −2 removed rows; T0003 +3 Spar via SPAR search API; T2336 +8 denn's: 7 dennree packshots + followfood Piccoli; T2307 +6: Billa +3, MPreis +3)
 - [ ] MPreis photos: live webshop connector `mpreis-shop` (377/388; T2307 +3 official BILLA packshots by exact EAN: Njami Chicken Bowl Curry/Mexicana, Wagner Big Sensation Salami & BBQ). Remaining 11: all InStock on mpreis.at but the shop serves its noImage placeholder; no exact-EAN hit at BILLA, none on Gurkerl; AIA Hähnchen Kebab + Brajlovic Cevapcici have no EAN (no exact-id match possible); OFF: 5 EANs 404 (Deflorian Kaspressknödel, 2× Fine Schlutzkrapfen, 2× Vifon), Radatz Rinds Gulasch without image; OFF has hand-held user photos for Exotic Food Tom Kha, Alnatura Chili sin Carne, Costa Ofenfisch Bordelaise (CC BY-SA, not official packshots, Costa with promo sticker) → not taken
 - [ ] Unimarkt photos: 0/29 — no source possible: shop.unimarkt.at shows only 'UNIONLINE hat seinen Service eingestellt' (verified 2026-10-13), chain left retail 2026; rows are historic-only
 
@@ -146,7 +146,7 @@ Other OSM chains in bbox:
 | HelloFresh [x] | 93 | live 2026: 93 |
 | PrepMyMeal [x] | 92 | live 2026: 92 |
 | dm [~] | 34 | live 2026: 28 · Preis 2025: 6 |
-| Fit to Go [x] | 30 | live 2026: 30 |
+| Fit to Go [x] | 32 | live 2026: 32 |
 | Unimarkt [ ] | 29 | Preis 2023: 20 · Preis 2024: 9 |
 | FitTaste [x] | 16 | live 2026: 16 |
 | Penny [x] | 14 | live 2026: 14 |
@@ -198,7 +198,7 @@ Other OSM chains in bbox:
 - [-] Online: **Markta** (probed 2026-10-17T0502, do not re-probe soon): markta.at public Shopify products.json = 715 products, ready meals only in 'schnelle Küche' (~5 dishes: Hühnercurry, Schwammerl Gulasch, Kasnudl Pfandl-Gnocchi …), all `available=false` at fetch time → nothing imported.
 - [x] Total online meal-prep rows: **651** (510→651 T0006: +141 GOURMET Daheim via Mahlzeit Linz; 483→510 T2102: +27 ADAMAH BioHof; 470→483 T0502: +13 Biohof Achleitner; 406→470 T2111: +64 myProduct; 371→406: PrepMyMeal 86, bofrost* 144, Juit 50, every. 50, Löwenanteil 17, LiveFresh 10, Goldblatt 8, Kernbeißer 6, iss mich! 35)
 - [x] Connectors: `myproduct` (myproduct.at category dataLayer + product JSON-LD + attribute table, MCP `myproduct_product` / `myproduct_search`, T2111), `issmich` (Shopware 6 sitemap + product microdata + strict OCR of the Nährwerttabelle image, MCP `issmich_product` / `issmich_search`, T0636), `goldblatt` (public Shopify products.json + product HTML, MCP `goldblatt_product` / `goldblatt_search`, T0605), `kernbeisser` (public WooCommerce Store API + product JSON-LD GTIN, MCP `kernbeisser_product` / `kernbeisser_search`, T0504), `prepmymeal`, `livefresh`, `gourmetfein` (Shopify `/products.json` — Wurst-only dead end for ready meals, verified T0307), `juit` (public storefront content bundle, MCP `juit_dishes`), `bofrost` (public sitemap + product pages, MCP `bofrost_product` / `bofrost_search`), `fittogo` (public sitemap + product HTML, MCP `fittogo_product` / `fittogo_search`), `every` (public Shopify products.json + product pages, MCP `every_product` / `every_search`), `loewenanteil` (public Shopify products.json + product HTML, MCP `loewenanteil_product` / `loewenanteil_search`)
-- [x] `fittogo` — **live** (2026-10-14T0307, Daten-Squad): fit2go.meals public product sitemap `fittogo.at/sitemap/products/1.xml` + product HTML (Hydrogen/Oxygen; `/products.json` and collection `*.json` 404). Pack nutrition (kcal/Protein/Carbs/Fett) + Gesamt-Einwaage from the rendered page → per 100 g; official CDN packshot HEAD-200; `price_eur` = published 12er-box 9,99 €/Meal (Einzel-SKU 0,00 €; 6er 10,49 / 18er 9,49). AT shipping 4,99 €. CLI `food fetch|search --store fittogo`, MCP `fittogo_product` / `fittogo_search`; 2 offline tests. Catalog refresh **24→30** finished dishes in `fertig/ftg_items.json` + `other.json` (adds Thai Red Curry; fills BBQ Chicken nutrition previously missing; fixes stale Linsencurry/Kichererbsencurry handle→title mismatches). Staged for next hourly app export (Fit to Go 29→30). Evidence `fertiggerichte-daten/raw/fittogo_2026-10-14T0307.json`, script `scripts/enrich_fittogo.py`.
+- [x] `fittogo` — **live** (2026-10-14T0307, Daten-Squad): fit2go.meals public product sitemap `fittogo.at/sitemap/products/1.xml` + product HTML (Hydrogen/Oxygen; `/products.json` and collection `*.json` 404). Pack nutrition (kcal/Protein/Carbs/Fett) + Gesamt-Einwaage from the rendered page → per 100 g; official CDN packshot HEAD-200; `price_eur` = published 12er-box 9,99 €/Meal (Einzel-SKU 0,00 €; 6er 10,49 / 18er 9,49). AT shipping 4,99 €. CLI `food fetch|search --store fittogo`, MCP `fittogo_product` / `fittogo_search`; 2 offline tests. Catalog refresh **24→30** finished dishes in `fertig/ftg_items.json` + `other.json` (adds Thai Red Curry; fills BBQ Chicken nutrition previously missing; fixes stale Linsencurry/Kichererbsencurry handle→title mismatches). Staged for next hourly app export (Fit to Go 29→30). Evidence `fertiggerichte-daten/raw/fittogo_2026-10-14T0307.json`, script `scripts/enrich_fittogo.py`. **T0135 (2026-10-18):** sitemap grew to 32 → +2 meals (Cheesy Taco Bowl, Topfennockerl mit Erdbeersauce) in daten data/* + data/supplemental/* (daten 77648cb); adapter fix food-connectors 96b59f4: new pages have no og:image and the png fallback took the cross-sell grid photo of another meal → hero packshot from the `--photo` frame first (30 existing rows re-checked, unchanged; 3 offline tests). App merge waits for the fertig uid freeze.
 
 ## Connectors / catalog findings (this run)
 
