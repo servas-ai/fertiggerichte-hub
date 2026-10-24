@@ -2,18 +2,18 @@
  "id": "every",
  "store": "Online: every.",
  "status_declared": "live",
- "ts": "2026-10-17T20:56:42Z",
- "latency_s": 16.73,
+ "ts": "2026-10-24T17:57:35Z",
+ "latency_s": 19.64,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Pumpkin Zucchini Risotto",
+  "name": "Turkish Lentil Soup",
   "brand": "every.",
   "store": "Online: every.",
   "price_eur": 8.99,
-  "source_url": "https://every-foods.com/products/pumpkin-zucchini-risotto",
-  "image_url": "https://cdn.shopify.com/s/files/1/0228/6528/1104/files/Pumpkinzucchinirisottowebsite.png?v=1791186791",
-  "fetched_at": "2026-10-17T20:56:55+00:00"
+  "source_url": "https://every-foods.com/products/turkish-lentil-soup",
+  "image_url": "https://cdn.shopify.com/s/files/1/0228/6528/1104/files/2026-08-05_every_turkish-lentil-soup_topshot_36216_1.jpg?v=1792571733",
+  "fetched_at": "2026-10-24T17:57:52+00:00"
  },
  "result": "pass"
 }

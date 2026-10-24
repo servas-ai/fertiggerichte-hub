@@ -2,18 +2,18 @@
  "id": "denns",
  "store": "denn's BioMarkt",
  "status_declared": "live",
- "ts": "2026-10-17T20:56:31Z",
- "latency_s": 5.01,
+ "ts": "2026-10-24T17:57:25Z",
+ "latency_s": 3.8,
  "count": 1,
  "schema_errors": [],
  "sample": {
-  "name": "MyDeli Bio-Fleischsuppe",
-  "brand": "MyDeli",
+  "name": "NaBio Bio-Eintopf oder -Suppe",
+  "brand": "NaBio",
   "store": "denn's BioMarkt",
-  "price_eur": 3.49,
+  "price_eur": 2.49,
   "source_url": "https://www.denns-biomarkt.at/angebote/",
-  "image_url": "https://images.dennree.de/fitinto/576x384/564131.top.png",
-  "fetched_at": "2026-10-17T20:56:36+00:00"
+  "image_url": "https://images.dennree.de/fitinto/576x384/604697.front.png",
+  "fetched_at": "2026-10-24T17:57:29+00:00"
  },
  "result": "pass"
 }

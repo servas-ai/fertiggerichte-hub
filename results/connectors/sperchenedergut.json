@@ -1,0 +1,19 @@
+{
+ "id": "sperchenedergut",
+ "store": "Online: Sperchenedergut",
+ "status_declared": "live",
+ "ts": "2026-10-24T18:02:14Z",
+ "latency_s": 22.14,
+ "count": 1,
+ "schema_errors": [],
+ "sample": {
+  "name": "Gulaschsuppe vom Bio-Angusrind",
+  "brand": "Sperchenedergut",
+  "store": "Online: Sperchenedergut",
+  "price_eur": 9.5,
+  "source_url": "https://sperchenedergut.at/produkt/gulaschsuppe-vom-angusrind/",
+  "image_url": "https://sperchenedergut.at/wp-content/uploads/shop-produkte-gulasch-01.jpg",
+  "fetched_at": "2026-10-24T18:02:36+00:00"
+ },
+ "result": "pass"
+}

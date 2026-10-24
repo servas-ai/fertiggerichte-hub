@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-17T21:04:35Z",
- "products": 3662,
+ "ts": "2026-10-24T18:03:10Z",
+ "products": 3664,
  "by_store": [
   [
    "Billa",
@@ -64,7 +64,7 @@
   ],
   [
    "Fit to Go",
-   30
+   32
   ],
   [
    "Penny",
@@ -98,7 +98,7 @@
   ],
   [
    "Tiefkühl (TK)",
-   1018
+   1020
   ],
   [
    "Kühlregal (Menüschale/frisch)",
@@ -131,7 +131,7 @@
   "photo": 94.5,
   "producer": 48.4,
   "brand": 90.9,
-  "logos_total": 305
+  "logos_total": 316
  },
  "fill_rate_products": {
   "bio": 100.0,
@@ -147,21 +147,21 @@
   "product_id": 100.0,
   "source": 100.0,
   "storage": 100.0,
-  "url": 94.3,
+  "url": 94.4,
   "vegan": 100.0
  },
  "counts": {
-  "prices": 3268,
-  "brand_tree": 8,
-  "online_mealprep": 406,
   "online_providers": 3,
-  "nutrition": 2823,
+  "products": 3664,
+  "logos": 316,
+  "online_mealprep": 406,
+  "companies": 160,
+  "establishments": 4706,
+  "prices": 3270,
+  "brand_tree": 8,
+  "nutrition": 2825,
   "producers": 22,
   "stores": 498,
-  "establishments": 4706,
-  "products": 3662,
-  "companies": 149,
-  "logos": 305,
   "producer_quality": 4
  }
 }
