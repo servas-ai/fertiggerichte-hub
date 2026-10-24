@@ -1,0 +1,19 @@
+{
+ "id": "draxler",
+ "store": "Online: Draxler Gefl\u00fcgel-Wild",
+ "status_declared": "live",
+ "ts": "2026-10-24T19:54:52Z",
+ "latency_s": 7.12,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "Rehragout",
+  "brand": "Draxler Kulinarik im Glas",
+  "store": "Online: Draxler Gefl\u00fcgel-Wild",
+  "price_eur": 10.0,
+  "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/rehragout/",
+  "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/07/Rehragout_Web.jpg",
+  "fetched_at": "2026-10-24T19:54:59+00:00"
+ },
+ "result": "pass"
+}
