@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-24T21:57:04Z",
+ "ts": "2026-10-24T22:52:04Z",
  "live": true,
  "tabs": [
   {
@@ -143,9 +143,12 @@
   {
    "tab": "Online-Anbieter",
    "viewport": 1920,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "TypeError: Failed to fetch dynamically imported module: https://martin-hausleitner.github.io/fertiggerichte-vergleich/assets/Online-9_Mrxn1V.js"
+   ],
    "broken_images": [],
-   "images": 774,
+   "images": 764,
    "screenshot": "screenshots/vergleich/online_1920.png",
    "ok": true
   },
@@ -226,7 +229,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 85,
+   "images": 83,
    "screenshot": "screenshots/vergleich/kategorien_390.png",
    "ok": true
   },
@@ -235,7 +238,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 11,
+   "images": 10,
    "screenshot": "screenshots/vergleich/markenprofil_390.png",
    "ok": true
   },
@@ -253,7 +256,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 975,
+   "images": 976,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },
@@ -280,7 +283,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 85,
+   "images": 83,
    "screenshot": "screenshots/vergleich/hersteller_390.png",
    "ok": true
   },
@@ -298,7 +301,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 774,
+   "images": 764,
    "screenshot": "screenshots/vergleich/online_390.png",
    "ok": true
   },

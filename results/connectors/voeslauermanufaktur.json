@@ -1,0 +1,19 @@
+{
+ "id": "voeslauermanufaktur",
+ "store": "Online: voeslauermanufaktur",
+ "status_declared": "live",
+ "ts": "2026-10-24T23:03:06Z",
+ "latency_s": 6.6,
+ "count": 2,
+ "schema_errors": [],
+ "sample": {
+  "name": "Erd\u00e4pfelgulasch",
+  "brand": "voeslauermanufaktur",
+  "store": "Online: voeslauermanufaktur",
+  "price_eur": 9.9,
+  "source_url": "https://www.voeslauermanufaktur.at/shop/feinkost-im-glas/hauptgerichte/",
+  "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/s088de92f470e7bb4/image/ie4887d6cefbb633c/version/1768135420/image.jpg",
+  "fetched_at": "2026-10-24T23:03:12+00:00"
+ },
+ "result": "pass"
+}

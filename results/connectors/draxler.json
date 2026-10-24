@@ -2,8 +2,8 @@
  "id": "draxler",
  "store": "Online: Draxler Gefl\u00fcgel-Wild",
  "status_declared": "live",
- "ts": "2026-10-24T22:00:23Z",
- "latency_s": 6.97,
+ "ts": "2026-10-24T22:55:24Z",
+ "latency_s": 4.9,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 10.0,
   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/rehragout/",
   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/07/Rehragout_Web.jpg",
-  "fetched_at": "2026-10-24T22:00:30+00:00"
+  "fetched_at": "2026-10-24T22:55:29+00:00"
  },
  "result": "pass"
 }

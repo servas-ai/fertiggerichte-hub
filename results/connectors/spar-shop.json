@@ -2,8 +2,8 @@
  "id": "spar-shop",
  "store": "SPAR/INTERSPAR",
  "status_declared": "live",
- "ts": "2026-10-24T22:07:20Z",
- "latency_s": 1.75,
+ "ts": "2026-10-24T23:02:12Z",
+ "latency_s": 1.84,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 21.99,
   "source_url": "https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817",
   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/835817/dt_main.jpg",
-  "fetched_at": "2026-10-24T22:07:22+00:00"
+  "fetched_at": "2026-10-24T23:02:14+00:00"
  },
  "result": "pass"
 }
