@@ -2,8 +2,8 @@
  "id": "mpreis-shop",
  "store": "MPreis",
  "status_declared": "live",
- "ts": "2026-10-24T20:53:35Z",
- "latency_s": 6.46,
+ "ts": "2026-10-24T22:03:01Z",
+ "latency_s": 7.39,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 0.69,
   "source_url": "https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001",
   "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1726103701/mpreis/products/4929532.jpg",
-  "fetched_at": "2026-10-24T20:53:38+00:00"
+  "fetched_at": "2026-10-24T22:03:04+00:00"
  },
  "result": "pass"
 }
