@@ -2,7 +2,7 @@
  "id": "denns",
  "store": "denn's BioMarkt",
  "status_declared": "live",
- "ts": "2026-10-24T17:57:25Z",
+ "ts": "2026-10-24T18:08:42Z",
  "latency_s": 3.8,
  "count": 1,
  "schema_errors": [],
@@ -13,7 +13,7 @@
   "price_eur": 2.49,
   "source_url": "https://www.denns-biomarkt.at/angebote/",
   "image_url": "https://images.dennree.de/fitinto/576x384/604697.front.png",
-  "fetched_at": "2026-10-24T17:57:29+00:00"
+  "fetched_at": "2026-10-24T18:08:46+00:00"
  },
  "result": "pass"
 }
