@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-24T18:16:50Z",
+ "ts": "2026-10-24T19:07:45Z",
  "products": 3664,
  "by_store": [
   [
@@ -131,7 +131,7 @@
   "photo": 94.5,
   "producer": 48.4,
   "brand": 90.9,
-  "logos_total": 316
+  "logos_total": 317
  },
  "fill_rate_products": {
   "bio": 100.0,
@@ -153,9 +153,9 @@
  "counts": {
   "online_providers": 3,
   "products": 3664,
-  "logos": 316,
+  "logos": 317,
   "online_mealprep": 406,
-  "companies": 160,
+  "companies": 161,
   "establishments": 4706,
   "prices": 3270,
   "brand_tree": 8,

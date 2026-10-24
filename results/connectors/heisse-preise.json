@@ -2,8 +2,8 @@
  "id": "heisse-preise",
  "store": "heisse-preise.io",
  "status_declared": "live",
- "ts": "2026-10-24T18:10:14Z",
- "latency_s": 0.49,
+ "ts": "2026-10-24T19:01:04Z",
+ "latency_s": 0.54,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"

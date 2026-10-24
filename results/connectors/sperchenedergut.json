@@ -2,8 +2,8 @@
  "id": "sperchenedergut",
  "store": "Online: Sperchenedergut",
  "status_declared": "live",
- "ts": "2026-10-24T18:15:51Z",
- "latency_s": 24.26,
+ "ts": "2026-10-24T19:06:45Z",
+ "latency_s": 22.88,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.5,
   "source_url": "https://sperchenedergut.at/produkt/gulaschsuppe-vom-angusrind/",
   "image_url": "https://sperchenedergut.at/wp-content/uploads/shop-produkte-gulasch-01.jpg",
-  "fetched_at": "2026-10-24T18:16:15+00:00"
+  "fetched_at": "2026-10-24T19:07:08+00:00"
  },
  "result": "pass"
 }
