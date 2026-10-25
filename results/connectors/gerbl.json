@@ -2,8 +2,8 @@
  "id": "gerbl",
  "store": "Online: Gerbl im Glas",
  "status_declared": "live",
- "ts": "2026-10-25T13:03:52Z",
- "latency_s": 24.21,
+ "ts": "2026-10-25T13:55:27Z",
+ "latency_s": 24.25,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.0,
   "source_url": "https://shop.gerbl.at/ecommerce/product?product_id=796882&category_id=150129",
   "image_url": "https://shop.gerbl.at/gallery-file/C8AA457EA589F639F67C7A3EC9EAA07E/picture-db-374/480242/picture-orig.jpg",
-  "fetched_at": "2026-10-25T13:03:59+00:00"
+  "fetched_at": "2026-10-25T13:55:34+00:00"
  },
  "result": "pass"
 }

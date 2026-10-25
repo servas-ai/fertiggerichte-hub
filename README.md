@@ -1,6 +1,6 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-25 13:13 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-10-25 14:05 UTC via `./run_all.sh` (stündlich).
 
 **Connectors:** 58 ✅ / 9 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3664
 
@@ -8,8 +8,8 @@ Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Autom
 
 | App | URL | Live | Tabs getestet | Konsolen-Fehler | Kaputte Bilder |
 |---|---|---|---|---|---|
-| Fertiggerichte-Vergleich | https://martin-hausleitner.github.io/fertiggerichte-vergleich/ | ✅ | 25 | 0 | 0 |
-| Fertiggerichte-Vergleich (servas-ai Pages) | https://servas-ai.github.io/fertiggerichte-vergleich/ | ✅ | 26 | 0 | 0 |
+| Fertiggerichte-Vergleich | https://martin-hausleitner.github.io/fertiggerichte-vergleich/ | ✅ | 26 | 20 | 0 |
+| Fertiggerichte-Vergleich (servas-ai Pages) | https://servas-ai.github.io/fertiggerichte-vergleich/ | ✅ | 26 | 3 | 0 |
 | Einkaufsanalyse | https://servas-ai.github.io/einkaufsanalyse/ | ✅ | 8 | 0 | 0 |
 
 ## Repositories
@@ -43,80 +43,80 @@ flowchart LR
 
 | | Connector | Store | Items | Latenz | Beispielprodukt (Beweis) | Zeitpunkt |
 |---|---|---|---|---|---|---|
-| ✅ | `adamah` | Online: ADAMAH BioHof | 3 | 8.8 s | [Rindsgulasch im Weckglas](https://www.adamah.at/Produktdetailseite/RindsgulaschimWeckglas_42093) · 11.9 € | 2026-10-25T13:00:33Z |
-| ✅ | `alfies` | Alfies | 3 | 6.96 s | [Knorr Meisterkessel Gulaschsuppe](https://www.alfies.at/produkt/knorr-meisterkessel-gulaschsuppe-dose-500g-1) · 4.49 € | 2026-10-25T13:00:42Z |
-| ✅ | `bauernladen` | Online: Bauernladen.at | 3 | 7.96 s | [Gulaschsuppe](https://bauernladen.at/produkte/fairkocht/gulaschsuppe-27262) · 15.5 € | 2026-10-25T13:00:49Z |
-| ✅ | `bernos` | Online: Bernos Tauernwild | 2 | 6.08 s | [Hirschgulasch](https://www.bernos.at/produkt/hirschgulasch/) · 9.0 € | 2026-10-25T13:00:57Z |
-| ✅ | `billa` | BILLA | 3 | 1.3 s | [MAGGI Fix für Gulasch](https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152) · 1.49 € | 2026-10-25T13:01:03Z |
-| ✅ | `biohof-achleitner` | Online: Biohof Achleitner | 3 | 4.82 s | [Hausg'mocht Rindsgulasch](https://www.biohof.at/Hausgmocht-Rindsgulasch-4755) · 8.7 € | 2026-10-25T13:01:05Z |
-| ✅ | `bofrost` | Online: bofrost* | 3 | 7.85 s | [Wiener Rindsgulasch](https://www.bofrost.at/shop/fleisch_44196/fleischzubereitungen_34987/wiener-rindsgulasch_03373.html) · 14.99 € | 2026-10-25T13:01:10Z |
-| ✅ | `buchberger` | Online: Fleischerei Buchberger | 2 | 14.09 s | [Hausgemachte Gulasch-Suppe im Glas 450 ml](https://www.buchberger.shop/buchberger-hausgemachte-gulasch-suppe-im-glas-450-ml) · 7.5 € | 2026-10-25T13:01:18Z |
-| ✅ | `bullinarium` | Online: Bullinarium (Hallers Bull Beef) | 1 | 10.63 s | [Bull Beef Gulasch 350g](https://www.bullinarium.com/online-shop/produkt/c/fix-fertig/p/bull-beef-gulasch-350g/) · 11.76 € | 2026-10-25T13:01:32Z |
-| ✅ | `deflorian` | Online: Deflorian | 2 | 2.18 s | [Rindsgulasch](https://deflorian.tirol/products/rindsgulasch) · 13.1 € | 2026-10-25T13:01:43Z |
-| ✅ | `dengg` | Online: Dengg Krapfen- und Knödelmanufaktur | 3 | 34.09 s | [Spinatknödel 4 Stk.](https://www.dengg.info/spinatknoedel-4-stk--62241021-de.html) · 5.7 € | 2026-10-25T13:01:45Z |
-| ✅ | `denns` | denn's BioMarkt | 1 | 3.86 s | [NaBio Bio-Eintopf oder -Suppe](https://www.denns-biomarkt.at/angebote/) · 2.49 € | 2026-10-25T13:02:19Z |
-| ✅ | `diechtl` | Online: Fleischerei Diechtl | 1 | 5.11 s | [Rindsgulasch im Glas](https://www.diechtl-shop.at/rindsgulasch-im-glas) · 8.99 € | 2026-10-25T13:02:23Z |
-| ✅ | `dm` | dm | 3 | 4.56 s | [babylove Menü Kartoffeltopf mit Rindergulasch ab d](https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat) · 1.15 € | 2026-10-25T13:02:29Z |
-| ✅ | `draxler` | Online: Draxler Geflügel-Wild | 3 | 6.35 s | [Rehragout](https://www.xn--geflgel-draxler-2vb.at/produkt/rehragout/) · 10.0 € | 2026-10-25T13:02:34Z |
-| ✅ | `egle` | Online: Egle | 3 | 11.15 s | [BIO Rinder-Gulasch, 400 g](https://www.egleshop.at/BIO-Rinder-Gulasch-400-g) · 7.49 € | 2026-10-25T13:02:41Z |
-| ✅ | `every` | Online: every. | 3 | 15.62 s | [Turkish Lentil Soup](https://every-foods.com/products/turkish-lentil-soup) · 8.99 € | 2026-10-25T13:02:52Z |
-| ✅ | `fichtenbauer` | Online: Fleischerei Fichtenbauer | 1 | 26.23 s | [Rindsgulasch essfertig](https://www.fleischerei-fichtenbauer.at/shop/rindsgulasch-essfertig) · 6.9 € | 2026-10-25T13:03:08Z |
-| ✅ | `fittogo` | Online: Fit2go | 3 | 8.83 s | [Auberginen-Chili con Carne mit Käse Überbacken](https://fittogo.at/products/auberginen-chili-con-carne-mit-kase-uberbacken) · 9.99 € | 2026-10-25T13:03:34Z |
-| ✅ | `flottelotte` | Online: Flotte Lotte | 3 | 9.16 s | [Kartoffel Gulasch](https://flottelottezwettl.at/Kartoffel-Gulasch) · 6.5 € | 2026-10-25T13:03:43Z |
-| ✅ | `gerbl` | Online: Gerbl im Glas | 3 | 24.21 s | [Gulaschsuppe](https://shop.gerbl.at/ecommerce/product?product_id=796882&category_id=150129) · 9.0 € | 2026-10-25T13:03:52Z |
-| ✅ | `goldblatt` | Online: Goldblatt | 2 | 5.69 s | [Erdäpfel Gulasch](https://goldblatt.at/products/bio-erdapfel-gulasch) · 11.99 € | 2026-10-25T13:04:17Z |
-| ✅ | `gourmet-daheim` | Online: GOURMET Daheim (Mahlzeit Linz) | 3 | 13.46 s | [Kartoffelgulasch mit Waldviertler Wurst](https://www.mahlzeit.co.at/wp-content/uploads/2026/03/Preisliste_Bestellschein_GDH_2026_inkl_MwSt_Mahlzeit_web.pdf) · 8.5 € | 2026-10-25T13:04:23Z |
-| ✅ | `gourmetfein` | Online: Gourmetfein | 3 | 8.37 s | [Weißwurst 1,8kg](https://shop.gourmetfein.com/products/weisswurst-1-8kg) · 24.9 € | 2026-10-25T13:04:36Z |
-| ✅ | `gurkerl` | Gurkerl.at | 3 | 1.27 s | [Gissinger Rindsgulasch](https://www.gurkerl.at/21861-gissinger-rindsgulasch) · 12.77 € | 2026-10-25T13:04:45Z |
-| ✅ | `hofer-shop` | HOFER | 2 | 3.78 s | [Sonnhof Rindsgulasch](https://www.hofer.at/produkt/sonnhof-rindsgulasch-000000000000510738) · 9.49 € | 2026-10-25T13:04:48Z |
-| ✅ | `issmich` | Online: iss mich! | 3 | 28.1 s | [Bio Rotweingulasch vom Freilandrind](https://www.issmich.at/Bio-Shop/Eintoepfe/Fleisch/15/Bio-Rotweingulasch-vom-Freilandrind) · 11.5 € | 2026-10-25T13:04:52Z |
-| ✅ | `jenichl` | Online: Genussbauernhof Jenichl | 2 | 1.81 s | [Gulasch im Glas](https://www.genussbauernhof-jenichl.at/shop#!/Gulasch-im-Glas/p/241886285) · 5.5 € | 2026-10-25T13:05:20Z |
-| ✅ | `juit` | Online: Juit | 1 | 1.68 s | [Rindergulasch mit gegrillter Paprika](https://www.juit.com/de/gerichte/rindergulasch-mit-paprika) | 2026-10-25T13:05:22Z |
-| ✅ | `kernbeisser` | Online: Kernbeißer | 3 | 18.83 s | [Maghreb-Hirse mit Artischocken](https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/) · 9.0 € | 2026-10-25T13:05:24Z |
-| ✅ | `kumitzberg` | Online: Kumitzberg | 3 | 6.96 s | [Tirolerknödel](https://kumitzberg.at/products/tirolerknodel) · 9.8 € | 2026-10-25T13:05:43Z |
-| ✅ | `leitgeb` | Online: Leitgeb's Kärntnernudel | 2 | 9.24 s | [Italienischer Nudelteller](https://kaerntnernudel.co.at/produkt/italienischer-nudelteller/) · 11.2 € | 2026-10-25T13:05:50Z |
-| ✅ | `livefresh` | Online: LiveFresh | 3 | 2.38 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-25T13:06:12Z |
-| ✅ | `loewenanteil` | Online: Löwenanteil | 1 | 3.37 s | [Veganes Gulasch](https://www.loewenanteil.com/products/veganes-gulasch) · 9.99 € | 2026-10-25T13:06:14Z |
-| ✅ | `lomoalto` | Online: Lomo Alto | 1 | 1.87 s | [BIO Rindergulasch im Glas 400g](https://lomoalto.at/products/rindergulasch-im-glas-400g) · 12.4 € | 2026-10-25T13:06:18Z |
-| ✅ | `moakt` | Online: Moakt.at (Weiz) | 2 | 37.8 s | [Rinder-Gulaschsuppe essfertig 400g](https://moakt.at/r-gulaschsuppe-essfertig-400g-pro-1glas) · 7.5 € | 2026-10-25T13:06:20Z |
-| ✅ | `mpreis-shop` | MPreis | 3 | 5.9 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 0.69 € | 2026-10-25T13:06:58Z |
-| ✅ | `myproduct` | Online: myProduct | 3 | 21.0 s | [Bio Szegediner Gulasch 460g - Fertiggericht von Ha](https://myproduct.at/bio-szegediner-gulasch-450ml-hartls-kulinarikum) · 12.79 € | 2026-10-25T13:07:05Z |
-| ✅ | `nah-frisch` | Nah&Frisch | 2 | 187.78 s | [Knorr . Bitte zu Tisch Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-25T13:07:26Z |
-| ✅ | `noglu` | Online: NoGlu (glutenfreie Knödel) | 2 | 4.17 s | [Glutenfreie Speckknödel, 4 Stück (500 g)](https://www.noglu.at/product/glutenfreie-speckknoedel/) · 9.0 € | 2026-10-25T13:10:34Z |
-| ✅ | `nudlkudlmudl` | Online: Martina's Nudlkudlmudl | 3 | 4.34 s | [BAERLAUCHNUDELN Frühlingsboten SAISONALES SCHMANKE](https://www.nudlkudlmudl.com/onlineshop/) · 12.9 € | 2026-10-25T13:10:38Z |
-| ✅ | `penny` | PENNY | 3 | 5.54 s | [Gulasch- od. Bratensaft](https://www.penny.at/produkte/gulasch-od-bratensaft-7818089) · 1.39 € | 2026-10-25T13:10:43Z |
-| ✅ | `penny-shop` | PENNY | 3 | 7.23 s | [Gulasch- od. Bratensaft](https://www.penny.at/produkte/gulasch-od-bratensaft-7818089) · 1.39 € | 2026-10-25T13:10:49Z |
-| ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 11.34 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-25T13:10:56Z |
-| ✅ | `purergenuss` | Online: Purer Genuss (Schüsseltrieb) | 1 | 12.22 s | [Wildsuppe mit Fleisch und Gemüse](https://www.purer-genuss.at/product/wildsuppe-mit-fleisch-und-gemuese/) · 6.99 € | 2026-10-25T13:11:07Z |
-| ✅ | `regionalles` | Online: RegionAlles Joglland | 2 | 2.04 s | [Holdi's Gulasch im Glas](https://www.regionalles.com/products/gulasch-im-glas) · 8.4 € | 2026-10-25T13:11:20Z |
-| ✅ | `ruckzuck` | Online: Ruck Zuck Laden (Dunzinger's) | 3 | 20.6 s | [Gulaschsaft](https://www.ruckzuck-laden.at/shop/Gulaschsaft-p731601508) · 6.4 € | 2026-10-25T13:11:22Z |
-| ✅ | `scheffknecht` | Online: Ariane Scheffknecht | 2 | 27.12 s | [Gerstensuppe mit Selchfleisch](https://www.ariane-scheffknecht.at/product-page/gerstensuppe) · 13.5 € | 2026-10-25T13:11:43Z |
-| ✅ | `schmankerl` | Online: Schmankerl Österreich | 1 | 1.42 s | [Gulaschsuppe](https://schmankerl-oesterreich.at/products/gulaschsuppe) · 7.9 € | 2026-10-25T13:12:10Z |
-| ✅ | `spar-shop` | SPAR/INTERSPAR | 3 | 1.77 s | [TANN Rinds-Bratengulasch](https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817) · 21.99 € | 2026-10-25T13:12:12Z |
-| ✅ | `steiramarkt` | Online: Steira Markt | 2 | 13.39 s | [Gulaschsuppe im Glas 400g](https://www.steiramarkt.at/produkt/gulaschsuppe-im-glas-400g/) · 7.0 € | 2026-10-25T13:12:15Z |
-| ✅ | `subway-at` | Subway | 3 | 33.24 s | [Italian B.M.T.®](https://www.subway.com/de-AT/MenuNutrition/Menu/Product?ProductId=5257&MenuCategoryId=238) | 2026-10-25T13:12:28Z |
-| ✅ | `suppito` | Online: SUPPITO | 2 | 3.96 s | [Rindsgulasch à la Suppito scharf](https://www.suppito.at/produkt/rindsgulasch-a-la-suppito/) · 12.1 € | 2026-10-25T13:13:02Z |
-| ✅ | `thaller` | Online: Fleischhauerei Thaller | 1 | 8.69 s | [Rindsgulasch im Glas](https://fleischhauerei-thaller.at/produkt/rindsgulasch-im-glas/) · 7.5 € | 2026-10-25T13:13:06Z |
-| ✅ | `voeslauermanufaktur` | Online: voeslauermanufaktur | 2 | 6.61 s | [Erdäpfelgulasch](https://www.voeslauermanufaktur.at/shop/feinkost-im-glas/hauptgerichte/) · 9.9 € | 2026-10-25T13:13:16Z |
-| ✅ | `wagyuhof` | Online: Wagyuhof | 1 | 2.34 s | [Wagyu Gulasch](https://wagyuhof.com/products/wagyu-gulasch) · 13.2 € | 2026-10-25T13:13:23Z |
-| ✅ | `wiesbauer_gourmet` | Online: Wiesbauer Gourmet | 2 | 7.05 s | [Feines Hirschgulasch aus Österreich 300 g](https://www.wiesbauer-gourmet.at/produkt/feines-hirschgulasch-300-g) · 9.9 € | 2026-10-25T13:13:25Z |
-| ✅ | `zoart` | Online: Sous Vide Fertiggerichte (zoart) | 1 | 2.69 s | [Gulaschglück](https://www.sous-vide-fertiggerichte.at/produkt/gulaschglueck/) · 13.5 € | 2026-10-25T13:13:32Z |
-| 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-25T13:00:42Z |
-| 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-25T13:01:05Z |
-| ❌ | `dm-heisse` | dm | 0 | 0.48 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:02:33Z |
-| 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-25T13:03:52Z |
-| ❌ | `heisse-preise` | heisse-preise.io | 0 | 0.48 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:04:46Z |
-| ❌ | `hofer` | HOFER | 0 | 0.48 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:04:47Z |
-| ❌ | `lidl` | Lidl | 0 | 12.14 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-25T13:05:59Z |
-| 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-25T13:06:11Z |
-| 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-25T13:06:20Z |
-| ❌ | `mpreis` | MPREIS | 0 | 0.37 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:06:58Z |
-| ❌ | `off` | Open Food Facts | 0 | 0.28 s | `RobotsDisallowed: https://world.openfoodfacts.org/cgi/search.pl?search_terms=gulasch&count` | 2026-10-25T13:10:42Z |
-| ❌ | `spar` | SPAR/INTERSPAR | 0 | 0.37 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:12:12Z |
-| ❌ | `sperchenedergut` | Online: Sperchenedergut | 0 | 0.56 s | `RobotsDisallowed: https://sperchenedergut.at/wp-json/wc/store/v1/products?per_page=100` | 2026-10-25T13:12:14Z |
-| ❌ | `unimarkt` | Unimarkt | 0 | 0.75 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:13:15Z |
-| 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-25T13:13:16Z |
-| 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-25T13:13:32Z |
+| ✅ | `adamah` | Online: ADAMAH BioHof | 3 | 3.18 s | [Rindsgulasch im Weckglas](https://www.adamah.at/Produktdetailseite/RindsgulaschimWeckglas_42093) · 11.9 € | 2026-10-25T13:52:04Z |
+| ✅ | `alfies` | Alfies | 3 | 6.96 s | [Knorr Meisterkessel Gulaschsuppe](https://www.alfies.at/produkt/knorr-meisterkessel-gulaschsuppe-dose-500g-1) · 4.49 € | 2026-10-25T13:52:07Z |
+| ✅ | `bauernladen` | Online: Bauernladen.at | 3 | 7.84 s | [Gulaschsuppe](https://bauernladen.at/produkte/fairkocht/gulaschsuppe-27262) · 15.5 € | 2026-10-25T13:52:15Z |
+| ✅ | `bernos` | Online: Bernos Tauernwild | 2 | 5.59 s | [Hirschgulasch](https://www.bernos.at/produkt/hirschgulasch/) · 9.0 € | 2026-10-25T13:52:23Z |
+| ✅ | `billa` | BILLA | 3 | 1.28 s | [MAGGI Fix für Gulasch](https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152) · 1.49 € | 2026-10-25T13:52:28Z |
+| ✅ | `biohof-achleitner` | Online: Biohof Achleitner | 3 | 4.72 s | [Hausg'mocht Rindsgulasch](https://www.biohof.at/Hausgmocht-Rindsgulasch-4755) · 8.7 € | 2026-10-25T13:52:30Z |
+| ✅ | `bofrost` | Online: bofrost* | 3 | 9.03 s | [Wiener Rindsgulasch](https://www.bofrost.at/shop/fleisch_44196/fleischzubereitungen_34987/wiener-rindsgulasch_03373.html) · 14.99 € | 2026-10-25T13:52:35Z |
+| ✅ | `buchberger` | Online: Fleischerei Buchberger | 2 | 14.87 s | [Hausgemachte Gulasch-Suppe im Glas 450 ml](https://www.buchberger.shop/buchberger-hausgemachte-gulasch-suppe-im-glas-450-ml) · 7.5 € | 2026-10-25T13:52:44Z |
+| ✅ | `bullinarium` | Online: Bullinarium (Hallers Bull Beef) | 1 | 10.16 s | [Bull Beef Gulasch 350g](https://www.bullinarium.com/online-shop/produkt/c/fix-fertig/p/bull-beef-gulasch-350g/) · 11.76 € | 2026-10-25T13:52:59Z |
+| ✅ | `deflorian` | Online: Deflorian | 2 | 1.48 s | [Rindsgulasch](https://deflorian.tirol/products/rindsgulasch) · 13.1 € | 2026-10-25T13:53:09Z |
+| ✅ | `dengg` | Online: Dengg Krapfen- und Knödelmanufaktur | 3 | 27.52 s | [Spinatknödel 4 Stk.](https://www.dengg.info/spinatknoedel-4-stk--62241021-de.html) · 5.7 € | 2026-10-25T13:53:11Z |
+| ✅ | `denns` | denn's BioMarkt | 1 | 3.9 s | [NaBio Bio-Eintopf oder -Suppe](https://www.denns-biomarkt.at/angebote/) · 2.49 € | 2026-10-25T13:53:39Z |
+| ✅ | `diechtl` | Online: Fleischerei Diechtl | 1 | 4.41 s | [Rindsgulasch im Glas](https://www.diechtl-shop.at/rindsgulasch-im-glas) · 8.99 € | 2026-10-25T13:53:43Z |
+| ✅ | `dm` | dm | 3 | 4.45 s | [babylove Menü Kartoffeltopf mit Rindergulasch ab d](https://www.dm.at/p/d/1602887/babylove-menue-kartoffeltopf-mit-rindergulasch-ab-dem-8-monat) · 1.15 € | 2026-10-25T13:53:47Z |
+| ✅ | `draxler` | Online: Draxler Geflügel-Wild | 3 | 6.01 s | [Rehragout](https://www.xn--geflgel-draxler-2vb.at/produkt/rehragout/) · 10.0 € | 2026-10-25T13:53:52Z |
+| ✅ | `egle` | Online: Egle | 3 | 11.08 s | [BIO Rinder-Gulasch, 400 g](https://www.egleshop.at/BIO-Rinder-Gulasch-400-g) · 7.49 € | 2026-10-25T13:53:58Z |
+| ✅ | `every` | Online: every. | 3 | 17.57 s | [Turkish Lentil Soup](https://every-foods.com/products/turkish-lentil-soup) · 8.99 € | 2026-10-25T13:54:10Z |
+| ✅ | `fichtenbauer` | Online: Fleischerei Fichtenbauer | 1 | 36.43 s | [Rindsgulasch essfertig](https://www.fleischerei-fichtenbauer.at/shop/rindsgulasch-essfertig) · 6.9 € | 2026-10-25T13:54:27Z |
+| ✅ | `fittogo` | Online: Fit2go | 3 | 8.75 s | [Auberginen-Chili con Carne mit Käse Überbacken](https://fittogo.at/products/auberginen-chili-con-carne-mit-kase-uberbacken) · 9.99 € | 2026-10-25T13:55:04Z |
+| ✅ | `flottelotte` | Online: Flotte Lotte | 3 | 14.35 s | [Kartoffel Gulasch](https://flottelottezwettl.at/Kartoffel-Gulasch) · 6.5 € | 2026-10-25T13:55:13Z |
+| ✅ | `gerbl` | Online: Gerbl im Glas | 3 | 24.25 s | [Gulaschsuppe](https://shop.gerbl.at/ecommerce/product?product_id=796882&category_id=150129) · 9.0 € | 2026-10-25T13:55:27Z |
+| ✅ | `goldblatt` | Online: Goldblatt | 2 | 4.96 s | [Erdäpfel Gulasch](https://goldblatt.at/products/bio-erdapfel-gulasch) · 11.99 € | 2026-10-25T13:55:52Z |
+| ✅ | `gourmet-daheim` | Online: GOURMET Daheim (Mahlzeit Linz) | 3 | 12.57 s | [Kartoffelgulasch mit Waldviertler Wurst](https://www.mahlzeit.co.at/wp-content/uploads/2026/03/Preisliste_Bestellschein_GDH_2026_inkl_MwSt_Mahlzeit_web.pdf) · 8.5 € | 2026-10-25T13:55:57Z |
+| ✅ | `gourmetfein` | Online: Gourmetfein | 3 | 8.38 s | [Weißwurst 1,8kg](https://shop.gourmetfein.com/products/weisswurst-1-8kg) · 24.9 € | 2026-10-25T13:56:10Z |
+| ✅ | `gurkerl` | Gurkerl.at | 3 | 1.23 s | [Gissinger Rindsgulasch](https://www.gurkerl.at/21861-gissinger-rindsgulasch) · 12.77 € | 2026-10-25T13:56:18Z |
+| ✅ | `hofer-shop` | HOFER | 2 | 3.94 s | [Sonnhof Rindsgulasch](https://www.hofer.at/produkt/sonnhof-rindsgulasch-000000000000510738) · 9.49 € | 2026-10-25T13:56:21Z |
+| ✅ | `issmich` | Online: iss mich! | 3 | 32.87 s | [Bio Rotweingulasch vom Freilandrind](https://www.issmich.at/Bio-Shop/Eintoepfe/Fleisch/15/Bio-Rotweingulasch-vom-Freilandrind) · 11.5 € | 2026-10-25T13:56:25Z |
+| ✅ | `jenichl` | Online: Genussbauernhof Jenichl | 2 | 1.95 s | [Gulasch im Glas](https://www.genussbauernhof-jenichl.at/shop#!/Gulasch-im-Glas/p/241886285) · 5.5 € | 2026-10-25T13:56:58Z |
+| ✅ | `juit` | Online: Juit | 1 | 1.3 s | [Rindergulasch mit gegrillter Paprika](https://www.juit.com/de/gerichte/rindergulasch-mit-paprika) | 2026-10-25T13:57:00Z |
+| ✅ | `kernbeisser` | Online: Kernbeißer | 3 | 17.86 s | [Maghreb-Hirse mit Artischocken](https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/) · 9.0 € | 2026-10-25T13:57:02Z |
+| ✅ | `kumitzberg` | Online: Kumitzberg | 3 | 6.73 s | [Tirolerknödel](https://kumitzberg.at/products/tirolerknodel) · 9.8 € | 2026-10-25T13:57:20Z |
+| ✅ | `leitgeb` | Online: Leitgeb's Kärntnernudel | 2 | 8.04 s | [Italienischer Nudelteller](https://kaerntnernudel.co.at/produkt/italienischer-nudelteller/) · 11.2 € | 2026-10-25T13:57:26Z |
+| ✅ | `livefresh` | Online: LiveFresh | 3 | 2.41 s | [Pasta Cheesy Spinat – Protein Bowl](https://livefresh.at/products/pasta-cheesy-spinat-400g) · 5.99 € | 2026-10-25T13:57:47Z |
+| ✅ | `loewenanteil` | Online: Löwenanteil | 1 | 3.01 s | [Veganes Gulasch](https://www.loewenanteil.com/products/veganes-gulasch) · 9.99 € | 2026-10-25T13:57:49Z |
+| ✅ | `lomoalto` | Online: Lomo Alto | 1 | 1.29 s | [BIO Rindergulasch im Glas 400g](https://lomoalto.at/products/rindergulasch-im-glas-400g) · 12.4 € | 2026-10-25T13:57:53Z |
+| ✅ | `moakt` | Online: Moakt.at (Weiz) | 2 | 36.22 s | [Rinder-Gulaschsuppe essfertig 400g](https://moakt.at/r-gulaschsuppe-essfertig-400g-pro-1glas) · 7.5 € | 2026-10-25T13:57:54Z |
+| ✅ | `mpreis-shop` | MPreis | 3 | 7.4 s | [Basis Gulasch](https://www.mpreis.at/shop/p/knorr-basis-gulasch-282001) · 0.69 € | 2026-10-25T13:58:31Z |
+| ✅ | `myproduct` | Online: myProduct | 3 | 17.81 s | [Bio Szegediner Gulasch 460g - Fertiggericht von Ha](https://myproduct.at/bio-szegediner-gulasch-450ml-hartls-kulinarikum) · 12.79 € | 2026-10-25T13:58:39Z |
+| ✅ | `nah-frisch` | Nah&Frisch | 2 | 175.34 s | [Knorr . Bitte zu Tisch Suppen](https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche) | 2026-10-25T13:58:57Z |
+| ✅ | `noglu` | Online: NoGlu (glutenfreie Knödel) | 2 | 4.35 s | [Glutenfreie Speckknödel, 4 Stück (500 g)](https://www.noglu.at/product/glutenfreie-speckknoedel/) · 9.0 € | 2026-10-25T14:01:52Z |
+| ✅ | `nudlkudlmudl` | Online: Martina's Nudlkudlmudl | 3 | 4.33 s | [BAERLAUCHNUDELN Frühlingsboten SAISONALES SCHMANKE](https://www.nudlkudlmudl.com/onlineshop/) · 12.9 € | 2026-10-25T14:01:57Z |
+| ✅ | `penny` | PENNY | 3 | 5.5 s | [Gulasch- od. Bratensaft](https://www.penny.at/produkte/gulasch-od-bratensaft-7818089) · 1.39 € | 2026-10-25T14:02:02Z |
+| ✅ | `penny-shop` | PENNY | 3 | 6.98 s | [Gulasch- od. Bratensaft](https://www.penny.at/produkte/gulasch-od-bratensaft-7818089) · 1.39 € | 2026-10-25T14:02:07Z |
+| ✅ | `prepmymeal` | Online: PrepMyMeal | 3 | 11.5 s | [CH: Gemüse Lasagne](https://prepmymeal.at/products/ch-gemuse-lasagne-3) · 14.5 € | 2026-10-25T14:02:14Z |
+| ✅ | `purergenuss` | Online: Purer Genuss (Schüsseltrieb) | 1 | 13.2 s | [Wildsuppe mit Fleisch und Gemüse](https://www.purer-genuss.at/product/wildsuppe-mit-fleisch-und-gemuese/) · 6.99 € | 2026-10-25T14:02:26Z |
+| ✅ | `regionalles` | Online: RegionAlles Joglland | 2 | 2.0 s | [Holdi's Gulasch im Glas](https://www.regionalles.com/products/gulasch-im-glas) · 8.4 € | 2026-10-25T14:02:39Z |
+| ✅ | `ruckzuck` | Online: Ruck Zuck Laden (Dunzinger's) | 3 | 20.78 s | [Gulaschsaft](https://www.ruckzuck-laden.at/shop/Gulaschsaft-p731601508) · 6.4 € | 2026-10-25T14:02:41Z |
+| ✅ | `scheffknecht` | Online: Ariane Scheffknecht | 2 | 27.1 s | [Gerstensuppe mit Selchfleisch](https://www.ariane-scheffknecht.at/product-page/gerstensuppe) · 13.5 € | 2026-10-25T14:03:02Z |
+| ✅ | `schmankerl` | Online: Schmankerl Österreich | 1 | 1.6 s | [Gulaschsuppe](https://schmankerl-oesterreich.at/products/gulaschsuppe) · 7.9 € | 2026-10-25T14:03:30Z |
+| ✅ | `spar-shop` | SPAR/INTERSPAR | 3 | 1.85 s | [TANN Rinds-Bratengulasch](https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817) · 21.99 € | 2026-10-25T14:03:32Z |
+| ✅ | `steiramarkt` | Online: Steira Markt | 2 | 12.28 s | [Gulaschsuppe im Glas 400g](https://www.steiramarkt.at/produkt/gulaschsuppe-im-glas-400g/) · 7.0 € | 2026-10-25T14:03:35Z |
+| ✅ | `subway-at` | Subway | 3 | 33.22 s | [Italian B.M.T.®](https://www.subway.com/de-AT/MenuNutrition/Menu/Product?ProductId=5257&MenuCategoryId=238) | 2026-10-25T14:03:47Z |
+| ✅ | `suppito` | Online: SUPPITO | 2 | 3.37 s | [Rindsgulasch à la Suppito scharf](https://www.suppito.at/produkt/rindsgulasch-a-la-suppito/) · 12.1 € | 2026-10-25T14:04:20Z |
+| ✅ | `thaller` | Online: Fleischhauerei Thaller | 1 | 8.76 s | [Rindsgulasch im Glas](https://fleischhauerei-thaller.at/produkt/rindsgulasch-im-glas/) · 7.5 € | 2026-10-25T14:04:24Z |
+| ✅ | `voeslauermanufaktur` | Online: voeslauermanufaktur | 2 | 6.57 s | [Erdäpfelgulasch](https://www.voeslauermanufaktur.at/shop/feinkost-im-glas/hauptgerichte/) · 9.9 € | 2026-10-25T14:04:34Z |
+| ✅ | `wagyuhof` | Online: Wagyuhof | 1 | 2.42 s | [Wagyu Gulasch](https://wagyuhof.com/products/wagyu-gulasch) · 13.2 € | 2026-10-25T14:04:40Z |
+| ✅ | `wiesbauer_gourmet` | Online: Wiesbauer Gourmet | 2 | 7.16 s | [Feines Hirschgulasch aus Österreich 300 g](https://www.wiesbauer-gourmet.at/produkt/feines-hirschgulasch-300-g) · 9.9 € | 2026-10-25T14:04:43Z |
+| ✅ | `zoart` | Online: Sous Vide Fertiggerichte (zoart) | 1 | 2.97 s | [Gulaschglück](https://www.sous-vide-fertiggerichte.at/produkt/gulaschglueck/) · 13.5 € | 2026-10-25T14:04:50Z |
+| 📇 | `adeg` | ADEG | 0 | 0.0 s |  | 2026-10-25T13:52:07Z |
+| 📇 | `bio-kistl` | Biohof Achleitner / Bio-Kistl OÖ | 0 | 0.0 s |  | 2026-10-25T13:52:30Z |
+| ❌ | `dm-heisse` | dm | 0 | 0.38 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:53:52Z |
+| 📇 | `foodora-market` | foodora market (Dmart) | 0 | 0.0 s |  | 2026-10-25T13:55:27Z |
+| ❌ | `heisse-preise` | heisse-preise.io | 0 | 0.59 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:56:20Z |
+| ❌ | `hofer` | HOFER | 0 | 0.37 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:56:20Z |
+| ❌ | `lidl` | Lidl | 0 | 11.92 s | `HTTPError: HTTP Error 401: Unauthorized` | 2026-10-25T13:57:35Z |
+| 📇 | `lieferando-shops` | Lieferando Shops | 0 | 0.0 s |  | 2026-10-25T13:57:47Z |
+| 📇 | `mjam` | mjam (now foodora) | 0 | 0.0 s |  | 2026-10-25T13:57:54Z |
+| ❌ | `mpreis` | MPREIS | 0 | 0.37 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T13:58:31Z |
+| ❌ | `off` | Open Food Facts | 0 | 0.38 s | `RobotsDisallowed: https://world.openfoodfacts.org/cgi/search.pl?search_terms=gulasch&count` | 2026-10-25T14:02:01Z |
+| ❌ | `spar` | SPAR/INTERSPAR | 0 | 0.37 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T14:03:31Z |
+| ❌ | `sperchenedergut` | Online: Sperchenedergut | 0 | 0.46 s | `RobotsDisallowed: https://sperchenedergut.at/wp-json/wc/store/v1/products?per_page=100` | 2026-10-25T14:03:34Z |
+| ❌ | `unimarkt` | Unimarkt | 0 | 0.48 s | `RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json` | 2026-10-25T14:04:33Z |
+| 📇 | `unimarkt-shop` | Unimarkt (UNIONLINE Shop) | 0 | 0.0 s |  | 2026-10-25T14:04:34Z |
+| 📇 | `wokostswas` | wokostswas.at | 0 | 0.0 s |  | 2026-10-25T14:04:50Z |
 
 ### Bekannte Ausfälle (manuell gepflegt)
 
@@ -203,6 +203,7 @@ flowchart LR
 | Laden-Profil | <img src="screenshots/vergleich/ladenprofil_1920.png" width="420"> | <img src="screenshots/vergleich/ladenprofil_390.png" width="140"> |
 | Marken | <img src="screenshots/vergleich/marken_1920.png" width="420"> | <img src="screenshots/vergleich/marken_390.png" width="140"> |
 | Markenfamilien | <img src="screenshots/vergleich/familien_1920.png" width="420"> | <img src="screenshots/vergleich/familien_390.png" width="140"> |
+| Dashboard | <img src="screenshots/vergleich/dashboard_1920.png" width="420"> | <img src="screenshots/vergleich/dashboard_390.png" width="140"> |
 | Verpackungen | <img src="screenshots/vergleich/pack_1920.png" width="420"> | <img src="screenshots/vergleich/pack_390.png" width="140"> |
 | Wer steckt dahinter? | <img src="screenshots/vergleich/wer_1920.png" width="420"> | <img src="screenshots/vergleich/wer_390.png" width="140"> |
 | Hersteller-Qualität | <img src="screenshots/vergleich/qualitaet_1920.png" width="420"> | <img src="screenshots/vergleich/qualitaet_390.png" width="140"> |
@@ -273,6 +274,7 @@ flowchart LR
 
 **servas-ai/food-connectors**
 
+- `e786140` 2026-10-25 13:50 — wiesbauer_gourmet: GTIN from product-page JSON-LD (jsonld_gtin/page_gtin, opt-in fetch(with_gtin=True), GS1-validated, 19/20 meals 2026-10-25); offline fixture test (235 pass)
 - `c9b24a3` 2026-10-25 13:09 — gourmet-daheim: fallback dish photos (127 arts) from the official Speisekarte 2026 PDF, repo-hosted in fertiggerichte-daten; 234 tests pass
 - `4dcd4bf` 2026-10-25 12:44 — every: GTIN via shopify_gtin per-product JSON (50/50 meals, 2026-10-25)
 - `4030f6c` 2026-10-25 12:23 — shopify_gtin: read GS1-valid variant barcodes from public /products/<handle>.json (empty in products.json) for deflorian, kumitzberg, goldblatt, loewenanteil; drop barcodes shared by several products (placeholder pattern); fix 'no GTIN published' docstrings; 3 offline tests (233 pass)
@@ -280,10 +282,10 @@ flowchart LR
 - `4dcc495` 2026-10-25 10:55 — egle: live Egle connector (Wilhelm Egle GmbH, Feldkirch; AT-only Shopware shop) — 31 shelf-stable BIO canned/jarred ready meals & soups with nutrition, MCP tools, 3 offline tests
 - `c471820` 2026-10-25 10:05 — noglu: live NoGlu glutenfreie Knödel-Manufaktur connector (Andreas Rossmeier, Hall in Tirol) — 4 gluten-/lactose-free frozen Knödel ready meals with nutrition, MCP tools, 3 offline tests
 - `2962ddc` 2026-10-25 09:43 — zoart: live Sous Vide Fertiggerichte vom Schwein connector (Barbara Fink KG, Gersdorf an der Feistritz Stmk) — 19 sous-vide pork ready meals incl. weight variants, MCP tools, 3 offline tests
-- `4d3fae6` 2026-10-25 09:15 — flottelotte: live Flotte Lotte connector (Flotte Lotte GmbH, Zwettl NÖ) — 15 vegan jar Eintöpfe/Suppen with nutrition, MCP tools, 3 offline tests
 
 **servas-ai/fertiggerichte-daten**
 
+- `aebbe62` 2026-10-25 13:50 — T1339: GTIN backfill 27 rows — Wiesbauer Gourmet 19/20 from product-page JSON-LD gtin, Egle 8/31 via Open Food Facts (own GS1 prefix 4262468; 2 nutrition-identical, 2 photo-confirmed, unique names); WooCommerce Leitgeb/Steira Markt/Draxler publish no GTIN (Store API global_unique_id null)
 - `7422341` 2026-10-25 13:08 — T1305: GOURMET Daheim photos 8→127/141 — 119 official dish photos from the Mahlzeit Linz Speisekarte 2026 PDF, matched by order number position (127/127 unique), vision gate passed, stored under images/gourmet_daheim/
 - `99cde6b` 2026-10-25 12:44 — T1241: GTIN backfill 57 rows — every. 50/50 from Shopify per-product JSON, SUPPITO 7 via identical Gurkerl product+weight (Kürbis 500/510 g mismatches skipped); Gurkerl publishes no SUPPITO nutrition
 - `eaa7126` 2026-10-25 12:21 — T1207: GTIN backfill 76 rows from Shopify per-product JSON (Löwenanteil 17, Deflorian 25, PrepMyMeal 13, Goldblatt 8, LiveFresh 7, Kumitzberg 5, Schmankerl 1) + 7 nutrition fills via identical GTIN (Deflorian 6 via MPreis/OFF, Schmankerl FELIX Gulaschsuppe); Wagyuhof placeholder barcodes + Deflorian shared Erdbeer/Zwetschken barcode skipped
@@ -291,7 +293,6 @@ flowchart LR
 - `587ab31` 2026-10-25 10:57 — Egle (Wilhelm Egle GmbH, Feldkirch; AT-only shop): +31 shelf-stable BIO canned/jarred ready meals & soups with nutrition; company egle (USt-IdNr. DE130855821 VIES valid, HRB 6630 AG Memmingen, no AT FN, no LEI); online meal-prep 1010→1041
 - `1cc01ac` 2026-10-25 10:06 — NoGlu glutenfreie Knödel-Manufaktur (Andreas Rossmeier, Hall in Tirol): +4 gluten-/lactose-free frozen Knödel ready meals with nutrition; company noglu (UID ATU62240088 VIES valid, no FN, no LEI); online meal-prep 1006→1010
 - `1daa25a` 2026-10-25 09:44 — zoart Sous Vide Fertiggerichte (Barbara Fink KG, Gersdorf an der Feistritz Stmk): +19 sous-vide pork ready meals; online meal-prep 987→1006
-- `8495f65` 2026-10-25 09:16 — Flotte Lotte (Zwettl NÖ): 15 vegan jar Eintöpfe/Suppen with price, nutrition, photos 13/15; company row (FN 550284t, VIES valid, no LEI); online meal-prep 972→987
 
 **servas-ai/einkaufsanalyse**
 

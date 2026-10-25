@@ -2,8 +2,8 @@
  "id": "scheffknecht",
  "store": "Online: Ariane Scheffknecht",
  "status_declared": "live",
- "ts": "2026-10-25T13:11:43Z",
- "latency_s": 27.12,
+ "ts": "2026-10-25T14:03:02Z",
+ "latency_s": 27.1,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 13.5,
   "source_url": "https://www.ariane-scheffknecht.at/product-page/gerstensuppe",
   "image_url": "https://static.wixstatic.com/media/8944fc_fa1adb937d824e45b2c8ee57d16116c9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-  "fetched_at": "2026-10-25T13:12:03+00:00"
+  "fetched_at": "2026-10-25T14:03:22+00:00"
  },
  "result": "pass"
 }

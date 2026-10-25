@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-25T12:58:26Z",
+ "ts": "2026-10-25T13:49:59Z",
  "live": true,
  "tabs": [
   {
@@ -449,9 +449,13 @@
   {
    "tab": "Kombi-Ideen",
    "viewport": 390,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED"
+   ],
    "broken_images": [],
-   "images": 217,
+   "images": 216,
    "screenshot": "screenshots/vergleich-servas/kombi_390.png",
    "ok": true
   },
