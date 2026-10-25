@@ -1,0 +1,19 @@
+{
+ "id": "leitgeb",
+ "store": "Online: Leitgeb's K\u00e4rntnernudel",
+ "status_declared": "live",
+ "ts": "2026-10-25T07:00:35Z",
+ "latency_s": 8.24,
+ "count": 2,
+ "schema_errors": [],
+ "sample": {
+  "name": "Italienischer Nudelteller",
+  "brand": "Leitgeb's Nudelspezialit\u00e4ten",
+  "store": "Online: Leitgeb's K\u00e4rntnernudel",
+  "price_eur": 11.2,
+  "source_url": "https://kaerntnernudel.co.at/produkt/italienischer-nudelteller/",
+  "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/italienischer-nudelteller.jpg",
+  "fetched_at": "2026-10-25T07:00:40+00:00"
+ },
+ "result": "pass"
+}
