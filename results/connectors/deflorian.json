@@ -2,8 +2,8 @@
  "id": "deflorian",
  "store": "Online: Deflorian",
  "status_declared": "live",
- "ts": "2026-10-25T10:51:40Z",
- "latency_s": 2.19,
+ "ts": "2026-10-25T11:52:28Z",
+ "latency_s": 1.79,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 13.1,
   "source_url": "https://deflorian.tirol/products/rindsgulasch",
   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_gulasch.jpg?v=1775807841",
-  "fetched_at": "2026-10-25T10:51:42+00:00"
+  "fetched_at": "2026-10-25T11:52:30+00:00"
  },
  "result": "pass"
 }

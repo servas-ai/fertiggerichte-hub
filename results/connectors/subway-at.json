@@ -2,8 +2,8 @@
  "id": "subway-at",
  "store": "Subway",
  "status_declared": "live",
- "ts": "2026-10-25T11:01:46Z",
- "latency_s": 81.19,
+ "ts": "2026-10-25T12:03:00Z",
+ "latency_s": 33.19,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": null,
   "source_url": "https://www.subway.com/de-AT/MenuNutrition/Menu/Product?ProductId=5257&MenuCategoryId=238",
   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Italian_BMT_SdT_234x140.png",
-  "fetched_at": "2026-10-25T11:03:08+00:00"
+  "fetched_at": "2026-10-25T12:03:33+00:00"
  },
  "result": "pass"
 }
