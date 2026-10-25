@@ -2,8 +2,8 @@
  "id": "bauernladen",
  "store": "Online: Bauernladen.at",
  "status_declared": "live",
- "ts": "2026-10-25T02:55:18Z",
- "latency_s": 7.95,
+ "ts": "2026-10-25T03:54:18Z",
+ "latency_s": 7.94,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.5,
   "source_url": "https://bauernladen.at/produkte/fairkocht/kartoffelgulasch-27268",
   "image_url": "https://s0.bauernladen.at/uploads/cache/27/https/bauernladen.s3-eu-central-1.amazonaws.com/2022/03/094fdcdf5f_fairkocht_Kartoffelgulasch480.jpg",
-  "fetched_at": "2026-10-25T02:55:24+00:00"
+  "fetched_at": "2026-10-25T03:54:24+00:00"
  },
  "result": "pass"
 }

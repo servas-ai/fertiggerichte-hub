@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-25T02:52:11Z",
+ "ts": "2026-10-25T03:51:11Z",
  "live": true,
  "tabs": [
   {
@@ -71,27 +71,7 @@
   {
    "tab": "Kategorien",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "TypeError: Failed to fetch dynamically imported module: https://martin-hausleitner.github.io/fertiggerichte-vergleich/assets/Kategorien-DdlN4SJt.js",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "Failed to load resource: the server responded with a status of 404 ()"
-   ],
+   "console_errors": [],
    "broken_images": [],
    "images": 85,
    "screenshot": "screenshots/vergleich/kategorien_1920.png",
