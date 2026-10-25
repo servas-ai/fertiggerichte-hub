@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-25T13:48:28Z",
+ "ts": "2026-10-25T14:53:46Z",
  "live": true,
  "tabs": [
   {
@@ -395,7 +395,9 @@
   {
    "tab": "Wer steckt dahinter?",
    "viewport": 390,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED"
+   ],
    "broken_images": [],
    "images": 1717,
    "screenshot": "screenshots/vergleich/wer_390.png",
@@ -404,28 +406,7 @@
   {
    "tab": "Hersteller-Qualit\u00e4t",
    "viewport": 390,
-   "console_errors": [
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED"
-   ],
+   "console_errors": [],
    "broken_images": [],
    "images": 0,
    "screenshot": "screenshots/vergleich/qualitaet_390.png",
@@ -443,7 +424,9 @@
   {
    "tab": "L\u00e4den & Werke",
    "viewport": 390,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED"
+   ],
    "broken_images": [],
    "images": 81,
    "screenshot": "screenshots/vergleich/hersteller_390.png",
@@ -452,7 +435,9 @@
   {
    "tab": "Filialen in der N\u00e4he",
    "viewport": 390,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED"
+   ],
    "broken_images": [],
    "images": 293,
    "screenshot": "screenshots/vergleich/filialen_390.png",
