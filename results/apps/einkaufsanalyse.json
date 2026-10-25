@@ -2,7 +2,7 @@
  "id": "einkaufsanalyse",
  "name": "Einkaufsanalyse",
  "url": "https://servas-ai.github.io/einkaufsanalyse/",
- "ts": "2026-10-24T23:52:53Z",
+ "ts": "2026-10-25T00:55:51Z",
  "live": true,
  "tabs": [
   {
@@ -26,11 +26,8 @@
   {
    "tab": "Verlauf",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/einkaufsanalyse/verlauf_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.wait_for_timeout: Page crashed"
   },
   {
    "tab": "L\u00e4den",
@@ -39,7 +36,8 @@
    "broken_images": [],
    "images": 6,
    "screenshot": "screenshots/einkaufsanalyse/laeden_1920.png",
-   "ok": true
+   "ok": true,
+   "retried_after_crash": true
   },
   {
    "tab": "Kategorien",
@@ -53,20 +51,14 @@
   {
    "tab": "Protein & Gesundheit",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 17,
-   "screenshot": "screenshots/einkaufsanalyse/protein_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.wait_for_timeout: Page crashed"
   },
   {
    "tab": "Kassenbons",
    "viewport": 1920,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 30,
-   "screenshot": "screenshots/einkaufsanalyse/bons_1920.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.wait_for_timeout: Page crashed"
   },
   {
    "tab": "Import",
@@ -75,7 +67,8 @@
    "broken_images": [],
    "images": 0,
    "screenshot": "screenshots/einkaufsanalyse/import_1920.png",
-   "ok": true
+   "ok": true,
+   "retried_after_crash": true
   },
   {
    "tab": "home",
