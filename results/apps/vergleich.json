@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-25T11:47:51Z",
+ "ts": "2026-10-25T12:56:59Z",
  "live": true,
  "tabs": [
   {
@@ -73,7 +73,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 65,
+   "images": 66,
    "screenshot": "screenshots/vergleich/feed_1920.png",
    "ok": true
   },
@@ -82,7 +82,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 111,
+   "images": 112,
    "screenshot": "screenshots/vergleich/gerichte_1920.png",
    "ok": true
   },
@@ -100,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 87,
+   "images": 86,
    "screenshot": "screenshots/vergleich/kategorien_1920.png",
    "ok": true
   },
@@ -127,26 +127,15 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 972,
+   "images": 997,
    "screenshot": "screenshots/vergleich/marken_1920.png",
    "ok": true
   },
   {
    "tab": "Markenfamilien",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED"
-   ],
-   "broken_images": [
-    "https://images.openfoodfacts.org/images/products/406/145/909/9706/front_de.3.400.jpg",
-    "https://images.openfoodfacts.org/images/products/409/920/014/6324/front_de.20.400.jpg",
-    "https://images.openfoodfacts.org/images/products/409/920/014/6324/front_de.20.400.jpg",
-    "https://images.openfoodfacts.org/images/products/406/146/382/2857/front_de.3.400.jpg",
-    "https://images.openfoodfacts.org/images/products/000/001/412/9841/front_en.3.400.jpg"
-   ],
+   "console_errors": [],
+   "broken_images": [],
    "images": 194,
    "screenshot": "screenshots/vergleich/familien_1920.png",
    "ok": true
@@ -219,7 +208,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 209,
+   "images": 217,
    "screenshot": "screenshots/vergleich/kombi_1920.png",
    "ok": true
   },
@@ -309,7 +298,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 65,
+   "images": 66,
    "screenshot": "screenshots/vergleich/feed_390.png",
    "ok": true
   },
@@ -318,7 +307,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 111,
+   "images": 112,
    "screenshot": "screenshots/vergleich/gerichte_390.png",
    "ok": true
   },
@@ -336,7 +325,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 87,
+   "images": 86,
    "screenshot": "screenshots/vergleich/kategorien_390.png",
    "ok": true
   },
@@ -363,7 +352,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 972,
+   "images": 997,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },
@@ -444,7 +433,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 209,
+   "images": 217,
    "screenshot": "screenshots/vergleich/kombi_390.png",
    "ok": true
   },

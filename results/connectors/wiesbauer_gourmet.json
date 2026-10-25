@@ -2,8 +2,8 @@
  "id": "wiesbauer_gourmet",
  "store": "Online: Wiesbauer Gourmet",
  "status_declared": "live",
- "ts": "2026-10-25T12:03:56Z",
- "latency_s": 7.1,
+ "ts": "2026-10-25T13:13:25Z",
+ "latency_s": 7.05,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.9,
   "source_url": "https://www.wiesbauer-gourmet.at/produkt/feines-hirschgulasch-300-g",
   "image_url": "https://www.wiesbauer-gourmet.at/wg/wp-content/uploads/2024/06/wiesbauer-hirschgulasch-kaufen.jpg",
-  "fetched_at": "2026-10-25T12:04:03+00:00"
+  "fetched_at": "2026-10-25T13:13:32+00:00"
  },
  "result": "pass"
 }

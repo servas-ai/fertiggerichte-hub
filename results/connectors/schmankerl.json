@@ -2,8 +2,8 @@
  "id": "schmankerl",
  "store": "Online: Schmankerl \u00d6sterreich",
  "status_declared": "live",
- "ts": "2026-10-25T12:02:44Z",
- "latency_s": 1.78,
+ "ts": "2026-10-25T13:12:10Z",
+ "latency_s": 1.42,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 7.9,
   "source_url": "https://schmankerl-oesterreich.at/products/gulaschsuppe",
   "image_url": "https://cdn.shopify.com/s/files/1/0953/1726/2677/files/FullSizeRender_b9cf8673-40cd-400f-bf72-e6c5b3a0ac1b.heic?v=1764159709",
-  "fetched_at": "2026-10-25T12:02:45+00:00"
+  "fetched_at": "2026-10-25T13:12:12+00:00"
  },
  "result": "pass"
 }
