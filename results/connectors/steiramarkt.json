@@ -2,8 +2,8 @@
  "id": "steiramarkt",
  "store": "Online: Steira Markt",
  "status_declared": "live",
- "ts": "2026-10-24T23:02:14Z",
- "latency_s": 12.08,
+ "ts": "2026-10-25T00:01:08Z",
+ "latency_s": 11.89,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 7.0,
   "source_url": "https://www.steiramarkt.at/produkt/gulaschsuppe-im-glas-400g/",
   "image_url": "https://i0.wp.com/www.steiramarkt.at/wp-content/uploads/2022/01/Gulaschsuppe-scaled.jpg?fit=1812%2C2560&ssl=1",
-  "fetched_at": "2026-10-24T23:02:26+00:00"
+  "fetched_at": "2026-10-25T00:01:20+00:00"
  },
  "result": "pass"
 }

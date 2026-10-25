@@ -2,8 +2,8 @@
  "id": "adamah",
  "store": "Online: ADAMAH BioHof",
  "status_declared": "live",
- "ts": "2026-10-24T22:54:41Z",
- "latency_s": 3.61,
+ "ts": "2026-10-24T23:53:29Z",
+ "latency_s": 3.32,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 11.9,
   "source_url": "https://www.adamah.at/Produktdetailseite/RindsgulaschimWeckglas_42093",
   "image_url": "https://www.adamah.at/ACM/AttachmentLoader?rowguid=255237B2-22CE-470E-BEC5-3F3CC3C0B966_1681722270540&width=400",
-  "fetched_at": "2026-10-24T22:54:44+00:00"
+  "fetched_at": "2026-10-24T23:53:32+00:00"
  },
  "result": "pass"
 }
