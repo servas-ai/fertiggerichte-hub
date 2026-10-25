@@ -2,8 +2,8 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-10-25T08:55:22Z",
- "latency_s": 1.33,
+ "ts": "2026-10-25T09:56:10Z",
+ "latency_s": 1.21,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 12.77,
   "source_url": "https://www.gurkerl.at/21861-gissinger-rindsgulasch",
   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21861/21861-1633011432932.jpg",
-  "fetched_at": "2026-10-25T08:55:24+00:00"
+  "fetched_at": "2026-10-25T09:56:11+00:00"
  },
  "result": "pass"
 }

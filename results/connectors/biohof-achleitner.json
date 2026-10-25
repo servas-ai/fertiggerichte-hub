@@ -2,8 +2,8 @@
  "id": "biohof-achleitner",
  "store": "Online: Biohof Achleitner",
  "status_declared": "live",
- "ts": "2026-10-25T08:52:45Z",
- "latency_s": 4.88,
+ "ts": "2026-10-25T09:52:34Z",
+ "latency_s": 5.0,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 8.7,
   "source_url": "https://www.biohof.at/Hausgmocht-Rindsgulasch-4755",
   "image_url": "https://www.biohof.at/uploadPim/4755/001_023505-thumbnail-520-520.jpg",
-  "fetched_at": "2026-10-25T08:52:48+00:00"
+  "fetched_at": "2026-10-25T09:52:37+00:00"
  },
  "result": "pass"
 }

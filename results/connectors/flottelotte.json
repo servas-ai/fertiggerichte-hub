@@ -1,0 +1,19 @@
+{
+ "id": "flottelotte",
+ "store": "Online: Flotte Lotte",
+ "status_declared": "live",
+ "ts": "2026-10-25T09:55:11Z",
+ "latency_s": 7.36,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "Kartoffel Gulasch",
+  "brand": "Flotte Lotte",
+  "store": "Online: Flotte Lotte",
+  "price_eur": 6.5,
+  "source_url": "https://flottelottezwettl.at/Kartoffel-Gulasch",
+  "image_url": "https://flottelottezwettl.at/media/image/product/86/lg/kartoffel-gulasch.jpg",
+  "fetched_at": "2026-10-25T09:55:15+00:00"
+ },
+ "result": "pass"
+}

@@ -2,8 +2,8 @@
  "id": "fittogo",
  "store": "Online: Fit2go",
  "status_declared": "live",
- "ts": "2026-10-25T08:54:21Z",
- "latency_s": 8.8,
+ "ts": "2026-10-25T09:55:02Z",
+ "latency_s": 9.18,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.99,
   "source_url": "https://fittogo.at/products/auberginen-chili-con-carne-mit-kase-uberbacken",
   "image_url": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/28.png?v=1790673442",
-  "fetched_at": "2026-10-25T08:54:27+00:00"
+  "fetched_at": "2026-10-25T09:55:07+00:00"
  },
  "result": "pass"
 }

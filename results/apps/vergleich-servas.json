@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-25T08:50:27Z",
+ "ts": "2026-10-25T09:50:12Z",
  "live": true,
  "tabs": [
   {
@@ -60,6 +60,15 @@
    "ok": true
   },
   {
+   "tab": "Feed",
+   "viewport": 1920,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 65,
+   "screenshot": "screenshots/vergleich-servas/feed_1920.png",
+   "ok": true
+  },
+  {
    "tab": "Gericht vergleichen",
    "viewport": 1920,
    "console_errors": [],
@@ -91,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 8,
+   "images": 7,
    "screenshot": "screenshots/vergleich-servas/ladenprofil_1920.png",
    "ok": true
   },
@@ -100,7 +109,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 974,
+   "images": 972,
    "screenshot": "screenshots/vergleich-servas/marken_1920.png",
    "ok": true
   },
@@ -127,7 +136,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 1721,
+   "images": 1717,
    "screenshot": "screenshots/vergleich-servas/wer_1920.png",
    "ok": true
   },
@@ -154,7 +163,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 83,
+   "images": 81,
    "screenshot": "screenshots/vergleich-servas/hersteller_1920.png",
    "ok": true
   },
@@ -258,6 +267,15 @@
    "ok": true
   },
   {
+   "tab": "Feed",
+   "viewport": 390,
+   "console_errors": [],
+   "broken_images": [],
+   "images": 65,
+   "screenshot": "screenshots/vergleich-servas/feed_390.png",
+   "ok": true
+  },
+  {
    "tab": "Gericht vergleichen",
    "viewport": 390,
    "console_errors": [],
@@ -289,7 +307,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 8,
+   "images": 7,
    "screenshot": "screenshots/vergleich-servas/ladenprofil_390.png",
    "ok": true
   },
@@ -298,7 +316,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 974,
+   "images": 972,
    "screenshot": "screenshots/vergleich-servas/marken_390.png",
    "ok": true
   },
@@ -325,7 +343,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 1721,
+   "images": 1717,
    "screenshot": "screenshots/vergleich-servas/wer_390.png",
    "ok": true
   },
@@ -352,7 +370,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 83,
+   "images": 81,
    "screenshot": "screenshots/vergleich-servas/hersteller_390.png",
    "ok": true
   },
