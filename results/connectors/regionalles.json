@@ -1,0 +1,19 @@
+{
+ "id": "regionalles",
+ "store": "Online: RegionAlles Joglland",
+ "status_declared": "live",
+ "ts": "2026-10-25T09:01:42Z",
+ "latency_s": 1.67,
+ "count": 2,
+ "schema_errors": [],
+ "sample": {
+  "name": "Holdi's Gulasch im Glas",
+  "brand": "Gastwirtschaft Hold",
+  "store": "Online: RegionAlles Joglland",
+  "price_eur": 8.4,
+  "source_url": "https://www.regionalles.com/products/gulasch-im-glas",
+  "image_url": "https://cdn.shopify.com/s/files/1/0537/2166/1624/products/Gulasch.jpg",
+  "fetched_at": "2026-10-25T09:01:44+00:00"
+ },
+ "result": "pass"
+}
