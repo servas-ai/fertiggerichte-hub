@@ -1,7 +1,7 @@
 # Fertiggerichte coverage checklist
 
-**Last updated:** 2026-10-25T01:15:00Z UTC
-**Next biggest gap:** (T0103, 2026-10-25) **New online store Fleischerei Diechtl** — the butcher's own Shopware webshop diechtl-shop.at (Fleischerei Diechtl Erich Ernst e.U., Inh. Erich Ernst Diechtl, Hauptstraße 31, 8983 Bad Mitterndorf, Steiermark, FN 338325m LG Leoben, UID ATU41616104 VIES valid 2026-10-25 'Diechtl Erich jun'; GLEIF 0 → no LEI): sitemap + 'Feinkost im Glas' category checked — still **only 1 ready meal**: **+1 Rindsgulasch im Glas 390 g 8,99 €** (23,05 €/kg, in stock) via new live connector `diechtl` (food-connectors ad29d9e, daten 5f91023); photo vision 1/1, ingredients/allergens transcribed from the label on the shop's packshot, no nutrition/GTIN published (not estimated); Kühlpaket within AT, 6,90 € below 70 €, free from 70 €; Gulaschsaft and Bolognese excluded as sauces, Rinderbrühe as clear broth, the /detail/ boxes are raw meat; online meal-prep 844→845. **Logos:** Fleischerei Buchberger header mark staged (cropped from the combined Buchberger/Rib-Eye-Boys header image, vision PASS) and Fleischerei Diechtl manufacturer logo staged (vision PASS), both in daten scripts/logo_work_T0103 for the Orchestrator merge. Still open: Fleischerei Bergmann (no shipping terms published); Billa Plus/ADEG/Eurospar/Interspar products; brand logos.
+**Last updated:** 2026-10-25T01:50:00Z UTC
+**Next biggest gap:** (T0133, 2026-10-25) **Format chains Billa Plus / Eurospar / Interspar / ADEG decided with evidence (store table 4× [ ] → 3× [x] via parent + 1× [-])** — no new rows (none exist to add): **Billa Plus → covered via Billa** (REWE press release 2021-04 'Der BILLA Online Shop wird um die Sortimente von BILLA PLUS erweitert'; shop.billa.at Click & Collect in BILLA *and* BILLA Plus markets; 790/807 Billa rows come from that one shop.billa.at assortment; BILLA PLUS in-store Marktküche/Feinkost take-away is in no feed). **Interspar → covered via Spar** (the spar-shop index products_lmos_at *is* the interspar.at shop catalogue, live 2026-10-25 'Fertiggericht' 599 hits; 515/735 Spar rows carry an interspar.at URL; INTERSPAR food delivery/pick-up ended 14.12.2025, catalogue + prices remain). **Eurospar → covered via Spar** (one shared SPAR-Produktwelt catalogue of 35.000 articles with per-market SPAR/EUROSPAR/INTERSPAR availability per spar.at FAQ; that per-market lookup is on spar.at = Cloudflare 403 from the box, not bypassed; index field pos-visible = 1–13 numeric POS ids without a public format mapping → no per-product format flag, not guessed). **ADEG → [-] impossible as own product source** (independent merchants under REWE Großhandel GmbH, no shop/API, Issuu flipbooks only — dead end 2026-10-13T20b re-confirmed; its REWE private-label ready meals — Billa immer gut, CLEVER, Omis Schmankerl, Simply Good, BILLA Bio, Ja! Natürlich, Vegavita, Chef Menü per adeg.at FAQ — are already indexed under Billa: 322 rows). **Fleischerei Bergmann closed** (Bergmann GmbH, Großweikersdorf, FN 170260h LG St. Pölten, UID ATU55671605 VIES valid 'Bergmann Gesellschaft m.b.H.'): re-checked once — sitemap has no AGB/Versand page, /agb /versand /versandkosten /lieferung all 404, shop/cart/checkout name no delivery terms, WC cart total_shipping null → delivery to Linz not establishable; not indexed. Evidence daten 4cb72dd `raw/chain_formats_2026-10-25T0133.json`; hub scripts/coverage.py now renders via-parent/[-] rows. Still open: brand logos (The Green Garden, Wiener Virtshaus, Pasta Box, Elsässer, Pierre Baguette, Asia, SPAR Asia — earlier runs list dead ends), MPreis 11 photos (shop placeholders), new AT online ready-meal stores delivering to Linz.
 
 Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Items are marked complete only when truly complete.
 
@@ -11,7 +11,7 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 |---|---|---|---|---|---|
 | Spar | [x] | 735 | [x] | 50 | [x] |
 | Billa | [x] | 807 | [x] | 74 | [x] |
-| Billa Plus | [ ] | 0 | [x] | 9 | [x] |
+| Billa Plus | [x] | 0 (via Billa: 807) | [x] | 9 | [x] |
 | Hofer | [x] | 231 | [x] | 37 | [x] |
 | Lidl | [x] | 37 | [x] | 20 | [x] |
 | Penny | [x] | 29 | [x] | 22 | [x] |
@@ -19,13 +19,13 @@ Generated from `servas-ai/fertiggerichte-daten` (+ food-connectors catalog). Ite
 | denn's BioMarkt | [x] | 15 | [x] | 2 | [x] |
 | MPreis | [x] | 388 | [ ] | 0 | [x] |
 | Unimarkt | [x] | 29 | [x] | 2 | [x] |
-| ADEG | [ ] | 0 | [x] | 2 | [x] |
+| ADEG | [-] | 0 (no product source; REWE private labels via Billa) | [x] | 2 | [x] |
 | Nah&Frisch | [x] | 10 | [x] | 10 | [x] |
 | Fit to Go | [x] | 32 | [ ] | 0 | [x] |
 | Gurkerl | [x] | 536 | [ ] | 0 | [x] |
 | Alfies | [x] | 182 | [ ] | 0 | [x] |
-| Eurospar | [ ] | 0 | [x] | 25 | [x] |
-| Interspar | [ ] | 0 | [x] | 4 | [x] |
+| Eurospar | [x] | 0 (via Spar: 735) | [x] | 25 | [x] |
+| Interspar | [x] | 0 (via Spar: 735) | [x] | 4 | [x] |
 | myProduct (online, T2111) | [x] | 64 | [ ] | 0 | [x] |
 | Biohof Achleitner (Biokiste, Eferding, T0502) | [x] | 13 | [x] | 1 | [x] |
 | ADAMAH BioHof (BioKistl Wien/NÖ/Bgld, T2102) | [x] | 27 | [ ] | 0 (no Linz delivery) | [x] |
@@ -224,6 +224,7 @@ Other OSM chains in bbox:
 
 ## Connectors / catalog findings (this run)
 
+- [x] Format chains (T0133, Daten-Squad): Billa Plus → via Billa (shop.billa.at shared assortment), Eurospar + Interspar → via Spar (spar-shop index = interspar.at catalogue; per-market format availability only on spar.at, Cloudflare 403, not bypassed), ADEG → [-] no product source (REWE private labels covered under Billa, 322 rows); Fleischerei Bergmann closed (no shipping terms). Evidence `fertiggerichte-daten/raw/chain_formats_2026-10-25T0133.json`.
 - [x] `gerbl` — **live** (2026-10-18T0236, Daten-Squad, food-connectors 5174ba5): shop.gerbl.at 'Gerbl im Glas' category page (product_id links + vanity slugs like `/rindsgulasch`) → server-rendered product pages (data-price brutto, jar ml, Zutaten, Allergene, Haltbarkeit, main photo `picture-orig.jpg`). robots `*` disallows only /ftpdir/ /admin/ /ecommerce/dc_components/; no login/cart; polite 1 req/s. CLI `food fetch|search --store gerbl`, MCP `gerbl_product` / `gerbl_search`; 4 offline fixture tests (suite 131 passed / 3 skipped); live smoke `gerbl_product rindsgulasch` → 9,00 €, GIG01.
 - [x] `ruckzuck` — **live** (2026-10-18T0409, Daten-Squad, food-connectors 1b57e85): ruckzuck-laden.at WP sitemap `wp-sitemap-ecstore-1.xml` → `POST eu-fra4-storefront-api.ecwid.com/storefront/api/v1/102929329/catalog/product` (the shop widget's own unauthenticated call; site robots disallow only /wp-admin/, API host has no robots.txt). No login/cart; polite 1 req/s. Picks the jar packshot (non-main, homogeneous light background) as image, keeps the serving illustration in `extra.serving_image_url`. CLI `food fetch|search --store ruckzuck`, MCP `ruckzuck_product` / `ruckzuck_search`; 4 offline fixture tests (suite 135 passed / 3 skipped); live smoke `fetch --store ruckzuck` → 7 meals, `ruckzuck_product 654304502` → Gulasch vom Rind 8,90 €.
 - [x] `gourmet-daheim` — **live** (2026-10-18T0006, Daten-Squad, food-connectors 504f654): official Mahlzeit price-list PDF (mahlzeit.co.at, robots: Yoast `Disallow:` empty) + official GOURMET Daheim allergen/nutrition PDF (link discovered on gourmet-daheim.at/downloads, robots Allow: /, `/*?*` never used), parsed with poppler `pdftotext -layout`, joined on the article number (162 articles, 162/162 joined); meal filter drops cakes/compote/cartons. CLI `food fetch|search --store gourmet-daheim`, MCP `gourmet_daheim_product` / `gourmet_daheim_search`; +3 offline tests (food-connectors 125 passed). **T0102 (food-connectors 4dab3a4):** `image_url` from Mahlzeit's public WP REST media list (`/wp-json/wp/v2/media`, robots allow-all), exact article-number file names only (5 live hits), +1 offline test.

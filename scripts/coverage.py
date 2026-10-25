@@ -12,7 +12,7 @@ old = open(COV).read()
 head, *secs = re.split(r"(?m)^## ", old)
 S = {s.split("\n", 1)[0].strip(): "## " + s for s in secs}
 branches = {}
-for m in re.finditer(r"(?m)^\| ([^|]+?) \| \[.\] \| \d+ \| \[(.)\] \| (\d+) \| \[.\] \|$", S.get("Stores", "")):
+for m in re.finditer(r"(?m)^\| ([^|]+?) \| \[.\] \| \d+[^|]* \| \[(.)\] \| (\d+) \| \[.\] \|$", S.get("Stores", "")):
     branches[m.group(1)] = (m.group(2), int(m.group(3)))
 cnt = collections.Counter(p["chain"] for p in P); img = collections.Counter(p["chain"] for p in P if p["image_url"])
 logo_names = {l["name"].lower() for l in L} | {l["slug"] for l in L} | {b.lower() for l in L for b in (l.get("brands") or "").split("|") if b}
@@ -21,10 +21,16 @@ logo_file_names = {l["name"].lower() for l in LF} | {l["slug"] for l in LF} | {b
 CH = ["Spar", "Billa", "Billa Plus", "Hofer", "Lidl", "Penny", "dm", "denn's BioMarkt", "MPreis", "Unimarkt", "ADEG", "Nah&Frisch", "Fit to Go", "Gurkerl", "Alfies", "Eurospar", "Interspar"]
 SLUG = {"denn's BioMarkt": "denns", "Nah&Frisch": "nah-frisch", "Billa Plus": "billa-plus", "Fit to Go": "fit2go", "Eurospar": "spar", "Interspar": "spar"}
 x = lambda b: "[x]" if b else "[ ]"
+# T0133: format chains without an own product feed (evidence daten raw/chain_formats_2026-10-25T0133.json)
+VIA = {"Billa Plus": "Billa", "Eurospar": "Spar", "Interspar": "Spar"}  # shared online assortment of the parent
+NOSRC = {"ADEG": "no product source; REWE private labels via Billa"}  # independent merchants, no shop/API
 st = ["## Stores", "", "| Chain | Products indexed? | # products | Branches (Linz+Umland OSM)? | # branches | Logo? |", "|---|---|---|---|---|---|"]
 for c in CH:
     b = branches.get(c, (" ", 0)); lg = c.lower() in logo_names or SLUG.get(c, c.lower()) in logo_names
-    st.append(f"| {c} | {x(cnt[c])} | {cnt[c]} | [{b[0] if b[1] or b[0]=='x' else ' '}] | {b[1]} | {x(lg)} |")
+    pi, pn = (x(cnt[c]), str(cnt[c]))
+    if not cnt[c] and c in VIA: pi, pn = "[x]", f"0 (via {VIA[c]}: {cnt[VIA[c]]})"
+    elif not cnt[c] and c in NOSRC: pi, pn = "[-]", f"0 ({NOSRC[c]})"
+    st.append(f"| {c} | {pi} | {pn} | [{b[0] if b[1] or b[0]=='x' else ' '}] | {b[1]} | {x(lg)} |")
 other = S.get("Stores", "").split("Other OSM chains in bbox:", 1)
 st += ["", "Other OSM chains in bbox:" + (other[1].rstrip() if len(other) > 1 else ""), ""]
 ph = ["## Ready meals with photos", "", "| Chain | Products | With image_url | % photos |", "|---|---|---|---|"]
