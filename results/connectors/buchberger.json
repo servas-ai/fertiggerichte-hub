@@ -2,8 +2,8 @@
  "id": "buchberger",
  "store": "Online: Fleischerei Buchberger",
  "status_declared": "live",
- "ts": "2026-10-25T01:54:31Z",
- "latency_s": 12.42,
+ "ts": "2026-10-25T02:55:41Z",
+ "latency_s": 12.9,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 7.5,
   "source_url": "https://www.buchberger.shop/buchberger-hausgemachte-gulasch-suppe-im-glas-450-ml",
   "image_url": "https://public.jolioo.com/generated/h1000w1000m1/static/files/614/382/6cb/247/c65/bef/372/eea/4b5d548014bf7fa587f14d05cd5c30c168336fd4.jpg",
-  "fetched_at": "2026-10-25T01:54:35+00:00"
+  "fetched_at": "2026-10-25T02:55:46+00:00"
  },
  "result": "pass"
 }

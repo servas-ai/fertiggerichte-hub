@@ -2,8 +2,8 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-10-25T01:56:20Z",
- "latency_s": 1.32,
+ "ts": "2026-10-25T02:57:46Z",
+ "latency_s": 1.3,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 10.02,
   "source_url": "https://www.gurkerl.at/21854-gissinger-erdaepfelgulasch",
   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21854/21854-1633010493479.jpg",
-  "fetched_at": "2026-10-25T01:56:21+00:00"
+  "fetched_at": "2026-10-25T02:57:47+00:00"
  },
  "result": "pass"
 }

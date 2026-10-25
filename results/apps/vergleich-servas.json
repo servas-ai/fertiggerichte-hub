@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-25T01:52:10Z",
+ "ts": "2026-10-25T02:53:22Z",
  "live": true,
  "tabs": [
   {
@@ -152,12 +152,9 @@
   {
    "tab": "Online-Anbieter",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "TypeError: Failed to fetch dynamically imported module: https://servas-ai.github.io/fertiggerichte-vergleich/assets/Online-CCzWI8vi.js"
-   ],
+   "console_errors": [],
    "broken_images": [],
-   "images": 517,
+   "images": 504,
    "screenshot": "screenshots/vergleich-servas/online_1920.png",
    "ok": true
   },
@@ -337,7 +334,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 517,
+   "images": 504,
    "screenshot": "screenshots/vergleich-servas/online_390.png",
    "ok": true
   },

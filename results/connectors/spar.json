@@ -2,8 +2,8 @@
  "id": "spar",
  "store": "SPAR/INTERSPAR",
  "status_declared": "live",
- "ts": "2026-10-25T02:01:40Z",
- "latency_s": 0.47,
+ "ts": "2026-10-25T03:03:28Z",
+ "latency_s": 0.54,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"

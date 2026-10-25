@@ -2,8 +2,8 @@
  "id": "suppito",
  "store": "Online: SUPPITO",
  "status_declared": "live",
- "ts": "2026-10-25T02:02:29Z",
- "latency_s": 4.2,
+ "ts": "2026-10-25T03:04:18Z",
+ "latency_s": 3.0,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 12.1,
   "source_url": "https://www.suppito.at/produkt/rindsgulasch-a-la-suppito/",
   "image_url": null,
-  "fetched_at": "2026-10-25T02:02:33+00:00"
+  "fetched_at": "2026-10-25T03:04:21+00:00"
  },
  "result": "pass"
 }
