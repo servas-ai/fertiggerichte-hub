@@ -2,8 +2,8 @@
  "id": "gourmet-daheim",
  "store": "Online: GOURMET Daheim (Mahlzeit Linz)",
  "status_declared": "live",
- "ts": "2026-10-25T04:56:10Z",
- "latency_s": 12.87,
+ "ts": "2026-10-25T06:01:54Z",
+ "latency_s": 12.5,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 8.5,
   "source_url": "https://www.mahlzeit.co.at/wp-content/uploads/2026/03/Preisliste_Bestellschein_GDH_2026_inkl_MwSt_Mahlzeit_web.pdf",
   "image_url": null,
-  "fetched_at": "2026-10-25T04:56:23+00:00"
+  "fetched_at": "2026-10-25T06:02:07+00:00"
  },
  "result": "pass"
 }

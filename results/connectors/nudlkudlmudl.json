@@ -1,0 +1,19 @@
+{
+ "id": "nudlkudlmudl",
+ "store": "Online: Martina's Nudlkudlmudl",
+ "status_declared": "live",
+ "ts": "2026-10-25T06:07:07Z",
+ "latency_s": 4.27,
+ "count": 3,
+ "schema_errors": [],
+ "sample": {
+  "name": "BAERLAUCHNUDELN Fr\u00fchlingsboten SAISONALES SCHMANKERL",
+  "brand": "Martina's Nudlkudlmudl",
+  "store": "Online: Martina's Nudlkudlmudl",
+  "price_eur": 12.9,
+  "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+  "image_url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s12cc18a820d0bc1d/image/ib23066b1094c74dc/version/1741614638/image.jpg",
+  "fetched_at": "2026-10-25T06:07:11+00:00"
+ },
+ "result": "pass"
+}
