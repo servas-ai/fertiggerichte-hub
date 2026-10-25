@@ -2,18 +2,18 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-10-25T09:56:10Z",
- "latency_s": 1.21,
+ "ts": "2026-10-25T10:54:19Z",
+ "latency_s": 1.28,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Gissinger Rindsgulasch",
+  "name": "Gissinger Erd\u00e4pfelgulasch",
   "brand": "Gissinger",
   "store": "Gurkerl.at",
-  "price_eur": 12.77,
-  "source_url": "https://www.gurkerl.at/21861-gissinger-rindsgulasch",
-  "image_url": "https://cdn.gurkerl.at/images/grocery/products/21861/21861-1633011432932.jpg",
-  "fetched_at": "2026-10-25T09:56:11+00:00"
+  "price_eur": 10.02,
+  "source_url": "https://www.gurkerl.at/21854-gissinger-erdaepfelgulasch",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/21854/21854-1633010493479.jpg",
+  "fetched_at": "2026-10-25T10:54:20+00:00"
  },
  "result": "pass"
 }

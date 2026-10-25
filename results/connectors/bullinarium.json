@@ -2,8 +2,8 @@
  "id": "bullinarium",
  "store": "Online: Bullinarium (Hallers Bull Beef)",
  "status_declared": "live",
- "ts": "2026-10-25T09:53:27Z",
- "latency_s": 10.52,
+ "ts": "2026-10-25T10:51:29Z",
+ "latency_s": 10.05,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 11.76,
   "source_url": "https://www.bullinarium.com/online-shop/produkt/c/fix-fertig/p/bull-beef-gulasch-350g/",
   "image_url": "https://www.bullinarium.com/fileadmin/shopdata/Gulasch_Karton.jpg",
-  "fetched_at": "2026-10-25T09:53:38+00:00"
+  "fetched_at": "2026-10-25T10:51:39+00:00"
  },
  "result": "pass"
 }

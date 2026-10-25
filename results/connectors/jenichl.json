@@ -2,8 +2,8 @@
  "id": "jenichl",
  "store": "Online: Genussbauernhof Jenichl",
  "status_declared": "live",
- "ts": "2026-10-25T09:56:46Z",
- "latency_s": 1.78,
+ "ts": "2026-10-25T10:54:54Z",
+ "latency_s": 1.84,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 5.5,
   "source_url": "https://www.genussbauernhof-jenichl.at/shop#!/Gulasch-im-Glas/p/241886285",
   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/34077132/1693878467.jpg",
-  "fetched_at": "2026-10-25T09:56:47+00:00"
+  "fetched_at": "2026-10-25T10:54:56+00:00"
  },
  "result": "pass"
 }

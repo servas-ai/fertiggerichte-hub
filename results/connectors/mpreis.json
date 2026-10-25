@@ -2,7 +2,7 @@
  "id": "mpreis",
  "store": "MPREIS",
  "status_declared": "stale",
- "ts": "2026-10-25T09:58:22Z",
+ "ts": "2026-10-25T10:56:29Z",
  "latency_s": 0.37,
  "count": 0,
  "result": "fail",

@@ -2,8 +2,8 @@
  "id": "dengg",
  "store": "Online: Dengg Krapfen- und Kn\u00f6delmanufaktur",
  "status_declared": "live",
- "ts": "2026-10-25T09:53:40Z",
- "latency_s": 28.66,
+ "ts": "2026-10-25T10:51:42Z",
+ "latency_s": 26.79,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 5.7,
   "source_url": "https://www.dengg.info/spinatknoedel-4-stk--62241021-de.html",
   "image_url": "https://www.dengg.info/pics/1920/107768563.jpg",
-  "fetched_at": "2026-10-25T09:54:04+00:00"
+  "fetched_at": "2026-10-25T10:52:04+00:00"
  },
  "result": "pass"
 }
