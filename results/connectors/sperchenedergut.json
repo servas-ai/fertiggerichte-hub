@@ -2,8 +2,8 @@
  "id": "sperchenedergut",
  "store": "Online: Sperchenedergut",
  "status_declared": "live",
- "ts": "2026-10-25T15:09:04Z",
- "latency_s": 0.45,
+ "ts": "2026-10-30T18:14:13Z",
+ "latency_s": 0.56,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://sperchenedergut.at/wp-json/wc/store/v1/products?per_page=100"
