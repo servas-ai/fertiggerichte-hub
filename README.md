@@ -92,7 +92,7 @@ flowchart LR
 | ✅ | `ruckzuck` | Online: Ruck Zuck Laden (Dunzinger's) | 3 | 20.42 s | [Gulaschsaft](https://www.ruckzuck-laden.at/shop/Gulaschsaft-p731601508) · 6.4 € | 2026-10-25T15:08:12Z |
 | ✅ | `scheffknecht` | Online: Ariane Scheffknecht | 2 | 27.15 s | [Gerstensuppe mit Selchfleisch](https://www.ariane-scheffknecht.at/product-page/gerstensuppe) · 13.5 € | 2026-10-25T15:08:32Z |
 | ✅ | `schmankerl` | Online: Schmankerl Österreich | 1 | 1.75 s | [Gulaschsuppe](https://schmankerl-oesterreich.at/products/gulaschsuppe) · 7.9 € | 2026-10-25T15:08:59Z |
-| ✅ | `spar-shop` | SPAR/INTERSPAR | 3 | 1.71 s | [TANN Rinds-Bratengulasch](https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817) · 21.99 € | 2026-10-25T15:09:02Z |
+| ❌ | `spar-shop` | SPAR/INTERSPAR | 3 | 1.71 s | [TANN Rinds-Bratengulasch](https://www.interspar.at/shop/lebensmittel/tann-rinds-bratengulasch/p/835817) · 21.99 € | 2026-10-25T15:09:02Z |
 | ✅ | `steiramarkt` | Online: Steira Markt | 2 | 12.85 s | [Gulaschsuppe im Glas 400g](https://www.steiramarkt.at/produkt/gulaschsuppe-im-glas-400g/) · 7.0 € | 2026-10-25T15:09:04Z |
 | ✅ | `subway-at` | Subway | 3 | 34.05 s | [Italian B.M.T.®](https://www.subway.com/de-AT/MenuNutrition/Menu/Product?ProductId=5257&MenuCategoryId=238) | 2026-10-25T15:09:17Z |
 | ✅ | `suppito` | Online: SUPPITO | 2 | 3.53 s | [Rindsgulasch à la Suppito scharf](https://www.suppito.at/produkt/rindsgulasch-a-la-suppito/) · 12.1 € | 2026-10-25T15:09:52Z |
