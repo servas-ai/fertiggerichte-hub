@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-30T21:50:37Z",
+ "ts": "2026-10-30T22:48:17Z",
  "live": true,
  "tabs": [
   {
@@ -206,18 +206,18 @@
   {
    "tab": "Online-Anbieter",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 404 ()"
-   ],
+   "console_errors": [],
    "broken_images": [],
-   "images": 511,
+   "images": 512,
    "screenshot": "screenshots/vergleich/online_1920.png",
    "ok": true
   },
   {
    "tab": "Kombi-Ideen",
    "viewport": 1920,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 ()"
+   ],
    "broken_images": [],
    "images": 217,
    "screenshot": "screenshots/vergleich/kombi_1920.png",

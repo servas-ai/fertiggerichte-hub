@@ -2,8 +2,8 @@
  "id": "flottelotte",
  "store": "Online: Flotte Lotte",
  "status_declared": "live",
- "ts": "2026-10-30T21:56:53Z",
- "latency_s": 7.63,
+ "ts": "2026-10-30T22:54:32Z",
+ "latency_s": 8.61,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 6.5,
   "source_url": "https://flottelottezwettl.at/Kartoffel-Gulasch",
   "image_url": "https://flottelottezwettl.at/media/image/product/86/lg/kartoffel-gulasch.jpg",
-  "fetched_at": "2026-10-30T21:56:58+00:00"
+  "fetched_at": "2026-10-30T22:54:38+00:00"
  },
  "result": "pass"
 }

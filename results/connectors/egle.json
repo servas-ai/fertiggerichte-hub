@@ -2,8 +2,8 @@
  "id": "egle",
  "store": "Online: Egle",
  "status_declared": "live",
- "ts": "2026-10-30T21:56:00Z",
- "latency_s": 10.91,
+ "ts": "2026-10-30T22:53:40Z",
+ "latency_s": 9.37,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 7.49,
   "source_url": "https://www.egleshop.at/BIO-Rinder-Gulasch-400-g",
   "image_url": "https://www.egleshop.at/media/3d/0f/5a/1771836991/000125_Rinder-Gulasch_DE-DE_F01.webp?ts=1774867250",
-  "fetched_at": "2026-10-30T21:56:08+00:00"
+  "fetched_at": "2026-10-30T22:53:47+00:00"
  },
  "result": "pass"
 }
