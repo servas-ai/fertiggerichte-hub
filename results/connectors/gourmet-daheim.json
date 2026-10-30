@@ -2,18 +2,9 @@
  "id": "gourmet-daheim",
  "store": "Online: GOURMET Daheim (Mahlzeit Linz)",
  "status_declared": "live",
- "ts": "2026-10-30T20:00:36Z",
- "latency_s": 13.53,
- "count": 3,
- "schema_errors": [],
- "sample": {
-  "name": "Kartoffelgulasch mit Waldviertler Wurst",
-  "brand": "GOURMET Daheim",
-  "store": "Online: GOURMET Daheim (Mahlzeit Linz)",
-  "price_eur": 8.5,
-  "source_url": "https://www.mahlzeit.co.at/wp-content/uploads/2026/03/Preisliste_Bestellschein_GDH_2026_inkl_MwSt_Mahlzeit_web.pdf",
-  "image_url": "https://raw.githubusercontent.com/servas-ai/fertiggerichte-daten/main/images/gourmet_daheim/2310160.jpg",
-  "fetched_at": "2026-10-30T20:00:50+00:00"
- },
- "result": "pass"
+ "ts": "2026-10-30T21:02:08Z",
+ "latency_s": 9.76,
+ "count": 0,
+ "result": "fail",
+ "error": "RobotsDisallowed: https://www.mahlzeit.co.at/wp-content/uploads/2026/03/Preisliste_Bestellschein_GDH_2026_inkl_MwSt_Mahlzeit_web.pdf"
 }
