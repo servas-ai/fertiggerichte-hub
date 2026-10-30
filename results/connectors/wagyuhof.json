@@ -2,8 +2,8 @@
  "id": "wagyuhof",
  "store": "Online: Wagyuhof",
  "status_declared": "live",
- "ts": "2026-10-30T18:15:19Z",
- "latency_s": 2.32,
+ "ts": "2026-10-30T19:18:25Z",
+ "latency_s": 2.64,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 13.2,
   "source_url": "https://wagyuhof.com/products/wagyu-gulasch",
   "image_url": "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Gulasch_db0725e7-bf96-4133-8aa5-dba5c88ac301.webp?v=1761553295",
-  "fetched_at": "2026-10-30T18:15:21+00:00"
+  "fetched_at": "2026-10-30T19:18:27+00:00"
  },
  "result": "pass"
 }

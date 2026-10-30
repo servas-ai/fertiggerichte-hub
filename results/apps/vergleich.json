@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-30T17:56:45Z",
+ "ts": "2026-10-30T19:01:34Z",
  "live": true,
  "tabs": [
   {
@@ -100,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 85,
+   "images": 87,
    "screenshot": "screenshots/vergleich/kategorien_1920.png",
    "ok": true
   },
@@ -109,7 +109,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 5,
+   "images": 10,
    "screenshot": "screenshots/vergleich/markenprofil_1920.png",
    "ok": true
   },
@@ -127,7 +127,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 940,
+   "images": 942,
    "screenshot": "screenshots/vergleich/marken_1920.png",
    "ok": true
   },
@@ -163,7 +163,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 1717,
+   "images": 1713,
    "screenshot": "screenshots/vergleich/wer_1920.png",
    "ok": true
   },
@@ -206,9 +206,11 @@
   {
    "tab": "Online-Anbieter",
    "viewport": 1920,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 ()"
+   ],
    "broken_images": [],
-   "images": 508,
+   "images": 507,
    "screenshot": "screenshots/vergleich/online_1920.png",
    "ok": true
   },
@@ -298,7 +300,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 2,
    "screenshot": "screenshots/vergleich/hofer-top30_390.png",
    "ok": true
   },
@@ -334,16 +336,27 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 85,
+   "images": 87,
    "screenshot": "screenshots/vergleich/kategorien_390.png",
    "ok": true
   },
   {
    "tab": "Marken-Profil",
    "viewport": 390,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED",
+    "Failed to load resource: net::ERR_NETWORK_CHANGED"
+   ],
    "broken_images": [],
-   "images": 5,
+   "images": 10,
    "screenshot": "screenshots/vergleich/markenprofil_390.png",
    "ok": true
   },
@@ -361,7 +374,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 940,
+   "images": 945,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },
@@ -397,7 +410,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 1717,
+   "images": 1713,
    "screenshot": "screenshots/vergleich/wer_390.png",
    "ok": true
   },
@@ -431,7 +444,12 @@
   {
    "tab": "Filialen in der N\u00e4he",
    "viewport": 390,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+    "Failed to load resource: net::ERR_CONNECTION_CLOSED"
+   ],
    "broken_images": [],
    "images": 293,
    "screenshot": "screenshots/vergleich/filialen_390.png",
