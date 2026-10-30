@@ -2,8 +2,8 @@
  "id": "purergenuss",
  "store": "Online: Purer Genuss (Sch\u00fcsseltrieb)",
  "status_declared": "live",
- "ts": "2026-10-30T19:16:13Z",
- "latency_s": 12.67,
+ "ts": "2026-10-30T20:07:09Z",
+ "latency_s": 13.34,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 6.99,
   "source_url": "https://www.purer-genuss.at/product/wildsuppe-mit-fleisch-und-gemuese/",
   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140327.jpg",
-  "fetched_at": "2026-10-30T19:16:25+00:00"
+  "fetched_at": "2026-10-30T20:07:22+00:00"
  },
  "result": "pass"
 }
