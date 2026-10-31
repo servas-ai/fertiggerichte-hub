@@ -2,8 +2,8 @@
  "id": "every",
  "store": "Online: every.",
  "status_declared": "live",
- "ts": "2026-10-31T13:54:55Z",
- "latency_s": 16.88,
+ "ts": "2026-10-31T14:58:51Z",
+ "latency_s": 19.82,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 8.99,
   "source_url": "https://every-foods.com/products/turkish-lentil-soup",
   "image_url": "https://cdn.shopify.com/s/files/1/0228/6528/1104/files/2026-08-05_every_turkish-lentil-soup_topshot_36216_1.jpg?v=1792571733",
-  "fetched_at": "2026-10-31T13:55:09+00:00"
+  "fetched_at": "2026-10-31T14:59:07+00:00"
  },
  "result": "pass"
 }

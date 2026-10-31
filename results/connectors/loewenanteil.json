@@ -2,8 +2,8 @@
  "id": "loewenanteil",
  "store": "Online: L\u00f6wenanteil",
  "status_declared": "live",
- "ts": "2026-10-31T13:58:22Z",
- "latency_s": 3.2,
+ "ts": "2026-10-31T15:02:37Z",
+ "latency_s": 3.27,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.99,
   "source_url": "https://www.loewenanteil.com/products/veganes-gulasch",
   "image_url": "https://cdn.shopify.com/s/files/1/0271/2908/6026/files/veganes-gulasch-fertiggericht-lowenanteil-lowenanteil-327131.jpg?v=1780501433",
-  "fetched_at": "2026-10-31T13:58:25+00:00"
+  "fetched_at": "2026-10-31T15:02:40+00:00"
  },
  "result": "pass"
 }
