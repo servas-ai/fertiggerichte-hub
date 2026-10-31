@@ -2,8 +2,8 @@
  "id": "bernos",
  "store": "Online: Bernos Tauernwild",
  "status_declared": "live",
- "ts": "2026-10-31T18:52:25Z",
- "latency_s": 5.56,
+ "ts": "2026-10-31T19:59:36Z",
+ "latency_s": 5.22,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.0,
   "source_url": "https://www.bernos.at/produkt/hirschgulasch/",
   "image_url": "https://www.bernos.at/wp-content/uploads/2016/08/hirschgulasch_small.png",
-  "fetched_at": "2026-10-31T18:52:30+00:00"
+  "fetched_at": "2026-10-31T19:59:41+00:00"
  },
  "result": "pass"
 }
