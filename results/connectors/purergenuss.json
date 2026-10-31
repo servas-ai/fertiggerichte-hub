@@ -2,9 +2,9 @@
  "id": "purergenuss",
  "store": "Online: Purer Genuss (Sch\u00fcsseltrieb)",
  "status_declared": "live",
- "ts": "2026-10-31T01:03:03Z",
- "latency_s": 8.02,
+ "ts": "2026-10-31T02:15:12Z",
+ "latency_s": 42.31,
  "count": 0,
  "result": "fail",
- "error": "RobotsDisallowed: https://www.purer-genuss.at/wp-json/wc/store/v1/products?per_page=100"
+ "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
 }

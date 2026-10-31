@@ -2,8 +2,8 @@
  "id": "lomoalto",
  "store": "Online: Lomo Alto",
  "status_declared": "live",
- "ts": "2026-10-31T00:58:57Z",
- "latency_s": 1.68,
+ "ts": "2026-10-31T02:03:31Z",
+ "latency_s": 1.6,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 12.4,
   "source_url": "https://lomoalto.at/products/rindergulasch-im-glas-400g",
   "image_url": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/rindergulasch_von_lomo_alto_als_fertiggericht_glas_biologisch.jpg?v=1732790678",
-  "fetched_at": "2026-10-31T00:58:59+00:00"
+  "fetched_at": "2026-10-31T02:03:33+00:00"
  },
  "result": "pass"
 }

@@ -2,8 +2,8 @@
  "id": "noglu",
  "store": "Online: NoGlu (glutenfreie Kn\u00f6del)",
  "status_declared": "live",
- "ts": "2026-10-31T01:02:31Z",
- "latency_s": 3.98,
+ "ts": "2026-10-31T02:07:16Z",
+ "latency_s": 4.1,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.0,
   "source_url": "https://www.noglu.at/product/glutenfreie-speckknoedel/",
   "image_url": "https://www.noglu.at/wp-content/uploads/2026/06/speckknoedel.jpg",
-  "fetched_at": "2026-10-31T01:02:35+00:00"
+  "fetched_at": "2026-10-31T02:07:20+00:00"
  },
  "result": "pass"
 }

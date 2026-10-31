@@ -2,8 +2,8 @@
  "id": "thaller",
  "store": "Online: Fleischhauerei Thaller",
  "status_declared": "live",
- "ts": "2026-10-31T01:05:14Z",
- "latency_s": 8.1,
+ "ts": "2026-10-31T02:10:16Z",
+ "latency_s": 8.33,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 7.5,
   "source_url": "https://fleischhauerei-thaller.at/produkt/rindsgulasch-im-glas/",
   "image_url": "https://fleischhauerei-thaller.at/wp-content/uploads/2025/08/Gulasch-bea-kw-15-1.jpg",
-  "fetched_at": "2026-10-31T01:05:22+00:00"
+  "fetched_at": "2026-10-31T02:10:24+00:00"
  },
  "result": "pass"
 }
