@@ -2,8 +2,8 @@
  "id": "penny-shop",
  "store": "PENNY",
  "status_declared": "live",
- "ts": "2026-10-31T10:04:41Z",
- "latency_s": 6.81,
+ "ts": "2026-10-31T11:03:15Z",
+ "latency_s": 7.24,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 1.39,
   "source_url": "https://www.penny.at/produkte/gulasch-od-bratensaft-7818089",
   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-18089-01812818272-Njp3-qfb.jpg",
-  "fetched_at": "2026-10-31T10:04:48+00:00"
+  "fetched_at": "2026-10-31T11:03:22+00:00"
  },
  "result": "pass"
 }

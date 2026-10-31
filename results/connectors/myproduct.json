@@ -2,8 +2,8 @@
  "id": "myproduct",
  "store": "Online: myProduct",
  "status_declared": "live",
- "ts": "2026-10-31T10:01:33Z",
- "latency_s": 20.7,
+ "ts": "2026-10-31T11:00:13Z",
+ "latency_s": 13.85,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 12.79,
   "source_url": "https://myproduct.at/bio-szegediner-gulasch-450ml-hartls-kulinarikum",
   "image_url": null,
-  "fetched_at": "2026-10-31T10:01:53+00:00"
+  "fetched_at": "2026-10-31T11:00:27+00:00"
  },
  "result": "pass"
 }
