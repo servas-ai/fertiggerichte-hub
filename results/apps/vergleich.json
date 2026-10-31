@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-31T03:53:21Z",
+ "ts": "2026-10-31T04:53:39Z",
  "live": true,
  "tabs": [
   {
@@ -100,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 87,
+   "images": 83,
    "screenshot": "screenshots/vergleich/kategorien_1920.png",
    "ok": true
   },
@@ -332,12 +332,7 @@
   {
    "tab": "Kategorien",
    "viewport": 390,
-   "console_errors": [
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED",
-    "Failed to load resource: net::ERR_NETWORK_CHANGED"
-   ],
+   "console_errors": [],
    "broken_images": [],
    "images": 83,
    "screenshot": "screenshots/vergleich/kategorien_390.png",

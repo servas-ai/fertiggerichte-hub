@@ -2,8 +2,8 @@
  "id": "nah-frisch",
  "store": "Nah&Frisch",
  "status_declared": "live",
- "ts": "2026-10-31T04:03:33Z",
- "latency_s": 154.16,
+ "ts": "2026-10-31T05:04:09Z",
+ "latency_s": 151.52,
  "count": 0,
  "schema_errors": [],
  "result": "fail"

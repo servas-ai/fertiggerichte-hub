@@ -2,18 +2,18 @@
  "id": "bauernladen",
  "store": "Online: Bauernladen.at",
  "status_declared": "live",
- "ts": "2026-10-31T03:57:06Z",
- "latency_s": 8.01,
+ "ts": "2026-10-31T04:57:26Z",
+ "latency_s": 8.56,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Kalbsgulasch",
+  "name": "Gulaschsuppe",
   "brand": "FAIRKOCHT",
   "store": "Online: Bauernladen.at",
-  "price_eur": 17.9,
-  "source_url": "https://bauernladen.at/produkte/fairkocht/kalbsgulasch-27286",
-  "image_url": "https://s0.bauernladen.at/uploads/cache/27/https/bauernladen.s3-eu-central-1.amazonaws.com/2022/03/a522bc05eb_fairkocht_Kalbsgulasch.jpg",
-  "fetched_at": "2026-10-31T03:57:12+00:00"
+  "price_eur": 15.5,
+  "source_url": "https://bauernladen.at/produkte/fairkocht/gulaschsuppe-27262",
+  "image_url": "https://s0.bauernladen.at/uploads/cache/27/https/bauernladen.s3-eu-central-1.amazonaws.com/2022/03/7af9755588_fairkocht_Gulaschsuppe680.jpg",
+  "fetched_at": "2026-10-31T04:57:32+00:00"
  },
  "result": "pass"
 }

@@ -2,8 +2,8 @@
  "id": "hofer-shop",
  "store": "HOFER",
  "status_declared": "live",
- "ts": "2026-10-31T04:00:47Z",
- "latency_s": 5.24,
+ "ts": "2026-10-31T05:01:33Z",
+ "latency_s": 4.93,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.49,
   "source_url": "https://www.hofer.at/produkt/sonnhof-rindsgulasch-000000000000510738",
   "image_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/600/5f8a5cef-639f-45b3-a3c7-95d3130146e0/sonnhof-rindsgulasch",
-  "fetched_at": "2026-10-31T04:00:50+00:00"
+  "fetched_at": "2026-10-31T05:01:36+00:00"
  },
  "result": "pass"
 }
