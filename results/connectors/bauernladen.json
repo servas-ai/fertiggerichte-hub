@@ -2,8 +2,8 @@
  "id": "bauernladen",
  "store": "Online: Bauernladen.at",
  "status_declared": "live",
- "ts": "2026-10-31T07:55:10Z",
- "latency_s": 7.73,
+ "ts": "2026-10-31T08:58:04Z",
+ "latency_s": 7.85,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 15.5,
   "source_url": "https://bauernladen.at/produkte/fairkocht/gulaschsuppe-27262",
   "image_url": "https://s0.bauernladen.at/uploads/cache/27/https/bauernladen.s3-eu-central-1.amazonaws.com/2022/03/7af9755588_fairkocht_Gulaschsuppe680.jpg",
-  "fetched_at": "2026-10-31T07:55:15+00:00"
+  "fetched_at": "2026-10-31T08:58:10+00:00"
  },
  "result": "pass"
 }
