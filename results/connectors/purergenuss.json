@@ -2,18 +2,9 @@
  "id": "purergenuss",
  "store": "Online: Purer Genuss (Sch\u00fcsseltrieb)",
  "status_declared": "live",
- "ts": "2026-10-31T07:01:52Z",
- "latency_s": 21.15,
- "count": 1,
- "schema_errors": [],
- "sample": {
-  "name": "Wildsuppe mit Fleisch und Gem\u00fcse",
-  "brand": "Sch\u00fcsseltrieb Manufaktur",
-  "store": "Online: Purer Genuss (Sch\u00fcsseltrieb)",
-  "price_eur": 6.99,
-  "source_url": "https://www.purer-genuss.at/product/wildsuppe-mit-fleisch-und-gemuese/",
-  "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140327.jpg",
-  "fetched_at": "2026-10-31T07:02:13+00:00"
- },
- "result": "pass"
+ "ts": "2026-10-31T08:05:22Z",
+ "latency_s": 8.02,
+ "count": 0,
+ "result": "fail",
+ "error": "RobotsDisallowed: https://www.purer-genuss.at/wp-json/wc/store/v1/products?per_page=100"
 }

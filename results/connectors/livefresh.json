@@ -2,8 +2,8 @@
  "id": "livefresh",
  "store": "Online: LiveFresh",
  "status_declared": "live",
- "ts": "2026-10-31T06:57:40Z",
- "latency_s": 2.2,
+ "ts": "2026-10-31T08:01:05Z",
+ "latency_s": 2.11,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 5.99,
   "source_url": "https://livefresh.at/products/pasta-cheesy-spinat-400g",
   "image_url": "https://cdn.shopify.com/s/files/1/0058/6432/5231/files/cheesy-spinat-pasta.jpg?v=1771934953",
-  "fetched_at": "2026-10-31T06:57:43+00:00"
+  "fetched_at": "2026-10-31T08:01:08+00:00"
  },
  "result": "pass"
 }

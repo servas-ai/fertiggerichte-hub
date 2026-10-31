@@ -2,9 +2,18 @@
  "id": "suppito",
  "store": "Online: SUPPITO",
  "status_declared": "live",
- "ts": "2026-10-31T07:04:13Z",
- "latency_s": 20.37,
- "count": 0,
- "result": "fail",
- "error": "RobotsDisallowed: https://www.suppito.at/wp-json/wc/store/v1/products?per_page=100"
+ "ts": "2026-10-31T08:07:38Z",
+ "latency_s": 2.93,
+ "count": 1,
+ "schema_errors": [],
+ "sample": {
+  "name": "Rindsgulasch \u00e0 la Suppito scharf",
+  "brand": "SUPPITO",
+  "store": "Online: SUPPITO",
+  "price_eur": 12.1,
+  "source_url": "https://www.suppito.at/produkt/rindsgulasch-a-la-suppito/",
+  "image_url": null,
+  "fetched_at": "2026-10-31T08:07:41+00:00"
+ },
+ "result": "pass"
 }
