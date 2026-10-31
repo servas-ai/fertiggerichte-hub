@@ -2,18 +2,18 @@
  "id": "bauernladen",
  "store": "Online: Bauernladen.at",
  "status_declared": "live",
- "ts": "2026-10-31T14:57:03Z",
- "latency_s": 7.8,
+ "ts": "2026-10-31T15:58:35Z",
+ "latency_s": 7.83,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Kalbsgulasch",
+  "name": "Kartoffelgulasch",
   "brand": "FAIRKOCHT",
   "store": "Online: Bauernladen.at",
-  "price_eur": 17.9,
-  "source_url": "https://bauernladen.at/produkte/fairkocht/kalbsgulasch-27286",
-  "image_url": "https://s0.bauernladen.at/uploads/cache/27/https/bauernladen.s3-eu-central-1.amazonaws.com/2022/03/a522bc05eb_fairkocht_Kalbsgulasch.jpg",
-  "fetched_at": "2026-10-31T14:57:08+00:00"
+  "price_eur": 9.5,
+  "source_url": "https://bauernladen.at/produkte/fairkocht/kartoffelgulasch-27268",
+  "image_url": "https://s0.bauernladen.at/uploads/cache/27/https/bauernladen.s3-eu-central-1.amazonaws.com/2022/03/094fdcdf5f_fairkocht_Kartoffelgulasch480.jpg",
+  "fetched_at": "2026-10-31T15:58:40+00:00"
  },
  "result": "pass"
 }

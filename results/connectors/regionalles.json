@@ -2,8 +2,8 @@
  "id": "regionalles",
  "store": "Online: RegionAlles Joglland",
  "status_declared": "live",
- "ts": "2026-10-31T15:06:59Z",
- "latency_s": 2.11,
+ "ts": "2026-10-31T16:08:37Z",
+ "latency_s": 2.04,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 8.4,
   "source_url": "https://www.regionalles.com/products/gulasch-im-glas",
   "image_url": "https://cdn.shopify.com/s/files/1/0537/2166/1624/products/Gulasch.jpg",
-  "fetched_at": "2026-10-31T15:07:01+00:00"
+  "fetched_at": "2026-10-31T16:08:39+00:00"
  },
  "result": "pass"
 }

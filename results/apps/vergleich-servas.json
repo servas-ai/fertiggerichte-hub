@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-31T14:54:47Z",
+ "ts": "2026-10-31T15:56:17Z",
  "live": true,
  "tabs": [
   {
@@ -100,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 87,
+   "images": 83,
    "screenshot": "screenshots/vergleich-servas/kategorien_1920.png",
    "ok": true
   },
@@ -334,7 +334,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 87,
+   "images": 83,
    "screenshot": "screenshots/vergleich-servas/kategorien_390.png",
    "ok": true
   },
