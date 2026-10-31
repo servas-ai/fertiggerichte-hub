@@ -2,8 +2,8 @@
  "id": "goldblatt",
  "store": "Online: Goldblatt",
  "status_declared": "live",
- "ts": "2026-10-31T10:57:31Z",
- "latency_s": 5.27,
+ "ts": "2026-10-31T11:57:17Z",
+ "latency_s": 5.75,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 11.99,
   "source_url": "https://goldblatt.at/products/bio-erdapfel-gulasch",
   "image_url": "https://cdn.shopify.com/s/files/1/0917/3450/7860/files/f1-gb-260520-erdapfel-gulasch.jpg?v=1780485280",
-  "fetched_at": "2026-10-31T10:57:35+00:00"
+  "fetched_at": "2026-10-31T11:57:21+00:00"
  },
  "result": "pass"
 }
