@@ -2,7 +2,7 @@
  "id": "spar",
  "store": "SPAR/INTERSPAR",
  "status_declared": "live",
- "ts": "2026-10-31T09:09:15Z",
+ "ts": "2026-10-31T10:06:37Z",
  "latency_s": 0.39,
  "count": 0,
  "result": "fail",
