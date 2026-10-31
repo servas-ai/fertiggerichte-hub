@@ -2,8 +2,8 @@
  "id": "billa",
  "store": "BILLA",
  "status_declared": "live",
- "ts": "2026-10-31T04:57:42Z",
- "latency_s": 1.3,
+ "ts": "2026-10-31T06:52:43Z",
+ "latency_s": 1.42,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 1.49,
   "source_url": "https://shop.billa.at/produkte/maggi-fix-fuer-gulasch-0056152",
   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-56152-01709617834-_HJngsp4.jpg",
-  "fetched_at": "2026-10-31T04:57:43+00:00"
+  "fetched_at": "2026-10-31T06:52:44+00:00"
  },
  "result": "pass"
 }

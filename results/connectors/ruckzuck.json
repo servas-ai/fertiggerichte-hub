@@ -2,8 +2,8 @@
  "id": "ruckzuck",
  "store": "Online: Ruck Zuck Laden (Dunzinger's)",
  "status_declared": "live",
- "ts": "2026-10-31T05:07:29Z",
- "latency_s": 20.25,
+ "ts": "2026-10-31T07:02:15Z",
+ "latency_s": 20.18,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 6.4,
   "source_url": "https://www.ruckzuck-laden.at/shop/Gulaschsaft-p731601508",
   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/731601508/5742464249.jpg",
-  "fetched_at": "2026-10-31T05:07:34+00:00"
+  "fetched_at": "2026-10-31T07:02:21+00:00"
  },
  "result": "pass"
 }

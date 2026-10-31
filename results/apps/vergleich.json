@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-31T04:53:39Z",
+ "ts": "2026-10-31T06:48:41Z",
  "live": true,
  "tabs": [
   {
@@ -334,7 +334,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 83,
+   "images": 87,
    "screenshot": "screenshots/vergleich/kategorien_390.png",
    "ok": true
   },

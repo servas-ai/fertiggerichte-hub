@@ -2,8 +2,8 @@
  "id": "zoart",
  "store": "Online: Sous Vide Fertiggerichte (zoart)",
  "status_declared": "live",
- "ts": "2026-10-31T05:10:12Z",
- "latency_s": 2.84,
+ "ts": "2026-10-31T07:04:59Z",
+ "latency_s": 2.8,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 13.5,
   "source_url": "https://www.sous-vide-fertiggerichte.at/produkt/gulaschglueck/",
   "image_url": "https://www.sous-vide-fertiggerichte.at/wp-content/uploads/2021/10/gulasch-2.jpg",
-  "fetched_at": "2026-10-31T05:10:15+00:00"
+  "fetched_at": "2026-10-31T07:05:02+00:00"
  },
  "result": "pass"
 }
