@@ -2,8 +2,8 @@
  "id": "moakt",
  "store": "Online: Moakt.at (Weiz)",
  "status_declared": "live",
- "ts": "2026-10-30T22:57:00Z",
- "latency_s": 36.8,
+ "ts": "2026-10-31T00:04:27Z",
+ "latency_s": 37.82,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 7.5,
   "source_url": "https://moakt.at/r-gulaschsuppe-essfertig-400g-pro-1glas",
   "image_url": "https://moakt.at/content/images/thumbs/656834bc9532487dad737986_mein-glas-rinder-gulaschsuppe-essfertig-400g_550.jpeg",
-  "fetched_at": "2026-10-30T22:57:19+00:00"
+  "fetched_at": "2026-10-31T00:04:47+00:00"
  },
  "result": "pass"
 }
