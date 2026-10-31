@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-30T23:54:51Z",
+ "ts": "2026-10-31T00:50:12Z",
  "live": true,
  "tabs": [
   {
@@ -100,7 +100,7 @@
    "viewport": 1920,
    "console_errors": [],
    "broken_images": [],
-   "images": 83,
+   "images": 87,
    "screenshot": "screenshots/vergleich/kategorien_1920.png",
    "ok": true
   },
@@ -334,7 +334,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 87,
+   "images": 85,
    "screenshot": "screenshots/vergleich/kategorien_390.png",
    "ok": true
   },
@@ -352,7 +352,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 0,
+   "images": 5,
    "screenshot": "screenshots/vergleich/ladenprofil_390.png",
    "ok": true
   },
@@ -361,7 +361,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 943,
+   "images": 941,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },

@@ -2,7 +2,7 @@
  "id": "vergleich-servas",
  "name": "Fertiggerichte-Vergleich (servas-ai Pages)",
  "url": "https://servas-ai.github.io/fertiggerichte-vergleich/",
- "ts": "2026-10-30T23:56:52Z",
+ "ts": "2026-10-31T00:51:45Z",
  "live": true,
  "tabs": [
   {
@@ -107,11 +107,7 @@
   {
    "tab": "Marken-Profil",
    "viewport": 1920,
-   "console_errors": [
-    "Failed to load resource: the server responded with a status of 404 ()",
-    "TypeError: Failed to fetch dynamically imported module: https://servas-ai.github.io/fertiggerichte-vergleich/assets/MarkeProfil-BXZM-xmA.js",
-    "Failed to load resource: the server responded with a status of 404 ()"
-   ],
+   "console_errors": [],
    "broken_images": [],
    "images": 9,
    "screenshot": "screenshots/vergleich-servas/markenprofil_1920.png",

@@ -2,8 +2,8 @@
  "id": "diechtl",
  "store": "Online: Fleischerei Diechtl",
  "status_declared": "live",
- "ts": "2026-10-31T00:00:40Z",
- "latency_s": 4.57,
+ "ts": "2026-10-31T00:55:25Z",
+ "latency_s": 4.64,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 8.99,
   "source_url": "https://www.diechtl-shop.at/rindsgulasch-im-glas",
   "image_url": "https://www.diechtl-shop.at/media/3f/f4/c2/1750782384/5awdk5t8.png?ts=1750782384",
-  "fetched_at": "2026-10-31T00:00:45+00:00"
+  "fetched_at": "2026-10-31T00:55:29+00:00"
  },
  "result": "pass"
 }
