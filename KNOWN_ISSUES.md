@@ -13,3 +13,4 @@
 - `bernos` + `gourmet-daheim` + `purergenuss` ⚠️ Hub-Lauf 2026-10-31 07:55–08:05 UTC: alle drei einmal `RobotsDisallowed` (robots.txt-Abruf kurz fehlgeschlagen; bernos.at robots.txt sperrt nichts), Einzel-Retests 08:08–08:09 UTC grün. Flaky robots.txt-Abruf, kein Code-Fehler. `suppito` ist im selben Lauf wieder grün.
 - `adamah` ⚠️ im Hub-Lauf 2026-11-01 01:00 UTC HTTP 404, `fichtenbauer` 0 Treffer (92 s); Einzel-Retest 01:15 UTC beide bestanden (3 bzw. 2 Treffer). Transienter Upstream, kein Code-Fehler.
 - `fichtenbauer` ⚠️ im Hub-Lauf 2026-11-01 02:01 UTC erneut 0 Treffer (136 s Latenz); Einzel-Retest 02:16 UTC bestanden (1 Treffer, 25 s). Langsamer/transienter Upstream, kein Code-Fehler.
+- `fichtenbauer` ⚠️ im Hub-Lauf 2026-11-01 02:57 UTC zum dritten Mal in Folge 0 Treffer (115 s Latenz); Einzel-Retest 03:09 UTC bestanden (1 Treffer, 36 s). Scheitert nur unter Last im Gesamtlauf, kein Code-Fehler; ggf. Timeout/Retry im Smoke-Test erhöhen.
