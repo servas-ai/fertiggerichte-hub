@@ -2,9 +2,9 @@
  "id": "fichtenbauer",
  "store": "Online: Fleischerei Fichtenbauer",
  "status_declared": "live",
- "ts": "2026-10-31T22:56:29Z",
- "latency_s": 35.47,
- "count": 1,
+ "ts": "2026-10-31T23:56:50Z",
+ "latency_s": 106.31,
+ "count": 2,
  "schema_errors": [],
  "sample": {
   "name": "Rindsgulasch essfertig",
@@ -13,7 +13,7 @@
   "price_eur": 6.9,
   "source_url": "https://www.fleischerei-fichtenbauer.at/shop/rindsgulasch-essfertig",
   "image_url": "https://www.fleischerei-fichtenbauer.at/assets/images/3/gulasch-a85db27b-d8b30e7f.jpg",
-  "fetched_at": "2026-10-31T22:56:50+00:00"
+  "fetched_at": "2026-10-31T23:58:32+00:00"
  },
  "result": "pass"
 }

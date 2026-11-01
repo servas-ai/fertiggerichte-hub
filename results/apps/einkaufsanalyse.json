@@ -2,7 +2,7 @@
  "id": "einkaufsanalyse",
  "name": "Einkaufsanalyse",
  "url": "https://servas-ai.github.io/einkaufsanalyse/",
- "ts": "2026-10-31T22:53:35Z",
+ "ts": "2026-10-31T23:53:51Z",
  "live": true,
  "tabs": [
   {
@@ -98,56 +98,38 @@
   {
    "tab": "Verlauf",
    "viewport": 390,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/einkaufsanalyse/verlauf_390.png",
-   "ok": true
+   "ok": false,
+   "error": "Page.goto: Target page, context or browser has been closed"
   },
   {
    "tab": "L\u00e4den",
    "viewport": 390,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 6,
-   "screenshot": "screenshots/einkaufsanalyse/laeden_390.png",
-   "ok": true
+   "ok": false,
+   "error": "Browser.new_page: Target page, context or browser has been closed"
   },
   {
    "tab": "Kategorien",
    "viewport": 390,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/einkaufsanalyse/kategorien_390.png",
-   "ok": true
+   "ok": false,
+   "error": "Browser.new_page: Target page, context or browser has been closed"
   },
   {
    "tab": "Protein & Gesundheit",
    "viewport": 390,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 17,
-   "screenshot": "screenshots/einkaufsanalyse/protein_390.png",
-   "ok": true
+   "ok": false,
+   "error": "Browser.new_page: Target page, context or browser has been closed"
   },
   {
    "tab": "Kassenbons",
    "viewport": 390,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 30,
-   "screenshot": "screenshots/einkaufsanalyse/bons_390.png",
-   "ok": true
+   "ok": false,
+   "error": "Browser.new_page: Target page, context or browser has been closed"
   },
   {
    "tab": "Import",
    "viewport": 390,
-   "console_errors": [],
-   "broken_images": [],
-   "images": 0,
-   "screenshot": "screenshots/einkaufsanalyse/import_390.png",
-   "ok": true
+   "ok": false,
+   "error": "Browser.new_page: Target page, context or browser has been closed"
   }
  ]
 }
