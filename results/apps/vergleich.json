@@ -2,7 +2,7 @@
  "id": "vergleich",
  "name": "Fertiggerichte-Vergleich",
  "url": "https://martin-hausleitner.github.io/fertiggerichte-vergleich/",
- "ts": "2026-11-01T05:56:41Z",
+ "ts": "2026-11-01T06:49:51Z",
  "live": true,
  "tabs": [
   {
@@ -179,7 +179,10 @@
   {
    "tab": "Hersteller-Qualit\u00e4t",
    "viewport": 1920,
-   "console_errors": [],
+   "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "TypeError: Failed to fetch dynamically imported module: https://martin-hausleitner.github.io/fertiggerichte-vergleich/assets/Qualitaet-VWD_L1A6.js"
+   ],
    "broken_images": [],
    "images": 0,
    "screenshot": "screenshots/vergleich/qualitaet_1920.png",
@@ -388,7 +391,7 @@
    "viewport": 390,
    "console_errors": [],
    "broken_images": [],
-   "images": 941,
+   "images": 942,
    "screenshot": "screenshots/vergleich/marken_390.png",
    "ok": true
   },

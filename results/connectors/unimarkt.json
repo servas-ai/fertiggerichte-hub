@@ -2,8 +2,8 @@
  "id": "unimarkt",
  "store": "Unimarkt",
  "status_declared": "stale",
- "ts": "2026-11-01T06:14:11Z",
- "latency_s": 0.58,
+ "ts": "2026-11-01T07:05:39Z",
+ "latency_s": 0.36,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
