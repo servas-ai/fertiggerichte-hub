@@ -2,8 +2,8 @@
  "id": "kumitzberg",
  "store": "Online: Kumitzberg",
  "status_declared": "live",
- "ts": "2026-11-01T05:05:13Z",
- "latency_s": 6.73,
+ "ts": "2026-11-01T06:06:28Z",
+ "latency_s": 7.05,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.8,
   "source_url": "https://kumitzberg.at/products/tirolerknodel",
   "image_url": "https://cdn.shopify.com/s/files/1/0703/0882/3358/files/tirolerknodel-3-stuck-herzhaft-gebacken-mit-speckwurfeln-hausgemacht-servierfertig-274523.png?v=1745613473",
-  "fetched_at": "2026-11-01T05:05:18+00:00"
+  "fetched_at": "2026-11-01T06:06:33+00:00"
  },
  "result": "pass"
 }

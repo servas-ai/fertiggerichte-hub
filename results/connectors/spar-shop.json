@@ -2,8 +2,8 @@
  "id": "spar-shop",
  "store": "SPAR/INTERSPAR",
  "status_declared": "live",
- "ts": "2026-11-01T05:10:55Z",
- "latency_s": 1.7,
+ "ts": "2026-11-01T06:12:50Z",
+ "latency_s": 1.62,
  "count": 0,
  "result": "fail",
  "error": "HTTPError: HTTP Error 400: Bad Request"
