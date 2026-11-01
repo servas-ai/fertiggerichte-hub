@@ -1,6 +1,6 @@
 # 🥘 Fertiggerichte-Hub
 
-Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-11-01 01:14 UTC via `./run_all.sh` (stündlich).
+Zentraler Index & Live-Status aller Fertiggerichte-Projekte (servas-ai). **Automatisch generiert:** 2026-11-01 01:16 UTC via `./run_all.sh` (stündlich).
 
 **Connectors:** 55 ✅ / 12 ❌ / 7 📇 catalog-only · **Apps:** 3/3 live · **Produkte im Datensatz:** 3664
 
@@ -133,6 +133,7 @@ flowchart LR
 - `purergenuss` ⚠️ Hub-Lauf 2026-10-31 01:03 UTC: einmal `RobotsDisallowed` für /wp-json/wc/store/v1/products, obwohl robots.txt (200, text/plain) /wp-json nicht sperrt; Einzel-Retest 01:06 UTC grün. Gleiches Muster wie gourmet-daheim: robots.txt-Abruf kurz fehlgeschlagen, kein Code-Fehler.
 - `suppito` + `purergenuss` ⚠️ Hub-Lauf 2026-10-31 02:10 UTC: beide fail; Einzel-Retest 02:17 UTC weiterhin fail. Ursache extern: TLS-Handshake zu suppito.at/www.suppito.at und purergenuss.at/www.purergenuss.at bricht vom Box-Netz ab (curl exit 35 / SSL UNEXPECTED_EOF), robots.txt daher nicht abrufbar → RobotsDisallowed (fail-closed, korrekt). Kein Code-Fehler; Host-Ausfall oder WAF-Sperre der Box-IP. Nicht umgehen; nächste Läufe beobachten.
 - `bernos` + `gourmet-daheim` + `purergenuss` ⚠️ Hub-Lauf 2026-10-31 07:55–08:05 UTC: alle drei einmal `RobotsDisallowed` (robots.txt-Abruf kurz fehlgeschlagen; bernos.at robots.txt sperrt nichts), Einzel-Retests 08:08–08:09 UTC grün. Flaky robots.txt-Abruf, kein Code-Fehler. `suppito` ist im selben Lauf wieder grün.
+- `adamah` ⚠️ im Hub-Lauf 2026-11-01 01:00 UTC HTTP 404, `fichtenbauer` 0 Treffer (92 s); Einzel-Retest 01:15 UTC beide bestanden (3 bzw. 2 Treffer). Transienter Upstream, kein Code-Fehler.
 
 ## Datensatz
 
