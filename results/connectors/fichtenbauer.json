@@ -2,8 +2,8 @@
  "id": "fichtenbauer",
  "store": "Online: Fleischerei Fichtenbauer",
  "status_declared": "live",
- "ts": "2026-11-01T02:01:44Z",
- "latency_s": 136.03,
+ "ts": "2026-11-01T02:57:46Z",
+ "latency_s": 114.9,
  "count": 0,
  "schema_errors": [],
  "result": "fail"
