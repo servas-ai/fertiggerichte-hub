@@ -2,8 +2,8 @@
  "id": "kernbeisser",
  "store": "Online: Kernbei\u00dfer",
  "status_declared": "live",
- "ts": "2026-11-02T11:05:52Z",
- "latency_s": 16.54,
+ "ts": "2026-11-02T12:00:59Z",
+ "latency_s": 19.27,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 9.0,
   "source_url": "https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/",
   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-hirse.jpg",
-  "fetched_at": "2026-11-02T11:06:04+00:00"
+  "fetched_at": "2026-11-02T12:01:14+00:00"
  },
  "result": "pass"
 }
