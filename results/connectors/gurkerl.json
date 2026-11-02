@@ -2,7 +2,7 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-11-02T10:03:26Z",
+ "ts": "2026-11-02T11:05:09Z",
  "latency_s": 1.2,
  "count": 3,
  "schema_errors": [],
@@ -13,7 +13,7 @@
   "price_eur": 15.39,
   "source_url": "https://www.gurkerl.at/12385-bio-weidebeef-gulasch-gewuerfelt",
   "image_url": "https://cdn.gurkerl.at/images/grocery/products/12385/12385-1728903207892.jpg",
-  "fetched_at": "2026-11-02T10:03:27+00:00"
+  "fetched_at": "2026-11-02T11:05:11+00:00"
  },
  "result": "pass"
 }

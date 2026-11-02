@@ -2,8 +2,8 @@
  "id": "loewenanteil",
  "store": "Online: L\u00f6wenanteil",
  "status_declared": "live",
- "ts": "2026-11-02T10:05:03Z",
- "latency_s": 4.96,
+ "ts": "2026-11-02T11:06:38Z",
+ "latency_s": 4.77,
  "count": 2,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 12.99,
   "source_url": "https://www.loewenanteil.com/products/rindergulasch",
   "image_url": "https://cdn.shopify.com/s/files/1/0271/2908/6026/files/rindergulasch-fertiggericht-loewenanteil-loewenanteil-2276182.jpg?v=1793241506",
-  "fetched_at": "2026-11-02T10:05:07+00:00"
+  "fetched_at": "2026-11-02T11:06:41+00:00"
  },
  "result": "pass"
 }

@@ -2,9 +2,9 @@
  "id": "nah-frisch",
  "store": "Nah&Frisch",
  "status_declared": "live",
- "ts": "2026-11-02T10:06:18Z",
- "latency_s": 156.48,
+ "ts": "2026-11-02T11:08:00Z",
+ "latency_s": 101.44,
  "count": 0,
- "schema_errors": [],
- "result": "fail"
+ "result": "fail",
+ "error": "TimeoutError: The read operation timed out"
 }

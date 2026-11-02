@@ -2,18 +2,18 @@
  "id": "fichtenbauer",
  "store": "Online: Fleischerei Fichtenbauer",
  "status_declared": "live",
- "ts": "2026-11-02T10:00:16Z",
- "latency_s": 115.96,
- "count": 2,
+ "ts": "2026-11-02T11:03:22Z",
+ "latency_s": 36.2,
+ "count": 1,
  "schema_errors": [],
  "sample": {
-  "name": "Beuschel essfertig",
+  "name": "Rindsgulasch essfertig",
   "brand": "Fichtenbauer",
   "store": "Online: Fleischerei Fichtenbauer",
-  "price_eur": 6.5,
-  "source_url": "https://www.fleischerei-fichtenbauer.at/shop/beuschel-essfertig",
-  "image_url": "https://www.fleischerei-fichtenbauer.at/assets/images/3/beuschel-30849ee4-d1e53952.jpg",
-  "fetched_at": "2026-11-02T10:01:54+00:00"
+  "price_eur": 6.9,
+  "source_url": "https://www.fleischerei-fichtenbauer.at/shop/rindsgulasch-essfertig",
+  "image_url": "https://www.fleischerei-fichtenbauer.at/assets/images/3/gulasch-a85db27b-d8b30e7f.jpg",
+  "fetched_at": "2026-11-02T11:03:44+00:00"
  },
  "result": "pass"
 }
