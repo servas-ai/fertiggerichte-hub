@@ -2,8 +2,8 @@
  "id": "dm-heisse",
  "store": "dm",
  "status_declared": "stale",
- "ts": "2026-11-02T15:55:05Z",
- "latency_s": 0.37,
+ "ts": "2026-11-02T16:56:42Z",
+ "latency_s": 0.58,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
