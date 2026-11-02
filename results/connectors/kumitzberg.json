@@ -2,18 +2,18 @@
  "id": "kumitzberg",
  "store": "Online: Kumitzberg",
  "status_declared": "live",
- "ts": "2026-11-02T17:00:20Z",
- "latency_s": 7.42,
+ "ts": "2026-11-02T17:57:26Z",
+ "latency_s": 11.87,
  "count": 3,
  "schema_errors": [],
  "sample": {
-  "name": "Tirolerkn\u00f6del",
+  "name": "Schweinsbraten vom Schopf, fertig gebraten",
   "brand": "Kumitzberg",
   "store": "Online: Kumitzberg",
-  "price_eur": 9.8,
-  "source_url": "https://kumitzberg.at/products/tirolerknodel",
-  "image_url": "https://cdn.shopify.com/s/files/1/0703/0882/3358/files/tirolerknodel-3-stuck-herzhaft-gebacken-mit-speckwurfeln-hausgemacht-servierfertig-274523.png?v=1745613473",
-  "fetched_at": "2026-11-02T17:00:25+00:00"
+  "price_eur": 19.9,
+  "source_url": "https://kumitzberg.at/products/schweinebraten-fertig-gebraten",
+  "image_url": "https://cdn.shopify.com/s/files/1/1020/9807/6031/files/schweinebraten-vom-schopf-fertig-gebraten-362061.jpg?v=1787223663",
+  "fetched_at": "2026-11-02T17:57:35+00:00"
  },
  "result": "pass"
 }
