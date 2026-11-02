@@ -2,8 +2,8 @@
  "id": "hofer",
  "store": "HOFER",
  "status_declared": "stale",
- "ts": "2026-11-02T07:58:30Z",
- "latency_s": 0.53,
+ "ts": "2026-11-02T09:01:32Z",
+ "latency_s": 0.47,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
