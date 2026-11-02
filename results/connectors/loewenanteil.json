@@ -2,18 +2,18 @@
  "id": "loewenanteil",
  "store": "Online: L\u00f6wenanteil",
  "status_declared": "live",
- "ts": "2026-11-01T06:58:52Z",
- "latency_s": 3.03,
- "count": 1,
+ "ts": "2026-11-02T07:59:55Z",
+ "latency_s": 4.39,
+ "count": 2,
  "schema_errors": [],
  "sample": {
-  "name": "Veganes Gulasch",
+  "name": "Rindergulasch",
   "brand": "L\u00f6wenanteil",
   "store": "Online: L\u00f6wenanteil",
-  "price_eur": 9.99,
-  "source_url": "https://www.loewenanteil.com/products/veganes-gulasch",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2908/6026/files/veganes-gulasch-fertiggericht-lowenanteil-lowenanteil-327131.jpg?v=1780501433",
-  "fetched_at": "2026-11-01T06:58:55+00:00"
+  "price_eur": 12.99,
+  "source_url": "https://www.loewenanteil.com/products/rindergulasch",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2908/6026/files/rindergulasch-fertiggericht-loewenanteil-loewenanteil-2276182.jpg?v=1793241506",
+  "fetched_at": "2026-11-02T07:59:58+00:00"
  },
  "result": "pass"
 }

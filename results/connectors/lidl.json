@@ -2,8 +2,8 @@
  "id": "lidl",
  "store": "Lidl",
  "status_declared": "live",
- "ts": "2026-11-01T06:58:37Z",
- "latency_s": 11.85,
+ "ts": "2026-11-02T07:59:41Z",
+ "latency_s": 11.76,
  "count": 0,
  "result": "fail",
  "error": "HTTPError: HTTP Error 401: Unauthorized"
