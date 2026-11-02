@@ -2,8 +2,8 @@
  "id": "kumitzberg",
  "store": "Online: Kumitzberg",
  "status_declared": "live",
- "ts": "2026-11-02T17:57:26Z",
- "latency_s": 11.87,
+ "ts": "2026-11-02T18:59:02Z",
+ "latency_s": 7.93,
  "count": 3,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 19.9,
   "source_url": "https://kumitzberg.at/products/schweinebraten-fertig-gebraten",
   "image_url": "https://cdn.shopify.com/s/files/1/1020/9807/6031/files/schweinebraten-vom-schopf-fertig-gebraten-362061.jpg?v=1787223663",
-  "fetched_at": "2026-11-02T17:57:35+00:00"
+  "fetched_at": "2026-11-02T18:59:07+00:00"
  },
  "result": "pass"
 }
