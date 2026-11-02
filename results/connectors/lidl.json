@@ -2,7 +2,7 @@
  "id": "lidl",
  "store": "Lidl",
  "status_declared": "live",
- "ts": "2026-11-02T09:02:53Z",
+ "ts": "2026-11-02T10:04:49Z",
  "latency_s": 11.85,
  "count": 0,
  "result": "fail",
