@@ -137,6 +137,7 @@ flowchart LR
 - `fichtenbauer` ⚠️ im Hub-Lauf 2026-11-01 02:01 UTC erneut 0 Treffer (136 s Latenz); Einzel-Retest 02:16 UTC bestanden (1 Treffer, 25 s). Langsamer/transienter Upstream, kein Code-Fehler.
 - `fichtenbauer` ⚠️ im Hub-Lauf 2026-11-01 02:57 UTC zum dritten Mal in Folge 0 Treffer (115 s Latenz); Einzel-Retest 03:09 UTC bestanden (1 Treffer, 36 s). Scheitert nur unter Last im Gesamtlauf, kein Code-Fehler; ggf. Timeout/Retry im Smoke-Test erhöhen.
 - `penny-shop` ⚠️ im Hub-Lauf 2026-11-01 03:55 UTC wieder einmal HTTP 403 (REWE product-discovery API, sporadisch, nicht umgangen); Einzel-Retest 04:14 UTC bestanden (3 Treffer, 8.6 s). `fichtenbauer` und `sperchenedergut` diesmal grün. Kein Fix nötig.
+- `fichtenbauer` ⚠️ im Hub-Lauf 2026-11-02 11:57 UTC wieder 0 Treffer (80 s Latenz); Einzel-Retest 12:09 UTC bestanden (1 Treffer, 37 s). Bekannter Last-Flake, kein Code-Fehler.
 
 ## Datensatz
 
