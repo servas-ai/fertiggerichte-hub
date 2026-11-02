@@ -2,8 +2,8 @@
  "id": "mpreis",
  "store": "MPREIS",
  "status_declared": "stale",
- "ts": "2026-11-02T19:00:17Z",
- "latency_s": 0.41,
+ "ts": "2026-11-02T20:07:32Z",
+ "latency_s": 0.37,
  "count": 0,
  "result": "fail",
  "error": "RobotsDisallowed: https://heisse-preise.io/data/latest-canonical.json"
