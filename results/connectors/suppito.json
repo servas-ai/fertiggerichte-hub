@@ -2,18 +2,18 @@
  "id": "suppito",
  "store": "Online: SUPPITO",
  "status_declared": "live",
- "ts": "2026-11-02T12:08:31Z",
- "latency_s": 4.67,
- "count": 3,
+ "ts": "2026-11-02T13:14:27Z",
+ "latency_s": 2.64,
+ "count": 1,
  "schema_errors": [],
  "sample": {
-  "name": "Minestrone (italienische Gem\u00fcsesuppe)",
+  "name": "Erd\u00e4pfelgulasch mit R\u00e4uchertofu",
   "brand": "SUPPITO",
   "store": "Online: SUPPITO",
-  "price_eur": 9.9,
-  "source_url": "https://www.suppito.at/produkt/gemuesesuppe-italienisch/",
-  "image_url": null,
-  "fetched_at": "2026-11-02T12:08:35+00:00"
+  "price_eur": 11.1,
+  "source_url": "https://www.suppito.at/produkt/erdaepfelgulaschmitgeraeuchertemtofu/",
+  "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Erdaepfelgulasch_Raeuchertofu-scaled.webp",
+  "fetched_at": "2026-11-02T13:14:30+00:00"
  },
  "result": "pass"
 }
