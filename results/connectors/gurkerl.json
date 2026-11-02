@@ -2,7 +2,7 @@
  "id": "gurkerl",
  "store": "Gurkerl.at",
  "status_declared": "live",
- "ts": "2026-11-02T15:04:00Z",
+ "ts": "2026-11-02T15:58:55Z",
  "latency_s": 1.23,
  "count": 3,
  "schema_errors": [],
@@ -13,7 +13,7 @@
   "price_eur": 18.79,
   "source_url": "https://www.gurkerl.at/22932-ama-kalb-rose-austria-gulasch-geschnitten",
   "image_url": "https://cdn.gurkerl.at/images/grocery/products/22932/22932-1637851165758.jpg",
-  "fetched_at": "2026-11-02T15:04:02+00:00"
+  "fetched_at": "2026-11-02T15:58:56+00:00"
  },
  "result": "pass"
 }
