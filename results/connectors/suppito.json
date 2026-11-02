@@ -2,8 +2,8 @@
  "id": "suppito",
  "store": "Online: SUPPITO",
  "status_declared": "live",
- "ts": "2026-11-02T13:14:27Z",
- "latency_s": 2.64,
+ "ts": "2026-11-02T14:06:28Z",
+ "latency_s": 3.03,
  "count": 1,
  "schema_errors": [],
  "sample": {
@@ -13,7 +13,7 @@
   "price_eur": 11.1,
   "source_url": "https://www.suppito.at/produkt/erdaepfelgulaschmitgeraeuchertemtofu/",
   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Erdaepfelgulasch_Raeuchertofu-scaled.webp",
-  "fetched_at": "2026-11-02T13:14:30+00:00"
+  "fetched_at": "2026-11-02T14:06:31+00:00"
  },
  "result": "pass"
 }
